@@ -1,18 +1,4 @@
-Received 23 January 2023, accepted 3 March 2023, date of publication 10 March 2023, date of current version 15 March 2023.
-Digital Object Identifier 10.1109/ACCESS.2023.3255548
-Privacy Threat MOdeling Language
-ANDREY RODRIGUES
-1, MARIA LÚCIA BENTO VILLELA
-2,
-AND EDUARDO LUZEIRO FEITOSA1, (Member, IEEE)
-1Institute of Computing, Federal University of Amazonas, Manaus, Amazonas 69080-900, Brazil
-2IT Department, Federal University of Viçosa, Viçosa, Minas Gerais 36570-900, Brazil
-Corresponding author: Andrey Rodrigues (andrey@icomp.ufam.edu.br)
-This wok was supported by the Coordenação de Aperfeiçoamento de Pessoal de Nível Superior-Brasil (CAPES) under Grant 001.
-This work involved human subjects or animals in its research. Approval of all ethical and experimental procedures and protocols was
-granted by the Ethics and Research Committee of the Federal University of Amazonas under Application No. CAAE-
-63572122.0.0000.5020.
-ABSTRACT Online Social Networks (OSNs) are becoming pervasive in today’s world. Millions of people
+ Online Social Networks (OSNs) are becoming pervasive in today’s world. Millions of people
 worldwide are involved in different forms of online networking. However, this ease of use of OSNs
 comes with a cost in terms of privacy. Users of OSNs become victims of identity theft, cyberstalking, and
 information leakage, which are real threats to privacy. Consequently, new solutions need to be developed for
@@ -62,10 +48,8 @@ viduals or entities that use them for malicious purposes .
 The Facebook – Cambridge Analytica incident is a prominent
 example of a privacy breach. In this case, Facebook shared
 personal data with Cambridge Analytica who used these data
-24448
-This work is licensed under a Creative Commons Attribution 4.0 License. For more information, see https://creativecommons.org/licenses/by/4.0/
-VOLUME 11, 2023
-A. Rodrigues et al.: Privacy Threat MOdeling Language
+
+A. : Privacy Threat MOdeling Language
 in political campaigns to influence public opinion without
 users having neither control nor knowledge of this disclo-
 sure . This incident only reinforces the need to protect user
@@ -98,7 +82,7 @@ an OSN, as well as define countermeasures to prevent or mit-
 igate the effects of threats . This language was developed
 from evidence gathered in the literature and was empirically
 evaluated through experimental study. The first version of
-PTMOL was presented in Rodrigues et al. . In the first
+PTMOL was presented in  . In the first
 paper, we presented a preliminary study of the language, but
 without detailing any improvements and refinements to it.
 In this paper, we present a complete and updated version of
@@ -174,9 +158,8 @@ mation is disclosed to unauthorized individuals ,
 and can be classified into four types , : (i) iden-
 tity disclosure, when an individual’s identity is revealed;
 (ii) attribute disclosure, when the value of some sensitive
-VOLUME 11, 2023
 24449
-A. Rodrigues et al.: Privacy Threat MOdeling Language
+A. : Privacy Threat MOdeling Language
 attributes associated with an individual is compromised;
 (iii) relationship disclosure, when a sensitive relationship
 between two people is disclosed; and (iv) disclosure of affilia-
@@ -264,19 +247,19 @@ DUN uses a data flow diagram (DFD) to understand how
 the system functions and, subsequently, perform a privacy
 analysis. After the system is described, each element of the
 DFD is systematically analyzed for potential privacy threats.
-The second step of the methodology uses a custom table to
+The second step of the methodology uses a custom  to
 map threats corresponding to the elements of the DFD created
 in the previous step. Each ‘X’ displayed in the mapping
-table is examined to determine if it represents a threat to
+ is examined to determine if it represents a threat to
 the system. For this analysis, LINDDUN provides a set of
 privacy threat trees. These trees represent the most common
 attack paths for a LINDDUN threat category associated with a
 DFD element type. Finally, LINDDUN provides an extensive
 list of technologies that can be used to manage and miti-
 gate elicited threats. The second step of the methodology
-uses a custom table to map the threats corresponding to the
+uses a custom  to map the threats corresponding to the
 elements of the DFD that was created in the previous step.
-Each ‘X’ displayed in the mapping table is examined to
+Each ‘X’ displayed in the mapping  is examined to
 determine whether it represents a threat to the system. For this
 analysis, LINDDUN provides a set of privacy-threat trees.
 These trees represent the most common attack paths for a
@@ -285,8 +268,7 @@ type. Finally, LINDDUN provides an extensive list of tech-
 nologies that can be used to manage and mitigate elicited
 threats.
 24450
-VOLUME 11, 2023
-A. Rodrigues et al.: Privacy Threat MOdeling Language
+A. : Privacy Threat MOdeling Language
 Although the methodologies STRIDE and LINDDUN are
 an interesting guide to the threat-modeling process, they are
 not fully suited to the context of OSNs. Both were proposed to
@@ -400,14 +382,13 @@ of users.
 Attack trees are easy to understand and adopt, and they are
 useful for modeling threats related to the security context.
 Furthermore, the method assumes that analysts have a very
-VOLUME 11, 2023
 24451
-A. Rodrigues et al.: Privacy Threat MOdeling Language
-TABLE 1. Characteristics of the main methodologies for threat modeling.
+A. : Privacy Threat MOdeling Language
+ 1. Characteristics of the main methodologies for threat modeling.
 good knowledge of cybersecurity and, therefore, it does not
 provide guidelines to support professionals who have little
 knowledge in threat modeling.
-Table 1 compares the methodologies presented during the
+ 1 compares the methodologies presented during the
 related work section in terms of focus of interest, type of
 system and context for which the proposals are intended.
 Overall, the related works show that methodologies for
@@ -448,13 +429,13 @@ analyzed and the threats addressed in them were extracted.
 After this analysis, a privacy threat diagnostic was created,
 which contained more than 30 threats. When analyzing this
 diagnosis, it was observed that many threats were described
-TABLE 2. List of top privacy threats identified in literature review.
+ 2. List of top privacy threats identified in literature review.
 with different nomenclature, but had the same meaning.
 To better understand the set of threats and arrive at a more
 accurate list, the main threats (those most cited or considered
 crucial in papers) were separated and joined up with their
 synonyms (those threats with different names, but with the
-same meaning). This analysis can be seen in Table 2.
+same meaning). This analysis can be seen in  2.
 Based on this threat diagnosis, our catalog indicating
 the most critical existing privacy threats in OSNs cited in the
 literature was created. This catalog was generated from the
@@ -474,9 +455,8 @@ protecting user data . PTMOL allows designers to iden-
 tify potential privacy threats, their consequences, and how
 they can be neutralized. To accomplish this support, PTMOL
 has features for threat design and a threat model that can be
-24452
-VOLUME 11, 2023
-A. Rodrigues et al.: Privacy Threat MOdeling Language
+
+A. : Privacy Threat MOdeling Language
 generated by the designer as part of the design. The language
 consists of the following components: (a) vocabulary; (b) syn-
 tax; and (c) semantics. The vocabulary is the collection of all
@@ -586,9 +566,8 @@ for the purpose of selling products or tracking their
 behavior , , , , .
 • Threat to Reputation - Sharing personal or sensitive
 information can make OSN users victims of a threat to
-VOLUME 11, 2023
 24453
-A. Rodrigues et al.: Privacy Threat MOdeling Language
+A. : Privacy Threat MOdeling Language
 FIGURE 1. Overview on the relationships between PTMOL elements.
 reputation. A malicious user or an online entity can cre-
 ate multiple false profiles to gain access to sensitive pri-
@@ -661,8 +640,7 @@ to provide a large amount of information to service
 providers and lose control over their personal data. Thus,
 the awareness property has the purpose of ensuring that
 24454
-VOLUME 11, 2023
-A. Rodrigues et al.: Privacy Threat MOdeling Language
+A. : Privacy Threat MOdeling Language
 FIGURE 2. PTMOL methodology steps to be applied during a design
 phase.
 users are aware of the collection of their personal data
@@ -738,9 +716,8 @@ different threats may arise. For example, location described
 in textual form is different from geolocation.
 There are assets that are not directly shared by users, but are
 collected or generated by the system itself. In general, OSN
-VOLUME 11, 2023
 24455
-A. Rodrigues et al.: Privacy Threat MOdeling Language
+A. : Privacy Threat MOdeling Language
 FIGURE 4. Template for classifying assets collected by the system.
 FIGURE 5. Template for identifying threats, malicious uses and threat
 actors.
@@ -797,8 +774,7 @@ process applied to the asset location. It can be observed that
 for the shared asset, two potential threats could occur: Infer-
 ences and Information Disclosure. Based on these threats, the
 24456
-VOLUME 11, 2023
-A. Rodrigues et al.: Privacy Threat MOdeling Language
+A. : Privacy Threat MOdeling Language
 FIGURE 8. Diagram modeled with elements of PTMOL.
 designer could establish actions that the attacker could carry
 out against the shared asset.
@@ -817,11 +793,11 @@ As a prevention strategy, the designer establishes an alert to
 warn the user about the consequences of this disclosure. The
 designer also indicates a triggerable privacy feature and also
 a countermeasure to mitigate the threat and reduce the risk to
-an acceptable level.
+an accep level.
 VI. CONSTRUCTION AND EVOLUTION OF PTMOL VIA
 EXPERIMENTAL STUDIES
 Experimentation is the scientific process core and provides
-a systematic, disciplined, computable and controlled way of
+a systematic, disciplined, compu and controlled way of
 evaluating human activity . According to Shull et al. ,
 besides providing validation for different proposals, the use
 of experimental studies can also help in identifying problems
@@ -887,9 +863,8 @@ days. On the first day, the participants received training on
 the language. On the second day, the participants applied
 PTMOL to a threat scenario. The detailed planning of the
 experimental study is reported below.
-VOLUME 11, 2023
 24457
-A. Rodrigues et al.: Privacy Threat MOdeling Language
+A. : Privacy Threat MOdeling Language
 B. PARTICIPANTS
 Twelve participants from the Computer Science course of a
 higher education institution were selected. These participants
@@ -997,8 +972,7 @@ positives) is greater than the number of undetected threats
 The third set of hypotheses refers to productivity, which eval-
 uates how many valid threats are identified by the participants
 24458
-VOLUME 11, 2023
-A. Rodrigues et al.: Privacy Threat MOdeling Language
+A. : Privacy Threat MOdeling Language
 in a given period of time. Productivity is defined as the num-
 ber of correct threats (TP) per hour. The null and alternative
 hypothesis are described below:
@@ -1052,7 +1026,7 @@ by two experts (the lead researcher and an assistant pro-
 fessor). The experts analyzed the assumptions contained in
 the templates and determined whether each of the identified
 threats was applicable to the scenario under analysis. More
-TABLE 3. Reference solution showing type and number of threats per
+ 3. Reference solution showing type and number of threats per
 category.
 specifically, the experts determined the number of correct
 threats (true positives) and incorrect threats (false positives)
@@ -1069,7 +1043,7 @@ An oracle (reference solution) was created by two experts
 provides a rough estimate of how many privacy threats could
 be found in the scenario under analysis. The experts applied
 PTMOL to the scenario, which resulted in 24 threats as
-presented in Table 3. Although the oracle is the benchmark
+presented in  3. Although the oracle is the benchmark
 for the quantitative analysis of the study, the participants
 could make assumptions that differ from the oracle. Thus, the
 reference solution is used only as a guide for the researchers,
@@ -1086,7 +1060,7 @@ personal data can be used to create a fake profile of the victim
 for the purpose of deceiving followers and for capturing
 private information.
 B. QUANTITATIVE RESULTS
-Table 4 consolidates the results of the study conducted and
+ 4 consolidates the results of the study conducted and
 presents a general synthesis of the threat modeling performed
 by each participant in the study. The first column (P) repre-
 sents the code of each participant (denoted by P01, P02...).
@@ -1095,10 +1069,9 @@ experience. The third column (ME) indicates the partici-
 pants’ experience in system modeling. The fourth column
 (PT) represents the number of possible threats identified per
 participant. The fifth column (TP) presents the number of
-VOLUME 11, 2023
 24459
-A. Rodrigues et al.: Privacy Threat MOdeling Language
-TABLE 4. Summary of threat modeling result per participant.
+A. : Privacy Threat MOdeling Language
+ 4. Summary of threat modeling result per participant.
 true positives, i.e., the number of threats identified correctly.
 The sixth column (FP) indicates the number of false positives
 identified, which are not threats. The seventh column (FN)
@@ -1108,20 +1081,16 @@ time (in hours) each participant spent to perform the threat-
 modeling process. The ninth column (Pre.) indicates the pre-
 cision per participant, and the last column (Rec.) indicates the
 recall for each participant.
-Based on the data provided in Table 4, it can be observed
+Based on the data provided in  4, it can be observed
 that all the participants reported having knowledge of systems
 modeling. This prior knowledge removes some threats to
 the validity of the study, for example, those related to not
 understanding the protocol of the study or a steep learning
 curve. On the other hand, all participants reported having
-no experience in privacy; they knew only some privacy con-
-cepts acquired from reading/lectures, but had no practical
-experience. Even though the participants indicated no expe-
-rience regarding privacy, they stated that was with respect
-to research about privacy in OSNs, not about the impor-
-tance of taking care of shared information and its possible
-threats. Furthermore, the fact that participants have no prac-
-tical knowledge regarding privacy, but have experience in
+no experience in privacy; they knew only some privacy concepts acquired from reading/lectures, but had no practical
+experience. Even though the participants indicated no experience regarding privacy, they stated that was with respect
+to research about privacy in OSNs, not about the importance of taking care of shared information and its possible
+threats. Furthermore, the fact that participants have no practical knowledge regarding privacy, but have experience in
 system modeling, is an important result in terms of the profile
 of the professional who will use PTMOL. That said, this study
 continues to look at the participants as novice designers who
@@ -1134,8 +1103,7 @@ A low number of false positives was found. Regarding the
 number of true positives, in most cases, it is noted that the
 threats pointed out by the participants were correct. This
 higher number of true positives can be explained by two
-factors: a) previous training, which allowed the clarifica-
-tion of specific doubts regarding the process of applying
+factors: a) previous training, which allowed the clarification of specific doubts regarding the process of applying
 PTMOL and also allowed a comprehensive discussion about
 the language elements; and b) experience of the participants,
 who had already attended an introduction to information
@@ -1144,7 +1112,7 @@ attending a System Security class in a later semester, besides
 their experience in software modeling. Therefore, it can be
 observed that the factor of PTMOL training and knowledge
 may be more important than the factor of privacy experience.
-This is clear when examining the data provided in Table 4,
+This is clear when examining the data provided in  4,
 since all participants were able to map threat scenarios, even
 if they were not security and privacy experts. This indicates
 that PTMOL can aid software designers in threat modeling
@@ -1175,8 +1143,7 @@ the feasibility study data do not have normal distribution
 (p=0.001).
 According to Lazar et al. , when a sample does not
 follow a normal distribution, a non- parametric test should
-be used. For this, the Wilcoxon test was selected. In gen-
-eral, the Wilcoxon test is a hypothesis test for comparing
+be used. For this, the Wilcoxon test was selected. In general, the Wilcoxon test is a hypothesis test for comparing
 the difference between two measures of the same sample,
 i.e., when the participants’ results are measured under two
 different conditions. To perform the comparison, the data are
@@ -1186,26 +1153,24 @@ result, in which one should reject the null hypothesis when
 p<0.05 and accept that there is a difference between the
 compared measures. To represent a summary of the results
 of these analyses, the boxplot graph was used. The analyses
-were performed using the statistical tool SPSS V. 23, consid-
-ering an alpha (significance level) of less than 0.05 to refute
+were performed using the statistical tool SPSS V. 23, considering an alpha (significance level) of less than 0.05 to refute
 the null hypothesis.
 1) CORRECTNESS
 The first set of hypotheses refers to correctness, as described
 in subsection VII-F. In this sense, the Wilcoxon test was
 applied to determine whether there was a statistical difference
 between the number of true positives in relation to the number
-24460
-VOLUME 11, 2023
-A. Rodrigues et al.: Privacy Threat MOdeling Language
-FIGURE 9. Boxplot comparing the true positives, false negatives and false
+
+A. : Privacy Threat MOdeling Language
+. Boxplot comparing the true positives, false negatives and false
 positives.
 of false positives. Thus, as a hypothesis for the statistical
 test, we had the lack of difference between the means of the
 measurements.
-Figure 9 presents the boxplot comparing the true positives
+ presents the boxplot comparing the true positives
 (correct threats), false negatives (undetected threats) and false
 positives (incorrect threats). Based on the graphical represen-
-tation in Figure 9, it can be observed that the number of false
+tation in , it can be observed that the number of false
 positives is much lower when compared to the true positives.
 The mean for the number of true positives is 16.58 (with a
 standard deviation of 2.193) with a 95% confidence interval
@@ -1227,7 +1192,7 @@ true positives in relation to the number of false negatives.
 Based on this, the hypothesis for the statistical test was
 that there was no difference between the means of these
 measures.
-As illustrated previously in Figure 9, it can be observed
+As illustrated previously in , it can be observed
 that the number of false negatives (threats not detected or
 not perceived in the scenario) is lower than the number of
 true positives. When relating the two measures using the
@@ -1268,9 +1233,8 @@ perceived as threats, which also resulted in them presenting
 the highest proportion of false negatives. The facial recogni-
 tion and inference/tracking were the threats that obtained the
 lowest number of false negatives.
-VOLUME 11, 2023
 24461
-A. Rodrigues et al.: Privacy Threat MOdeling Language
+A. : Privacy Threat MOdeling Language
 FIGURE 11. Boxplots for the amount of effort devoted (time spent) by
 participants to each step of the PTMOL modeling process.
 3) PRODUCTIVITY
@@ -1308,7 +1272,7 @@ chosen:
 • Perceived ease of use: Defines the degree to which the
 participant believes that using PTMOL to model privacy
 threats in OSNs would be effortless.
-TABLE 5. Participants’ perception regarding the ease of use of PTMOL.
+ 5. Participants’ perception regarding the ease of use of PTMOL.
 • Perceived usefulness: Defines the degree to which the
 participant believes that PTMOL could improve their
 performance in modeling privacy threats in OSNs.
@@ -1328,9 +1292,9 @@ participants. In addition, not using the neutral point helps
 to avoid the bias of central tendency in ratings, thus forcing
 participants to judge the result as adequate or inadequate.
 1) PERCEIVED EASE OF USE
-Table 5 presents the results of the participants’ perception
+ presents the results of the participants’ perception
 regarding the ease of use of PTMOL for modeling privacy
-threats. Overall, the data presented in Table 5 indicate positive
+threats. Overall, the data presented in indicate positive
 results for all variables of the indicator in question. How-
 ever, there were also disagreements involving some variables.
 Some quotes from the participants indicate factors that may
@@ -1355,11 +1319,10 @@ fore, one can observe that PTMOL has a relevant degree of
 ease of use, but requires a peculiar effort in terms of time
 spent.
 24462
-VOLUME 11, 2023
-A. Rodrigues et al.: Privacy Threat MOdeling Language
-TABLE 6. Participants’ perception of usefulness of PTMOL.
+A. : Privacy Threat MOdeling Language
+. Participants’ perception of usefulness of PTMOL.
 2) PERCEIVED USEFULNESS
-Table 6 presents the results of the perception of usefulness of
+ presents the results of the perception of usefulness of
 PTMOL for modeling privacy threats. The usefulness indica-
 tor usually indicates a subjective probability perceived by the
 user that the proposed solution can improve the performance
@@ -1389,7 +1352,7 @@ issues’’ - P05.
 Regarding the perceived satisfaction with PTMOL for threat
 modeling, positive results were obtained for all statements
 according to the participants’ opinions. There were no dis-
-agreements, as shown in Table 7, in relation to the variables
+agreements, as shown in  7, in relation to the variables
 of the indicator in question, thus indicating that PTMOL,
 although it has an inherent effort in relation to its context of
 use, it provides a good user experience during its application.
@@ -1408,11 +1371,11 @@ those
 who
 already
 have
-knowledge’’ - P02.
+knowledge
 IX. DISCUSSION
 The quantitative results of the experimental study showed
 good correctness (above 80%) and completeness (above 60%)
-TABLE 7. Participants’ perceived satisfaction of PTMOL.
+ Participants’ perceived satisfaction of PTMOL.
 in relation to the purpose of the language. The perception
 of usefulness, ease-of-use and satisfaction was generally
 positive, although some participants disagreed with the ease-
@@ -1459,10 +1422,9 @@ of privacy threats, and also identify the situations in which
 the difficulties in using PTMOL may occur. According to
 Shull et al.  in an observational study, data can be col-
 lected in either an observational or in an inquisitive way.
-VOLUME 11, 2023
 24463
-A. Rodrigues et al.: Privacy Threat MOdeling Language
-TABLE 8. Characterization of the participants in the observational study
+A. : Privacy Threat MOdeling Language
+ 8. Characterization of the participants in the observational study
 with PTMOL.
 Observational data can be collected during the use of a solu-
 tion, without the interference of the researcher, while inquis-
@@ -1488,7 +1450,7 @@ studies, in which each participant performed their threat mod-
 eling individually, for the context of this study, the partici-
 pants were to perform the modeling activities in groups. The
 total number of groups formed by the participants was four.
-Table 8 presents the characterization of the participants in the
+ 8 presents the characterization of the participants in the
 observational study with PTMOL.
 B. EXECUTION OF THE OBSERVATIONAL STUDY
 The study was planned to be executed over three days.
@@ -1563,8 +1525,7 @@ first argument, an opposing team continued the discussion
 by rebutting the previous argument. This flow was followed
 until all teams had presented their arguments.
 24464
-VOLUME 11, 2023
-A. Rodrigues et al.: Privacy Threat MOdeling Language
+A. : Privacy Threat MOdeling Language
 FIGURE 12. Focus group board.
 Two researchers were involved in conducting the focus
 group. One played the role of mediator and led the discussions
@@ -1605,7 +1566,7 @@ GT is based on the idea of coding, which is the process of
 analyzing data. During coding, concepts (or codes) and cate-
 gories are identified. A code indicates a phenomenon of inter-
 est that has meaning for the researcher . Categories are
-1https://atlasti.com/
+1 
 FIGURE 13. Document for recording the design rationale decision
 provided to the teams.
 groupings of code put together at a higher level of abstraction.
@@ -1646,9 +1607,8 @@ E. RESULTS OF THE OBSERVATIONAL STUDY
 The codes identified in the transcripts were grouped accord-
 ing to their properties, thus forming concepts that represent
 categories. Together with other researchers, these categories
-VOLUME 11, 2023
 24465
-A. Rodrigues et al.: Privacy Threat MOdeling Language
+A. : Privacy Threat MOdeling Language
 were analyzed with the aim of providing greater clarity about
 the phenomenon of interest.
 Figure 14 presents the coding result for the PTMOL
@@ -1761,9 +1721,9 @@ development cycle, it would be unfeasible to use it, since
 one of the agile values, working software is better than com-
 prehensive documentation, is distinguished from the central
 purpose of PTMOL, which has extensive documentation to
-24466
-VOLUME 11, 2023
-A. Rodrigues et al.: Privacy Threat MOdeling Language
+
+
+A. : Privacy Threat MOdeling Language
 FIGURE 14. Codes related to the teams’ perception of the PTMOL structure.
 FIGURE 15. Codes related to the teams’ perception of difficulty of using the PTMOL.
 map all threat scenarios that a user could potentially be
@@ -1774,9 +1734,8 @@ of PTMOL.
 After the end of the data collection session via the focus
 group, the participants met again with their teams to record
 decisions about the PTMOL modeling process as well as
-VOLUME 11, 2023
-24467
-A. Rodrigues et al.: Privacy Threat MOdeling Language
+
+A. : Privacy Threat MOdeling Language
 FIGURE 16. Codes related to the teams’ perception of PTMOL.
 suggestions for improvements through the design rationale.
 The data analyzed were the reports provided by the partic-
@@ -1784,10 +1743,10 @@ ipants, which contained the RD records. The reports were
 examined for three main purposes: (i) to identify common
 problems in threat modeling with PTMOL; (ii) analyze the
 participants’ arguments about the problems pointed out; and
-(iii) identify suggestions for improvement. Table 9 summa-
+(iii) identify suggestions for improvement.  9 summa-
 rizes the main issues provided by the teams, as well as possi-
 bilities for improvement.
-Based on the information presented in Table 9, it is noted
+Based on the information presented in  9, it is noted
 that it was possible to elicit specific problems on threat mod-
 eling with PTMOL, which highlights the need for improve-
 ments that could be implemented with the possible solutions
@@ -1815,17 +1774,15 @@ were made in order to make the language elements clearer. All
 the improvements mentioned above were incorporated into
 the new version of PTMOL, which is presented in Section V.
 The main changes implemented include:
-24468
-VOLUME 11, 2023
-A. Rodrigues et al.: Privacy Threat MOdeling Language
-TABLE 9. Problems and possible solutions identified in the design
+Privacy Threat MOdeling Language
+ 9. Problems and possible solutions identified in the design
 rationale.
-• The definitions of some threats in the catalog were
+ The definitions of some threats in the catalog were
 updated in order to make them clearer and more concise
 and eliminate possible redundancies.
-• Creation of filling in rule for modeling templates.
-• Elimination of confusing information.
-• More detailed description of leak sources
+ Creation of filling in rule for modeling templates.
+Elimination of confusing information.
+ More detailed description of leak sources
 G. CONCLUSION OF THE OBSERVATIONAL STUDY
 Shull et al.  state that through an observational study it is
 possible collect data on how a given solution is applied. In this
@@ -1862,7 +1819,7 @@ number of participants involved in the study cannot be con-
 sidered representative, but we sought to mitigate this threat
 by obtaining and collecting important data on the language
 application process.
-XII. CONCLUDING REMARKS AND FUTURE WORK
+ CONCLUDING REMARKS AND FUTURE WORK
 The use of OSNs has exploded, with millions of people using
 their services around the world. This increase in social net-
 working use has led to user anxiety related to the unauthorized
@@ -1871,11 +1828,9 @@ threats in OSNs can severely affect the social activities in
 which users engage while online.
 Anticipating privacy concerns in the stages prior to the
 development of OSNs is a promising strategy for addressing
-personal data protection. This interest increases the credibil-
-ity of using threat modeling methodologies and brings oppor-
+personal data protection. This interest increases the credibility of using threat modeling methodologies and brings oppor-
 tunities for developing new solutions that address this issue.
-In this paper, we presented PTMOL (Privacy Threat Model-
-ing Language), a privacy threat modeling solution focused on
+In this paper, we presented PTMOL (Privacy Threat Modeling Language), a privacy threat modeling solution focused on
 protecting user data. The paper also reports a feasibility study
 conducted in order to analyze the PTMOL acceptance from
 the point of view of novice designers. We also evaluated the
@@ -1889,8 +1844,7 @@ aid software designers in threat modeling without requiring a
 high level of expertise in the area of privacy.
 Through qualitative analysis, improvements to be made in
 PTMOL were identified, such as the need to include and adapt
-elements of the notation to allow the effective representa-
-tion of aspects of threat modeling. All improvements have
+elements of the notation to allow the effective representation of aspects of threat modeling. All improvements have
 now been implemented. As future works, we highlight the
 continuity of new studies to evaluate the language in a more
 comprehensive way. Consequently, new points that may arise
@@ -1899,277 +1853,3 @@ order to further develop it. For this evolution process, we also
 intend to execute exploratory studies, such as interviews or
 focus groups, mainly seeking to explore and explain qualita-
 tive data that can enrich the language use context.
-ACKNOWLEDGMENT
-The authors would like to thank the undergraduate students
-who participated in the study.
-
- Y. Shao, J. Liu, S. Shi, Y. Zhang, and B. Cui, ‘‘Fast de-anonymization of
-social networks with structural information,’’ Data Sci. Eng., vol. 4, no. 1,
-pp. 76–92, Mar. 2019.
-VOLUME 11, 2023
-24469
-A. Rodrigues et al.: Privacy Threat MOdeling Language
- J. H. Abawajy, M. I. H. Ninggal, and T. Herawan, ‘‘Privacy preserving
-social network data publication,’’ IEEE Commun. Surveys Tuts., vol. 18,
-no. 3, pp. 1974–1997, 3rd Quart., 2016.
- J. Alemany, E. Del Val, J. M. Alberola, and A. Garcia-Fornes, ‘‘Metrics for
-privacy assessment when sharing information in online social networks,’’
-IEEE Access, vol. 7, pp. 143631–143645, 2019.
- N. C. Rathore and S. Tripathy, ‘‘A trust-based collaborative access control
-model with policy aggregation for online social networks,’’ Social Netw.
-Anal. Mining, vol. 7, no. 1, pp. 1–13, Dec. 2017.
- S. Oukemeni, H. Rifa-Pous, and J. M. M. Puig, ‘‘Privacy analysis on
-microblogging online social networks: A survey,’’ ACM Comput. Surv.,
-vol. 52, no. 3, pp. 1–36, 2019.
- S. Joyee De and A. Imine, ‘‘On consent in online social networks: Privacy
-impacts and research directions,’’ in Proc. 13th Int. Conf. Risks Secur.
-Internet Syst., 2019, pp. 128–135.
- C. Laorden, B. Sanz, G. Alvarez, and P. G. Bringas, ‘‘A threat model
-approach to threats and vulnerabilities in on-line social networks,’’ in
-Computational Intelligence in Security for Information Systems. Berlin,
-Germany: Springer, 2010, pp. 135–142.
- O. Solon, ‘‘Facebook says Cambridge analytica may have gained 37M
-more users’ data,’’ The Guardian, London, U.K., 2018, vol. 4.
- S. Du, X. Li, J. Zhong, L. Zhou, M. Xue, H. Zhu, and L. Sun, ‘‘Modeling
-privacy leakage risks in large-scale social networks,’’ IEEE Access, vol. 6,
-pp. 17653–17665, 2018.
- R. G. Pensa and L. Bioglio, ‘‘Your privacy, my privacy? On leakage risk
-assessment in online social networks,’’ in Proc. 1st Int. Workshop Pers.
-Anal. Privacy, 2017, pp. 3–9.
- Y. Zeng, Y. Sun, L. Xing, and V. Vokkarane, ‘‘A study of online social
-network privacy via the TAPE framework,’’ IEEE J. Sel. Topics Signal
-Process., vol. 9, no. 7, pp. 1270–1284, Oct. 2015.
- Y. Abid, A. Imine, and M. Rusinowitch, ‘‘Online testing of user profile
-resilience against inference attacks in social networks,’’ in Proc. Eur. Conf.
-Adv. Databases Inf. Syst. Berlin, Germany: Springer, 2018, pp. 105–117.
- G. Wen, H. Liu, J. Yan, and Z. Wu, ‘‘A privacy analysis method to
-anonymous graph based on Bayes rule in social networks,’’ in Proc. 14th
-Int. Conf. Comput. Intell. Secur. (CIS), Nov. 2018, pp. 469–472.
- H. A. Al-Asmari and M. S. Saleh, ‘‘A conceptual framework for measuring
-personal privacy risks in Facebook online social network,’’ in Proc. Int.
-Conf. Comput. Inf. Sci. (ICCIS), Apr. 2019, pp. 1–6.
- A. Rodrigues, M. L. Villela, and E. Feitosa, ‘‘PTMOL: A suitable approach
-for modeling privacy threats in online social networks,’’ in Proc. 21st
-Brazilian Symp. Hum. Factors Comput. Syst., 2022, pp. 1–12.
- I. Altman, The Environment and Social Behavior: Privacy, Personal Space,
-Territory, and Crowding. Monterry, CA, USA: Brooks/Cole Publishing
-Company, 1975.
- V. J. Derlega and A. L. Chaikin, ‘‘Privacy and self-disclosure in social
-relationships,’’ J. Social Issues, vol. 33, no. 3, pp. 102–115, Jul. 1977.
- S. Petronio, Boundaries of Privacy: Dialectics of Disclosure. Albany, NY,
-USA: Suny Press, 2002.
- H. Xu, H.-H. Teo, and B. Tan, ‘‘Predicting the adoption of location-based
-services: The role of trust and perceived privacy risk,’’ in Proc. 26th Int.
-Conf. Inf. Syst., 2005, pp. 897–910.
- E. Zheleva and L. Getoor, ‘‘Privacy in social networks: A survey,’’ in Social
-Network Data Analytics. Berlin, Germany: Springer, 2011, pp. 277–306.
- H. Q. Vu, R. Law, and G. Li, ‘‘Breach of traveller privacy in location-based
-social media,’’ Current Issues Tourism, vol. 22, no. 15, pp. 1825–1840,
-Sep. 2019.
- C. Dong and B. Zhou, ‘‘Privacy inference analysis on event-based
-social networks,’’ in Proc. 8th Int. Conf. Social Inform. (SocInfo), 2016,
-pp. 421–438.
- R. Shokri, G. Theodorakopoulos, C. Troncoso, J.-P. Hubaux, and
-J.-Y. Le Boudec, ‘‘Protecting location privacy: Optimal strategy against
-localization attacks,’’ in Proc. ACM Conf. Comput. Commun. Secur., 2012,
-pp. 617–627.
- E. Zheleva and L. Getoor, ‘‘To join or not to join: The illusion of privacy
-in social networks with mixed public and private user profiles,’’ in Proc.
-18th Int. Conf. World Wide Web, 2009, pp. 531–540.
- A. Shostack, ‘‘Experiences threat modeling at Microsoft,’’ in Proc. MOD-
-SEC@ MoDELS, 2008, p. 35.
- A. Shostack, Threat Modeling: Designing for Security. Hoboken, NJ, USA:
-Wiley, 2014.
- T. UcedaVelez and M. M. Morana, Risk Centric Threat Modeling: Process
-for Attack Simulation and Threat Analysis. Hoboken, NJ, USA: Wiley,
-2015.
- W. Xiong and R. Lagerström, ‘‘Threat modeling—A systematic literature
-review,’’ Comput. Secur., vol. 84, pp. 53–69, Jul. 2019.
- R. Khan, K. McLaughlin, D. Laverty, and S. Sezer, ‘‘STRIDE-based
-threat modeling for cyber-physical systems,’’ in Proc. IEEE PES
-Innov. Smart Grid Technol. Conf. Eur. (ISGT-Europe), Sep. 2017,
-pp. 1–6.
- K. H. Kim, K. Kim, and H. K. Kim, ‘‘STRIDE-based threat modeling and
-DREAD evaluation for the distributed control system in the oil refinery,’’
-ETRI J., vol. 44, no. 6, pp. 991–1003, 2021.
- K. Wuyts, D. Van Landuyt, A. Hovsepyan, and W. Joosen, ‘‘Effec-
-tive and efficient privacy threat modeling through domain refine-
-ments,’’ in Proc. 33rd Annu. ACM Symp. Appl. Comput., Apr. 2018,
-pp. 1175–1178.
- N. R. Mead, F. Shull, K. Vemuru, and O. Villadsen, ‘‘A hybrid threat
-modeling method,’’ Softw. Eng. Inst., Carnegie Mellon Univ., Pittsburgh,
-PA, USA, Tech. Rep. CMU/SEI-2018-TN-002, 2018.
- T. Denning, B. Friedman, and T. Kohno, The Security Cards: A Secu-
-rity Threat Brainstorming Toolkit. Seattle, WA, USA: Univ. Washington,
-2013.
- B. Sanz, C. Laorden, G. Alvarez, and P. G. Bringas, ‘‘A threat model
-approach to attacks and countermeasures in on-line social networks,’’ in
-Proc. 11th Reunion Espanola de Criptografia y Seguridad de la Informa-
-ción, 2010, pp. 343–348.
- Y. Wang and R. K. Nepali, ‘‘Privacy threat modeling framework for online
-social networks,’’ in Proc. Int. Conf. Collaboration Technol. Syst. (CTS),
-Jun. 2015, pp. 358–363.
- S. De and A. Imine, ‘‘To reveal or not to reveal: Balancing user-centric
-social benefit and privacy in online social networks,’’ in Proc. 33rd Annu.
-ACM Symp. Appl. Comput., 2018, pp. 1157–1164.
- A. Aktypi, J. Nurse, and M. Goldsmith, ‘‘Unwinding Ariadne’s identity
-thread: Privacy risks with fitness trackers and online social networks,’’ in
-Proc. Workshop Multimedia Privacy Secur., 2017, pp. 1–11.
- R. Fogues, J. M. Such, A. Espinosa, and A. Garcia-Fornes, ‘‘Open chal-
-lenges in relationship-based privacy mechanisms for social network ser-
-vices,’’ Int. J. Hum.-Comput. Interact., vol. 31, no. 5, pp. 350–370, 2015.
- M. Sramka, ‘‘Privacy scores: Assessing privacy risks beyond social net-
-works,’’ Infocommun. J., vol. 4, no. 4, pp. 36–41, 2012.
- S. Rathore, P. K. Sharma, V. Loia, Y.-S. Jeong, and J. H. Park, ‘‘Social
-network security: Issues, challenges, threats, and solutions,’’ Inf. Sci.,
-vol. 421, pp. 43–69, Dec. 2017.
- L. Bioglio, S. Capecchi, F. Peiretti, D. Sayed, A. Torasso, and R. G. Pensa,
-‘‘A social network simulation game to raise awareness of privacy among
-school children,’’ IEEE Trans. Learn. Technol., vol. 12, no. 4, pp. 456–469,
-Oct. 2019.
- I. Casas, J. Hurtado, and X. Zhu, ‘‘Social network privacy: Issues
-and measurement,’’ in Proc. 16th Int. Conf. Web Inf. Syst. Eng., 2015,
-pp. 488–502.
- S. Mahmood, ‘‘New privacy threats for Facebook and Twitter users,’’
-in Proc. 7th Int. Conf. P2P, Parallel, Grid, Cloud Internet Comput.,
-Nov. 2012, pp. 164–169.
- O. Jaafor and B. Birregah, ‘‘Multi-layered graph-based model for social
-engineering vulnerability assessment,’’ in Proc. IEEE/ACM Int. Conf. Adv.
-Social Netw. Anal. Mining, Aug. 2015, pp. 1480–1488.
- C. Watanabe, T. Amagasa, and L. Liu, ‘‘Privacy risks and countermeasures
-in publishing and mining social network data,’’ in Proc. 7th Int. Conf.
-Collaborative Computing: Netw., Appl. Worksharing, 2011, pp. 55–66.
- H. Kumar, S. Jain, and R. Srivastava, ‘‘Risk analysis of online social
-networks,’’ in Proc. Int. Conf. Comput., Commun. Autom. (ICCCA),
-Apr. 2016, pp. 846–851.
- S. Kavianpour, Z. Ismail, and A. Mohtasebi, ‘‘Effectiveness of using
-integrated algorithm in preserving privacy of social network sites users,’’
-Commun. Comput. Inf. Sci., vol. 167, no. 2, pp. 237–249, 2011.
- D. Kagan, G. Fuhrmann Alpert, and M. Fire, ‘‘Zooming into video confer-
-encing privacy and security threats,’’ 2020, arXiv:2007.01059.
- S. De and A. Imine, ‘‘Privacy scoring of social network user profiles
-through risk analysis,’’ in Proc. 12th Int. Conf. Risks Secur. Internet Syst.,
-2018, pp. 227–243.
- R. Tucker, C. Tucker, and J. Zheng, ‘‘Privacy pal: Improving permission
-safety awareness of third party applications in online social networks,’’
-in Proc. IEEE 17th Int. Conf. High Perform. Comput. Commun. 7th Int.
-Symp. Cyberspace Saf. Secur., IEEE 12th Int. Conf. Embedded Softw. Syst.,
-Aug. 2015, pp. 1268–1273.
-24470
-VOLUME 11, 2023
-A. Rodrigues et al.: Privacy Threat MOdeling Language
- B. Lowson, ‘‘How designers think,’’ in The Design Process Demystified.
-Tehran, Iran: Univ. Shahid-Beheshti, 2005.
- S. Ali, A. Rauf, N. Islam, and H. Farman, ‘‘A framework for
-secure and privacy protected collaborative contents sharing using
-public OSN,’’ Cluster Comput., vol. 22, no. S3, pp. 7275–7286,
-May 2019.
- A.
-Pfitzmann
-and
-M.
-Hansen,
-‘‘A
-terminology
-for
-talking
-about
-privacy
-by
-data
-minimization:
-Anonymity,
-unlinkability,
-undetectability,
-unobservability,
-pseudonymity,
-and
-identity
-management,’’ Dresden, Germany, Tech. Rep., 2010. . Available:
-http://www.maroki.de/pub/dphistory/2010_Anon_Terminology_v0.34.pdf
- K. Rannenberg, ‘‘ISO/IEC standardization of identity management and
-privacy technologies,’’ Datenschutz und Datensicherheit-DuD, vol. 35,
-no. 1, pp. 27–29, Jan. 2011.
- V. R. Basili, ‘‘The role of experimentation in software engineering: Past,
-current, and future,’’ in Proc. IEEE 18th Int. Conf. Softw. Eng., 1996,
-pp. 442–449.
- F. Shull, J. Carver, and G. H. Travassos, ‘‘An empirical methodology
-for introducing software processes,’’ ACM SIGSOFT Softw. Eng. Notes,
-vol. 26, no. 5, pp. 288–296, Sep. 2001.
- R. Scandariato, K. Wuyts, and W. Joosen, ‘‘A descriptive study of
-Microsoft’s threat modeling technique,’’ Requirements Eng., vol. 20, no. 2,
-pp. 163–180, 2015.
- A. Fernandez, S. Abrahão, E. Insfran, and M. Matera, ‘‘Further analysis on
-the validation of a usability inspection method for model-driven web devel-
-opment,’’ in Proc. ACM-IEEE Int. Symp. Empirical Softw. Eng. Meas.,
-Sep. 2012, pp. 153–156.
- J. Lazar, J. H. Feng, and H. Hochheiser, Research Methods in Human-
-Computer Interaction. San Mateo, CA, USA: Morgan & Kaufmann, 2017.
- F. D. Davis, ‘‘Perceived usefulness, perceived ease of use, and user accep-
-tance of information technology,’’ MIS Quart., vol. 13, no. 3, pp. 319–340,
-1989.
- O. Laitenberger and H. M. Dreyer, ‘‘Evaluating the usefulness and the ease
-of use of a web-based inspection data collection tool,’’ in Proc. 5th Int.
-Softw. Metrics Symp. Metrics, 1998, pp. 122–132.
- J. Lee, ‘‘Design rationale systems: Understanding the issues,’’ IEEE
-Expert, vol. 12, no. 3, pp. 78–85, May 1997.
- M. C. F. Pelicioni, ‘‘A utilização do grupo focal como metodologia quali-
-tativa Na promoção da saúde,’’ Revista da Escola de Enfermagem da USP,
-vol. 35, pp. 115–121, May 2001.
- B. B. N. de França, T. V. Ribeiro, P. S. M. dos Santos, and G. H. Travassos,
-‘‘Using focus group in software engineering: Lessons learned on charac-
-terizing software technologies in academia and industry,’’ in Proc. CIbSE,
-2015, p. 351.
- B. G. Glaser, A. L. Strauss, and E. Strutzel, ‘‘The discovery of grounded
-theory; strategies for qualitative research,’’ Nursing Res., vol. 17, no. 4,
-p. 364, Jul. 1968.
- J. Corbin and A. Strauss, Basics of Qualitative Research: Techniques and
-Procedures for Developing Grounded Theory. Newbury Park, CA, USA:
-Sage, 2014.
- B. G. Glaser, Basics of Grounded Theory Analysis: Emergence vs Forcing.
-Mill Valley, CA, USA: Sociology Press, 1992.
-ANDREY RODRIGUES received the bachelor’s
-degree in information systems and the master’s
-degree in informatics from the Federal Univer-
-sity of Amazonas (UFAM), in 2016 and 2019,
-respectively, where he is currently pursuing the
-Ph.D. degree in informatics with PPGI. He is an
-Assistant Professor I with the Estácio Amazonas
-Higher Education Society. He also works as a
-Researcher/Collaborator with the Emerging Tech-
-nologies and Systems Security (ETSS) Research
-Group. He has experience in the area of computer science, with an
-emphasis on security and privacy of systems, structured programming, and
-human–computer interaction (HCI). His research interests include detection
-of threats and attacks in systems, modeling and prevention techniques pri-
-vacy, machine learning algorithms for system security and privacy, and the
-design and evaluation of interfaces.
-MARIA LÚCIA BENTO VILLELA received the
-degree in computer science from the Federal Uni-
-versity of Viçosa (UFV) and the M.Sc. and Ph.D.
-degrees in computer science from the Federal
-University of Minas Gerais (UFMG). She is cur-
-rently an Adjunct Professor with the Department
-of Informatics, UFV. She participates in the Grad-
-uate Program in Education (PPGEd), Federal Uni-
-versity of Vales do Jequitinhonha and Mucuri
-(UFVJM). She works in human–computer inter-
-action, emphasizing user interface design and evaluation and semiotic engi-
-neering. She also works in the software engineering field, mainly in software
-development processes and requirements engineering, and in the computer
-education field, specifically in computational thinking.
-EDUARDO LUZEIRO FEITOSA (Member, IEEE)
-received the degree in data processing from
-the Federal University of Amazonas (UFAM),
-in 1998, the master’s degree in computer science
-from the Federal University of Rio Grande do
-Sul (UFRGS), in 2001, and the Ph.D. degree in
-computer science from the Federal University of
-Pernambuco (UFPE). He is currently an Asso-
-ciate Professor with the Institute of Computing
-(IComp), UFAM. He is also a Researcher and
-a Leader with the Emerging Technologies and System Security (ETSS)
-Research Group. He holds a position as a Research Fellow with the Net-
-working and Emerging Technologies Research Group.
-VOLUME 11, 2023
-24471
