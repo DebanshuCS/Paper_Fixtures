@@ -4,10 +4,10 @@ age of information
 Alessandro Acquisti,1* Laura Brandimarte,1 George Loewenstein2
 This Review summarizes and draws connections between diverse streams of empirical
 research on privacy behavior. We use three themes to connect insights from social and
-behavioral sciences: people’s uncertainty about the consequences of privacy-related
-behaviors and their own p over those consequences; the context-dependence
+behavioral sciences: people’s uncertainty about the consequences of privacyrelated
+behaviors and their own p over those consequences; the contextdependence
 of people’s concern, or lack thereof, about privacy; and the degree to which privacy
-concerns are malleable—manipulable by commercial and governmental interests.
+concerns are malleable manipulable by commercial and governmental interests.
 Organizing our discussion by these themes, we offer observations concerning the role
 of public policy in the protection of privacy in the information age.
 I
@@ -16,304 +16,273 @@ the issue of our times. Activities that were
 once private or shared with the few now leave
 trails of data that expose our interests, traits,
 beliefs,andintentions.We communicateusing
-e-mails, texts, and social media; find partners on
-dating sites; learn via online courses; seek re-
-sponses to mundane and sensitive questions using
+emails, texts, and social media; find partners on
+dating sites; learn via online courses; seek responses to mundane and sensitive questions using
 search engines; read news and books in the cloud;
-navigate streets with geotracking systems; and cel-
+navigate streets with geotracking systems; and cel
 ebrate our newborns, and mourn our dead, on
 social media profiles. Through these and other
-activities, we reveal information—both knowingly
-and unwittingly—to one another, to commercial
+activities, we reveal information both knowingly
+and unwittingly to one another, to commercial
 entities, and to our governments. The monitoring
 of personal information is ubiquitous; its storage
 is so durable as to render one’s past undeletable
-(1)—a modern digital skeleton in the closet. Ac-
-companying the acceleration in data collection
-are steady advancements in the ability to ag-
-gregate, analyze, and draw sensitive inferences
-from individuals’ data (2).
+ a modern digital skeleton in the closet. Accompanying the acceleration in data collection
+are steady advancements in the ability to aggregate, analyze, and draw sensitive inferences
+from individuals’ data .
 Both firms and individuals can benefit from the
-sharing of once hidden data and from the appli-
+sharing of once hidden data and from the appli
 cation of increasingly sophisticated analytics to
-larger and more interconnected databases (3). So
-too can society as a whole—for instance, when elec-
+larger and more interconnected databases . So
+too can society as a whole for instance, when elec
 tronic medical records are combined to observe
-novel drug interactions (4). On the other hand, the
-potential for personal data to be abused—for eco-
-nomic and social discrimination, hidden influence
-andmanipulation,coercion,orcensorship—isalarm-
-ing. The erosion of privacy can threaten our auton-
-omy, not merely as consumers but as citizens (5).
+novel drug interactions . On the other hand, the
+potential for personal data to be abused for economic and social discrimination, hidden influence
+andmanipulation,coercion,orcensorship is alarming. The erosion of privacy can threaten our auton
+omy, not merely as consumers but as citizens .
 Sharing more personal data does not necessarily
 always translate into more progress, efficiency,
-or equality (6).
-Because of the seismic nature of these develop-
+or equality .
+Because of the seismic nature of these develop
 ments, there has been considerable debate about
 individuals’ ability to navigate a rapidly evolving
 privacy landscape, and about what, if anything,
 should be done about privacy at a policy level.
-Some trust people’s ability to make self-interested
-decisions about information disclosing and with-
+Some trust people’s ability to make selfinterested
+decisions about information disclosing and with
 holding. Those holding this view tend to see
 regulatory protection of privacy as interfering
-with the fundamentally benign trajectory of in-
+with the fundamentally benign trajectory of in
 formation technologies and the benefits such
-technologies may unlock (7). Others are con-
+technologies may unlock . Others are con
 cerned about the ability of individuals to manage
-privacy amid increasingly complex trade-offs. Tra-
-ditional tools for privacy decision-making such as
+privacy amid increasingly complex tradeoffs. Tra
+ditional tools for privacy decisionmaking such as
 choice and consent, according to this perspective,
-no longer provide adequate protection (8). In-
-stead of individual responsibility, regulatory inter-
+no longer provide adequate protection . In
+stead of individual responsibility, regulatory inter
 vention may be needed to balance the interests
 of the subjects of data against the power of
 commercial entities and governments holding
 that data.
-Are individuals up to the challenge of navigat-
+Are individuals up to the challenge of navigat
 ing privacy in the information age? To address
-this question, we review diverse streams of empir-
-ical privacy research from the social and behav-
+this question, we review diverse streams of empir
+ical privacy research from the social and behav
 ioral sciences. We highlight factors that influence
 decisions to protect or surrender privacy and
 how, in turn, privacy protections or violations
-affect people’s behavior. Information technolo-
-gies have progressively encroached on every as-
+affect people’s behavior. Information technolo
+gies have progressively encroached on every as
 pect of our personal and professional lives. Thus,
 the problem of control over personal data has
-become inextricably linked to problems of per-
+become inextricably linked to problems of per
 sonal choice, autonomy, and socioeconomic power.
 Accordingly, this Review focuses on the concept
 of, and literature around, informational privacy
 (that is, privacy of personal data) but also touches
-on other conceptions of privacy, such as ano-
+on other conceptions of privacy, such as ano
 nymity or seclusion. Such notions all ultimately
 relate to the permeable yet pivotal boundaries
-between public and private (9).
+between public and private .
 We use three themes to organize and draw
 connections between streams of privacy research
-that, in many cases, have unfolded independent-
+that, in many cases, have unfolded independent
 ly. The first theme is people’s uncertainty about
-the nature of privacy trade-offs, and their own
-p over them. The second is the powerful
-context-dependence of privacy p: The
+the nature of privacy tradeoffs, and their own
+p  over them. The second is the powerful
+contextdependence of privacy p: The
 same person can in some situations be oblivious
 to, but in other situations be acutely concerned
 about, issues of privacy. The third theme is the
-malleability of privacy p, by which we
-mean that privacy p are subject to
+malleability of privacy , by which we
+mean that privacy  are subject to
 influence by those possessing greater insight
-into their determinants. Although most individ-
-uals are probably unaware of the diverse in-
+into their determinants. Although most individuals are probably unaware of the diverse in
 fluences on their concern about privacy, entities
-whose interests depend on information revela-
-tion by others are not. The manipulation of subtle
+whose interests depend on information revelation by others are not. The manipulation of subtle
 factors that activate or suppress privacy concern
-can be seen in myriad realms—such as the choice
+can be seen in myriad realms such as the choice
 of sharing defaults on social networks, or the
-provision of greater control on social media—
+provision of greater control on social media 
 which creates an illusion of safety and encourages
 greater sharing.
-Uncertainty, context-dependence, and mallea-
-bility are closely connected. Context-dependence
+Uncertainty, contextdependence, and malleability are closely connected. Contextdependence
 is amplified by uncertainty. Because people are
-often “at sea” when it comes to the conse-
+often “at sea” when it comes to the conse
 quences of, and their feelings about, privacy,
-they cast around for cues to guide their be-
-havior. Privacy p and behaviors are,
+they cast around for cues to guide their be
+havior. Privacy  and behaviors are,
 in turn, malleable and subject to influence in
-large part because they are context-dependent
-and because those with an interest in informa-
+large part because they are contextdependent
+and because those with an interest in informa
 tion divulgence are able to manipulate context to
 their advantage.
 Uncertainty
 Individuals manage the boundaries between
 their private and public spheres in numerous
 ways: via separateness, reserve, or anonymity
-(10); by protecting personal information; but also
-through deception and dissimulation (11). People
-establish such boundaries for many reasons, in-
+; by protecting personal information; but also
+through deception and dissimulation . People
+establish such boundaries for many reasons, in
 cluding the need for intimacy and psychological
 respite and the desire for protection from social
-influence and control (12). Sometimes, these mo-
-tivations are so visceral and primal that privacy-
+influence and control . Sometimes, these motivations are so visceral and primal that privacy
 seeking behavior emerges swiftly and naturally. This
-is often the case when physical privacy is intruded—
-such as when a stranger encroaches in one’s per-
+is often the case when physical privacy is intruded 
+such as when a stranger encroaches in one’s per
 sonal space (13–15) or demonstratively eavesdrops
 on a conversation. However, at other times (often
 including when informational privacy is at stake)
 people experience considerable uncertainty about
-whether, and to what degree, they should be con-
+whether, and to what degree, they should be con
 cerned about privacy.
 A first and most obvious source of privacy
-uncertainty arises from incomplete and asym-
-metric information. Advancements in infor-
+uncertainty arises from incomplete and asym
+metric information. Advancements in infor
 mation technology have made the collection
 and usage of personal data often invisible. As
-a result, individuals rarely have clear knowl-
+a result, individuals rarely have clear knowl
 edge of what information other people, firms,
 and governments have about them or how that
 information is used and with what consequences.
-To the extent that people lack such informa-
+To the extent that people lack such informa
 tion, or are aware of their ignorance, they are
-likely to be uncertain about how much infor-
+likely to be uncertain about how much infor
 mation to share.
-Two factors exacerbate the difficulty of ascer-
-taining the potential consequences of privacy be-
+Two factors exacerbate the difficulty of ascer
+taining the potential consequences of privacy be
 havior. First, whereas some privacy harms are
 tangible, such as the financial costs associated
 with identity theft, many others, such as having
 strangers become aware of one’s life history, are
 intangible. Second, privacy is rarely an unalloyed
-good; it typically involves trade-offs (16). For
-example, ensuring the privacy of a consumer’s
-SCIENCE sciencemag.org
-30 JANUARY 2015 • VOL 347 ISSUE 6221
-509
-1H. John Heinz III College, Carnegie Mellon University,
-Pittsburgh, PA, USA. 2Dietrich College, Social and
-Decision Sciences, Carnegie Mellon University, Pittsburgh,
-PA, USA.
-*Corresponding author. E-mail: acquisti@andrew.cmu.edu
-purchases may protect her from price discrimina-
-tion but also deny her the potential benefits of
-targeted offers and advertisements.
-Elements that mitigate one or both of these
-exacerbating factors, by either increasing the tan-
-gibility of privacy harms or making trade-offs
-explicit and simple to understand, will generally
-affect privacy-related decisions. This is illustrated
-by one laboratory experiment in which partici-
-pants were asked to use a specially designed search
-engine to find online merchants and purchase
-from them, with their own credit cards, either a
-set of batteries or a sex toy (17). When the search
+good; it typically involves tradeoffs. When the search
 engine only provided links to the merchants’ sites
 and a comparison of the products’ prices from the
 different sellers, a majority of participants did not
-pay any attention to the merchants’ privacy poli-
+pay any attention to the merchants’ privacy poli
 cies; they purchased from those offering the lowest
-price. However, when the search engine also pro-
+price. However, when the search engine also pro
 vided participants with salient, easily accessible
-information about the differences in privacy pro-
+information about the differences in privacy pro
 tection afforded by the various merchants, a
-majority of participants paid a roughly 5% pre-
+majority of participants paid a roughly 5% pre
 mium to buy products from (and share their
-credit card information with) more privacy-
+credit card information with) more privacy
 protecting merchants.
 A second source of privacy uncertainty relates
-to p. Even when aware of the conse-
+to p. Even when aware of the conse
 quences of privacy decisions, people are still
 likely to be uncertain about their own privacy
-p. Research on preference uncertainty
-(18) shows that individuals often have little sense
+. Research on preference uncertainty
+ shows that individuals often have little sense
 of how much they like goods, services, or other
 people. Privacy does not seem to be an exception.
-This can be illustrated by research in which peo-
-ple were asked sensitive and potentially incrimi-
-nating questions either point-blank, or followed
-by credible assurances of confidentiality (19). Al-
+This can be illustrated by research in which peo
+ple were asked sensitive and potentially incrimi
+nating questions either pointblank, or followed
+by credible assurances of confidentiality . Al
 though logically such assurances should lead to
 greater divulgence, they often had the opposite
 effect because they elevated respondents’ privacy
 concerns, which without assurances would have
 remained dormant.
-The remarkable uncertainty of privacy prefer-
-ences comes into play in efforts to measure indi-
+The remarkable uncertainty of privacy prefer
+ences comes into play in efforts to measure indi
 vidual and group differences in preference for
-privacy (20). For example, Westin (21) famously
-used broad (that is, not contextually specific) pri-
+privacy . For example, Westin  famously
+used broad (that is, not contextually specific) pri
 vacy questions in surveys to cluster individuals
 into privacy segments: privacy fundamentalists,
-pragmatists, andunconcerned. Whenaskeddirect-
+pragmatists, andunconcerned. Whenaskeddirect
 ly, many people fall in the first segment: They
 profess to care a lot about privacy and express
 particular concern over losing control of their
-personal information or others gaining unau-
+personal information or others gaining unau
 thorized access to it (22, 23). However, doubts
 about the power of attitudinal scales to predict
-actual privacy behavior arose early in the liter-
-ature (24). This discrepancy between attitudes
+actual privacy behavior arose early in the liter
+ature . This discrepancy between attitudes
 and behaviors has become known as the “privacy
 paradox.”
 In one early study illustrating the paradox,
 participants were first classified into categories
-of privacy concern inspired by Westin’s cate-
+of privacy concern inspired by Westin’s cate
 gorization based on their responses to a survey
 dealing with attitudes toward sharing data
-(25). Next, they were presented with products
+. Next, they were presented with products
 to purchase at a discount with the assistance of
 an anthropomorphic shopping agent. Few,
 regardless of the group they were categorized
 in, exhibited much reluctance to answering the
 increasingly sensitive questions the agent plied
 them with.
-Why do people who claim to care about pri-
+Why do people who claim to care about pri
 vacy often show little concern about it in their
-daily behavior? One possibility is that the para-
-dox is illusory—that privacy attitudes, which are
+daily behavior? One possibility is that the para
+dox is illusory that privacy attitudes, which are
 defined broadly, and intentions and behaviors,
-which are defined narrowly, should not be ex-
+which are defined narrowly, should not be ex
 pected to be closely related (26, 27). Thus, one
 might care deeply about privacy in general but,
 depending on the costs and benefits prevailing
 in a specific situation, seek or not seek privacy
-protection (28) .
-This explanation for the privacy paradox, how-
+protection  .
+This explanation for the privacy paradox, how
 ever, is not entirely satisfactory for two reasons.
 The first is that it fails to account for situations in
-which attitude-behavior dichotomies arise under
+which attitudebehavior dichotomies arise under
 high correspondence between expressed concerns
 and behavioral actions. For example, one study
 compared attitudinal survey answers to actual
-social media behavior (29). Even within the sub-
+social media behavior . Even within the sub
 set of participants who expressed the highest
 degree of concern over strangers being able to
 easily find out their sexual orientation, political
-views, and partners’ names, 48% did in fact pub-
+views, and partners’ names, 48% did in fact pub
 licly reveal their sexual orientation online, 47%
-revealed their political orientation, and 21% re-
+revealed their political orientation, and 21% re
 vealed their current partner’s name. The second
-reason is that privacy decision-making is only in
+reason is that privacy decisionmaking is only in
 part the result of a rational “calculus” of costs
-and benefits (16, 28); it is also affected by mis-
+and benefits (16, 28); it is also affected by mis
 perceptions of those costs and benefits, as well
 as social norms, emotions, and heuristics. Any of
 these factors may affect behavior differently from
-how they affect attitudes. For instance, present-
-bias can cause even the privacy-conscious to
+how they affect attitudes. For instance, present
+bias can cause even the privacyconscious to
 engage in risky revelations of information, if
 the immediate gratification from disclosure trumps
-the delayed, and hence discounted, future con-
-sequences (30).
+the delayed, and hence discounted, future con
+sequences .
 Preference uncertainty is evident not only in
-studies that compare stated attitudes with behav-
+studies that compare stated attitudes with behav
 iors, but also in those that estimate monetary
 valuations of privacy. “Explicit” investigations
-ask people to make direct trade-offs, typically
+ask people to make direct tradeoffs, typically
 between privacy of data and money. For instance,
 in a study conducted both in Singapore and the
-United States, students made a series of hypo-
+United States, students made a series of hypo
 thetical choices about sharing information with
 websites that differed in protection of personal
-information and prices for accessing services (31).
+information and prices for accessing services .
 Using conjoint analysis, the authors concluded
-that subjects valued protection against errors, im-
+that subjects valued protection against errors, im
 proper access, and secondary use of personal
 information between $30.49 and $44.62. Similar
-to direct questions about attitudes and inten-
+to direct questions about attitudes and inten
 tions, such explicit investigations of privacy
-valuation spotlight privacy as an issue that re-
-spondents should take account of and, as a re-
+valuation spotlight privacy as an issue that re
+spondents should take account of and, as a re
 sult, increase the weight they place on privacy in
 their responses.
-Implicit investigations, in contrast, infer valu-
-ations of privacy from day-to-day decisions in
+Implicit investigations, in contrast, infer valu
+ations of privacy from daytoday decisions in
 which privacy is only one of many considerations
-and is typically not highlighted. Individuals en-
-gage in privacy-related transactions all the time,
-even when the privacy trade-offs may be in-
+and is typically not highlighted. Individuals en
+gage in privacyrelated transactions all the time,
+even when the privacy tradeoffs may be in
 tangible or when the exchange of personal data
 may not be a visible or primary component of a
 transaction. For instance, completing a query on
@@ -321,7 +290,7 @@ a search engine is akin to selling personal data
 (one’s p and contextual interests) to the
 engine in exchange for a service (search results).
 “Revealed preference” economic arguments would
-then conclude that because technologies for infor-
+then conclude that because technologies for infor
 mation sharing have been enormously successful,
 whereas technologies for information protection
 have not, individuals hold overall low valuations
@@ -336,17 +305,17 @@ that people assign to privacy may be misguided,
 as suggested by research calling into question the
 stability, and hence validity, of privacy estimates.
 In one field experiment inspired by the literature
-on endowment effects (32), shoppers at a mall
-were offered gift cards for participating in a non-
+on endowment effects , shoppers at a mall
+were offered gift cards for participating in a non
 sensitive survey. The cards could be used online or
 in stores, just like debit cards. Participants were
-given either a $10 “anonymous” gift card (trans-
+given either a $10 “anonymous” gift card (trans
 actions done with that card would not be traceable
-to the subject) or a $12 trackable card (tran-
+to the subject) or a $12 trackable card (tran
 sactions done with that card would be linked to
 the name of the subject). Initially, half of the
 participants were given one type of card, and half
-the other. Then, they were all offered the op-
+the other. Then, they were all offered the op
 portunity to switch. Some shoppers, for example,
 were given the anonymous $10 card and were
 asked whether they would accept $2 to “allow my
@@ -363,304 +332,238 @@ people value privacy more when they have it
 than when they do not.
 The consistency of p for privacy is
 also complicated by the existence of a powerful
-countervailing motivation: the desire to be pub-
+countervailing motivation: the desire to be pub
 lic, share, and disclose. Humans are social animals,
 and information sharing is a central feature of
-human connection. Social penetration theory (33)
-suggests that progressively increasing levels of self-
+human connection. Social penetration theory 
+suggests that progressively increasing levels of self
 disclosure are an essential feature of the natural
-and desirable evolution of interpersonal relation-
-ships from superficial to intimate. Such a progres-
+and desirable evolution of interpersonal relation
+ships from superficial to intimate. Such a progres
 sion is only possible when people begin social
-interactions with a baseline level of privacy. Para-
+interactions with a baseline level of privacy. Para
 doxically, therefore, privacy provides an essential
-foundation for intimate disclosure. Similar to pri-
-vacy, self-disclosure confers numerous objective
+foundation for intimate disclosure. Similar to pri
+vacy, selfdisclosure confers numerous objective
 and subjective benefits, including psychological
-510
-30 JANUARY 2015 • VOL 347 ISSUE 6221
-sciencemag.org SCIENCE
-THE END OF PRIVACY
+
  
-and physical health (34, 35). The desire for inter-
+and physical health (34, 35). The desire for inter
 action, socialization, disclosure, and recognition
 or fame (and, conversely, the fear of anonymous
-unimportance) are human motives no less funda-
+unimportance) are human motives no less funda
 mental than the need for privacy. The electronic
 media of the current age provide unprecedented
-opportunities for acting on them. Through so-
+opportunities for acting on them. Through so
 cial media, disclosures can build social capital,
-increase self-esteem (36), and fulfill ego needs
-(37). In a series of functional magnetic reso-
-nance imaging experiments, self-disclosure was
-even found to engage neural mechanisms as-
+increase selfesteem , and fulfill ego needs
+. In a series of functional magnetic reso
+nance imaging experiments, selfdisclosure was
+even found to engage neural mechanisms as
 sociated with reward; people highly value the
 ability to share thoughts and feelings with others.
 Indeed, subjects in one of the experiments were
 willing to forgo money in order to disclose about
-themselves (38).
-Context-dependence
-Much evidence suggests that privacy is a uni-
-versal human need (Box 1) (39). However, when
+themselves .
+Contextdependence
+Much evidence suggests that privacy is a uni
+versal human need (Box 1) . However, when
 people are uncertain about their p they
 often search for cues in their environment to
-provide guidance. And because cues are a func-
+provide guidance. And because cues are a func
 tion of context, behavior is as well. Applied to
-privacy, context-dependence means that individ-
-uals can, depending on the situation, exhibit any-
+privacy, contextdependence means that individ
+uals can, depending on the situation, exhibit any
 thing ranging from extreme concern to apathy
 about privacy. Adopting the terminology of Westin,
-we are all privacy pragmatists, privacy funda-
+we are all privacy pragmatists, privacy funda
 mentalists, or privacy unconcerned, depending
-on time and place (40).
+on time and place .
 The way we construe and negotiate public
-and private spheres is context-dependent because
-the boundaries between the two are murky (41):
+and private spheres is contextdependent because
+the boundaries between the two are murky :
 The rules people follow for managing privacy
 vary by situation, are learned over time, and are
-based on cultural, motivational, and purely situ-
-ational criteria. For instance, usually we may be
+based on cultural, motivational, and purely situational criteria. For instance, usually we may be
 more comfortable sharing secrets with friends,
 but at times we may reveal surprisingly personal
-information to a stranger on a plane (42). The
+information to a stranger on a plane . The
 theory of contextual “integrity” posits that social
 expectations affect our beliefs regarding what is
-private and what is public, and that such expec-
-tations vary with specificcontexts (43). Thus, seeking
+private and what is public, and that such expectations vary with specificcontexts . Thus, seeking
 privacy in public is not a contradiction; individuals
-can manage privacy even while sharing informa-
-tion, and even on social media (44). For instance,
+can manage privacy even while sharing informa
+tion, and even on social media . For instance,
 a longitudinal study of actual disclosure behavior
 of online social network users highlighted that
-over time, many users increased the amount of per-
+over time, many users increased the amount of per
 sonal information revealed to their friends (those
-connected to them on the network) while simul-
+connected to them on the network) while simul
 taneously decreasing the amounts revealed to
-strangers (those unconnected to them) (Fig. 1) (45).
-The cues that people use to judge the impor-
-tance of privacy sometimes result in sensible be-
+strangers (those unconnected to them) (Fig. 1) .
+The cues that people use to judge the importance of privacy sometimes result in sensible be
 havior. For instance, the presence of government
 regulation has been shown to reduce consumer
-concern and increase trust; it is a cue that people
-use to infer the existence of some degree of pri-
-vacy protection (46). In other situations, however,
-cues can be unrelated, or even negatively related,
-to normative bases of decision-making. For exam-
-ple, in one online experiment (47) individuals were
-more likely to reveal personal and even incrimi-
-nating information on a website with an un-
+concern and increase trust; it is a cue that peopleuse to infer the existence of some degree of privacy protection . In other situations, however,cues can be unrelated, or even negatively related,
+to normative bases of decisionmaking. For example, in one online experiment  individuals were
+more likely to reveal personal and even incrimi
+nating information on a website with an un
 professional and casual design with the banner
 “How Bad R U” than on a site with a formal
-interface—even though the site with the formal
+interface even though the site with the formal
 interface was judged by other respondents to be
 much safer (Fig. 2). Yet in other situations, it is
 the physical environment that influences privacy
-concern and associated behavior (48), sometimes
+concern and associated behavior , sometimes
 even unconsciously. For instance, all else being
-equal, intimacy of self-disclosure is higher in
+equal, intimacy of selfdisclosure is higher in
 warm, comfortable rooms, with soft lighting, than
 in cold rooms with bare cement and overhead
-fluorescent lighting (49).
+fluorescent lighting .
 Some of the cues that influence perceptions
 of privacy are one’s culture and the behavior of
 other people, either through the mechanism of
 descriptive norms (imitation) or via reciprocity
-(50). Observing other people reveal information
+. Observing other people reveal information
 increases the likelihood that one will reveal it
-oneself (51). In one study, survey-takers were asked
+oneself . In one study, surveytakers were asked
 a series of sensitive personal questions regarding
-their engagement in illegal or ethically question-
+their engagement in illegal or ethically question
 able behaviors. After answering each question,
-participants were provided with information, ma-
-nipulated unbeknownst to them, about the per-
+participants were provided with information, ma
+nipulated unbeknownst to them, about the per
 centage of other participants who in the same
 survey had admitted to having engaged in a given
 behavior. Being provided with information that
 suggested that a majority of survey takers had
 admitted a certainquestionable behavior increased
-participants’ willingness to disclose their engage-
+participants’ willingness to disclose their engage
 ment in other, also sensitive, behaviors. Other
-studies have found that the tendency to recip-
+studies have found that the tendency to recip
 rocate information disclosure is so ingrained that
 people will reveal more information even to a
 computer agent that provides information about
-itself (52). Findings such as this may help to
-explain the escalating amounts of self-disclosure
+itself . Findings such as this may help to
+explain the escalating amounts of selfdisclosure
 we witness online: If others are doing it, people
 seem to reason unconsciously, doing so oneself
 must be desirable or safe.
-Other people’s behavior affects privacy con-
-cerns in other ways, too. Sharing personal infor-
-mation with others makes them “co-owners” of
-that information (53) and, as such, responsible
+Other people’s behavior affects privacy con
+cerns in other ways, too. Sharing personal infor
+mation with others makes them “coowners” of
+that information  and, as such, responsible
 for its protection. Mismanagement of shared
-information by one or more co-owners causes
-“turbulence” of the privacy boundaries and, con-
+information by one or more coowners causes
+“turbulence” of the privacy boundaries and, con
 sequently, negative reactions, including anger or
 mistrust. In a study of undergraduate Facebook
-users (54), for instance, turbulence of privacy
+users , for instance, turbulence of privacy
 boundaries, as a result of having one’s profile
 exposed to unintended audiences, dramatically
-increased the odds that a user would restrict pro-
-file visibility to friends-only.
+increased the odds that a user would restrict pro
+file visibility to friendsonly.
 Likewise, privacy concerns are often a function
-of past experiences. When something in an en-
+of past experiences. When something in an en
 vironment changes, such as the introduction of a
-camera or other monitoring devices, privacy con-
-cern is likely to be activated. For instance, surveil-
-lance can produce discomfort (55) and negatively
-affect worker productivity (56). However, privacy
-concern, like other motivations, is adaptive; peo-
-ple get used to levels of intrusion that do not
-SCIENCE sciencemag.org
-30 JANUARY 2015 • VOL 347 ISSUE 6221
-511
-Fig. 1. Endogenous
-privacy behavior and
-exogenous shocks.
+camera or other monitoring devices, privacy con
+cern is likely to be activated. For instance, surveil
+lance can produce discomfort  and negatively
+affect worker productivity .
 Privacy behavior is
 affected both by
-endogenous motiva-
+endogenous motiva
 tions (for instance,
-subjective preferen-
+subjective preferen
 ces) and exogenous
 factors (for instance,
-changes in user inter-
-faces). Over time, the
-percentage of mem-
-bers in the Carnegie
-Mellon University
-Facebook network who
-chose to publicly
-reveal personal
-information decreased
-dramatically. For
-instance, over 80% of
-profiles publicly
-revealed their birthday
-in 2005, but less than
-20% in 2011. The
-decreasing trend is not
-uniform, however.
-After decreasing for
-several years, the
-percentage of profiles
-that publicly revealed their high school roughly doubled between 2009 and 2010—after Facebook
-changed the default visibility settings for various fields on its profiles, including high school (bottom),
-but not birthday (top) (45).
-Percentage of profiles publicly revealing information over time 
-(2005-2011)
-Shares high school
-publicly on profile
-Shares birthday
-publicly on profile
-Disclosure behavior in online social media 
-80
-60
-40
-20
-0
-100 percent
-100 percent
-80
-60
-40
-20
-0
-2006
-2008
-2010
-2005
-2007
-2009
-2011
-change over time. In an experiment conducted in
-Helsinki (57), the installation of sensing and mon-
-itoring technology in households led family mem-
+changes in user inter
+faces). In an experiment conducted in
+Helsinki , the installation of sensing and mon
+itoring technology in households led family mem
 bers initially to change their behavior, particularly
 in relation to conversations, nudity, and sex. And
 yet, if they accidentally performed an activity, such
 as walking naked into the kitchen in front of the
 sensors, it seemed to have the effect of “breaking
 the ice”; participants then showed less concern
-about repeating the behavior. More generally, par-
+about repeating the behavior. More generally, par
 ticipants became inured to the presence of the
 technology over time.
-The context-dependence of privacy concern has
+The contextdependence of privacy concern has
 major implications for the risks associated with
-modern information and communication technol-
-ogy (58). With online interactions, we no longer
+modern information and communication technol
+ogy . With online interactions, we no longer
 have a clear sense of the spatial boundaries of our
 listeners. Who is reading our blog post? Who is
 looking at our photos online? Adding complexity
-to privacy decision-making, boundaries between
+to privacy decisionmaking, boundaries between
 public and private become even less defined in the
-online world (59) where we become social media
+online world  where we become social media
 friends with our coworkers and post pictures to
-an indistinct flock of followers. With different so-
+an indistinct flock of followers. With different so
 cial groups mixing on the Internet, separating
 online and offline identities and meeting our and
 others’ expectations regarding privacy becomes
-more difficult and consequential (60).
+more difficult and consequential .
 Malleability and influence
-Whereas individuals are often unaware of the di-
+Whereas individuals are often unaware of the di
 verse factors that determine their concern about
 privacy in a particular situation, entities whose
 prosperity depends on information revelation by
 others are much more sophisticated. With the
-emergence of the information age, growing insti-
+emergence of the information age, growing insti
 tutional and economic interests have developed
 around disclosure of personal information, from
 online social networks to behavioral advertising.
 It is not surprising, therefore, that some entities
 have an interest in, and have developed expertise
-in, exploiting behavioral and psychological proces-
-ses to promote disclosure (61). Such efforts play on
+in, exploiting behavioral and psychological proces
+ses to promote disclosure . Such efforts play on
 the malleability of privacy p, a term we
-use to refer to the observation that various, some-
+use to refer to the observation that various, some
 times subtle, factors can be used to activate or
 suppress privacy concerns, which in turn affect
 behavior.
 Default settings are an important tool used by
-different entities to affect information disclo-
+different entities to affect information disclo
 sure. A large body of research has shown that
 default settings matter for decisions as important
-as organ donation and retirement saving (62).
+as organ donation and retirement saving .
 Sticking to default settings is convenient, and
 people often interpret default settings as implicit
-recommendations (63). Thus, it is not surprising
+recommendations . Thus, it is not surprising
 that default settings for one’s profile’s visibility on
-social networks (64), or the existence of opt-in or
-opt-out privacy policies on websites (65), affect
+social networks , or the existence of optin or
+optout privacy policies on websites , affect
 individuals’ privacy behavior (Fig. 3).
 In addition to default settings, websites can
-also use design features that frustrate or even con-
+also use design features that frustrate or even con
 fuse users into disclosing personal information
-(66), a practice that has been referred to as “ma-
-licious interface design” (67). Another obvious
+, a practice that has been referred to as “ma
+licious interface design” . Another obvious
 strategy that commercial entities can use to avoid
 raising privacy concerns is notto “ring alarm bells”
 when it comes to data collection. When companies
-do ring them—for example, by using overly fine-
-tuned personalized advertisements—consumers
-are alerted (68) and can respond with negative
-“reactance” (69).
-Various so-called “antecedents” (70) affect pri-
-vacy concerns and can be used to influence pri-
+do ring them for example, by using overly fine
+tuned personalized advertisements consumers
+are alerted  and can respond with negative
+“reactance” .
+Various socalled “antecedents”  affect pri
+vacy concerns and can be used to influence pri
 vacy behavior. For instance, trust in the entity
 receiving one’s personal data soothes concerns.
-Moreover, because some interventions that are in-
-tended to protect privacy can establish trust, con-
+Moreover, because some interventions that are in
+tended to protect privacy can establish trust, con
 cerns can be muted by the very interventions
 intended to protect privacy. Perversely, 62% of
 respondents to a survey believed (incorrectly) that
 the existence of a privacy policy implied that a site
-could not share their personal information with-
-out permission (40), which suggests that simply
+could not share their personal information with
+out permission , which suggests that simply
 posting a policy that consumers do not read may
 lead to misplaced feelings of being protected.
 Control is another feature that can inculcate
-trust and produce paradoxical effects. Perhaps be-
+trust and produce paradoxical effects. Perhaps be
 cause of its lack of controversiality, control has
 512
 30 JANUARY 2015 • VOL 347 ISSUE 6221
@@ -668,18 +571,18 @@ sciencemag.org SCIENCE
 Box 1. Privacy: A modern invention?
 Is privacy a modern, bourgeois, and distinctly Western invention? Or are privacy needs a
 universal feature of human societies? Although access to privacy is certainly affected by
-socioeconomic factors (87) , and
+socioeconomic factors  , and
 privacy norms greatly differ across cultures (65, 85), the need for privacy seems to be a
-universal human trait. Scholars have uncovered evidence of privacy-seeking behaviors across
+universal human trait. Scholars have uncovered evidence of privacyseeking behaviors across
 peoples and cultures separated by time and space: from ancient Rome and Greece (39, 88) to
-preindustrialized Javanese, Balinese, and Tuareg societies (89, 90). Privacy, as Altman (91)
+preindustrialized Javanese, Balinese, and Tuareg societies (89, 90). Privacy, as Altman 
 noted, appears to be simultaneously culturally specific and culturally universal. Cues of a
 common human quest for privacy are also found in the texts of ancient religions: The Quran
-(49:12) instructs against spying on one another (92); the Talmud (Bava Batra 60a) advises
-home-builders to position windows so that they do not directly face those of one’s neighbors
-(93); the Bible (Genesis, 3:7) relates how Adam and Eve discovered their nakedness after
+(49:12) instructs against spying on one another ; the Talmud (Bava Batra 60a) advises
+homebuilders to position windows so that they do not directly face those of one’s neighbors
+; the Bible (Genesis, 3:7) relates how Adam and Eve discovered their nakedness after
 eating the fruit of knowledge and covered themselves in shame from the prying eyes of God
-(94) . Implicit in
+ . Implicit in
 this heterogeneous selection of historical examples is the observation that there exist
 multiple notions of privacy. Although contemporary attention focuses on informational
 privacy, privacy has been also construed as territorial and physical, and linked to concepts as
@@ -690,470 +593,130 @@ disclosure behavior. A measure
 of privacy behavior often used in
 empirical studies is a subject’s
 willigness to answer personal,
-sometimes sensitive questions—
+sometimes sensitive questions 
 for instance, by admitting or
 denying having engaged in
 questionable behaviors. In an
-online experiment (47), individ-
+online experiment , individ
 uals were asked a series of
 intrusive questions about their
 behaviors, such as “Have you
 ever tried to peek at someone
-else’s e-mail without them
+else’s email without them
 knowing?” Across conditions,
-the interface of the question-
+the interface of the question
 naire was manipulated to look
 more or less professional. The
-y axis captures the mean affir-
+y axis captures the mean affir
 mative admission rates (AARs)
 to questions that were rated as
 intrusive (the proportion of
-questions answered affirma-
-tively) normed, question by ques-
+questions answered affirma
+tively) normed, question by ques
 tion, on the overall average AAR for the question. Subjects revealed more personal and even incriminating
 information on the website with a more casual design, even though the site with the formal interface was
 judged by other respondents to be much safer.The study illustrates how cues can influence privacy behavior
-in a fashion that is unrelated, or even negatively related, to normative bases of decision-making.
+in a fashion that is unrelated, or even negatively related, to normative bases of decisionmaking.
 THE END OF PRIVACY
  
 been one of the capstones of the focus of both
-industry and policy-makers in attempts to balance
+industry and policymakers in attempts to balance
 privacy needs against the value of sharing. Control
 over personal information is often perceived as a
-critical feature of privacy protection (39). In prin-
-ciple, it does provide users with the means to
-manage access to their personal information. Re-
+critical feature of privacy protection . In principle, it does provide users with the means to
+manage access to their personal information. Re
 search, however, shows that control can reduce
-privacy concern (46), which in turn can have un-
+privacy concern , which in turn can have un
 intended effects. For instance, one study found
 that participants who were provided with greater
 explicit control over whether and how much of
 their personal information researchers could
-publish ended up sharing more sensitive informa-
-tion with a broader audience—the opposite of the
-ostensible purpose of providing such control (71).
+publish ended up sharing more sensitive informa
+tion with a broader audience the opposite of the
+ostensible purpose of providing such control .
 Similar to the normative perspective on control,
-increasing the transparency of firms’ data prac-
-tices would seem to be desirable. However, trans-
+increasing the transparency of firms’ data practices would seem to be desirable. However, trans
 parency mechanisms can be easily rendered
 ineffective. Research has highlighted not only that
 an overwhelming majority of Internet users do
-not read privacy policies (72), but also that few
+not read privacy policies , but also that few
 users would benefit from doing so; nearly half of a
 sample of online privacy policies were found to be
 written in language beyond the grasp of most
-Internet users (73). Indeed, and somewhat amus-
+Internet users . Indeed, and somewhat amus
 ingly, it has been estimated that the aggregate
 opportunity cost if U.S. consumers actually read
 the privacy policies of the sites they visit would
-be $781 billion/year (74).
-Although uncertainty and context-dependence
+be $781 billion/year .
+Although uncertainty and contextdependence
 lead naturally to malleability and manipulation,
-not all malleability is necessarily sinister. Consid-
-er monitoring. Although monitoring can cause
+not all malleability is necessarily sinister. Consider monitoring. Although monitoring can cause
 discomfort and reduce productivity, the feeling of
-being observed and accountable can induce peo-
+being observed and accountable can induce peo
 ple to engage in prosocial behaviors or (for better
-or for worse) adhere to social norms (75). Prosocial
+or for worse) adhere to social norms . Prosocial
 behavior can be heightened by monitoring cues as
-simple as three dots in a stylized face configura-
-tion (76). By the same token, the depersonalization
-induced by computer-mediated interaction (77),
+simple as three dots in a stylized face configura
+tion . By the same token, the depersonalization
+induced by computermediated interaction ,
 either in the form of lack of identifiability or of
-visual anonymity (78), can have beneficial effects,
+visual anonymity , can have beneficial effects,
 such as increasing truthful responses to sensitive
-surveys (79, 80). Whether elevating or suppressing
-privacy concerns is socially beneficial critically de-
-pends, yet again, on context [a meta-analysis of the
-impact of de-identification on behavior is provided
-in (81)]. For example, perceptions of anonymity
+surveys . Whether elevating or suppressing
+privacy concerns is socially beneficial critically depends, yet again, on context [a metaanalysis of the
+impact of deidentification on behavior is provided
+in . For example, perceptions of anonymity
 can alternatively lead to dishonest or prosocial
 behavior. Illusory anonymity induced by darkness
-caused participants in an experiment (82) to cheat
-in order to gain more money. This can be inter-
-preted as a form of disinhibition effect (83), by
+caused participants in an experiment  to cheat
+in order to gain more money. This can be inter
+preted as a form of disinhibition effect , by
 which perceived anonymity licenses people to act
-in ways that they would otherwise not even con-
+in ways that they would otherwise not even con
 sider. In other circumstances, though, anonymity
-leads to prosocial behavior—for instance, higher
+leads to prosocial behavior for instance, higher
 willingness to share money in a dictator game,
-when coupled with priming of religiosity (84).
+when coupled with priming of religiosity .
 Conclusions
-Norms and behaviors regarding private and pub-
-lic realms greatly differ across cultures (85). Amer-
+Norms and behaviors regarding private and pub
+lic realms greatly differ across cultures . Amer
 icans, for example, are reputed to be more open
 about sexual matters than are the Chinese, whereas
 the latter are more open about financial matters
 (such as income, cost of home, and possessions).
-And even within cultures, people differ substan-
+And even within cultures, people differ substan
 tially in how much they care about privacy and
 what information they treat as private. And as we
 have sought to highlight in this Review, privacy
-concerns can vary dramatically for the same in-
+concerns can vary dramatically for the same in
 dividual, and for societies, over time.
-If privacy behaviors are culture- and context-
+If privacy behaviors are culture and context
 dependent, however, the dilemma of what to share
-and what to keep private is universal across so-
-cieties and over human history. The task of nav-
+and what to keep private is universal across so
+cieties and over human history. The task of nav
 igating those boundaries, and the consequences
 of mismanaging them, have grown increasingly
 complex and fateful in the information age, to
 the point that our natural instincts seem not
 nearly adequate.
 In this Review,we usedthree themesto organize
-and draw connections between the social and be-
-havioral science literatures on privacy and behav-
+and draw connections between the social and be
+havioral science literatures on privacy and behav
 ior. We end the Review with a brief discussion of
 the reviewed literature’s relevance to privacy policy.
-Uncertainty and context-dependence imply that
+Uncertainty and contextdependence imply that
 people cannot always be counted on to navigate
-the complex trade-offs involving privacy in a self-
+the complex tradeoffs involving privacy in a self
 interested fashion. People are often unaware of
 the information they are sharing, unaware of how
 it can be used, and even in the rare situations
-when they have full knowledge of the conse-
+when they have full knowledge of the conse
 quences of sharing, uncertain about their own
-p. Malleability, in turn, implies that peo-
+Malleability, in turn, implies that peo
 ple are easily influenced in what and how much
 they disclose. Moreover, what they share can be
 used to influence their emotions, thoughts, and
-behaviors in many aspects of their lives, as in-
+behaviors in many aspects of their lives, as in
 dividuals, consumers, and citizens. Although such
 influence is not always or necessarily malevolent
-or dangerous, relinquishing control over one’s
-personal data and over one’s privacy alters the
-SCIENCE sciencemag.org
-30 JANUARY 2015 • VOL 347 ISSUE 6221
-513
-Fig. 3. Changes in Facebook
-default profile visibility set-
-tings over time (2005–2014).
-Over time, Facebook profiles
-included an increasing amount of
-fields and, therefore, types of
-data. In addition, default visibility
-settings became more revelatory
-between 2005 (top) and 2014
-(bottom), disclosing more per-
-sonal information to larger audi-
-ences, unless the user manually
-overrode the defaults (fields such
-as “Likes” and “Extended Profile
-Data” did not exist in 2005).
-“Basic profile data” includes
-hometown, current city, high
-school, school (status, concen-
-tration, secondary concentration),
-interested in, relationship,
-workplace, about you, and quotes.
-Examples of “Extended profile
-data” include life events such as
-new job, new school, engagement,
-expecting a baby, moved, bought
-a home, and so forth. “Picture”
-refers to the main profile image.
-“Photos” refers to the additional
-images that users might have
-shared in their account. “Names”
-refers to the real name, the user-
-name, and the user ID. This figure
-is based on the authors’ data and
-the original visualization created
-by M. McKeon, available at
-http://mattmckeon.com/
-facebook-privacy.
-Visible (default setting)
-Not visible
-Default visibility settings in social media
-over time
-2005
-2014
-Networks
-Wall
-Picture
-Gender
-Basic
-profile
-data
-Contact
-information
-Contact
-information
-Names
-Names
-Birthday
-Friends
-Friends
-Facebook
-Entire Internet
-User
-Networks
-Wall
-Picture
-Gender
-Extended
-profile
-data
-Photos
-Photos
-Birthday
-Likes
-Friends
-Friends
-Facebook
-Entire Internet
-User
-Basic
-profile
-data
-balance of power between those holding the data
-and those who are the subjects of that data.
-Insights from the social and behavioral empir-
-ical research on privacy reviewed here suggest
-that policy approaches that rely exclusively on
-informing or “empowering” the individual are un-
-likely to provide adequate protection against the
-risks posed by recent information technologies.
-Consider transparency and control, two principles
-conceived as necessary conditions for privacy pro-
-tection. The research we highlighted shows that
-they may provide insufficient protections and even
-backfire when used apart from other principles
-of privacy protection.
-The research reviewed here suggests that if
-the goal of policy is to adequately protect pri-
-vacy (as we believe it should be), then we need
-policies that protect individuals with minimal
-requirement of informed and rational decision-
-making—policies that include a baseline framework
-of protection, such as the principles embedded
-in the so-called fair information practices (86).
-People need assistance and even protection to aid
-in navigating what is otherwise a very uneven
-playing field. As highlighted by our discussion, a
-goal of public policy should be to achieve a more
-even equity of power between individuals, con-
-sumers, and citizens on the one hand and, on the
-other, the data holders such as governments and
-corporations that currently have the upper hand.
-To be effective, privacy policy should protect real
-people—who are naïve, uncertain, and vulnerable—
-and should be sufficiently flexible to evolve with
-the emerging unpredictable complexities of the
-information age.
- AND NOTES
-1.
-V. Mayer-Schönberger, Delete: The Virtue of Forgetting In the
-Digital Age (Princeton Univ. Press, Princeton, 2011).
-2.
-L. Sweeney, Int. J. Uncert. Fuzziness Knowl. Based Syst.
-10, 557–570 (2002).
-3.
-A. McAfee, E. Brynjolfsson, Harv. Bus. Rev. 90, 60–66, 68, 128
-(2012).
-4.
-N. P. Tatonetti, P. P. Ye, R. Daneshjou, R. B. Altman, Sci.
-Transl. Med. 4, 125ra31 (2012).
-5.
-J. E. Cohen, Stanford Law Rev. 52, 1373–1438 (2000).
-6.
-K. Crawford, K. Miltner, M. L. Gray, Int. J. Commun. 8,
-1663–1672 (2014).
-7.
-R. A. Posner, Am. Econ. Rev. 71, 405–409 (1981).
-8.
-D. J. Solove, Harv. Law Rev. 126, 1880–1903 (2013).
-9.
-D. J. Solove, Univ. Penn. L. Rev. 154, 477–564 (2006).
-10. F. Schoeman, Ed., Philosophical dimensions of privacy—An
-anthology (Cambridge Univ. Press, New York, 1984).
-11. B. M. DePaulo, C. Wetzel, R. Weylin Sternglanz, M. J. W. Wilson,
-J. Soc. Issues 59, 391–410 (2003).
-12. S. T. Margulis, J. Soc. Issues 59, 243–261 (2003).
-13. E. Goffman, Relations in Public: Microstudies of the Public
-Order (Harper & Row, New York, 1971).
-14. E. Sundstrom, I. Altman, Hum. Ecol. 4, 47–67 (1976).
-15. B. Schwartz, Am. J. Sociol. 73, 741–752 (1968).
-16. R. S. Laufer, M. Wolfe, J. Soc. Issues 33, 22–42 (1977).
-17. J. Y. Tsai, S. Egelman, L. Cranor, A. Acquisti, Inf. Syst. Res.
-22, 254–268 (2011).
-18. P. Slovic, Am. Psychol. 50, 364–371 (1995).
-19. E. Singer, H. Hippler, N. Schwarz, Int. J. Public Opin. Res.
-4, 256–268 (1992).
-20. V. P. Skotko, D. Langmeyer, Sociometry 40, 178–182 (1977).
-21. A. Westin, Harris Louis & Associates, Harris-Equifax Consumer
-Privacy Survey (Tech. rep. 1991).
-22. M. J. Culnan, P. K. Armstrong, Organ. Sci. 10, 104–115 (1999).
-23. H. J. Smith, S. J. Milberg, S. J. Burke, Manage. Inf. Syst. Q. 20,
-167–196 (1996).
-24. B. Lubin, R. L. Harrison, Psychol. Rep. 15, 77–78 (1964).
-25. S. Spiekermann, J. Grossklags, B. Berendt, E-Privacy in 2nd
-Generation E-Commerce: Privacy P versus Actual
-Behavior (Third ACM Conference on Electronic Commerce,
-Tampa, 2001), pp. 38–47.
-26. P. A. Norberg, D. R. Horne, D. A. Horne, J. Consum. Aff. 41,
-100–126 (2007).
-27. I. Ajzen, M. Fishbein, Psychol. Bull. 84, 888–918
-(1977).
-28. P. H. Klopfer, D. I. Rubenstein, J. Soc. Issues 33, 52–65
-(1977).
-29. A. Acquisti, R. Gross, in Privacy Enhancing Technologies,
-G. Danezis, P. Golle Eds. (Springer, New York, 2006),
-pp. 36–58.
-30. A. Acquisti, Privacy in Electronic Commerce and the Economics
-of Immediate Gratification (Fifth ACM Conference on Electronic
-Commerce, New York, 2004), pp. 21–29.
-31. I. Hann, K. Hui, S. T. Lee, I. P. L. Png, J. Manage. Inf. Syst. 24,
-13–42 (2007).
-32. A. Acquisti, L. K. John, G. Loewenstein, J. Legal Stud. 42,
-249–274 (2013).
-33. I. Altman, D. Taylor, Social Penetration: The Development of
-Interpersonal Relationships (Holt, Rinehart & Winston, New
-York, 1973).
-34. J. Frattaroli, Psychol. Bull. 132, 823–865 (2006).
-35. J. W. Pennebaker, Behav. Res. Ther. 31, 539–548 (1993).
-36. C. Steinfield, N. B. Ellison, C. Lampe, J. Appl. Dev. Psychol.
-29, 434–445 (2008).
-37. C. L. Toma, J. T. Hancock, Pers. Soc. Psychol. Bull. 39, 321–331
-(2013).
-38. D. I. Tamir, J. P. Mitchell, Proc. Natl. Acad. Sci. U.S.A. 109,
-8038–8043 (2012).
-39. A. Westin, Privacy and Freedom (Athenäum, New York, 1967).
-40. C. J. Hoofnagle, J. M. Urban, Wake Forest Law Rev. 49, 261–321
-(2014).
-41. G. Marx, Ethics Inf. Technol. 3, 157–169 (2001).
-42. J. W. Thibaut, H. H. Kelley, The Social Psychology Of Groups
-(Wiley, Oxford, 1959).
-43. H. Nissenbaum, Privacy in Context: Technology, Policy, and the
-Integrity of Social Life (Stanford Univ. Press, Redwood City,
-2009).
-44. d. boyd, It’s Complicated: The Social Lives of Networked Teens
-(Yale Univ. Press, New Haven, 2014).
-45. F. Stutzman, R. Gross, A. Acquisti, J. Priv. Confidential. 4,
-7–41 (2013).
-46. H. Xu, H. H. Teo, B. C. Tan, R. Agarwal, J. Manage. Inf. Syst. 26,
-135–174 (2009).
-47. L. K. John, A. Acquisti, G. Loewenstein, J. Consum. Res. 37,
-858–873 (2011).
-48. I. Altman, The Environment and Social Behavior: Privacy,
-Personal Space, Territory, and Crowding (Cole, Monterey, 1975).
-49. A. L. Chaikin, V. J. Derlega, S. J. Miller, J. Couns. Psychol. 23,
-479–481 (1976).
-50. V. J. Derlega, A. L. Chaikin, J. Soc. Issues 33, 102–115 (1977).
-51. A. Acquisti, L. K. John, G. Loewenstein, J. Mark. Res. 49,
-160–174 (2012).
-52. Y. Moon, J. Consum. Res. 26, 323–339 (2000).
-53. S. Petronio, Boundaries of Privacy: Dialectics of Disclosure
-(SUNY Press, Albany, 2002).
-54. F. Stutzman, J. Kramer-Duffield, Friends Only: Examining a
-Privacy-Enhancing Behavior in Facebook (SIGCHI Conference
-on Human Factors in Computing Systems, ACM, Atlanta,
-2010), pp. 1553–1562.
-55. T. Honess, E. Charman, Closed Circuit Television in Public
-Places: Its Acceptability and Perceived Effectiveness (Police
-Research Group, London, 1992).
-56. M. Gagné, E. L. Deci, J. Organ. Behav. 26, 331–362 (2005).
-57. A. Oulasvirta et al., Long-Term Effects of Ubiquitous
-Surveillance in the Home (ACM Conference on Ubiquitous
-Computing, Pittsburgh, 2012), pp. 41–50.
-58. L. Palen, P. Dourish, Unpacking “Privacy” For A Networked
-World (SIGCHI Conference on Human Factors in Computing
-Systems, ACM, Fort Lauderdale, 2003), pp. 129–136.
-59. Z. Tufekci, Bull. Sci. Technol. Soc. 28, 20–36 (2008).
-60. J. A. Bargh, K. Y. A. McKenna, G. M. Fitzsimons, J. Soc. Issues
-58, 33–48 (2002).
-61. R. Calo, Geo. Wash. L. Rev. 82, 995–1304 (2014).
-62. E. J. Johnson, D. Goldstein, Science 302, 1338–1339
-(2003).
-63. C. R. McKenzie, M. J. Liersch, S. R. Finkelstein, Psychol. Sci.
-17, 414–420 (2006).
-64. R. Gross, A. Acquisti, Information Revelation and Privacy in
-Online Social Networks (ACM Workshop–Privacy in the
-Electronic Society, New York, 2005), pp. 71–80.
-65. E. J. Johnson, S. Bellman, G. L. Lohse, Mark. Lett. 13,
-5–15 (2002).
-66. W. Hartzog, Am. Univ. L. Rev. 60, 1635–1671 (2010).
-67. G. Conti, E. Sobiesk, Malicious Interface Design: Exploiting the
-User (19th International Conference on World Wide Web, ACM,
-Raleigh, 2010), pp. 271–280.
-68. A. Goldfarb, C. Tucker, Mark. Sci. 30, 389–404
-(2011).
-69. T. B. White, D. L. Zahay, H. Thorbjørnsen, S. Shavitt, Mark. Lett.
-19, 39–50 (2008).
-70. H. J. Smith, T. Dinev, H. Xu, Manage. Inf. Syst. Q. 35, 989–1016
-(2011).
-71. L. Brandimarte, A. Acquisti, G. Loewenstein, Soc. Psychol.
-Personal. Sci. 4, 340–347 (2013).
-72. C. Jensen, C. Potts, C. Jensen, Int. J. Hum. Comput. Stud.
-63, 203–227 (2005).
-73. C. Jensen, C. Potts, Privacy Policies as Decision-Making Tools:
-An Evaluation of Online Privacy Notices (SIGCHI Conference on
-Human factors in computing systems, ACM, Vienna, 2004),
-pp. 471–478.
-74. A. M. McDonald, L. F. Cranor, I/S: J. L. Policy Inf. Society.
-4, 540–565 (2008).
-75. C. Wedekind, M. Milinski, Science 288, 850–852
-(2000).
-76. M. Rigdon, K. Ishii, M. Watabe, S. Kitayama, J. Econ. Psychol.
-30, 358–367 (2009).
-77. S. Kiesler, J. Siegel, T. W. McGuire, Am. Psychol. 39, 1123–1134
-(1984).
-78. A. N. Joinson, Eur. J. Soc. Psychol. 31, 177–192 (2001).
-79. S. Weisband, S. Kiesler, Self Disclosure On Computer Forms:
-Meta-Analysis And Implications (SIGCHI Conference
-Conference on Human Factors in Computing Systems, ACM,
-Vancouver, 1996), pp. 3–10.
-80. R. Tourangeau, T. Yan, Psychol. Bull. 133, 859–883
-(2007).
-81. T. Postmes, R. Spears, Psychol. Bull. 123, 238–259
-(1998).
-82. C. B. Zhong, V. K. Bohns, F. Gino, Psychol. Sci. 21, 311–314
-(2010).
-83. J. Suler, Cyberpsychol. Behav. 7, 321–326 (2004).
-84. A. F. Shariff, A. Norenzayan, Psychol. Sci. 18, 803–809
-(2007).
-85. B. Moore, Privacy: Studies in Social and Cultural History
-(Armonk, New York, 1984).
-86. Records, Computers and the Rights of Citizens (Secretary’s
-Advisory Committee, U.S. Dept. of Health, Education and
-Welfare, Washington, DC, 1973).
-87. E. Hargittai, in Social Stratification, D. Grusky Ed. (Westview,
-Boulder, 2008), pp. 936-113.
-88. P. Ariès, G. Duby (Eds.), A History of Private Life: From Pagan
-Rome to Byzantium (Harvard Univ. Press, Cambridge, 1992).
-89. R. F. Murphy, Am. Anthropol. 66, 1257–1274 (1964).
-90. A. Westin, in Philosophical Dimensions of Privacy: An Anthology,
-F.D. Schoeman Ed. (Cambridge Univ. Press, Cambridge, UK,
-1984), pp. 56–74.
-91. I. Altman, J. Soc. Issues 33, 66–84 (1977).
-92. M. A. Hayat, Inf. Comm. Tech. L. 16, 137–148 (2007).
-93. A. Enkin, “Privacy,” www.torahmusings.com/2012/07/privacy
-(2014).
-94. J. Rykwert, Soc. Res. (New York) 68, 29–40 (2001).
-95. C. B. Whitman, in Individualism and Holism: Studies in
-Confucian and Taoist Values, D. J. Munro, Ed. (Center
-for Chinese Studies, Univ. Michigan, Ann Arbor, 1985),
-pp. 85–100.
-ACKNOWLEDGMENTS
-We are deeply grateful to the following individuals: R. Gross and
-F. Stutzman for data analysis; V. Marotta, V. Radhakrishnan,
-and S. Samat for research; W. Harsch for graphic design; and
-A. Adams, I. Adjerid, R. Anderson, E. Barr, C. Bennett, R. Boehme,
-R. Calo, J. Camp, F. Cate, J. Cohen, D. Cole, M. Culnan,
-R. De Wolf, J. Donath, S. Egelman, N. Ellison, S. Fienberg, A. Forget,
-U. Gasser B. Gellman, J. Graves, J. Grimmelmann, J. Grossklags,
-S. Guerses, J. Hancock, E. Hargittai, W. Hartzog, J. Hong,
-C. Hoofnagle, J. P. Hubaux, K. L. Hui, A. Joinson, S. Kiesler,
-J. King, B. Knijnenburg, A. Kobsa, B. Kraut, P. Leon, M. Madden,
-I. Meeker, D. Mulligan, C. Olivola, E. Peer, S. Petronio, S. Preibusch,
-J. Reidenberg, S. Romanosky, M. Rotenberg, I. Rubinstein,
-N. Sadeh, A. Sasse, F. Schaub, P. Shah, R. E. Smith, S. Spiekermann,
-J. Staddon, L. Strahilevitz, P. Swire, O. Tene, E. VanEpps, J. Vitak,
-R. Wash, A. Woodruff, H. Xu, and E. Zeide for enormously
-valuable comments and suggestions.
-10.1126/science.aaa1465
-514
-30 JANUARY 2015 • VOL 347 ISSUE 6221
-sciencemag.org SCIENCE
-THE END OF PRIVACY
- 
+or dangerous.
