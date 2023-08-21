@@ -1,0 +1,642 @@
+
+Abstract 
+Numerous public opinion polls reveal that individuals are quite concerned about threats to their 
+information privacy However, the current understanding of privacy that emerges is fragmented 
+and usually discipline-dependent A systematic understanding of individuals’ privacy concerns is 
+of increasing importance as information technologies increasingly expand the ability for 
+organizations to store, process, and exploit personal data Drawing on information boundary 
+theory, we developed an integrative model suggesting that privacy concerns form because of an 
+individual’s disposition to privacy or situational cues that enable one person to assess the 
+consequences of information disclosure Furthermore, a cognitive process, comprising perceived  
+privacy risk, privacy control and privacy intrusion is proposed to shape an individual’s privacy 
+concerns toward a specific Web site’s privacy practices We empirically tested the research model 
+through a survey  that was administered to users of four different types of web sites: 
+electronic commerce sites,  social networking sites,  financial sites, and  healthcare sites 
+The study reported here is novel to the extent that existing empirical research has not examined 
+this complex set of privacy issues Implications for theory and practice are discussed, and 
+suggestions for future research along the directions of this study are provided 
+ 
+Keywords:  Privacy concerns, disposition to value privacy, privacy assurance, privacy risk, 
+privacy control, information boundary theory 
+
+IS Security and Privacy 
+   
+ 
+Introduction 
+The importance of privacy in the contemporary globalized, information societies has been widely discussed and is 
+by now undisputed Numerous works in diverse fields have immensely improved our understanding of privacy at the 
+individual, organizational and societal levels However, the picture of privacy that emerges is fragmented and 
+usually discipline-dependent The definitions of privacy vary significantly in different fields, ranging from a right or 
+entitlement in law , to a state of limited access or isolation in philosophy and 
+psychology , and to control in social sciences and information systems  The wide scope of scholarly interests has resulted in a variety of conceptualizations of privacy, which leads 
+Solove  to note that “rivacy as a concept is in disarray Nobody can articulate what it means”  
+Privacy has been described as multidimensional, elastic, depending upon context, and dynamic in the sense that it 
+varies with life experience   
+Over the past decade, scholars in information systems have examined privacy issues  related to the collection and use of personal information from a variety of 
+perspectives A general observation from this stream of research is that privacy researchers have often used the 
+construct of privacy concerns as the proxy to define and measure the concept of privacy Accordingly, the construct 
+of privacy concerns has usually been included and empirically validated as an important factor in various behavioral 
+models   
+Little is known, however, on how privacy concerns are formed and developed, and what individual, cultural, 
+institutional, and environmental factors mitigate or influence them in a systematic manner In general, in complex 
+nomological behavioral models, the construct of privacy concerns has been treated as a psychologically unitary, 
+stand-alone concept  Thus, understanding the nature and formation of privacy concerns, as 
+well as their predictors, is a major issue for researchers and practitioners Yet, no comprehensive model has been 
+developed in the extant literature to conceptually explore the formation process of privacy concerns as well as to 
+differentiate privacy concerns from other overlapping cognate concepts such as intrusion, privacy risk, privacy 
+control, privacy assurance, and disposition to value privacy We seek to address this gap in the literature by 
+developing a literature-grounded model that highlights the interrelated factors that contribute to the formation of 
+privacy concerns By rigorously identifying antecedents of privacy concerns, and by testing our model in different 
+contexts of Internet usage, we are able to conceptually clarify the multiple dimensions of privacy concerns 
+Theory 
+The research model is depicted in     The model implies that privacy concerns form because of an individual’s 
+disposition to value privacy or situational cues that enable one person to assess the consequences of information 
+disclosure A cognitive process, comprising privacy risk, privacy control and privacy intrusion is proposed to shape 
+an individual’s perception of a specific Web site’s privacy practices    
+Information Boundary Theory  
+The overarching theory that guides the development of the research model is the Information Boundary Theory 
+, which formulates the social aspects of information disclosure IBT posits that each individual forms a 
+physical or virtual informational space around her with clearly defined boundaries Depending on the situational and 
+personal conditions, an attempt by an external entity to penetrate these boundaries may be perceived by the 
+individual as intrusion The motivation to reveal or withhold information is governed by “boundary opening” and 
+“boundary closure” rules  These rules involve dynamic psychological processes that are affected 
+by the nature of the relationship, the expected use of the disclosed information, and the benefits of disclosing the 
+information  Thus, it is important to note that the rules emerge from an individual’s articulation of 
+a personal “calculus” of boundary negotiation which is influenced by the conditions in which disclosure is deemed 
+acceptable or unacceptable The conditions “depend in part upon the status of the relationship between the sender 
+and the audience  receiving it” ; thus they are context 
+specific  
+IBT has been applied in employee privacy research   which provided a reasonable 
+foundation for understanding privacy management in IT intensive organizations The concept of information 
+ 
+Examining the Formation of Individual's Privacy Concerns 
+ 
+ 
+   
+ 
+boundary in the information privacy context means that: First, each individual constructs a personal informational 
+space with her own defined boundaries Second, the boundary of this information space depends on the nature of the 
+information and the individual’s own personality and environmental characteristics Third, when the individual 
+detects a request for information disclosure by an organization , the individual 
+initiates a calculus process The risks of disclosure are evaluated, along with estimation of how much control the 
+individual has over the disclosed information Based on the outcome of risk-control assessment, the individual 
+deems the disclosure as acceptable or unacceptable If the disclosure is acceptable, the individual is not likely to 
+perceive privacy intrusion and thus has lower level of privacy concerns As a consequence, a boundary opening 
+follows and personal information is revealed In the case the disclosure is evaluated as unacceptable, the individual 
+perceives this outcome as privacy intrusion Depending on the risk-control assessment, the perception of intrusion 
+may give rise to privacy concerns Therefore, boundary closing may follow and the information is withheld Based 
+on the IBT framework described above, below we define each construct in our model and present the hypotheses of 
+the relationships among constructs 
+ 
+    Research Model – Constructs and Nomological Network 
+Privacy Concerns  
+Prior research into privacy issues has focused on understanding what motivates Internet users to disclose personal 
+information and what inhibits them from disclosing it Among various privacy related constructs examined in the 
+literature, the construct of privacy concerns is one of the most widely used variable in the IS research and 
+consistently shown to be one of the strongest predictors of privacy-related behavior  In addition, the concept of privacy concerns has been a viable part 
+of the economical privacy models such as privacy calculus which treats individual privacy-related behavior as a 
+result of a situational and context-specific cost-benefit analysis of information disclosure  Several pioneering privacy studies have attempted to 
+conceptualize and operationalize privacy concerns in more detail: The Concern for Information Privacy  scale 
+was developed by Smith, Milburg, and Burke  which identified four data-related dimensions of privacy 
+concerns  that have since served as one of 
+the most reliable instrument measuring individuals’ concerns toward organizational privacy practices Recently, 
+Malhotra, Kim, and Agarwal  operationalized a multidimensional notion of Internet Users Information 
+Privacy Concerns  which adapted the CFIP in the Internet context  
+IS Security and Privacy 
+   
+ 
+In this study, we avoid repeating the numerous extant studies about the link between privacy concerns and behaviorrelated variables Instead, we focus on explaining how privacy concerns are formed Thus, the dependent variable of 
+our research model is the construct of privacy concerns which is defined as concerns about possible loss of privacy 
+as a result of information disclosure to an online business   
+Perception of Intrusion 
+The concept of intrusion has always been related to the concept of personal space , which particularly well matches with our IBT framework Based on a 
+comprehensive review of scholarly work and courts’ interpretations of privacy and intrusion, Solove  defines 
+intrusion as “invasive acts that disturb one’s tranquility or solitude”  and “involves the unwanted general 
+incursion of another’s presence or activities”  Solove  further argues that intrusion disturbs the 
+victim’s daily activities, alters her routines, destroys her solitude, and often makes her feel uncomfortable and 
+uneasy Protection against intrusion involves protecting the individual from unwanted social invasions, affording 
+people what Warren and Brandeis called “the right to be let alone”  According to Solove , 
+intrusion can create discomfort and harm and requires protection even if the information is barely disseminated 
+Thus, intrusion has always been identified as an event harmful to the individual, and with this, it bears negative 
+connotation   
+However, we argue that not every penetration of the personal space is deemed as harmful by the individual 
+Examples of personal space’s boundaries penetrations that are not perceived or labeled as intrusion are abundant: 
+ teams breaking in a house to save a person’s life from a health, fire, or crime threats; consented personal 
+information and habit gathering to received special offers and coupons; sensitive medical information request to 
+select the best medical treatment; installation of security monitoring systems in private spaces, etc Therefore, 
+perception of boundary penetration and perception of intrusion are two different perceptions and the latter obviously 
+involves a specific set of beliefs, to be perceived of causing harm and labeled as intrusion  
+Intrusion was identified as a component of privacy by the tort scholar Prosser  who synthesized the cases that 
+emerged from Warren and Brandeis’s famous law review article The Right to Privacy  Prosser categorized 
+four types of harmful activities under the rubric of privacy, namely: ) Intrusion upon the plaintiff’s seclusion or 
+solitude, or into his private affairs; ) Public disclosure of embarrassing private facts about the plaintiff; ) Publicity 
+which places the plaintiff in a false light in the public eye; ) Appropriation, for the defendant’s advantage, of the 
+plaintiff’s name or like-ness Likewise, Westin  defined reserve as “the creation of a psychological barrier 
+against unwanted intrusion” as a component of his four states of individual privacy And developed the Invasion of Privacy Score  that captures the perception of intrusion into the personal information 
+space As one can see, intrusion can certainly raise privacy concerns, but intrusion is not the only condition that 
+informs individual’s privacy concerns In other words, intrusion perception is not identical with privacy concerns 
+The items , , and  from Rosser’s categorization above also inform privacy concerns but they can occur without 
+any form of intrusion into the personal space Therefore, we conclude that perceived intrusion is a distinctly 
+different construct from privacy concerns Seeing that perceived intrusion involves harmful incursion into the 
+personal information space, we propose it as an important predictor to privacy concerns:  
+H1: Perception of intrusion positively affects privacy concerns 
+Determinants to Perception of Intrusion  
+Prior research on information disclosure within the framework of IBT points to the following important components 
+of boundary management: risk and control, personal and environmental factors According to the IBT and its 
+adaptive form of Communications Privacy Management Theory , disclosure has both benefits and 
+risks and thus involves a complex calculation and informed decision making about boundary opening or closure 
+When people disclose or open their personal space to the others, they give over something they feel belongs to them 
+and thus “they feel they should retain the right to control it and not be harmed, even after disclosure”  Disclosure renders people vulnerable to opportunistic exploitation because the disclosed private 
+information becomes co-owned by other parties  As such, disclosure always involves some degree 
+of risk  It is the risk that invokes the protective behavior of erecting boundaries that will separate 
+what space/information we consider public and private Therefore, these boundaries become the core mechanism of 
+ 
+Examining the Formation of Individual's Privacy Concerns 
+ 
+ 
+   
+ 
+controlling who and how much has access to the personal space/information  
+Therefore, the boundary management rules are developed to help people maximize the benefits from disclosure 
+while minimizing the risks As we mentioned above, these rules are situational and personality dependent and may 
+change very dynamically The benefits include self-expression, to relationship development, to social control, while 
+the risks include loss of dignity, status, control   
+We propose that, when a boundary penetration has been detected by an individual, she develops a perception of 
+intrusion into her personal space after the evaluation of risks and control involved in the penetration In other words, 
+perceived risk and perceived control are major determinants of perception of intrusion The personal nature  of the boundary management rules and of the perception of intrusion are reflected in the individual’s 
+cultural and personality characteristics which we call disposition to value privacy, much like the development of 
+disposition to trust in the trust literature  Furthermore, the situational and environmental 
+factors on which the boundary management rules develop are reflected in the “perception of the environment” 
+through a set of organizational privacy assurance variables, much like the structure assurance in the trust literature 
+ Below we describe these construct and their relationships with more details 
+Perceived Privacy Risk  
+Risk has been generally defined as uncertainty resulting from the potential for a negative outcome  and the possibility of the other party’s opportunistic behavior that can result in losses  Sources of opportunistic behavior with personal data include selling to, or sharing 
+information with third parties, financial institutions  or government agencies  Privacy risk could also include the misuse of personal information, such as insider disclosure or 
+unauthorized access and theft  A number of e-commerce studies empirically verified the negative 
+effect of perceived risk on intentions to conduct transactions  Consistent with prior literature , we define perceived 
+privacy risk as the expectation of losses associated with the disclosure of personal information online Early 
+conceptual work has suggested that the potential negative consequences of information disclosure are related to 
+perceived invasion of privacy  Therefore, the higher the 
+perceived risk from a penetration into the personal information space, the higher the likelihood that it will be 
+perceived as intrusion 
+H2a Perceived privacy risk positively affects perceptions of intrusion 
+Along the line of the theory of reasoned action  , privacy risk perception, viewed as the negative 
+antecedent belief, is expected to affect a person’s attitude that is defined as a learned predisposition of human beings 
+ Empirical studies in e-commerce generally supported this expectation of the negative 
+relationship between risk perception and privacy concerns  
+Accordingly, we expect that the same logic can be applied to our integrative framework 
+H2b Perceived privacy risk positively affects privacy concerns 
+Perceived Privacy Control  
+The element of control is embedded in most privacy conceptual arguments and definitions and has been used to 
+operationalize privacy in numerous measurement instruments  Privacy scholars have often linked the concept of privacy with control by 
+either defining privacy as control per se, or positioning control as a key factor shaping privacy In this research, 
+“control” – interpreted as perceived control over disclosure and subsequent use of personal information – is 
+conceptualized as a related but separate variable from privacy concerns Such conceptualization has been supported 
+by Laufer and Wolfe , who positioned control as a mediating variable in the privacy system by arguing that “a 
+situation is not necessarily a privacy situation simply because the individual perceives, experiences, or exercises 
+control”  Conversely, the individual may not perceive she has a control, yet the environmental and 
+interpersonal elements may create perceptions of privacy  These considerations suggest 
+that perceived privacy control is a separate construct from privacy concerns and that the two constructs are 
+negatively related Empirical evidence revealed that control is one of the key factors which provide the greatest 
+degree of explanation for privacy concern  In other words, 
+IS Security and Privacy 
+   
+ 
+perceived control over disclosure and subsequent use of personal information is a contrary factor that is weighed 
+against privacy concerns 
+H3a Perceived privacy control negatively affects privacy concerns 
+ 
+Prior literature has generally supported the relationship between perceived control and perceived privacy invasion 
+ It has been found that individuals who perceived they had control over the use of the 
+information to be disclosed, experienced less privacy invasion than did those who believed they had no control over 
+their personal information  Culnan and Armstrong  also argue that individuals 
+perceive information disclosure to be less privacy-invasive when they believe that they are able to control future use 
+of the information Conversely, using personal information without permission is viewed as a privacy invasion and 
+unethical behavior , which may result in angry and disloyal customers who are more 
+likely to defect  Therefore, we hypothesize that: 
+H3b Perceived privacy control negatively affects perceptions of intrusion 
+Disposition to Value Privacy  
+The IBT theory suggests that the privacy management of opening and closing the boundaries of the personal space 
+and the resulted in disclosure or withholding of information is dependent on the individual’s personal characteristics 
+In the trust literature, a similar construct reflecting the personal trusting tendencies has been identified and named 
+propensity to trust  or disposition to trust  which has been shown to 
+influence trusting beliefs in the literature Likewise, personal disposition to value privacy reflects the individual’s 
+inherent needs and attitudes towards marinating a personal space Patil and Kobsa  define and measure the 
+personal disposition towards privacy as how much individuals “value privacy”  and have 
+found that it is a major determinant to privacy concerns Similarly, we define disposition to value privacy as the 
+extent to which a person displays a willingness to preserve his or her private space or to disallow disclosure of 
+personal information to others across a broad spectrum of situations and persons In the IBT framework, given that 
+personal characteristics such as self-expression  determine the 
+boundary opening/closure rules, we posit that disposition to value privacy, as a personal characteristics, affects 
+directly the perception of intrusion, and indirectly, through the latter, privacy concerns Thus, given the same risk 
+and control assessment of a certain personal space penetration or information gathering, an individual who has a 
+higher value to privacy will perceive the penetration as intrusion, while an individual who tends to be more “open” 
+and more likely to share “his or her space or information”, will not perceive the same penetration as intrusion 
+Additionally, given the same type of privacy penetration, an individual with greater disposition to value privacy will 
+perceive higher risk of and lower control over his or her personal space and information Therefore, we hypothesize: 
+H4a Disposition to value privacy positively affects perception of intrusion 
+H4b Disposition to value privacy positively affects perceived privacy risk 
+H4c Disposition to value privacy negatively affects perceived privacy control 
+We consider two subconstructs to disposition to value privacy, namely privacy awareness and privacy social norms 
+Both have been related to the individual’s innate characteristics of privacy in the literature and both have been 
+shown to be important factors 
+Privacy Awareness 
+Privacy awareness reflects the extent to which an individual is informed about privacy practices and policies, about 
+how disclosed information is used, and is cognizant about their impact over the individual’s ability to preserve her 
+private space  Dinev and 
+Hart  developed social awareness as a predictor to privacy concerns According to them, individuals with 
+high social  awareness will in general closely follow privacy issues, the possible consequences of a loss of 
+privacy due to accidental, malicious, or intentional leakage of personal information, and the development of privacy 
+policies Media news and highly publicized cases will heighten their acquaintance with possible breaches of privacy 
+and security, and the risks These individuals will have a stronger awareness and will appreciate more the 
+importance of privacy in social life Therefore, privacy awareness is an antecedent to the personal disposition to 
+ 
+Examining the Formation of Individual's Privacy Concerns 
+ 
+ 
+   
+ 
+value privacy, which in our model is the very factor that reflects the personal characteristics of the privacy 
+management and information disclosure, per IBT: 
+H5 Privacy awareness positively affects disposition to value privacy 
+Privacy Social Norm 
+As Laufer and Wolfe  argue, the “mores of a community transmitted through language, tradition, and values 
+constitute boundaries of consciousness about privacy”  Patterns and forms of privacy has long been related to 
+the cultural characteristics of the social group an individual lives in  
+Several MIS studies have found that there are differences in information privacy concerns across cultures , the cultural dimension of individualism 
+ being the most responsible factor for these differences The concept of privacy is 
+related to the extent that individualism is sought after and reinforced in a culture  In the US, a highly 
+individualistic society, legal precedent and public opinion highly value privacy as an expression and a safeguard of 
+personal dignity  and individual right  Additionally, per IBT, 
+the perception of space is also associated with the notion of privacy  What is 
+private versus public space, as well as how much physical distance between people is considered normal are all 
+distinct characteristics of cultures, and all are related to perceptions of privacy  We posit that, 
+the social norm about privacy determines an individual’s disposition to value privacy and thus influences the 
+boundary management in the IBT framework: 
+H6 Privacy social norm positively affects disposition to value privacy  
+Institutional Privacy Assurance 
+Situational and environmental factors influence information boundary management rules  Institutional assurance is 
+a salient environmental factor that influences information boundary opening or closing  Institutional assurance with 
+respect to privacy concerns is similar to the assurance components of models focusing on trust  In the latter the 
+assurance components are the institutional dimensions of trust   In our model focusing on 
+privacy, the assurance components are the institutional dimensions of risk and control and represent the 
+environmental factors that influence information boundary management decisions Following the integrative trust 
+formation model developed by , we define institutional privacy assurance as the 
+interventions that a particular company makes to ensure consumers that efforts have been devoted to protect 
+personal information These interventions assure consumers that, in terms of information privacy, this company is 
+safe This study focuses two types of interventions:  company privacy policy and  industry self-regulation  
+The need for institutional privacy assurances is predicated on the assumption that companies have an incentive to 
+address privacy concerns because if they fail to do so they will suffer reputational losses Institutional assurances are 
+mechanisms ensuring consumers that when they disclose personal information it will be held in a protective domain 
+wherein the company becomes a co-owner of the information and accepts responsibility for keeping the information 
+safe and private  The result is that companies are responsible for protecting the information by 
+implementing privacy policies based on fair information practices   
+The privacy literature suggests that a firm’s collection of personal information is perceived to be fair when the 
+consumer is vested with notice and voice  In other words, consumers 
+want to influence changes in firms’ polices that they find to be objectionable  Privacy policy 
+is a mechanism where consumers can be informed about the choices available to them regarding how the collected 
+information is used, the safeguards in place to protect the information from loss, misuse, or alteration, and how 
+consumers can update or correct any inaccurate information The prescription of notification of and consent by 
+consumers effectively exemplifies procedural fairness and thus increases consumers’ perceived control over their 
+personal information  Therefore: 
+H7a: The perceived effectiveness of privacy policy increases consumers’ perceived privacy control 
+Interestingly, Culnan and Armstrong  found that for individuals who were informed about information 
+handling procedures by an organization, privacy concerns did not distinguish individuals who were willing from 
+those who were unwilling to have personal information used for marketing analysis In other words, privacy risks 
+IS Security and Privacy 
+   
+ 
+washed out with the presence of a privacy policy Previous studies have also shown that businesses that inform 
+consumers about information handling procedures instill greater perceptions of confidence and procedural fairness, 
+thereby lowering consumers’ perceived risks of personal information disclosure  
+Therefore, we hypothesize:    
+H7b: The perceived effectiveness of privacy policy reduces consumers’ perceived privacy risk 
+Frequently, institutional privacy assurance is reinforced by the industry self-regulatory initiatives  These involve 
+standards established by an industry group or certifying agency which are then voluntarily adopted by industry 
+members or associates  Under this self-regulatory approach, industries develop rules and 
+enforcement procedures that substitute for government regulation  and often issue certifications in the 
+form of seals of approvals which assure that the businesses indeed conform to the fair information practices they 
+purport to  The private sector approach to information privacy regulation consists of 
+industry codes of conduct and the use of self-policing trade groups and associations to regulate information privacy  
+An examples of an industry self-regulator is the Direct Marketing Association  that made compliance with its 
+privacy principles as a condition of membership  Other examples include privacy seals on e-commerce 
+and e-service web sites such as those given by Online Privacy Alliance or TRUSTe, and whose effectiveness has 
+been examined in prior MIS studies  In this situation, consumers and businesses 
+collectively control personal information, with the industry self regulator acting as a facilitator for resolving any 
+conflicts that may arise  Studies have shown that companies that announce membership in self-regulating 
+trade groups or associations foster consumers’ perceptions of control over their personal information  and mitigate consumers’ perceived privacy risks in disclosing personal information  Therefore, we hypothesize:   
+H8a: The perceived effectiveness of industry self-regulation increases consumers’ perceived privacy 
+control 
+H8b: The perceived effectiveness of industry self-regulation reduces consumers’ perceived privacy risk 
+Method 
+Scale Development 
+The research hypotheses were empirically tested using data collected with a survey that included items for the 
+constructs specified in the model Scale development for the constructs was based on an extensive survey of the 
+privacy literature Validated standard scales were adapted for use as far as possible Privacy concerns were measured 
+by seven-point Likert scale items that were directly taken from the measurement of concern for information privacy 
+ outlined in : collection of personal information, unauthorized secondary use of personal 
+information, errors in personal information, and improper access to personal information However, wordings were 
+adapted to capture perceptions of a specific web site’s privacy practices In our search for rigorously validated 
+empirical measures for perception of intrusion, we explored the literature in social sciences, political economy, 
+sociology, and organizational sciences, and contacted leading researchers in these fields We were not able to find 
+any previously developed and rigorously validated instruments that measure perception of intrusion as a separate 
+construct In previous studies, perceptions of intrusion items were included in general privacy-related instruments 
+ Consistent with the current best practices in scale development, we relied 
+on theoretical developments of the construct and its meaning ; and we 
+cast a wide net in identifying candidate items We constructed an initial set of items reflecting the underlying theory 
+while observing the trends in general survey research   
+We measured perceived privacy risks using four seven-point Likert scale items that were adopted in Dinev and Hart 
+ and to reflect the potential losses associated with the information disclosure 
+Perceived privacy control was  measured using four questions The measurement 
+items for perceived effectiveness of privacy policy and industry self-regulation were developed based on 
+institutional trust literature  in which the conceptualization of institution-based trust 
+matches our operationalization of institutional privacy assurance We used TRUSTe as an example of privacy seal in 
+the context of Internet Disposition to value privacy was measured by three questions that were directly taken from 
+ Awareness to privacy was measured by three questions that were directly taken from Dinev 
+ 
+Examining the Formation of Individual's Privacy Concerns 
+ 
+ 
+   
+ 
+and Hart  Drawing on technology adoption literature , social norm was measured with 
+three questions that addressed the importance of social influence on individual privacy perceptions  
+Survey Administration 
+The initial questionnaire was reviewed by four Information Systems  faculty members for clarity Next, a pilot 
+study involving  undergraduate students was conducted using the improved questionnaire The main objectives of 
+the pilot study were to assess the clarity and conciseness of the survey instructions and questions, evaluate the 
+measurement model, and gauge the duration of the survey The respondents were also contacted for a face-to-face 
+interview so that their opinions on the survey instructions and questions could be gathered Following their feedback 
+and analysis of measurement model, a number of revisions were made: some items were dropped, wording changes 
+were made, and instructions that the respondents found confusing were clarified All measurement items were 
+included in Appendix A  
+Due to the context-specific nature of privacy , parameter estimates in the model  may not necessarily be the same among different contexts As such, the final survey was 
+administered to users of four different types of web sites: ) electronic commerce sites, ) social networking sites, ) 
+financial sites, and ) healthcare sites Each participant was randomly assigned to one of the four Internet usage 
+contexts The final survey was administered to undergraduate, graduate and MBA students at three large universities 
+in the United States Participants were asked to recall their experiences in using one website of the assigned context 
+They were also asked to list the name or URL of the assigned context within last  months The responses from 
+those participants who never used any website of assigned context were dropped from data analysis There were 
+ subjects participated;  responses were usable  
+Data Analysis and Results 
+Partial least squares , a second-generation causal modeling statistical technique, was used for data analysis 
+PLS possesses many advantages over traditional statistical methods such as factor analysis, MANOVA and 
+regression First, PLS is well suited for highly complex predictive models  This makes PLS suitable 
+for handling large number of constructs Second, PLS has the ability to assess the measurement model within the 
+context of the structural model, which allows a more complete analysis of inter-relationships in the model Third, 
+PLS is generally more appropriate for testing theories in the early stages of development  Given the large number of constructs being tested as well as the exploratory nature of this study in the early 
+stage of theoretical development, PLS is more suitable than other methods 
+Measurement Model 
+We evaluated the measurement model by examining the convergent validity and discriminant validity of the 
+research instrument Convergent validity is the degree to which different attempts to measure the same construct 
+agree  In PLS, three tests are used to determine the convergent validity of measured 
+reflective constructs in a single instrument: reliability of items, composite reliability of constructs, and average 
+variance extracted by constructs Appendix A presents the assessment of the measurement model We assessed item 
+reliability by examining the loading of each item on the construct, and found the reliability score for all the items 
+exceeded the criterion of  Thus, the questions measuring each construct in our experiment had adequate item 
+reliability Composite reliabilities of constructs with multiple indicators exceeded Nunnally’s  criterion of  
+The average variances extracted for the constructs were all above  percent, and the Cronbach’s alphas were also 
+all higher than  These results support the convergent validity of the measurement model   
+Discriminant validity is the degree to which measures of different constructs are distinct  
+To test discriminant validity, the square root of the variance shared between a construct and its measures should be 
+greater than the correlations between the construct and any other construct in the model Table  reports the results 
+of discriminant validity which may be seen by comparing the diagonal to the non-diagonal elements All items in 
+our study fulfilled the requirement of discriminant validity 
+ 
+IS Security and Privacy 
+  
+ 
+ Discriminant Validity 
+ 
+RISK 
+ 
+POLICY 
+
+
+AWARE 
+NORM 
+ 
+ 
+Structural Model 
+After establishing the validity of the measures, we tested the structural paths in the research model using PLS We 
+split the dataset into four subsets according to the type of contexts and the structural models were tested separately 
+for four different types of websites We conducted hypothesis tests by examining the sign and significance of the 
+path coefficients A bootstrapping technique was applied to estimate the significance of the path coefficients Since 
+PLS does not generate any overall goodness of fit indices, predictive validity is assessed primarily through an 
+examination of the explanatory power and significance of the hypothesized paths The explanatory power of the 
+structural model is assessed based on the amount of variance explained in the endogenous construct  We conducted the statistical tests at a five-percent level of significance using one-tailed t-tests  
+Table  presents the structural models for four different contexts The structural models explain %, %, % and 
+%, of the variance in privacy concerns in the contexts of e-commerce, social networking, finance and healthcare 
+respectively  As shown in Table , for all the four contexts, the direct effect of perception of intrusion, privacy risk, 
+and privacy control are significant, thus supporting H1, H2b, and H3a, respectively As hypothesized, privacy risk 
+and privacy control strongly influence perception of intrusion, thus validating H2a and H3b Disposition to privacy 
+and perceived effectiveness of privacy policy are found to have significant impacts on reducing privacy risks, 
+validating H4b and H7b Privacy social norm is a significant predictor of disposition to value privacy Perceived effectiveness of privacy policy strongly influences privacy control, validating H7a 
+Table 
+ 
+Examining the Formation of Individual's Privacy Concerns 
+ 
+However, perceived effectiveness of privacy  does not have any significant impact on perceived privacy risk  
+For the hypothesis on the relationship between disposition to value privacy and perception of instruction , it is 
+not significant for the healthcare context but significant for the rest contexts Regarding the impact of disposition to 
+value privacy on privacy control , it is significant for the social networking context but this is not the case for 
+the rest three contexts Privacy awareness has been found to be a significant predictor of disposition to value privacy 
+ in the e-commerce, finance and healthcare contexts but such relationship is not supported in the social 
+networking context For the hypothesis on the relationship between perceived effectiveness of privacy seal and 
+privacy control , it is not significant for the finance context but significant for the rest of contexts  
+Discussion and Conclusion 
+Discussion of Findings 
+This study developed and empirically tested an integrative model to investigate the formation process of privacy 
+concerns Our proposed model is able to account for % ~ % of the variance in privacy concerns across different 
+Internet usage context, which possesses enough explanatory power to make the interpretation of path coefficients 
+meaningful The evidence from this study provided empirical support that privacy concerns form because of an 
+individual’s disposition to value privacy or situational cues that enable one person to assess the consequences of 
+information disclosure A cognitive process of assessing the information boundary, comprising privacy risk, privacy 
+control and privacy intrusion, is shown important to shape an individual’s privacy concerns towards a specific Web 
+site’s privacy practices   
+More than previous empirical privacy studies, this research shows that privacy constructs relate to each other in 
+organized, meaningful ways This is important because definitions of privacy and relationships among privacyrelated constructs are inconsistent and not fully developed or empirically validated in current literature Having an 
+integrative research framework with consistent set of constructs should enable privacy research to progress more 
+quickly by having systematic understandings  
+The findings empirically validate the cognitive process of privacy concerns Perception of instruction, perceived 
+privacy risk and perceived privacy control are shown to be important in affecting privacy concerns across different 
+context in e-commerce, social networking, finance and healthcare The results also show that individuals’ control 
+perceptions over their personal information could help reduce their perceptions of intrusion; and their privacy risk 
+perceptions significantly lead to perceptions of intrusion For all the four Internet usage contexts, disposition to 
+value privacy is shown to be an important predictor of perceived privacy risk; and privacy social norm is found to be 
+a significant predictor of disposition to value privacy Furthermore, this study shows that the organizational privacy 
+assurance intervention through privacy policy could increase individuals’ perceived privacy control and mitigate 
+their privacy risk perceptions across different contexts         
+However, the proposed organizational intervention through privacy seals did not have a direct impact on perceived 
+privacy risk in any of the four contexts  One plausible explanation for this unexpected finding is that the 
+participants did not trust these privacy seals provided by third parties, and hence their privacy risk perceptions were 
+not affected by the privacy seals This finding is not surprising as prior studies have shown the weak effects of 
+privacy seals on mitigating privacy risks  In fact, Edelman  recently found that TRUSTecertified sites are more than twice as likely to be untrustworthy as uncertified sites Hence, privacy interventions 
+involving a third party appear less effective than those interventions directly from web sites   
+This result suggests that there is indeed a business incentive for websites to focus more on enhancing their privacy 
+policies 
+The insignificant effect of industry self-regulation  on privacy risk 
+prompts a question about the role it plays in alleviating privacy concerns The results show that, although privacy 
+seals were ineffective in mitigating privacy risk, it did enhance individuals’ privacy control perceptions for the usage 
+of e-commerce, social networking, and healthcare sites Hence, it seems that privacy seals can only influence 
+perception of intrusion and privacy concerns indirectly through the privacy control  However, such effect of privacy 
+seals cannot be applied to the usage of financial sites Our result showed that perceived effectiveness of privacy 
+seals did not affect privacy control perception for the finance context  There is perhaps nothing surprising in 
+this finding since the finance industry has its own standards and more strict government regulations for protecting 
+IS Security and Privacy 
+customers’ financial information Thus, it seems that the market for privacy seals in the financial sector is very 
+limited In fact, none of the finance sites used by our participants has a privacy seal 
+Another context-specific difference in the hypothesized relationships is the lack of statistical significance for the 
+path between disposition to value privacy and perception of intrusion  in the healthcare context Perhaps many 
+individuals who use healthcare sites have urgent needs and want to benefit from information they can acquire 
+through them  They understand that submitting detailed personal information is required in order to obtain precise 
+and accurate medical information or services  They may feel that they have to adjust their privacy p and 
+disposition which might otherwise lead them to withhold information submission in other contexts  An adjustment 
+would reflect an evaluation of the risk and control factors in the privacy calculus that would result in a different 
+information boundary decision than the one an individual might make in other contexts    
+As for the relationship between DTVP and perceived privacy control , the results show that it was statistically 
+significant only for the social networking context In addition, the context of social networking differs from the other 
+three in another hypothesized relationship For the effect of privacy awareness on DTVP , it was insignificant 
+for the social networking context but significant for the other three Regarding such interesting pattern of results for 
+the social networking context, a plausible explanation is that these results may to some degree be a function of 
+extensive media exposure in the weeks prior to the administration of our survey  In early , there was a privacy 
+outcry regarding news feed features and the web beacon at social networking sites   Thus, 
+users of social networking sites may well have been more aware of privacy issues associated with such sites, which 
+leads to the insignificant relationship between privacy awareness and DTVP  In addition, social networking 
+companies have been rolling out features that allow users to control who can access their personal information 
+Some social networking sites  even embedded the privacy control features into the very use of 
+various social networking functions and thus integrated privacy control as part of social networking functionality 
+Accordingly, it is perhaps not surprising to see that our respondents from the social networking context had a 
+significantly higher mean of perceived privacy control  than the respondents from the other contexts  These interesting results indicate that there 
+is possibly a set of other factors that are unique for the users of the social networking sites but probably less 
+important for the other three contexts Future research could be directed to further explore the social networking 
+context  
+Implication and Conclusion 
+Our research model is strongly rooted in a general conceptual framework drawing on IBT and our model is likely to 
+be applicable to a variety of privacy-related contexts Our posited predictors explain % ~ % of the variance in 
+the construct of privacy concerns in different context, suggesting that the IBT serves as a useful theoretical 
+foundation in the information privacy context Additionally, the present study highlights the roles of personal 
+characteristics and organizational interventions in increasing privacy control and mitigating privacy risk, which have 
+important implications for the Web vendors in diverse sectors  
+From a practical perspective, this study shows that a privacy cognitive process involving calculating privacy risk and 
+control perceptions as well as perception of invasion are the important factors in determining the level of privacy 
+concerns toward a specific website’s information practices In this aspect, this study provides some insights into the 
+different approaches that could be employed by a website First, this study shows that incorporating organizational 
+privacy structural assurances through privacy policy is one of the important ways of increasing individuals’ privacy 
+control perceptions and reducing their privacy risk perceptions Second, although organizational intervention 
+through privacy seals could enhance individuals’ privacy control perceptions , such involvement with a third party is less effective in reducing individuals’ privacy risk perceptions Thus, 
+there is indeed a business incentive for websites to focus more on enhancing their privacy policies and 
+communicating them to their customers 
+In conclusion, this study provides preliminary empirical support to understand the formation of privacy concerns 
+from the information boundary theory perspective Using the groundwork laid down in this study, future research 
+along various possible directions could contribute significantly to extending our theoretical understanding and 
+practical ability to tackle the Internet privacy issues 
+ 
+ 
+Examining the Formation of Individual's Privacy Concerns 
+ 
+ 
+Factor 
+Loadings 
+Composite 
+Reliability 
+    
+Alpha 
+Variance 
+Extracted 
+Privacy Concerns  
+It bothers me when these websites ask me for this much personal information  
+ 
+ 
+ 
+ 
+I am concerned that these websites are collecting too much personal information 
+about me  
+ 
+ 
+ 
+ 
+I am concerned that unauthorized people may access my personal information  
+ 
+ 
+ 
+ 
+I am concerned that these websites may keep my personal information in a nonaccurate manner  
+ 
+ 
+ 
+ 
+I am concerned about submitting information to websites  
+ 
+ 
+ 
+ 
+Privacy Intrusion  
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+Privacy Risks  
+ 
+ 
+ 
+
+ 
+ 
+Personal information could be inappropriately used by websites  
+ 
+ 
+ 
+ 
+Providing websites with my personal information would involve many 
+unexpected problems  
+ 
+ 
+ 
+ 
+Privacy Control  
+
+ 
+ 
+Perceived Effectiveness of Privacy Policy  
+
+ 
+ 
+ 
+Perceived Effectiveness of Privacy Seal  
+ 
+ 
+ 
+ 
+ 
+Privacy seal of approval
+ 
+ 
+ 
+Disposition to Value Privacy  
+
+ 
+
+ 
+Awareness to Privacy  
+
+ 
+IS Security and Privacy 
+  
+ 
+violations  
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 

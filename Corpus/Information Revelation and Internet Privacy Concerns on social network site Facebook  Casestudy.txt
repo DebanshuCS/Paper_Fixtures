@@ -1,0 +1,706 @@
+
+ABSTRACT 
+Despite concerns raised about the disclosure of personal 
+information on social network sites, research has demonstrated 
+that users continue to disclose personal information. The present 
+study employs surveys and interviews to examine the factors that 
+influence university students to disclose personal information on 
+Facebook. Moreover, we study the strategies students have 
+developed to protect themselves against privacy threats. The 
+results show that personal network size was positively associated 
+with information revelation, no association was found between 
+concern about unwanted audiences and information revelation and 
+finally, students’ Internet privacy concerns and information 
+revelation were negatively associated. The privacy protection 
+strategies employed most often were the exclusion of personal 
+information, the use of private email messages, and altering the 
+default privacy settings. Based on our findings, we propose a 
+model of information revelation and draw conclusions for theories 
+of identity expression.  
+Human Factors, Security. 
+Keywords 
+Social Network Sites , Facebook, Information Revelation, 
+Internet Privacy, Privacy Protection Strategies. 
+1. INTRODUCTION 
+Social network sites  have become increasingly popular, 
+with an estimated 80 to 90 per cent of undergraduate students 
+actively participating in such services as MySpace, Friendster and 
+Facebook . What attracts students to 
+SNSs is their ability to converse with friends, share digital 
+cultural artifacts and ideas, and connect to vast networks of 
+people . Despite these potential benefits, 
+scholars, privacy advocates and the media have raised concerns 
+about the risks associated with the disclosure of personal 
+information on SNSs .  
+Much of the debate has focused on information revelation, that is, 
+the amount and type of information users disclose . Consistently, research 
+has found that users disclose accurate personal information on 
+their profiles, seemingly without much concern. Gross and 
+Acquisti  argue that in disclosing personal information on 
+SNSs users effectively place themselves at a greater risk for cyber 
+and physical stalking, identity theft and surveillance. However, 
+the reasons why users willingly disclose information on their 
+profiles have not been sufficiently investigated. An important 
+study aimed at addressing this research question found that three 
+important factors influence information revelation: future 
+audiences, general privacy concerns, and gender . 
+To further investigate privacy in SNSs, we continue Tufekci’s 
+line of inquiry and investigate additional factors that could 
+influence information revelation.  
+Our study also expands on the current literature by examining 
+students’ privacy protection strategies on Facebook. While 
+several studies have demonstrated self-disclosure practices in 
+university students and the threats associated with information 
+revelation, little is known about the strategies students employ to 
+protect themselves from privacy threats. We argue that these 
+strategies could serve as moderating factors alleviating some of 
+the problems that might emerge from information revelation. This 
+portrays students as active participants in the construction of their 
+identity, and not only as naïve users.  
+2. UNIVERSITY STUDENTS’ 
+INFORMATION REVELATION ON 
+FACEBOOK 
+University students are heavy users of Facebook. Indeed, Lampe 
+et al.  found that 70 per cent of students report spending 
+thirty minutes or less on Facebook per day and 21 per cent 
+indicate spending more than an hour a day on average using the 
+site. Research has also shown that students tend to disclose 
+personal information on their profiles . For example, Gross and 
+Acquisti  found that 82 per cent of active Facebook users 
+disclosed personal information such as their birth date, cell phone 
+number, personal address, political and sexual orientation, and 
+partner’s name. Tufekci  has suggested that many students 
+see a certain degree of information revelation as necessary to 
+make SNSs useful: ‘why have a profile if your profile doesn’t say 
+enough about who you are?’ . Based on this previous research, we expect that students’ 
+   
+frequency of Facebook use will correlate with their disclosure of 
+personal information on Facebook. That is, the more often students 
+log into their Facebook accounts, the more information they would 
+be likely to reveal. For this reason, we propose the following 
+hypothesis: 
+Hypothesis 1: Frequency of Facebook use will be positively 
+associated with information revelation on Facebook. 
+Jenny Sundén  argues that in order for individuals to exist 
+online they must first write themselves into being. In SNSs, such as 
+Facebook, the process of writing oneself into existence occurs 
+through the construction of a profile, which reveals personal 
+information about the user. Lampe et al.  suggest that the 
+inclusion of profile elements, such as a self-description, a statement 
+of relationship status, a description of one’s interests, and a 
+photograph of oneself, enables users to signal aspects of their 
+identity, which assist other users in making decisions about 
+declaring friendship links. They also argue that the ability to search 
+SNS profiles reduces the amount of time spent locating former high 
+school friends, current classmates, or people located in the same 
+university or college dormitory. Furthermore, research has shown 
+that users with larger social networks are often more forthcoming 
+and open with their personal information on these sites. For 
+example, Jones and Soltren  revealed that users with more 
+than three hundred friends disclosed more information concerning 
+their interests , favorite 
+music , and clubs  than users with comparably smaller 
+social networks. Hence, it should be expected that the more profile 
+elements included on a user’s profile, the easier and more accurate a 
+search will be, and the more likely that friendship connections will 
+occur. For this reason, we explore the relationship between network 
+size and information revelation on Facebook. This leads to the 
+following hypothesis: 
+Hypothesis 2: Facebook personal network size will be positively 
+associated with information revelation on Facebook. 
+Research has demonstrated that general concern for Internet privacy 
+has an effect on the information revelation behaviors of Internet 
+users . A 2000 Pew Internet survey 
+reports that out of 45 per cent of individuals who have not provided 
+real personal information to access a Web site, 61 per cent identify 
+themselves as ‘hard-core privacy defenders.’ These individuals 
+refuse to provide personal information to use an Internet site 
+because they believe that Internet tracking is harmful, that their 
+online activities are not private, and that there is a need to be 
+concerned about businesses obtaining their personal information. 
+Research has also suggested that individuals with a comparably low 
+level of concern for Internet privacy tend to be much more 
+forthcoming and open with the disclosure of their personal 
+information online. Viseu et al.  found that online users who 
+believe that privacy is only a concern once it has been lost or 
+breached were inclined to perceive the benefits of disclosing 
+personal information in order to use an Internet site as greater than 
+the potential privacy risks. Furthermore, Joinson et al. , in 
+their study examining privacy, trust and self-disclosure online found 
+that trust and perceived privacy had a strong affect on individuals’ 
+willingness to disclose personal information to a web site. They also 
+indicate that individuals’ trust in the privacy threat – that is, the 
+likelihood that a privacy breach will occur – influences their 
+information revelation decisions. In other words, if the individual 
+does not think their information will be used for potentially harmful 
+purposes, they are more likely to disclose personal information 
+online. Based on these prior findings, we propose the following 
+hypothesis: 
+Hypothesis 3: Concern for Internet privacy will be negatively 
+associated with information revelation on Facebook. 
+The literature on privacy online has suggested that Internet users are 
+generally concerned about unwanted audiences obtaining personal 
+information. Fox et al. , report that 86 per cent of Internet 
+users are concerned that unwanted audiences will obtain information 
+about them or their families, 70 per cent are concerned that hackers 
+will access their credit card information, and 60 per cent are 
+concerned that someone will find out personal information from 
+their online activities. Acquisti and Gross  found similar 
+results, showing that students expressed high levels of concern for 
+general privacy issues on Facebook, such as a stranger finding out 
+where they live and the location and schedule of their classes, and a 
+stranger learning their sexual orientation, name of their current 
+partner, and their political affiliations.  
+Despite these concerns, research has also shown that users continue 
+to disclose personal information and often disclose accurate 
+personal information online . In their examination of information sharing and 
+privacy on Facebook, Acquisti and Gross  revealed that 89 
+per cent of students used their full name on their profiles, 87.7 per 
+cent had disclosed their birth date and 50.8 per cent had listed their 
+current address. Tufekci  found that concern about unwanted 
+audiences had an impact on whether or not students revealed their 
+real name in MySpace and whether or not students revealed their 
+religious affiliation on MySpace and Facebook. Therefore, there 
+may be an association between an individual’s concern about 
+unwanted audiences accessing his or her profile and the amount and 
+types of information he or she chooses to reveal on Facebook. 
+Therefore, we predict that: 
+Hypothesis 4: Concern for unwanted audiences will be 
+negatively associated with information revelation on Facebook. 
+Another way to examine students’ information revelation on 
+Facebook is by looking at the concept of profile visibility. Profile 
+visibility refers to the extent to which users’ profiles are accessible 
+by other Facebook users. Typically, SNSs allow users to alter the 
+visibility of their profiles in order to restrict unwanted or unknown 
+others from accessing their profile and viewing their personal 
+information. On Facebook, users can set their profile to one of four 
+visibility levels: ‘all networks and all friends’, ‘some networks and 
+all friends’, ‘friends-of-friends’, and ‘only friends’. While no 
+research has examined the relationship between profile visibility and 
+information revelation, it seems likely that the more visible the 
+user’s profile, the less information he or she will reveal on 
+Facebook. That is, we expect that users with restricted profiles 
+would be more inclined to reveal personal information on Facebook 
+than users with open profiles, as their information would be 
+protected against possible invasions. For this reason, we propose the 
+following hypothesis: 
+Hypothesis 5: Profile visibility will be negatively associated 
+with information revelation on Facebook. 
+266
+ 
+Users actively construct their identity on SNSs through the 
+disclosure of personal information . However, 
+research suggests that students are not completely naïve in their 
+disclosure practices. boyd  found that teens frequently 
+falsify personally identifiable information, such as their name, 
+location, and age, in order to protect themselves against privacy 
+concerns on MySpace. Similarly, in her examination of MySpace 
+and Facebook, Tufekci  found that students’ concern for 
+unwanted audiences accessing their profiles influenced them to 
+use protective measures, such as altering the visibility of their 
+profiles to ‘only friends’ on Facebook and using nicknames or 
+monikors in place of real names on MySpace. In terms of the 
+privacy protection strategies employed by students, previous 
+research on privacy in SNSs has found conflicting evidence as to 
+whether or not users employ tactics to protect themselves against 
+privacy threats on SNSs. In two separate studies conducted at 
+Carnegie Mellon University , for instance, Govani and 
+Pashley  and Gross and Acquisti  found that despite 
+awareness and concern for Internet privacy, users seldom provide 
+false information and very rarely alter their privacy settings. 
+While much of the debate in the literature has focused on the 
+threats, the strategies have been largely ignored. To fill this gap, 
+the present study investigates the following exploratory research 
+question:  
+What strategies do undergraduate students employ to protect 
+themselves against privacy threats on Facebook? 
+4. METHODS 
+
+Ethics approval was obtained prior to commencing the study. 
+Participation was voluntary. Participants for the survey were 
+recruited from two communication studies courses. Eighty-five 
+students completed a paper-and-pencil questionnaire. Eight 
+students identified themselves as non-Facebook users and were 
+removed from the final sample. Participants for the interviews 
+were recruited through posters, which were displayed on bulletin 
+boards across campus. Nineteen respondents participated in a 
+face-to-face interview and two respondents opted for an email-
+based interview. All interviews conducted face-to-face were 
+recorded and transcribed with participants’ consent. During the 
+interviews a profile analysis was conducted, which consisted of 
+asking students to log on to Facebook and discuss the information 
+they have revealed, the privacy settings they have in place and the 
+protective strategies they employ. This provided rich accounts 
+from the respondents to expand and elaborate on the information 
+already obtained from surveys and interviews. The profile 
+analysis also showed that students are often unaware or have 
+forgotten what information they have disclosed and what privacy 
+settings they have activated. By discussing the profiles in the 
+presence of students, rather than downloading profiles or only 
+relying on questionnaires , we gain a better understanding of information 
+revelation and privacy practices. Moreover, it allowed us to 
+discuss what information is accurate, why certain types of 
+information were posted and not others, and the social meaning of 
+the information included on the profile. Data collection took place 
+between October 2007 and February 2008. 
+4.3 Measures 
+4.3.1 Information Revelation 
+To investigate respondents’ information revelation, a scale 
+adopted from Govani and Pashley  was used. Additional 
+items were added to include a larger set of information types and 
+to assess the extent to which respondents reveal information on 
+Facebook . Respondents were asked to report which 
+of several salient elements  they included on their 
+Facebook profile. Based on the items, an additive scale was 
+created that ranged from 1–17 and measured the number of ‘yes’ 
+responses to the seventeen types of information that could be 
+revealed. These items offer insight into the degree to which 
+respondents reveal personal information on Facebook.  
+4.3.2 Frequency of Facebook Use 
+The frequency of Facebook usage was measured asking 
+respondents to report how often they visit Facebook. Respondents 
+reported their frequency of use on an eight-point scale . 
+4.3.3 Personal Network Size 
+Respondents were asked to report their total number of Facebook 
+friends: ‘Approximately, how many Facebook friends do you 
+have?’ This was used as a measure of personal network size on 
+Facebook.  
+4.3.4 Concern for Internet Privacy 
+This measure was adopted from Tufekci  and was used to 
+assess the extent to which respondents are concerned about 
+general Internet privacy: ‘How concerned are you, if at all, about 
+Internet privacy?’ Respondents were asked to indicate their level 
+of concern: 1=‘not concerned at all’; 2=‘not too concerned’; 
+3=‘somewhat concerned’; 4=‘very concerned’. 
+4.3.5 Concern about Unwanted Audiences 
+Based on Tufekci’s  analysis of future audiences, seven 
+items were employed to measure respondents’ concern about 
+profile access by unwanted audiences . The 
+267
+items were measured on a five-point Likert scale . Based on the items, an additive 
+scale was created that measured respondents’ concern about 
+unwanted audiences accessing their profile. These items formed a 
+reliable scale with Cronbach’s alpha 0.84 . 
+The scale measured the degree to which respondents believe that 
+unwanted audiences might access their profiles .  
+4.3.6 Profile Visibility 
+Profile visibility was measured using a scale adopted from the 
+‘Pew social networking websites and teens survey’ , which 
+assessed the extent to which respondents’ profiles are accessible 
+by other Facebook users. The profile visibility levels were coded 
+as 1=‘visible to only my friends’; 2=‘visible to some of my 
+networks and all of my friends’; 3=‘visible to all of my networks 
+and all of my friends’; 4=‘visible to anyone searching Facebook’. 
+Table 1 provides the means and standard deviations for key 
+measures employed in this study. 
+Table 1. Means and standard deviations of key measures 
+ 
+M 
+
+Information Revelation 
+
+Frequency of Facebook Use 
+
+Personal Network Size 
+
+Concern for Internet Privacy 
+
+Concern about Unwanted Audiences 
+
+Profile Visibility 
+
+ Privacy Protection Strategies 
+To investigate respondents’ tactics for negotiating privacy on 
+Facebook, a series of attitudinal questions were formulated. The 
+items included in this measure were designed to tap the extent to 
+which respondents use self-censorship tactics  and other privacy protection strategies 
+ to protect themselves against privacy threats while 
+using Facebook. The answers to these questions were reported on 
+a 5-point Likert scale . See 
+Table 3 for item wording, means and standard deviations. 
+4.4 Data Analysis  
+We ran a hierarchical regression analysis to examine the influence 
+of Facebook usage, personal network size, concern for Internet 
+privacy, concern about unwanted audiences and profile visibility 
+in predicting information revelation. To analyze the qualitative 
+data, we used the framework-based approach proposed by Ritchie 
+et al. , which consists of classifying and organizing the data 
+into a thematic framework based on key themes, concepts and 
+categories. The main themes were then subdivided into a 
+succession of related subtopics and the data from each respondent 
+were synthesized and placed under the appropriate subtopic of the 
+thematic framework.  
+5. RESULTS 
+5.1 Information Revelation 
+In line with previous research , the data show high levels of 
+information revelation on Facebook. An overwhelming 99.35 per 
+cent reported using their actual name in their profile . Nearly two-thirds of respondents indicated their sexual 
+orientation, relationship status, and interests . Large percentages of respondents 
+noted their school name , e-mail address , birth date , the current city or town in which 
+they live , and almost all respondents reported 
+posting an image of themselves  and photos of their 
+friends . By contrast, few respondents reported 
+disclosing their physical address , their cell phone 
+number  or their IM screen name , 
+thereby limiting the likelihood of individuals contacting or 
+locating them outside of Facebook. 
+Figure 1 shows the information indicated on respondents’ profiles 
+by gender. For the most part, the data show that there was very 
+little difference in terms of the types of information that female 
+and male respondents include on their profiles. For instance, 
+female and male students were as likely to disclose their school 
+name , email address 
+, relationship status  and birth date . The only items that showed differences 
+were current address, χ2 = 5.47, p <.05, and political 
+views, χ2 =13.29, p >.05, with females indicating these 
+types of information less than males.  
+Figure 1. Information on profile by gender 
+Sixty-four per cent of respondents had adjusted the visibility of 
+their profile to ‘only friends’, thereby restricting profile access 
+from unwanted or unknown individuals, while only 7.9 per cent 
+had opted to leave their profile open to ‘anyone’ searching the 
+Facebook network. The data also reveal that nearly a quarter of 
+respondents chose to either leave their profiles open to ‘all 
+networks and all friends’  or ‘some networks and 
+
+The items on unwanted audiences show that users have a concern 
+about unwanted audiences. Unwanted audiences refer to those 
+individuals not directly linked to the SNS user who may gain 
+access to a user’s profile without his or her knowledge or consent. 
+The concern is highest for the following groups gaining access to 
+private data: political parties, sexual predators, employers and 
+university administrators. 
+Table 2: Concern about unwanted audiences items 
+Individual Items 
+M 
+S.D. 
+Future employers will use the personal 
+information contained on my Facebook site 
+to assess my suitability with their company 
+3.15 
+1.31 
+University admissions officers have started 
+using the personal information on Facebook 
+sites to assess applicant suitability prior to 
+offering admissions 
+2.52 
+1.19 
+Police officers are using Facebook to track 
+underage drinking and other illegal 
+activities 
+2.98 
+1.40 
+Universities are monitoring Facebook 
+postings, personal information and images 
+to identify university code violators  
+3.05 
+1.31 
+Employers are using Facebook to monitor 
+the extra-curricular activities of their 
+employees 
+
+use social network sites 
+such as Facebook to track, monitor and 
+locate potential victims 
+
+Political parties have begun using Facebook 
+to target young professionals and students 
+through the use of advertisements and data 
+mining 
+
+1=“strongly disagree”; 2=“disagree”; 3=“neither disagree nor 
+agree”; 4=“agree”; and, 5=“strongly agree” 
+ Information Revelation Model 
+Model 1 shows no association between frequency of Facebook 
+use and information revelation providing no support for 
+Hypothesis 1. There was support for Hypothesis 2: personal 
+network size was positively associated with information 
+revelation. The larger students’ personal network on Facebook, 
+the more likely they were to reveal information. In the second 
+block, we tested hypotheses 3 and 4 by entering the two concern 
+variables into the model. While general concern for Internet 
+privacy was negatively associated with information revelation, 
+concern for unwanted audiences showed no association with 
+information revelation. In the last block, we tested hypothesis 5 
+by entering profile visibility into the model. Profile visibility was 
+positively associated with information revelation. The final model 
+accounted for 40 per cent of the variance in information 
+revelation. Table 2 provides the OLS regression predicting 
+frequency of use and profile update. 1 
+Table 3. OLS regression predicting frequency of use            
+and profile update 
+ 
+The interview data also provide insight into why students use 
+Facebook and the benefits they derive from its use, which may 
+further assist in understanding their information revelation 
+behaviors on the site. The first theme identified was the desire to 
+stay in touch with friends nearby and faraway. Diana, a 25-year-
+old health science major, reports using Facebook to maintain 
+contact with geographically distant friends. Facebook allows her 
+to find out information about her friends’ activities without a 
+significant time commitment. The second theme identified was to 
+receive up-to-date information on social events. Several 
+respondents noted that students are increasingly using Facebook 
+to meet, and that it is often the only place to find out about events. 
+Ashley, a first year medical student, reports using Facebook 
+almost exclusively for this purpose, stating that Facebook 
+membership is required to gain access to this type of information.  
+The third theme identified by the interview respondents was 
+photograph access and/or storage. Facebook allows users to create 
+digital photo albums, providing an easy and convenient way to 
+store and organize pictures from events, activities, locations, etc. 
+Samantha, a second year music major, reports that her Facebook 
+profile is comprised mainly of albums from camp and various 
+childhood and adolescent events. Sharing digital content hence is 
+a primary activity on Facebook for this user group. A fourth 
+theme identified by respondents was the use of Facebook as a 
+replacement for email and/or instant messaging. For example, 
+Elizabeth, a 24-year-old medical student, reports that she uses 
+Facebook instead of email to send quick messages to friends. 
+Users find it convenient as they can access Facebook from 
+anywhere and do not have to look up email addresses or phone 
+numbers. Facebook in this regard functions as an address book 
+that is kept and updated by its users.  
+An additional theme that emerged in the interviews was whether 
+or not the information had been previously mentioned in an 
+offline context. For example, Charlie, a 23-year-old science 
+student, noted, “What is important is not putting up things that I 
+would under normal circumstances conceal, such as personal 
+matters of finance, job status, where I live … stuff like that. I 
+suppose the influence then is my own judgment and not external.” 
+Similarly, Andrew, a 20-year-old music major, reported that his 
+decision to either reveal or conceal personal information on 
+Facebook was influenced by whether or not he had previously 
+discussed the information with friends outside of Facebook. Only 
+if the information had been revealed offline, did he subsequently 
+reveal it on Facebook. Thus, the experiences of Charlie, Andrew 
+and others suggest that information deemed too personal to reveal 
+offline, is also too personal to reveal on Facebook and therefore is 
+excluded from the students’ profile.  
+In the interviews, respondents also mentioned three key types of 
+concern that impacted their information revelation on Facebook. 
+The first concern was that their information would be used for 
+potentially harmful purposes by unknown others. The second concern mentioned by respondents was that 
+their information would be used, sold or appropriated without 
+their knowledge or consent.. Finally, the last concern reported by 
+respondents was that known others—that is, individuals known to 
+the user in an offline context—would see information and/or 
+images posted on Facebook that was not intended for them to 
+view.  
+
+
+ Privacy Protection Strategies on Facebook 
+Based on negative media accounts or their own negative 
+experience with the site, users have developed strategies to 
+protect their privacy. We found that students employ a wide range 
+of strategies and that each strategy has unique characteristics. 
+270
+1) to 
+send private email messages instead of posting messages to a 
+friend’s wall, 2) to change the default privacy settings, and 3) to 
+exclude personal information. Other important strategies include 
+untagging oneself from images, deleting messages posted to one’s 
+Facebook wall, and limiting access to one’s profile. Blocking 
+users and providing fake or inaccurate information are less 
+frequently employed strategies.  
+Table 4. Privacy Protection Strategies 
+Individual Items 
+
+I have provided fake or inaccurate information 
+on Facebook to restrict people I don’t know 
+from gaining information about me 
+
+I have excluded personal information on 
+Facebook to restrict people I don’t know from 
+gaining information about myself 
+
+I have sent private email messages within 
+Facebook instead of posting messages to a 
+friend’s wall to restrict others from reading 
+them message 
+
+contacting me and accessing my Facebook 
+profile 
+
+Certain contacts on my Facebook site only 
+have access to my limited profile 
+
+I have changed my default privacy settings 
+
+I have deleted messages posted to my 
+Facebook 
+wall 
+to 
+restrict 
+others 
+from 
+viewing/reading the message 
+
+I have untagged myself from images and/or 
+videos posted by my contacts 
+
+Scale: 1=“strongly disagree”; 2=“disagree”; 3=“neither disagree 
+nor agree”; 4=agree; 5=“strongly agree”. 
+Based on an analysis of the interview data, we discovered that 
+strategies served different privacy objectives. These privacy 
+objectives can be described in terms of Goldie’s categorization of 
+privacy concerns. Goldie  describes expressive privacy 
+concerns as the ability to control the extent to which an individual 
+is known by chosen others. By contrast, an informational privacy 
+concern is defined as the right to control access to one’s personal 
+information . First, the 
+respondent is aware of the expressive privacy risks associated 
+with the disclosure of personal information and images on 
+Facebook. Second, she has enacted measures to protect herself 
+against subsequent negative feedback from her family. In other 
+words, the respondent has opted to limit her self-expression in 
+order to reduce the likelihood of family members accessing 
+specific content. 
+Use of the limited profile was another measure employed by 
+respondents to protect their expressive privacy. The limited 
+profile allows users to restrict certain groups from accessing 
+various information types. Justine, a third year science student, 
+for example, reported placing her sister and their mutual friends 
+on a limited profile to restrict them from accessing information 
+that could subsequently be used to inform her mother of her 
+activities. In this way, the limited profile enables Justine and 
+others to protect their expressive privacy without significantly 
+limiting their self-expression and freedom to associate.  
+Despite the mention of expressive privacy concerns, it was the 
+informational privacy concerns that respondents faced when using 
+Facebook that appeared the most pressing and the most in need of 
+protection. An informational privacy concern, for example, is that 
+unwanted audiences will access information and use it for 
+potentially harmful purposes. Rebecca, a 22-year-old humanities 
+student. Similar comments around 
+concerns about unwanted audiences came from the majority of 
+respondents, and most employed a combination of the strategies 
+used by   
+It is interesting to note that students do not use fake or inaccurate 
+information as a protective measure. The primary reason 
+expressed by our sample was that it seemed nonsensical to falsify 
+information because their friends would question the validity of 
+the information disclosed. A few respondents also noted that their 
+disclosure of false information in the past had caused confusion, 
+resulting in numerous messages being sent to inquire about the 
+validity of the information. While the majority of respondents 
+opted to include only valid information, a few respondents noted 
+that their ‘about me’ section was in fact fictional. These 
+respondents indicated that the informational was intended to be 
+comical rather than intentionally deceitful. These results are 
+consistent with previous research, which has found that SNS 
+profiles tend to be either honest and truthful or playful and ironic, 
+instead of intentionally deceitful . 
+6. DISCUSSION 
+In the present study, we address three issues of importance to the 
+privacy and SNSs literature. First, we investigate the reasons why 
+users reveal personal information on SNSs and propose a 
+preliminary model. Second, we describe a novel method of data 
+collection that includes profile analysis as a means to both 
+corroborate data obtained from self-reports and elicit further 
+descriptions from participants. Facebook is particularly well-
+suited for this type of data collection as profiles are identical for 
+all users allowing for easy comparison across participants. 
+we propose that examining privacy protection strategies is 
+essential as these represent an important component of 
+information revelation. Examining information revelation in 
+isolation does not provide a complete picture of users’ 
+understanding of privacy. Privacy protection strategies show 
+users’ reaction to privacy concerns and their active engagement 
+with the information they choose to reveal on SNSs.  
+The SNSs literature has extensively investigated the information 
+revelation practices of students. We continue this line of research 
+by investigating the reasons why students reveal information on 
+these sites. Our preliminary model shows three factors associated 
+with information revelation. We found that the larger students’ 
+Facebook network size, the more information is revealed in their 
+profiles. In accord with Lampe et al. , we find that profile 
+elements act as signals, revealing aspects of a user’s personality. 
+Through these signals users establish common ground and make 
+decisions about declaring friendship connections. Information 
+revelation seems to serve a social purpose increasing students’ 
+opportunities for social interaction and participation, as well as 
+for the maintenance and formation of relationships .  
+Concern for Internet privacy was negatively associated with 
+users’ information revelation practices. That is, students with a 
+high level of concern for Internet privacy tended to disclose less 
+personal information on Facebook. Contrary to previous findings, 
+our results suggest that students not only ‘say they are concerned’ 
+about privacy on the Internet, they also make a concerted effort to 
+protect themselves against possible invasions by withholding 
+personal information on their profiles. By contrast, we did not 
+find an association between concern about unwanted audiences 
+and information revelation on Facebook: students’ concern about 
+unwanted audiences did not impact the amount of information 
+that they chose to reveal on their profiles. This is surprising as we 
+expected that general concern for Internet privacy and unwanted 
+audiences would both predict the amount of information that an 
+individual chooses to reveal. A possible explanation is that 
+concern for unwanted audiences affects how people manage the 
+visibility of their profiles, but not the information that they reveal 
+on their profiles in general. Perhaps those individuals who show a 
+greater concern for unwanted audiences will also attempt to 
+manage their profile by making it less visible rather than 
+revealing less information. This could be further tested in future 
+research. The third factor associated with information revelation 
+is profile visibility. The less an individual closed their profile to 
+others, the more information they revealed. This suggests that 
+individuals, who are generally concerned about their privacy and 
+hence close their profile to only friends, will reveal less 
+information than those who do not manage their profiles.  
+The results of the present study also suggest that students employ 
+a variety of protection strategies in order to address their privacy 
+concerns. The strategies used most often by students to protect 
+themselves were the exclusion personal information from their 
+profiles, the use of private email messages to communicate, and 
+alteration of the default privacy settings. We found that the 
+strategies employed were linked to specific privacy concerns. 
+Students in the interview sample who expressed concerns related 
+to expressive privacy  tended to 
+manage their concerns by either untagging or removing 
+photographs or by making use of the limited profile to restrict 
+certain contacts or groups of contacts from viewing specific types 
+of personal information. Students who expressed concerns related 
+to informational privacy  restricted 
+access to their profile and withheld information that could be used 
+to link them to a physical location. The data therefore suggest that 
+each privacy protection strategy has unique characteristics and 
+supports students’ privacy objectives in different ways.  
+In our study, students do not perceive the use of fake or inaccurate 
+information to be a useful protective measure. Interview data 
+suggest that students consider the falsification of personal 
+information to be impractical and confusing because their friends 
+and peers would question the validity of the information 
+disclosed. As other researchers have noted, the public display of 
+one’s connections serves as verification on the reliability of 
+identity claims ensuring that information on profiles is accurate 
+and/or playful and ironic, rather than intentionally deceitful 
+. In this way, the structure 
+of Facebook—that is, the fact that one’s connections are linked to 
+one’s profile—encourages students to reveal information that is 
+truthful rather than deceiving.  
+We conclude that examining privacy on Facebook requires the 
+consideration of multiple factors. First, information revelation 
+itself can consist of different types of elements. We identified 
+both expressive and informational privacy as distinct dimensions 
+that are managed differently by users . Second, differences in findings across studies are difficult 
+to explain because they may be the result of changes happening to 
+the audience in Facebook or to the features available on the site. 
+As Tufekci  has suggested, by allowing the general public 
+to use Facebook, students’ perceptions of the site as a secure and 
+private community may have been altered, affecting their 
+behavior and information revelation practices. In this way, many 
+students may be more likely to withhold certain types of 
+information from their profiles than they were before general 
+audiences could join Facebook.  
+The present study has a number of limitations. First, the findings 
+are based on a small and non-representative sample. Second, the 
+information revelation scale is based on a limited number of 
+items. Third, the model needs to include further variables, for 
+example control variables, such as age, gender, and area of study. 
+Fourth, the results of the study can only be generalized to 
+university students. Future research could seek to expand the 
+present study by examining other user groups, such as high school 
+or elementary school students, to see if their information 
+revelation and privacy protection practices and behaviors on 
+Facebook differ from those of university students.  

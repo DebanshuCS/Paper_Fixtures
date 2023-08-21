@@ -1,0 +1,551 @@
+
+If this is the age of information, then privacy is
+the issue of our times. Activities that were
+once private or shared with the few now leave
+trails of data that expose our interests, traits,
+beliefs,andintentions.We communicateusing
+emails, texts, and social media; find partners on
+dating sites; learn via online courses; seek responses to mundane and sensitive questions using
+search engines; read news and books in the cloud;
+navigate streets with geotracking systems; and cel
+ebrate our newborns, and mourn our dead, on
+social media profiles. Through these and other
+activities, we reveal information both knowingly
+and unwittingly to one another, to commercial
+entities, and to our governments. The monitoring
+of personal information is ubiquitous; its storage
+is so durable as to render one’s past undeletable
+ a modern digital skeleton in the closet. Accompanying the acceleration in data collection
+are steady advancements in the ability to aggregate, analyze, and draw sensitive inferences
+from individuals’ data .
+Both firms and individuals can benefit from the
+sharing of once hidden data and from the appli
+cation of increasingly sophisticated analytics to
+larger and more interconnected databases . So
+too can society as a whole for instance, when electronic medical records are combined to observe
+novel drug interactions . On the other hand, the
+potential for personal data to be abused for economic and social discrimination, hidden influence
+and manipulation,coercion,orcensorship is alarming. The erosion of privacy can threaten our auton
+omy, not merely as consumers but as citizens .
+Sharing more personal data does not necessarily
+always translate into more progress, efficiency,
+or equality .
+Because of the seismic nature of these developments, there has been considerable debate about
+individuals’ ability to navigate a rapidly evolving
+privacy landscape, and about what, if anything,
+should be done about privacy at a policy level.
+Some trust people’s ability to make selfinterested
+decisions about information disclosing and with
+holding. Those holding this view tend to see
+regulatory protection of privacy as interfering
+with the fundamentally benign trajectory of in
+formation technologies and the benefits such
+technologies may unlock . Others are concerned about the ability of individuals to manage
+privacy amid increasingly complex tradeoffs. Traditional tools for privacy decisionmaking such as
+choice and consent, according to this perspective,
+no longer provide adequate protection . Instead of individual responsibility, regulatory intervention may be needed to balance the interests
+of the subjects of data against the power of
+commercial entities and governments holding
+that data.
+Are individuals up to the challenge of navigating privacy in the information age? To address
+this question, we review diverse streams of empirical privacy research from the social and behavioral sciences. We highlight factors that influence
+decisions to protect or surrender privacy and
+how, in turn, privacy protections or violations
+affect people’s behavior. Information technologies have progressively encroached on every aspect of our personal and professional lives. Thus,
+the problem of control over personal data has
+become inextricably linked to problems of personal choice, autonomy, and socioeconomic power.
+Accordingly, this Review focuses on the concept
+of, and literature around, informational privacy
+(that is, privacy of personal data) but also touches
+on other conceptions of privacy, such as anonymity or seclusion. Such notions all ultimately
+relate to the permeable yet pivotal boundaries
+between public and private .
+We use three themes to organize and draw
+connections between streams of privacy research
+that, in many cases, have unfolded independently. The first theme is people’s uncertainty about
+the nature of privacy tradeoffs, and their own
+over them. The second is the powerful
+contextdependence of privacy : The
+same person can in some situations be oblivious
+to, but in other situations be acutely concerned
+about, issues of privacy. The third theme is the
+malleability of privacy , by which we
+mean that privacy  are subject to
+influence by those possessing greater insight
+into their determinants. Although most individuals are probably unaware of the diverse in
+fluences on their concern about privacy, entities
+whose interests depend on information revelation by others are not. The manipulation of subtle
+factors that activate or suppress privacy concern
+can be seen in myriad realms such as the choice
+of sharing defaults on social networks, or the
+provision of greater control on social media 
+which creates an illusion of safety and encourages
+greater sharing.
+Uncertainty, contextdependence, and malleability are closely connected. Contextdependence
+is amplified by uncertainty. Because people are
+often “at sea” when it comes to the consequences of, and their feelings about, privacy,
+they cast around for cues to guide their behavior. Privacy  and behaviors are,
+in turn, malleable and subject to influence in
+large part because they are contextdependent
+and because those with an interest in information divulgence are able to manipulate context to
+their advantage.
+Uncertainty
+Individuals manage the boundaries between
+their private and public spheres in numerous
+ways: via separateness, reserve, or anonymity
+; by protecting personal information; but also
+through deception and dissimulation . People
+establish such boundaries for many reasons, including the need for intimacy and psychological
+respite and the desire for protection from social
+influence and control . Sometimes, these motivations are so visceral and primal that privacy
+seeking behavior emerges swiftly and naturally. This
+is often the case when physical privacy is intruded 
+such as when a stranger encroaches in one’s personal space (13–15) or demonstratively eavesdrops
+on a conversation. However, at other times (often
+including when informational privacy is at stake)
+people experience considerable uncertainty about
+whether, and to what degree, they should be con
+cerned about privacy.
+A first and most obvious source of privacy
+uncertainty arises from incomplete and asymmetric information. Advancements in information technology have made the collection
+and usage of personal data often invisible. As
+a result, individuals rarely have clear knowl
+edge of what information other people, firms,
+and governments have about them or how that
+information is used and with what consequences.
+To the extent that people lack such information, or are aware of their ignorance, they are
+likely to be uncertain about how much infor
+mation to share.
+Two factors exacerbate the difficulty of ascer
+taining the potential consequences of privacy be
+havior. First, whereas some privacy harms are
+tangible, such as the financial costs associated
+with identity theft, many others, such as having
+strangers become aware of one’s life history, are
+intangible. Second, privacy is rarely an unalloyed
+good; it typically involves tradeoffs. When the search
+engine only provided links to the merchants’ sites
+and a comparison of the products’ prices from the
+different sellers, a majority of participants did not
+pay any attention to the merchants’ privacy policies; they purchased from those offering the lowest
+price. However, when the search engine also provided participants with salient, easily accessible
+information about the differences in privacy protection afforded by the various merchants
+A second source of privacy uncertainty relates
+to p. Even when aware of the conse
+quences of privacy decisions, people are still
+likely to be uncertain about their own privacy
+. Research on preference uncertainty
+ shows that individuals often have little sense
+of how much they like goods, services, or other
+people. Privacy does not seem to be an exception.
+This can be illustrated by research in which peo
+ple were asked sensitive and potentially incrimi
+nating questions either pointblank, or followed
+by credible assurances of confidentiality . Al
+though logically such assurances should lead to
+greater divulgence, they often had the opposite
+effect because they elevated respondents’ privacy
+concerns, which without assurances would have
+remained dormant.
+The remarkable uncertainty of privacy prefer
+ences comes into play in efforts to measure indi
+vidual and group differences in preference for
+privacy . For example, Westin  famously
+used broad (that is, not contextually specific) privacy questions in surveys to cluster individuals
+into privacy segments: privacy fundamentalists,
+pragmatists, andunconcerned. Whenaskeddirect
+ly, many people fall in the first segment: They
+profess to care a lot about privacy and express
+particular concern over losing control of their
+personal information or others gaining unauthorized access to it (22, 23). However, doubts
+about the power of attitudinal scales to predict
+actual privacy behavior arose early in the literature . This discrepancy between attitudes
+and behaviors has become known as the “privacy
+paradox.”
+In one early study illustrating the paradox,
+participants were first classified into categories
+of privacy concern inspired by Westin’s cate
+gorization based on their responses to a survey
+dealing with attitudes toward sharing data
+. Next, they were presented with products
+to purchase at a discount with the assistance of
+an anthropomorphic shopping agent. Few,
+regardless of the group they were categorized
+in, exhibited much reluctance to answering the
+increasingly sensitive questions the agent plied
+them with.
+Why do people who claim to care about privacy often show little concern about it in their
+daily behavior? One possibility is that the paradox is illusory that privacy attitudes, which are
+defined broadly, and intentions and behaviors,
+which are defined narrowly, should not be ex
+pected to be closely related (26, 27). Thus, one
+might care deeply about privacy in general but,
+depending on the costs and benefits prevailing
+in a specific situation, seek or not seek privacy
+protection  .
+This explanation for the privacy paradox, how
+ever, is not entirely satisfactory for two reasons.
+The first is that it fails to account for situations in
+which attitudebehavior dichotomies arise under
+high correspondence between expressed concerns
+and behavioral actions. For example, one study
+compared attitudinal survey answers to actual
+social media behavior . For instance, present
+bias can cause even the privacyconscious to
+engage in risky revelations of information, if
+the immediate gratification from disclosure trumps
+the delayed, and hence discounted, future con
+sequences .
+Preference uncertainty is evident not only in
+studies that compare stated attitudes with behav
+iors, but also in those that estimate monetary
+valuations of privacy. “Explicit” investigations
+ask people to make direct tradeoffs, typically
+between privacy of data and money. For instance,
+in a study conducted both in Singapore and the
+United States, students made a series of hypo
+thetical choices about sharing information with
+websites that differed in protection of personal
+information and prices for accessing services .
+
+Implicit investigations, in contrast, infer valuations of privacy from daytoday decisions in
+which privacy is only one of many considerations
+and is typically not highlighted. Individuals engage in privacyrelated transactions all the time,
+even when the privacy tradeoffs may be in
+tangible or when the exchange of personal data
+may not be a visible or primary component of a
+transaction. For instance, completing a query on
+a search engine is akin to selling personal data
+ to the
+engine in exchange for a service (search results).
+“Revealed preference” economic arguments would
+then conclude that because technologies for infor
+mation sharing have been enormously successful,
+whereas technologies for information protection
+have not, individuals hold overall low valuations
+of privacy. However, that is not always the case:
+Although individuals at times give up personal
+data for small benefits or discounts, at other times
+they voluntarily incur substantial costs to protect
+their privacy. Context, as further discussed in the
+next section, matters.
+In fact, attempts to pinpoint exact valuations
+that people assign to privacy may be misguided,
+as suggested by research calling into question the
+stability, and hence validity, of privacy estimates. This suggests that
+people value privacy more when they have it
+than when they do not.
+The consistency of p for privacy is
+also complicated by the existence of a powerful
+countervailing motivation: the desire to be public, share, and disclose. Humans are social animals,
+and information sharing is a central feature of
+human connection. Social penetration theory 
+suggests that progressively increasing levels of self
+disclosure are an essential feature of the natural
+and desirable evolution of interpersonal relationships from superficial to intimate. Such a progression is only possible when people begin social
+interactions with a baseline level of privacy. Paradoxically, therefore, privacy provides an essential
+foundation for intimate disclosure. Similar to privacy, selfdisclosure confers numerous objective
+and subjective benefits, including psychological
+
+ 
+and physical health. The desire for interaction, socialization, disclosure, and recognition
+or fame (and, conversely, the fear of anonymous
+unimportance) are human motives no less funda
+mental than the need for privacy. The electronic
+media of the current age provide unprecedented
+opportunities for acting on them. Through social media, disclosures can build social capital,
+increase selfesteem , and fulfill ego needs
+. In a series of functional magnetic resonance imaging experiments, selfdisclosure was
+even found to engage neural mechanisms as
+sociated with reward; people highly value the
+ability to share thoughts and feelings with others.
+Indeed, subjects in one of the experiments were
+willing to forgo money in order to disclose about
+themselves .
+Contextdependence
+Much evidence suggests that privacy is a universal human need . However, when
+people are uncertain about their p they
+often search for cues in their environment to
+provide guidance. And because cues are a func
+tion of context, behavior is as well. Applied to
+privacy, contextdependence means that individuals can, depending on the situation, exhibit any
+thing ranging from extreme concern to apathy
+about privacy. 
+we are all privacy pragmatists, privacy fundamentalists, or privacy unconcerned, depending
+on time and place .
+The way we construe and negotiate public
+and private spheres is contextdependent because
+the boundaries between the two are murky :
+The rules people follow for managing privacy
+vary by situation, are learned over time, and are
+based on cultural, motivational, and purely situational criteria. For instance, usually we may be
+more comfortable sharing secrets with friends,
+but at times we may reveal surprisingly personal
+information to a stranger on a plane . The
+theory of contextual “integrity” posits that social
+expectations affect our beliefs regarding what is
+private and what is public, and that such expectations vary with specificcontexts . Thus, seeking
+privacy in public is not a contradiction; individuals
+can manage privacy even while sharing information, and even on social media . For instance,
+a longitudinal study of actual disclosure behavior
+of online social network users highlighted that
+over time, many users increased the amount of personal information revealed to their friends (those
+connected to them on the network) while simultaneously decreasing the amounts revealed to
+strangers (those unconnected to them) ( . 1) .
+The cues that people use to judge the importance of privacy sometimes result in sensible behavior. For instance, the presence of government
+regulation has been shown to reduce consumer
+concern and increase trust; it is a cue that peopleuse to infer the existence of some degree of privacy protection . In other situations, however,cues can be unrelated, or even negatively related,
+to normative bases of decisionmaking. For example, in one online experiment  individuals were
+more likely to reveal personal and even incriminating information on a website with an un
+professional and casual design with the banner
+“How Bad R U” than on a site with a formal
+interface even though the site with the formal
+interface was judged by other respondents to be
+much safer. Yet in other situations, it is
+the physical environment that influences privacy
+concern and associated behavior , sometimes
+even unconsciously. For instance, all else being
+equal, intimacy of selfdisclosure is higher in
+warm, comfortable rooms, with soft lighting, than
+in cold rooms with bare cement and overhead
+fluorescent lighting .
+Some of the cues that influence perceptions
+of privacy are one’s culture and the behavior of
+other people, either through the mechanism of
+descriptive norms (imitation) or via reciprocity
+. Observing other people reveal information
+increases the likelihood that one will reveal it
+oneself . In one study, surveytakers were asked
+a series of sensitive personal questions regarding
+their engagement in illegal or ethically question
+able behaviors. After answering each question,
+participants were provided with information, manipulated unbeknownst to them, about the per
+centage of other participants who in the same
+survey had admitted to having engaged in a given
+behavior. Being provided with information that
+suggested that a majority of survey takers had
+admitted a certainquestionable behavior increased
+participants’ willingness to disclose their engagement in other, also sensitive, behaviors. Other
+studies have found that the tendency to reciprocate information disclosure is so ingrained that
+people will reveal more information even to a
+computer agent that provides information about
+itself . Findings such as this may help to
+explain the escalating amounts of selfdisclosure
+we witness online: If others are doing it, people
+seem to reason unconsciously, doing so oneself
+must be desirable or safe.
+Other people’s behavior affects privacy concerns in other ways, too. Sharing personal information with others makes them “coowners” of
+that information  and, as such, responsible
+for its protection. Mismanagement of shared
+information by one or more coowners causes
+“turbulence” of the privacy boundaries and, con
+sequently, negative reactions, including anger or
+mistrust. In a study of undergraduate Facebook
+users , for instance, turbulence of privacy
+boundaries, as a result of having one’s profile
+exposed to unintended audiences, dramatically
+increased the odds that a user would restrict pro
+file visibility to friendsonly.
+Likewise, privacy concerns are often a function
+of past experiences. When something in an en
+vironment changes, such as the introduction of a
+camera or other monitoring devices, privacy concern is likely to be activated. For instance, surveillance can produce discomfort  and negatively
+affect worker productivity .
+Privacy behavior is
+affected both by
+endogenous motivations (for instance,
+subjective preferences) and exogenous
+factors (for instance,
+changes in user interfaces). 
+The contextdependence of privacy concern has
+major implications for the risks associated with
+modern information and communication technology . With online interactions, we no longer
+have a clear sense of the spatial boundaries of our
+listeners. Who is reading our blog post? Who is
+looking at our photos online? Adding complexity
+to privacy decisionmaking, boundaries between
+public and private become even less defined in the
+online world  where we become social media
+friends with our coworkers and post pictures to
+an indistinct flock of followers. With different so
+cial groups mixing on the Internet, separating
+online and offline identities and meeting our and
+others’ expectations regarding privacy becomes
+more difficult and consequential .
+Malleability and influence
+Whereas individuals are often unaware of the diverse factors that determine their concern about
+privacy in a particular situation, entities whose
+prosperity depends on information revelation by
+others are much more sophisticated. With the
+emergence of the information age, growing institutional and economic interests have developed
+around disclosure of personal information, from
+online social networks to behavioral advertising.
+It is not surprising, therefore, that some entities
+have an interest in, and have developed expertise
+in, exploiting behavioral and psychological proces
+ses to promote disclosure . Such efforts play on
+the malleability of privacy p, a term we
+use to refer to the observation that various, some
+times subtle, factors can be used to activate or
+suppress privacy concerns, which in turn affect
+behavior.
+Default settings are an important tool used by
+different entities to affect information disclosure.
+Sticking to default settings is convenient, and
+people often interpret default settings as implicit
+recommendations . Thus, it is not surprising
+that default settings for one’s profile’s visibility on
+social networks , or the existence of optin or
+optout privacy policies on websites , affect
+individuals’ privacy behavior ( . 3).
+In addition to default settings, websites can
+also use design features that frustrate or even con
+fuse users into disclosing personal information
+, a practice that has been referred to as “ma
+licious interface design” . Another obvious
+strategy that commercial entities can use to avoid
+raising privacy concerns is notto “ring alarm bells”
+when it comes to data collection. When companies
+do ring them for example, by using overly fine
+tuned personalized advertisements consumers
+are alerted  and can respond with negative
+“reactance” .
+Various socalled “antecedents”  affect privacy concerns and can be used to influence privacy behavior. For instance, trust in the entity
+receiving one’s personal data soothes concerns.
+Moreover, because some interventions that are in
+tended to protect privacy can establish trust, con
+cerns can be muted by the very interventions
+intended to protect privacy. Perversely, 62% of
+respondents to a survey believed (incorrectly) that
+the existence of a privacy policy implied that a site
+could not share their personal information with
+out permission , which suggests that simply
+posting a policy that consumers do not read may
+lead to misplaced feelings of being protected.
+Control is another feature that can inculcate
+trust and produce paradoxical effects. Perhaps be
+cause of its lack of controversiality, control has
+
+
+Privacy: A modern invention?
+Is privacy a modern, bourgeois, and distinctly Western invention? Or are privacy needs a
+universal feature of human societies? Although access to privacy is certainly affected by
+socioeconomic factors  , and
+privacy norms greatly differ across cultures, the need for privacy seems to be a
+universal human trait
+ . Implicit in
+this heterogeneous selection of historical examples is the observation that there exist
+multiple notions of privacy. Although contemporary attention focuses on informational
+privacy, privacy has been also construed as territorial and physical, and linked to concepts as
+diverse as surveillance, exposure, intrusion, insecurity, appropriation, as well as secrecy,
+protection, anonymity, dignity, or even freedom .
+ . 2.The impact of cues on
+disclosure behavior. A measure
+of privacy behavior often used in
+empirical studies is a subject’s
+willigness to answer personal,
+sometimes sensitive questions 
+for instance, by admitting or
+denying having engaged in
+questionable behaviors. In an
+online experiment , individ
+uals were asked a series of
+intrusive questions about their
+behaviors, such as “Have you
+ever tried to peek at someone
+else’s email without them
+knowing?” Across conditions,
+the interface of the question
+naire was manipulated to look
+more or less professional. the mean affir
+mative admission rates (AARs)
+to questions that were rated as
+intrusive (the proportion of
+questions answered affirma
+tively) normed, question by ques
+tion, on the overall average AAR for the question. Subjects revealed more personal and even incriminating
+information on the website with a more casual design, even though the site with the formal interface was
+judged by other respondents to be much safer.The study illustrates how cues can influence privacy behavior
+in a fashion that is unrelated, or even negatively related, to normative bases of decisionmaking.
+THE END OF PRIVACY
+ 
+been one of the capstones of the focus of both
+industry and policymakers in attempts to balance
+privacy needs against the value of sharing. Control
+over personal information is often perceived as a
+critical feature of privacy protection . In principle, it does provide users with the means to
+manage access to their personal information. Re
+search, however, shows that control can reduce
+privacy concern , which in turn can have un
+intended effects. For instance, one study found
+that participants who were provided with greater
+explicit control over whether and how much of
+their personal information researchers could
+publish ended up sharing more sensitive informa
+tion with a broader audience the opposite of the
+ostensible purpose of providing such control .
+Similar to the normative perspective on control,
+increasing the transparency of firms’ data practices would seem to be desirable. However, trans
+parency mechanisms can be easily rendered
+ineffective. Research has highlighted not only that
+an overwhelming majority of Internet users do
+not read privacy policies , but also that few
+users would benefit from doing so; nearly half of a
+sample of online privacy policies were found to be
+written in language beyond the grasp of most
+Internet users ..
+Although uncertainty and contextdependence
+lead naturally to malleability and manipulation,
+not all malleability is necessarily sinister. Consider monitoring. Although monitoring can cause
+discomfort and reduce productivity, the feeling of
+being observed and accountable can induce people to engage in prosocial behaviors or (for better
+or for worse) adhere to social norms . By the same token, the depersonalization
+induced by computermediated interaction ,
+either in the form of lack of identifiability or of
+visual anonymity , can have beneficial effects,
+such as increasing truthful responses to sensitive
+surveys . Whether elevating or suppressing
+privacy concerns is socially beneficial critically depends, yet again, on context [a metaanalysis of the
+impact of deidentification on behavior is provided
+in . perceptions of anonymity
+can alternatively lead to dishonest or prosocial
+behavior. Illusory anonymity induced by darkness
+caused participants in an experiment  to cheat
+in order to gain more money. This can be interpreted as a form of disinhibition effect , by
+which perceived anonymity licenses people to act
+in ways that they would otherwise not even con
+sider. In other circumstances, though, anonymity
+leads to prosocial behavior for instance, higher
+willingness to share money in a dictator game,
+when coupled with priming of religiosity .
+Conclusions
+Norms and behaviors regarding private and public realms greatly differ across cultures . 
+And even within cultures, people differ substantially in how much they care about privacy and
+what information they treat as private. And as we
+have sought to highlight in this Review, privacy
+concerns can vary dramatically for the same individual, and for societies, over time.
+If privacy behaviors are culture and context
+dependent, however, the dilemma of what to share
+and what to keep private is universal across so
+cieties and over human history. The task of navigating those boundaries, and the consequences
+of mismanaging them, have grown increasingly
+complex and fateful in the information age, to
+the point that our natural instincts seem not
+nearly adequate.
+In this Review,we used three themes to organize
+and draw connections between the social and behavioral science literatures on privacy and behavior. We end the Review with a brief discussion of
+the reviewed literature’s relevance to privacy policy.
+Uncertainty and contextdependence imply that
+people cannot always be counted on to navigate
+the complex tradeoffs involving privacy in a self
+interested fashion. People are often unaware of
+the information they are sharing, unaware of how
+it can be used, and even in the rare situations
+when they have full knowledge of the consequences of sharing, uncertain about their own
+Malleability, in turn, implies that people are easily influenced in what and how much
+they disclose. Moreover, what they share can be
+used to influence their emotions, thoughts, and
+behaviors in many aspects of their lives, as in
+dividuals, consumers, and citizens. Although such
+influence is not always or necessarily malevolent
+or dangerous.

@@ -1,0 +1,1077 @@
+
+The Internet of Things paradigm envisions the pervasive interconnection and cooperation of smart things over the current
+and future Internet infrastructure. The Internet of Things is, thus, the evolution of the Internet to cover the real-world,
+enabling many new services that will improve people’s everyday lives, spawn new businesses and make buildings, cities
+and transport smarter. Smart things allow indeed for ubiquitous data collection or tracking, but these useful features are
+also examples of privacy threats that are already now limiting the success of the Internet of Things vision when not
+implemented correctly. These threats involve new challenges such as the pervasive privacy-aware management of personal
+data or methods to control or avoid ubiquitous tracking and proﬁling. This paper analyzes the privacy issues in the Internet
+of Things in detail. To this end, we ﬁrst discuss the evolving features and trends in the Internet of Things with the goal of
+scrutinizing their privacy implications. Second, we classify and examine privacy threats in this new setting, pointing out
+the challenges that need to be overcome to ensure that the Internet of Things becomes a reality.
+KEYWORDS
+Privacy; Internet of Things; Privacy-enhancing Technology; Legislation; Threats
+
+. INTRODUCTION
+The Internet of Things  foresees the interconnection
+of billions to trillions , of smart things around us
+– uniquely identiﬁable and addressable everyday things
+with the ability to collect, store, process and communicate
+information about themselves and their physical environment . IoT systems will deliver advanced services
+of a whole new kind based on increasingly ﬁne-grained
+data acquisition in an environment densely populated with
+smart things. Examples of such IoT systems are pervasive
+healthcare, advanced building management systems, smart
+city services, public surveillance and data acquisition, or
+participatory sensing applications .
+The increasingly invisible, dense and pervasive collection, processing and dissemination of data in the midst
+of people’s private lives gives rise to serious privacy
+concerns. Ignorance of those issues can have undesired
+This is the accepted version of the article:  Ziegeldorf, O. Garcia Morchon,
+and K. Wehrle. ”Privacy in the Internet of Things: threats and challenges.”
+Security and Communication Networks . : -, which has been
+published in ﬁnal form at 
+consequences, e.g. non-acceptance and failure of new services, damage to reputation, or costly law suits. The public
+boycott of the Italian retailer Benetton in  , the
+revocation of the Dutch smart metering bill in  ,
+or the recent outcry against the EU FP7 research project
+INDECT  are only three examples of IoT related
+projects that experienced huge problems due to unresolved
+privacy issues.
+Privacy has been a hot research topic in different technology and application areas that are important enablers
+of the IoT vision, e.g. RFID, wireless sensor networks
+, web personalization, and mobile applications and
+platforms. Despite considerable contributions from these
+communities a holistic view of arising privacy issues in the
+IoT is missing, since the IoT is an evolving concept that
+comprises a growing number of technologies and exhibits
+a range of changing features. Among these, we witness an
+explosion in the number of smart things and new ways
+of interacting with systems and presenting feedback to
+users. As we will show, these new features of the IoT will
+aggravate privacy issues and introduce unforeseen threats
+that pose challenging technical problems. These privacy
+threats, whether known or new, need to be considered  in
+Privacy in the Internet of Things
+ a reference model of the IoT accounting that accounts for
+its speciﬁc entities and data ﬂows,  from the perspective
+of existing privacy legislation, and  with regard to the
+unique and evolving features in the IoT. For without a clear
+understanding of the arising issues and the appropriate
+counter-measures, the success of new pioneering services
+and their users’ privacy will be at peril.
+We contribute to this discussion in three steps: First,
+Section  frames the notion of privacy in the IoT by
+discussing its deﬁnition, a privacy-aware reference model
+for the IoT, as well as existing privacy legislation. Second,
+we contribute a detailed analysis of the IoT evolution from
+the point of view of the involved technologies and features
+in Section . 
+. PRIVACY DEFINITION AND
+REFERENCE MODEL FOR THE IOT
+This section provides a framework to our analysis of
+privacy threats and challenges. Section . deﬁnes privacy
+in the speciﬁc context of the IoT. We observe that most
+reference models are inadequate for privacy discussions
+and present our own IoT reference model in Section ..
+Finally, Section . discusses the scope of current privacy
+legislation and its limitations in the IoT context.
+.. Privacy Deﬁnition
+Privacy is a very broad and diverse notion for which
+literature offers many deﬁnitions and perspectives .
+From a historic view, the notion of privacy shifted between
+media, territorial, communication, and bodily privacy.
+With the increasing use and efﬁciency of electronic
+data processing information privacy has become the
+predominant issue today. Information privacy was deﬁned
+by Westin in  as ”the right to select what personal
+information about me is known to what people” .
+While Westin’s deﬁnition, although it referred to nonelectronic environments, is still valid, it is also too general
+to enable focussed discussion about privacy in the IoT. We
+thus adapt and concretize deﬁnition:
+Privacy in the Internet of Things is the threefold
+guarantee to the subject for
+ awareness of privacy risks imposed by smart things
+and services surrounding the data subject
+ individual control over the collection and processing of personal information by the surrounding
+smart things
+ awareness and control of subsequent use and
+dissemination of personal information by those
+entities to any entity outside the subject’s personal
+control sphere
+Figure . IoT reference model with relevant entities and data
+ﬂows in a typical IoT application.
+Our deﬁnition of privacy captures in essence the idea of
+informational self-determination by enabling the subject
+ to assess his personal privacy risks,  to take
+appropriate action to protect his privacy, and  to be
+assured that it is enforced beyond his immediate control
+sphere.
+The
+operating
+systems
+analogy
+described
+by
+ in  is a similar concept to characterize
+what we refer to as the personal sphere of the data subject.
+In smart home scenarios it can be pictured as that person’s
+household or immediate vicinity, as  ﬁttingly
+observes. However, the exact scope of the subject’s
+personal sphere can differ from situation to situation and
+it is still unclear what constitutes the individual’s personal
+sphere, or operating system boundaries in the analogous
+terms, in e.g. a workplace environment or public space.
+Similarly,
+the
+notion
+of
+personal
+information
+is
+necessarily fuzzy, since privacy is a deeply social concept
+and subject to greatly varying individual perception and
+requirements . Hence, care must be taken when
+designing new systems and services to carefully assess
+the sensitivity of the involved information and relating
+user requirements, e.g. as businesses are starting to
+implement in privacy impact analysis’s . Ultimately,
+our deﬁnition must be understood such that the user may
+deﬁne what he considers personal information.
+.. Reference model
+The IoT reference model we propose is based on the
+ITU  and IERC  visions of the IoT and can be
+summarized as: Anyone and anything is interconnected
+anywhere at any time via any network participating in
+any service. Our reference model describes the entities and
+information ﬂows of IoT applications.
+In the model we consider four main types of entities
+as depicted in Figure . Smart things are everyday
+things augmented with information and communication
+technology . They are able to collect, process and
+communicate data about themselves and their environment
+as well as to interact with other things and humans.
+
+ Privacy in the Internet of Things
+Backends host services that gather, combine and analyze
+data from many smart things to offer a value-added
+service to the end-user. Humans have two different
+roles in our reference model. They can be subject to
+data collection by the smart things surrounding them or
+recipients of data or services. Note, that a person can
+be both subject and recipient at the same time, e.g. in a
+personal healthcare application. Finally, smart things are
+connected to services via an infrastructure with different
+characteristics ranging from low-power lossy networks to
+powerful Internet backbones possibly traversing different
+intermediate gateways and servers, e.g. ﬁrewalls and
+protocol bridges.
+Furthermore, we consider ﬁve different types of information ﬂows, also depicted in Figure , corresponding
+to the phases in which the subject engages in a typical
+IoT application. In the Interaction phase, the data subject
+actively or passively interacts with the smart things in his
+environment, thereby triggering a service. Smart things
+then engage in the Collection of information and relay it
+to the corresponding back-end via the available interconnection networks possibly with the help of intermediate
+gateways. In the Processing phase, backends analyze the
+information in order to provide the triggered service.
+Dissemination of information towards the data subject
+and potentially towards third parties constitutes the fourth
+phase. Finally, in the Presentation phase, the service is
+provided to the data subject by the surrounding smart
+things according to the instructions by the backend. Note
+that depending on the location and implementation of the
+backend services, the ﬂow of information is thus either
+ vertical, in the case of a central distant backend, 
+horizontal, given a service that runs locally distributed
+across the smart things, or  hybrid, when one or more
+local things provide the service.
+Our model abstracts from speciﬁc device classes,
+technologies, interconnection methods and services in
+order to provide a high-level model that ﬁts a wide
+range of IoT systems and applications. Its assumptions
+for ubiquitous interconnection of smart things and their
+capabilities are general and powerful enough to account
+for the ongoing evolution of the IoT. These assumptions
+might not yet hold today, but represent the expected
+developments of the IoT, as shows our analysis  and are also shared by others, e.g. in ’s
+dense Internet of Things model . We thus believe that
+the presented reference model adequately addresses our
+considerations and requirements.
+Note that different reference models have been proposed
+to account for new technologies and applications as they
+are added to the wide umbrella that is the IoT today.
+Among others, the IoT-i consortium  and Atzori et. al
+ survey existing reference models and IoT architectures.
+Considerable progress towards an explicit reference model
+has been made e.g. projects IoT-A  and
+CASAGRAS . However, the proposed models often
+seem too complex for our purpose or do not fully address
+the following requirements. Privacy is an exclusively
+human concern and we need to explicitly consider the
+roles and involvement of users in the reference model.
+Furthermore, the model should allow to reason about
+privacy at a high level based on generic capabilities of
+things and services. Finally, the IoT is an evolutionary
+process and the reference model must thus abstract from
+the underlying things and technologies. Especially, it
+should not be limited to single technology spaces as e.g.
+RFID technology.
+.. Privacy legislation
+Privacy legislation tries to draw boundaries to the evermore
+data-hungry business models of many Internet enterprises
+ and to deﬁne mandatory practices and processes
+for privacy protection. We shortly review the development
+and practical impact of privacy legislation then identify
+relevant points and problems in the context of the Internet
+of Things.
+Privacy is recognized as a fundamental human right
+in the  Universal Declaration of Human Rights and
+is anchored in the constitutional law of most countries
+today. The ﬁrst major piece of legislation on information
+privacy was passed with the  US Privacy Act, which
+established the fair information practices . The
+FIPs comprise the principles of notice, consent, individual
+access and control, data minimization, purposeful use,
+adequate security and accountability. They have been taken
+up in  by the Organization for Economic Co-operation
+and Development , which anticipated tradebarriers from the increasingly diverse national privacy
+legislation. While US privacy legislation continued with a
+miscellany of speciﬁc sectorial laws, the European Union’s
+aim for comprehensive legislation resulted in the 
+Directive //EC on the protection of individuals with
+regard to processing of personal data and on the free
+movement of such data . The directive embeds the
+FIPs and adds the principle of explicit consent, which
+basically forbids any kind of data collection without
+explicit permission from the subject.
+The practical impact has been different: While the
+Privacy Act of  was unsuccessful in the US , the EU data directive has
+not only effectively increased data protection standards
+in Europe, but also evoked international self-regulatory
+efforts, e.g. the Safe Harbor agreement . Today,
+primarily the principles of notice, consent, access and
+security are enforced e.g. in e-commerce and online
+advertising. Privacy legislation also touches some mature
+technologies which are part of the IoT evolution: RFID and
+camera networks have received much attention in the past.
+Recent legislation efforts have focussed on data protection
+in cloud computing and adequate protection of web users
+against tracking.
+However, already today the level of privacy protection
+offered by legislation is insufﬁcient, as day-to-day data
+
+Privacy in the Internet of Things
+ spills and unpunished privacy breaches  clearly
+indicate. The Internet of Things will undoubtedly create
+new grey areas with ample space to circumvent legislative
+boundaries.
+First, most pieces of legislation center around the
+fuzzy notion of Personally Identiﬁable Information .
+However, efforts towards a concise deﬁnition of what
+constitutes PII  are quickly deprecated as new IoT
+technologies unlock and combine new sets of data that can
+enable identiﬁcation and make it increasingly difﬁcult to
+distinguish PII from non-PII. Our deﬁnition of IoT privacy
+ acknowledges this problem and demands for
+involvement of the data subject.
+Second, timeliness of legislation is a constant issue:
+E.g. tracking of web-users has been used for many years,
+before the European Commission passed a law against it in
+early . With the IoT evolving fast, legislation is bound
+to fall even farther behind. An example are Smart Meter
+readings, which already allow to infer comprehensive
+information about people’s lifestyle.
+Third, already today, many privacy breaches go
+unnoticed. In the IoT, awareness of privacy breaches
+among users will be even lower, as data collection moves
+into everyday things and happens more passively . Legislation, however, is often only a response to public
+protests and outcries that require awareness of incidents in
+the ﬁrst place.
+Finally, the economics of privacy are still in favor of
+those in disregard of privacy legislation. On the one side,
+development of PETs, enforcement and audits of privacyprotection policies is expensive and can limit business
+models. On the other side, violations of privacy legislations
+either go unpunished or result only in comparably
+small ﬁnes, while public awareness is still too low to
+induce intolerable damage of public reputation. Thus,
+disregard of privacy legislation, as e.g. Google deliberately
+circumventing Safari’s user tracking protection , seems
+proﬁtable. Over this incident, Google paid a record ﬁne
+of $. Million in a settlement with the Federal Trade
+Commission , but it is conceivable that the earnings
+more than compensated.
+It will be a major challenge to design a uniﬁed
+enduring legislative framework for privacy protection in
+the Internet of Things, instead of passing quickly outdated
+pieces of legislation on singular technologies. Success will
+undoubtedly require a comprehensive knowledge of the
+technologic basis of the IoT and its ongoing evolution. The
+key, however, will be a deep understanding of existing and
+lingering new threats to privacy in the IoT – these threats
+are what legislation needs to protect against, ultimately.
+. EVOLUTION OF THE IOT
+Starting with the vision of ubiquitous computing ,
+the Internet of Things depends on technologic progress
+to bring increasing miniaturization and availability of
+information and communication technology at decreasing
+cost and energy-consumption. The IoT is thus not a
+disruptive new technology, but a novel paradigm whose
+full realization will be a gradual process. This section
+reviews key technologies in the past evolution of the
+IoT and related work in privacy  and then
+analyzes the current features of the IoT and how they
+evolve . This discussion of evolving technologies and
+features allows us to recognize and analyze privacy threats
+and challenges early-on.
+.. Evolving Technologies
+RFID technology stands at the beginning of the IoT vision:
+it enables passive automatic identiﬁcation of things at
+the price of a couple of cents. Indeed, the realization
+of the IoT vision is still often seen in the pervasive
+deployment of RFID tags. RFID privacy issues have been
+thoroughly researched . The dominant threats
+are automatic identiﬁcation and tracking of people through
+hidden tags, e.g. in clothes. Different countermeasures
+have been proposed, such as reader authentication, tag
+encryption, randomizing tag identiﬁers, and blocking or
+killing of tags. Managing the lifecycle of an RFID tag is
+a challenge that will also be interesting for smart things in
+the IoT context.
+Wireless sensor network  technology forms the
+next evolutionary step of the IoT: Things become active,
+as they are augmented with sensing, processing and
+communication capabilities to build ﬁrst interconnected
+networks of things. Today, sensor nodes range from
+tiny millimeter-sized sensor nodes 
+to meter-scale GSM-equipped weather stations. Sensor
+networks include both small-scale home deployments and
+also large-scale industrial monitoring systems enabled by
+standards such as ZigBEE , Z-Wave , ANT 
+or Bluetooth . Privacy research in WSNs has focussed
+on privacy threats with regard to the collected sensor
+data , queries to the network  and the
+location of data sources and base stations .
+Particular challenges that have been commonly identiﬁed
+are uncontrollable environments and resource constraints,
+which also characteristics of the IoT.
+The advent of smart phones has further progressed the
+realization of the IoT vision, being the ﬁrst mobile mass
+devices with ubiquitous Internet connection. Smart phones
+gather critical amounts of private data about their owner,
+e.g. identiﬁers, physical location, and activity that bear
+considerable privacy risks . Extensive privacy research
+has been conducted focussing mostly on location-based
+services , detection of privacy breaches 
+and privacy aware architectures for participatory sensing
+.
+The cloud computing paradigm has thrived over the
+last decade and offers means to handle the expected
+information explosion in the IoT. Privacy research in cloud
+computing has focussed on adequate data protection and
+
+ Privacy in the Internet of Things
+. Evolving features of the IoT today, in the past and future. Predictions are based on extensive literature research and analysis
+of past and current developments in the IoT and in related areas. Error margins of predictions are indicated qualitatively.
+Technology
+Size
+Interconnection
+Data collection
+Thing
+Interaction
+
+Interaction
+Lifecycle
+
+
+
+prevention of information leaks , auditing and
+provenance , and private information processing . Cloud platforms are increasingly used to implement
+backends for storing, processing and accessing information
+of IoT applications, as e.g. platforms by COSM  and
+Arrayent .
+.. Evolving Features
+Table I provides a summary of selected features that we
+consider are most important in the context of privacy.
+Further and more general discussions of developments in
+the IoT can be found in . We form qualitative
+predictions for the future evolution of the selected features
+based on three pillars:  extrapolation from their past and
+current development,  comparison to trends observed in
+related areas, and  survey of opinions and predictions
+from related literature . Since it is very hard to back such predictions
+with hard data, errors are necessarily involved. Table I thus
+also indicates qualitatively the estimated error margin of
+the predictions.
+Technology: As described in Section ., the Internet
+of Things started with the Auto-ID Labs  envisioning
+automatic identiﬁcation of things through RFID technology. Today, we see that more and more technologies are
+integrated under the IoT umbrella term, e.g. sensor networks, smart phones, and cloud services. Predictions for
+the future primarily foresee that information and communication technology increasingly moves into things thereby
+making them smarter and self-aware . At the same
+time, new technologies will be invented and made suitable
+for the masses. Against this background, it is however
+unclear if, when, and to which extent the envisioned state
+of ubiquity and invisibility will be reached .
+Size: Estimates from academia and major industry
+players, among them IBM, HP, and Cisco, predict
+staggering numbers of  billion  to trillions
+of connected things by  . Although
+predicted numbers and time horizons vary considerably,
+even defensive scenarios indicate that the IoT will increase
+the size of networks by orders of magnitude. Such massive
+amounts of devices will seriously challenge the scalability
+of existing and forthcoming privacy technology.
+Interconnection: With the technologic advances and
+decreasing costs of wireless communications, the IoT is
+predicted to evolve towards a state where smart things
+are ubiquitously interconnected . All-IP end-to-end
+connectivity is the prevalent vision for realization of such
+pervasive interconnectedness  and is heavily
+pushed by the IETF 6LoWPAN and ETSI M2M working
+groups. As smart things become query-able from any
+distance in this process, this will not only bring forth great
+opportunities for new services but also challenging privacy
+issues.
+Data collection: With people carrying smart phones
+everywhere and sharing their lives on social networks, we
+are already today witnessing an increasing penetration of
+people’s private and public lives by technology that enables
+data collection and with it identiﬁcation, tracking and
+proﬁling . With the predicted advent and increasing
+density of smart things, data collection will penetrate
+people’s lives even more deeply and introduce whole
+new sets of linkable and identiﬁable private data. During
+this explosion of data collection technology, human
+involvement also changes qualitatively: where smart
+phones and social networks require a signiﬁcant amount of
+active participation and awareness, humans will be mostly
+passive and unaware of data collection by the foreseen
+ﬂood of smart things. However, it is difﬁcult to give
+reliable estimates of the extent of data collection and the
+degree of penetration into the everyday of people’s lives as
+forecasts greatly differ .
+Thing interaction: With increasing numbers of smart
+connected things, it will become important what interfaces
+they provide to humans for conﬁguration, debugging
+and interaction. We have witnessed a development from
+RFID tags with little interaction capabilities to sensors
+and devices featuring limited interfaces, such as LEDs
+and small displays responding to buttons and touches.
+Predictions that foresee mainly more haptic interfaces 
+and the smart phone as central mediator between humans
+and things based on web interfaces  seem very certain,
+
+Privacy in the Internet of Things
+ as we are already starting to see these developments
+today. It is an interesting open question, whether webbased interfaces will prevail as primary interfaces to things.
+Other prediction such as Intel’s for thought-driven control
+ by  remain very dubious. The lack of interfaces
+and interaction mechanisms can pose privacy threats as
+observed in RFID . On the other hand, too complex
+interfaces  do not seem
+to help either, while increasingly personalized interaction
+such as speech or, at the extreme, thoughts will even arise
+new privacy issues.
+System interaction: Apart from the interaction with
+things, it is interesting how higher level interaction
+of humans with the IoT, i.e. with groups of things,
+systems and services, will develop. Similar arguments
+and predictions as for thing interaction apply also to
+system interaction. The main difference is that the whole
+environment is envisioned to serve for interaction with
+humans based on elaborate interfaces realized through
+the collaboration and coordination of many smart things
+and their speciﬁc capabilities. Less coherent predictions
+foresee thought-driven interaction and mechanisms that
+appeal to all human senses. An environment where humans
+are pervasively and passively exposed to interaction and
+feedback from IoT systems must be carefully designed not
+to violate their privacy.
+Lifecycle: Usually, a very simple lifecycle of a thing
+is assumed. It is sold, used by its owner and ﬁnally
+disposed of and no information is stored by the thing
+in this process. The protest against the privacy-violating
+Benetton campaign  in  have proven that this model
+is oversimplying: Benetton planned to equip its entire
+product line with RFID tags, that would remain active
+after garments had been sold. This change of ownership
+in the lifecycle of the RFID tag was not considered.
+In the IoT, smart things are predicted to store extensive
+information about their own history throughout their entire
+lifecylcle . Furthermore, many everyday things, such
+as light bulbs, are designed to be easily exchangeable
+as should be their smart equivalents. It remains to be
+seen, if lifecycles become even more dynamic, e.g. with
+business models evolving around borrowing instead of
+owning smart things such as medical equipment or tools.
+With increasing storage of data and transitions during the
+lifecycle of a thing, managing security and privacy aspects
+will become more difﬁcult.
+From vertical to horizontal: Today’s IoT-like systems
+are mostly separate vertically-integrated solutions, often
+based on custom technology, protocols and architectures.
+Direct collaboration between two such systems is the
+exception. With increasing standardization of protocols
+and platforms, horizontal integration of systems, i.e.
+increasingly local and distributed collaboration, is predicted. E.g. smart meters could cooperate with other meters
+in the neighborhood and directly switch on and off the
+Figure . Threats in the Reference Model.
+household’s appliances instead of only pushing consumption data to the central utility provider. Despite the promising advantages of horizontal integration performance- and
+functionality-wise, central solutions still seem to prevail
+and it remains unclear if and when the potential of horizontal integration can be realized. The envisioned collaboration of systems with different purposes and manufacturers
+can, however, induce privacy threats and security breaches.
+While, on the other hand, the locality of information
+ﬂows in horizontally integrated systems is inherently more
+privacy-preserving than in their vertically-integrated, centralized counterparts.
+. PRIVACY THREATS AND
+CHALLENGES IN THE IOT
+The evolving nature of the IoT regarding technologies and
+features as well as the emerging new ways of interaction
+with the IoT lead to speciﬁc privacy threats and challenges.
+This section presents our classiﬁcation of those threats.
+Figure  arranges them into the ﬁve different phases from
+our reference model  according to where they
+are most prone to appear.
+Each of the seven threat categories is analyzed in foursteps: First, a deﬁnition and characterization of the threat
+category with concrete instances of privacy violations is
+given. Second, we analyze how the IoT evolution impacts,
+changes and aggravates the particular threat. Here, Table
+II serves as a summary of two or three selected features
+with most impact on a particular threat category. Third,
+we identify approaches and counter-measures from related
+work and ask whether they be applied also in the IoT
+or are insufﬁcient. Fourth, we present the main technical
+challenges and potential approaches to overcome those
+threats in the IoT. Of course, the threat categories are
+not totally disjunct and we make sure to point out
+dependencies and overlaps between different threats. Note
+that our perspective and classiﬁcation thereby focusses
+on privacy threatening functionality in the IoT to allow
+
+ Privacy in the Internet of Things
+better reasoning over the technical roots of threats and
+possible counter-measures than a user- or incident-centric
+perspective, as e.g. taken by .
+.. Identiﬁcation
+Identiﬁcation denotes the threat of associating a  identiﬁer, e.g. a name and address or a pseudonym
+of any kind, with an individual and data about him. The
+threat thus lies in associating an identity to a speciﬁc
+privacy violating context and it also enables and aggravates
+other threats, e.g. proﬁling and tracking of individuals or
+combination of different data sources.
+The threat of identiﬁcation is currently most dominant
+in the information processing phase at the backend
+services of our reference model, where huge amounts of
+information is concentrated in a central place outside of
+the subject’s control. In the IoT also the interaction and
+collection phase will become relevant, as the impact of the
+evolving technologies and interconnection and interaction
+features aggravates the threat of identiﬁcation, as identiﬁed
+in Table II: First, surveillance camera technology is
+increasingly integrated and used in non-security contexts,
+e.g. for analytics and marketing . As facial
+databases  become available also to
+non-governmental parties like marketing platforms ,
+automatic identiﬁcation of individuals from camera images
+is already a reality. Second, the increasing 
+interconnection and vertical communication of everyday
+things, opens up possibilities for identiﬁcation of devices
+through ﬁngerprinting. It was recognized already for
+RFID technology that individuals can be identiﬁed by
+the aura of their things . Third, speech recognition is
+widely used in mobile applications and huge data-bases
+of speech samples are already being built. Those could
+potentially be used to recognize and identify individuals,
+e.g. by governments requesting access to that data .
+With speech recognition evolving as a powerful way of
+interaction with IoT systems  and the proliferation
+of cloud computing for processing tasks, this will further
+amplify the attack vector and privacy risks.
+Identity protection and, complementary, protection
+against identiﬁcation is a predominant topic in RFID
+privacy , but has also gained much attention
+in the areas of data anonymization , and
+privacy-enhancing identity management . Those
+approaches are difﬁcult to ﬁt to the IoT: Most data
+anonymization techniques can be broken using auxiliary
+data , that is likely to become available at
+some point during the IoT evolution. Identity management
+solutions, besides relying heavily on expensive cryptooperations,
+are
+mostly
+designed
+for
+very
+conﬁned
+environments, like enterprise or home networks and thus
+difﬁcult to ﬁt to the distributed, diverse and heterogeneous
+environment of the IoT. Approaches from RFID privacy
+due to similarities in resource constraints and numbers of
+things are the most promising. However, those approaches
+do not account for the diverse data sources available in the
+IoT as e.g. camera images and speech samples.
+We see as a main challenge the design of IoT systems
+that favor local over centralized processing, horizontal over
+vertical communications, such that less identifying data is
+available outside the personal sphere of a user and attack
+vectors for identiﬁcation are reduced. Since identiﬁcation
+is not always possible or even desired to prevent, it is
+important that users are made aware according to our
+privacy deﬁnition , which in itself is a major
+challenge.
+.. Localization and Tracking
+Localization and tracking is the threat of determining and
+recording a person’s location through time and space.
+Tracking requires identiﬁcation of some kind to bind
+continuos localizations to one individual. Already today,
+tracking is possible through different means, e.g. GPS,
+internet trafﬁc, or cell phone location. Many concrete
+privacy violations have been identiﬁed related to this
+threat, e.g. GPS stalking , disclosure of private
+information such as an illness , or generally the uneasy
+feeling of being watched . However, localization and
+tracking of individuals is also an important functionality
+in many IoT systems. These examples show that users
+perceive it as a violation when they don’t have control over
+their location information, are unaware of its disclosure, or
+if information is used and combined in an inappropriate
+context. This coincides with our deﬁnition of privacy
+.
+In the immediate physical proximity, localization and
+tracking usually do not lead to privacy violations, as
+e.g. anyone in the immediate surrounding can directly
+observe the subject’s location. Traditionally, localization
+and tracking thus appears as a threat mainly in the phase
+of information processing, when locations traces are built
+at backends outside the subject’s control. However, the IoT
+evolution will change and aggravate this threat in three
+ways: First, we observe an increasing use of location-based
+services . IoT technologies will not only support the
+development of such LBS and improve their accuracy but
+also expand those services to indoor environments e.g. for
+smart retail . Second, as data collection becomes
+more passive, more pervasive and less intrusive, users
+become less aware of when they are being tracked and
+the involved risks. Third, the increasing interaction with
+smart things and systems leaves data trails that not only
+put the user at risk of identiﬁcation but also allow to track
+his location and activity, e.g. swiping an NFC-enabled
+smart phone to get a bus ticket or using the cities’ smart
+parking system. With these developments, the threat of
+localization and tracking will appear also in the interaction
+phase, making the subject trackable in situations where he
+might falsely perceive physical separation from others, e.g.
+by walls or shelves, as privacy.
+Research on location privacy has proposed many
+approaches that can be categorized by their architectural
+perspective  into
+ client-server,  trusted
+third party, and  distributed/peer-to-peer. However,
+
+Privacy in the Internet of Things
+ Table II. Summary of the impact of the evolving features on the seven categories of privacy threats. Statements in italics indicate that
+impact is possibly ambiguous.
+Technology
+Size
+Interconnection
+Data collection
+Thing
+Interaction
+System
+Interaction
+Lifecycle
+Vertical vs.
+horizontal
+Identiﬁcation
+Cameras, face
+recognition
+Fingerprinting
+Speech, cloud
+interfaces
+Tracking
+Indoor LBS
+Decreasing
+awareness
+Data trails
+Proﬁling
+Explosion of
+data sources
+Qualitatively
+new sets of data
+Interaction &
+Presentation
+Presentation
+media
+Pervasive
+interaction with
+users
+Lifecycle
+transitions
+Product history
+log
+Exchangeability
+Sensitive data
+on devices
+Inventory
+attacks
+Diversiﬁcation
+Wireless
+communication
+Linkage
+Decreasing
+transparency
+Drives
+linkage
+locally
+those approaches have been mostly tailored to outdoor
+scenarios where the user actively uses a LBS through his
+smart phone. Thus, these approaches do not ﬁt without
+signiﬁcant modiﬁcations to the changes brought by IoT.
+The main challenges we identify are  awareness of
+tracking in the face of passive data collection,  control
+of shared location data in indoor environments, and
+ privacy-preserving protocols for interaction with IoT
+systems.
+.. Proﬁling
+Proﬁling denotes the threat of compiling information
+dossiers about individuals in order to infer interests by
+correlation with other proﬁles and data. Proﬁling methods
+are mostly used for personalization in e-commerce 
+but also for internal optimization based on customer
+demographics and interests. Examples where proﬁling
+is leads to a violation of privacy violation are price
+discrimination , unsolicited advertisements ,
+social engineering , or erroneous automatic decisions
+, e.g. by facebooks automatic detection of sexual
+offenders . Also, collecting and selling proﬁles about
+people as practiced by several data market places today
+is commonly perceived as a privacy violation. The
+examples show that the proﬁling threat appears mainly
+in the dissemination phase, towards third parties, but
+also towards the subject itself in form of erroneous or
+discriminating decisions.
+The impact of the evolving features in the IoT is
+mainly twofold, as shown in Table II: First, the IoT
+evolution leads to an explosion of data sources as more
+and more everyday things get connected. Second, while
+data collection thus increases quantitatively by orders of
+magnitude, it also changes qualitatively as data is collected
+from previously inaccessible parts of people’s private lives.
+Additionally, the aggravation of identiﬁcation and tracking
+threats further fuels the possibilities for proﬁling and
+danger from dubious data-selling businesses.
+Existing approaches to preserve privacy include clientside personalization, data perturbation, obfuscation and
+anonymization, distribution and working on encrypted data
+. These approaches can possibly be applied to
+IoT scenarios but must be adapted from the usual model
+that assumes a central database and account for the many
+distributed data sources which are expected in the IoT.
+This will require considerable efforts for recalibration of
+metrics and redesign of algorithms, as e.g. recent work in
+differential privacy for distributed data sources shows .
+After all, data collection is one of the central promises
+of the IoT and a main driver for its realization. We
+thus see the biggest challenge in balancing the interests
+of businesses for proﬁling and data analysis with users’
+privacy requirements.
+.. Privacy-violating interaction and
+presentation
+This threat refers to conveying private information through
+a public medium and in the process disclosing it to an
+unwanted audience. It can be loosely sketched as shouldersurﬁng but in real-world environments.
+Many IoT applications, e.g. smart retail, transportation,
+and healthcare, envision and require heavy interaction
+with the user. In such systems, it is imaginable that
+information will be provided to users using smart things in
+their environment , e.g. through advanced lighting
+installations, speakers or video screens. Vice versa, users
+will control systems in new intuitive ways using the things
+surrounding them, e.g. moving, touching and speaking
+to smart things. However, many of those interaction and
+presentation mechanisms are inherently public, i.e. people
+in the vicinity can observe them. This becomes a threat
+to privacy when private information is exchanged between
+the system and its user. In smart cities e.g. a person might
+
+ Privacy in the Internet of Things
+ask for the way to a speciﬁc health clinic. Such a query
+should not be answered e.g. by displaying the way on a
+public display nearby, visible to any passers-by. Another
+example are recommendations in stores that reﬂect private
+interests, such as speciﬁc diet food and medicine, movies
+or books on precarious topics. Due to its close connection
+to interaction and presentation mechanisms, the threat
+of privacy-violating interactions and presentation appears
+primarily in the homonymous phases of our reference
+model.
+Since such advanced IoT services are still in the
+future, privacy violating interactions have not received
+much attention from research. Interaction mechanisms
+are however crucial to usable IoT systems and privacy
+threats must consequently be addressed. We identify two
+speciﬁc challenges that will have to be solved: First, we
+need means for automatic detection of privacy-sensitive
+content. It is easily imaginable that the provisioning of
+content and rendering it for the user are handled in two
+steps by two different systems: E.g. company A generates
+recommendations for customers of a store, which are then
+delivered to the customer by company B’s system: either
+by special lighting and the use of speakers or through a
+push to his smart phone. How to choose between those two
+interaction mechanisms, one public one private? Should
+company A mark privacy sensitive content or should
+company B detect it? How can company B  protect itself from A’s lax privacy attitude?
+Automatic detection of privacy-sensitive content can help
+to decide these questions. Second, with the previous point
+in mind, scoping will be necessary, i.e. how can we
+scope public presentation medium to a speciﬁc subgroup
+of recipients or a speciﬁc physical area? This approach
+would proof useful to support users, which have no smart
+phone . However, it will be difﬁcult
+to accurately determine the captive audience of a particular
+presentation medium, separate the intended target group
+and adjust the scope accordingly. E.g. what if the target
+user is in the midst of a group of people?
+Applications for privacy-preserving pervasive interaction mechanisms are, e.g. smart stores and malls, smart
+cities and healthcare applications. Here, it would certainly
+be an achievement to provide similar levels of privacy
+as people would expect in the contexts of their everyday
+conversations, i.e. interactions with their peers.
+.. Lifecycle transitions
+Privacy is threatened when smart things disclose private
+information during changes of control spheres in their
+lifecycle. The problem has been observed directly with
+regard to compromising photos and videos that are often
+found on used cameras or smart phones – in some cases,
+disturbing data has even been found on ’new’ devices
+. Since privacy violations from lifecycle transitions are
+mainly due to the collected and stored information, this
+threat relates to the information collection phase of our
+reference model.
+Two developments in the IoT will likely aggravate
+issues due to the lifecycle of things . First, smart
+things will interact with a number of persons, other things,
+systems, or services and amass this information in product
+history logs. In some applications, such data is highly
+sensitive, e.g. health-data collected by medical devices
+for home-care. But also the collection of simple usagedata  could disclose
+much about the lifestyle of people. Already today, detailed
+usage logs are maintained for warranty cases in TV sets,
+notebooks or cars. Second, as exchangeable everyday
+things such as lightbulbs become smart, the sheer numbers
+of such things entering and leaving the personal sphere will
+make it increasingly difﬁcult to prevent disclosure of such
+information.
+Despite obvious problems with the lifecycle of todays
+smart phones, cameras, and other storage devices this
+threat has not been properly addressed. The lifecycle of
+most consumer products is still modeled as buy-once-ownforever and solutions have not evolved beyond a total
+memory wipe  or physical
+destruction . Smart
+things could, however, feature a much more dynamic
+lifecycle, with things being borrowed, exchanged, added
+and disposed freely. We thus identify the requirement
+for ﬂexible solutions that will undoubtedly pose some
+challenges: Automatic detection of lifecycle transitions of
+a smart thing will be required to implement convenient
+privacy lifecycle management mechanisms. E.g. a smart
+rubbish bin could automatically cleanse all items in it from
+private information, such as medicine prescriptions on a
+smart pill box. It will be difﬁcult, though, to automatically
+distinguish between different lifecycle transitions as e.g.
+lending, selling or disposing of an item and taking
+the appropriate action. Certain lifecycle transitions, e.g.
+borrowing a smart thing, will require locking private
+information temporarily, e.g. the readings of a vital signs
+monitor. Once the device has returned to its original owner,
+the private data can be unlocked and the original owner can
+continue to use it seamlessly.
+.. Inventory attack
+Inventory attacks refer to the unauthorized collection of
+information about the existence and characteristics of
+personal things.
+One evolving feature of the IoT is interconnection
+. With the realization of the All-IP and
+end-to-end vision, smart things become query-able over
+the Internet. While things can then be queried from
+anywhere by legitimate entities , non-legitimate parties
+can query and exploit this to compile an inventory list
+of things at a speciﬁc place, e.g. of a household, ofﬁce
+building, or factory. Even if smart things could distinguish
+legitimate from illegitimate queries, a ﬁngerprint of their
+
+Privacy in the Internet of Things
+ communication speeds, reaction times and other unique
+characteristics could potentially be used to determine
+their type and model. With the predicted proliferation of
+wireless communication technology, ﬁngerprinting attacks
+could also be mounted passively, e.g. by an eavesdropper in
+the vicinity of the victim’s house. Since inventory attacks
+are mainly enabled by the increasing communication
+capabilities of things, the threat arises in the information
+collection phase of our reference model.
+The impact of new technologies on this threat is not yet
+clear. On the one hand, we expect the diversiﬁcation of
+technologies in the IoT as more and more different things
+become smart. Diversiﬁcation increases the attack vector
+for ﬁngerprinting, as e.g. observed with the many diverse
+conﬁgurations of web browsers . On the other hand, at
+some point in time we expect the establishment of certain
+standards for communication and interaction that could
+reduce such differences.
+Manifold concrete privacy violations based on inventory
+attacks are imaginable or have actually happened. First,
+burglars can use inventory information for targeted
+break-ins at private homes, ofﬁces and factories, similar
+to how they already use social media today to stake
+out potential victims . Note that a comprehensive
+inventory attack could then also be used to proﬁle the antiburglar system down to every last presence sensor. Second,
+law enforcement and other authorities could use the
+attack to conduct  searches. Third, private
+information is disclosed by the possession of speciﬁc
+things, such as personal interests  or health . Fourth,
+efforts for industrial espionage can be complemented
+through an inventory attack, as noted by Mattern .
+  and Van Deursen  have recognized the danger of proﬁling through ﬁngerprinting in
+the context of RFID. However, with RFID the problem
+is at a much more local scope as RFID tags can be
+read only from a close distance and queries are mostly
+restricted to reading the tag’s identiﬁer. As analyzed above,
+the problem will aggravate in the IoT evolution as the
+attack vector is greatly increased by increasing proliferation of wireless communications, end-to-end connectivity,
+and more sophisticated queries. In order to thwart inventory attacks in the IoT, we identify the following two
+technical challenges: First, smart things must be able to
+authenticate queries and only answer to those by legitimate parties to thwart active inventory attacks through
+querying. Research in lightweight security provides useful approaches for authentication in resource-constrained
+environments. Second, mechanisms that ensure robustness
+against ﬁngerprinting will be required to prevent passive
+inventory attacks based on the communication ﬁngerprint
+of a smart thing. Inventory attacks will undoubtedly be
+difﬁcult to counter. The fact that the use of PETs, though
+meant to protect privacy, can actually make ﬁngerprinting
+even easier, leaves hiding in the  masses
+currently as the most viable but clearly suboptimal solution
+. However, an IoT system that discloses comprehensive information about its owner’s possessions is not likely
+to gain acceptance.
+.. Linkage
+This
+threat
+consists
+in
+linking
+different
+previously
+separated systems such that the combination of data
+sources reveals  information that
+the subject did not disclose to the previously isolated
+sources and, most importantly, also did not want to reveal.
+Users fear poor judgement and loss of context when data
+that was gathered from different parties under different
+contexts and permissions is combined . Privacy
+violations can also arise from bypassing privacy protection
+mechanisms, as the risks of unauthorized access and leaks
+of private information increases when systems collaborate
+to combine data sources. A third example of privacy
+violations through linkage of data sources and systems
+is the increased risk of re-identiﬁcation of anonymized
+data. A common approach towards protecting privacy is
+working on anonymized data only, but the act of combining
+different sets of anonymous data can often enable reidentiﬁcation through unforeseen effects . The
+examples show that the threat of linkage primarily appears
+in the information dissemination phase .
+The threat of linkage will aggravate in the IoT evolution
+for two main reasons. First, horizontal integration will
+eventually link systems from different companies and
+manufacturers to form a heterogeneous distributed systemof-systems delivering new services that no single system
+could provide on its own. Successful collaboration will
+above all require an agile exchange of data and controls
+between the different parties. However, as horizontal
+integration features more local data ﬂows than vertical
+integration it could provide a way to enhance privacy.
+Second, the linkage of systems will render data collection
+in the IoT even less transparent than what already is
+expected from the predicted passive and unintrusive data
+collection by smart things.
+Threats from linking different systems and information
+sources are not entirely new. They can already be observed
+in the domain of online social networks  and
+their applications. However, this involves only two parties
+, while the
+IoT is expected to feature services that depend on the
+interaction and collaboration of many coequal systems.
+Here, we identify three technical challenges for privacyenhanced systems-of-systems: First, transparency about
+what information a system-of-systems shares with whom is
+crucial to gain user acceptance. Second, permission models
+and access control must be adapted to the plurality of
+stakeholders collaborating in linked systems. Third, data
+anonymization techniques must work on linked systems
+and be robust against combination of many different sets
+of data. E.g. it will be interesting how concepts like
+differential privacy can be ﬁtted to such multi-stakeholder
+multi-systems scenarios.
+
+ Privacy in the Internet of Things
+. CONCLUSION
+This paper motivates the need for a detailed analysis of
+privacy threats and challenges in the Internet of Things.
+We dissect this complex topic into a four-step approach:
+First, we provide a formal basis for discussing privacy
+in the IoT by concisely framing our notion of privacy
+and the applied reference model. A short review of
+relevant privacy legislation identiﬁes clear insufﬁciencies
+and further motivates the need for a detailed assessment
+of privacy threats. In the second step, we acknowledge
+that the Internet of Things is constantly evolving and
+cannot be reduced to the sum of the technologies it builds
+upon. Here, our discussions of evolving technologies and
+features provide both a general and privacy-focused view
+on the past, present and future evolution of the IoT.
+Thirdly, we summarize existing privacy threats into seven
+categories and review them in the light of the evolving
+IoT. Identiﬁcation, tracking and proﬁling are long known
+threats that, as we show, will be greatly aggravated in
+the IoT. The four threats of privacy-violating interactions
+and presentations, lifecycle transitions, inventory attacks
+and information linkage arise later in the IoT evolution.
+They represent partly new threats that have only been
+scratched in the related work, but can become very
+dangerous with regard to the predicted evolution of the
+IoT. The arrangement of threats in our reference model
+provides a clear idea of where threats appear and where to
+approach them conceptually. Finally, technical challenges
+are discussed in the context of each threat that provide clear
+directions for future research.
+We consider that proﬁling remains one of the most
+severe threats: Our analysis shows that it is greatly
+aggravated and that other threats like identiﬁcation or
+tracking, though each provoking different very speciﬁc
+privacy violations, add to its dangers by supplying even
+more linkable data. At the same time, business models
+that depend heavily on proﬁling have enjoyed tremendous
+success and so the trend for big data continues, fueled by
+the IoT’s central promise for ﬁne-grained and ubiquitous
+data collection. Here, the challenge consists in designing
+privacy-aware solutions for the IoT that allow to balance
+business interests and customers’ privacy requirements.
+We consider privacy-violations in the interaction and
+presentation phase an important future threat, because
+of the corresponding interaction mechanisms with smart
+things and systems that are just evolving and are rather
+unique to the IoT. The involved technical challenges have
+hence received little attention in the related work so far
+and require new ways of using technology as well as
+a fair amount of foresight and sensitivity for privacy
+implications. We aim to design technical solutions that
+allow users to interact with IoT systems in manifold
+ways, while affording privacy protection similar to the
+intuitive understanding of privacy people apply in real
+world situations.
+Finally, we stress two core thoughts, that our work
+suggests for a privacy-aware Internet of Things: First, the
+IoT is evolving – privacy is a constant challenge and must
+be faced with the necessary foresight. Second, a fruitful
+outcome requires coordinated action to provide technical
+solutions supported by the corresponding legal framework.
+
+

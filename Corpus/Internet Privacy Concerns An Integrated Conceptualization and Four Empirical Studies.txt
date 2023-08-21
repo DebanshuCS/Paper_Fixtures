@@ -1,0 +1,820 @@
+
+ /Internet Privacy Concerns
+ Introduction
+ Information privacy, defined as the ability of the individual to
+ control when, how, and to what extent his or her personal
+ information is communicated to others , is one
+ of the most important ethical, legal, social, and political issue
+ of the information age . The increase in digitalized personal information and
+ advances in Internet technologies pose new challenges to
+ consumers' information privacy . On one hand,
+ personalized web services and business intelligence software
+ require the collection and mining of unprecedented amounts
+ of personally identifying information .
+ On the other hand, as consumers become content providers on
+ web blogs and social networking websites, their personal
+ information becomes more vulnerable. Lawsuits against
+ popular websites  for violation of online privacy, and the
+ implementation of online privacy protection acts , are evidence of the increased
+ importance and interest in online privacy. Researchers are
+ also advocating a reexamination of privacy concerns to reflect
+ the contemporary nature of this dynamic construct . Under these conditions,
+ understanding individuals' privacy concerns is fundamental
+ to the success of emerging Internet technologies.
+ In this paper, we focus on Internet privacy concerns ,
+ which is a special case of the more general information
+ privacy concerns. The Internet is becoming one of the most
+ popular media through which consumers' personal information is transmitted and collected by numerous companies. In
+ particular, we are interested in studying IPC as a perception
+ in a dyadic relationship between an individual and an online
+ entity, which can either be a particular website or a category
+ of websites, such as commercial websites. Similar definitions
+ have been adopted in recent publications on IPC , in which IPC is defined
+ as the degree to which an Internet user is concerned about
+ website practices related to the collection and use of his or her
+ personal information. According to this definition, IPC
+ reflects an individual's perception of his or her concern for
+ how personal information is handled by websites, which is
+ different from his or her expectation of how websites should
+ handle his or her personal information. For example, an
+ individual may expect a website to provide adequate protection of his or her personal information, but it does not necessarily mean that this individual is genuinely concerned about
+ providing his or her personal information to the website.
+ Given the importance of information privacy concerns, and
+ IPC in particular in the Internet age, there have been many
+ attempts to conceptualize them. However, there is a lack of
+ consistency in these conceptualizations. In past research,
+ information privacy concerns and IPC have been conceptualized as a single first-order factor , multiple first-order
+ factors , and a second-order construct . Even in studies where they are
+ recognized as a second-order construct, there is little consensus on the underlying first-order factors or dimensions.
+ In addition, there is little agreement on the definitions and
+ operationalization of the first-order factors. For instance,
+ dimensions that are measured similarly are named and defined
+ differently across studies . The definitions of some dimensions
+ include multiple subdimensions , while others are defined to be one thing but have items
+ measuring other dimensions . Some studies
+ propose an overall general dimension, but an examination of
+ the items reveals multiple subdimensions .
+ Further, there are significant differences in the measurement
+ of information privacy concerns and IPC. In most studies,
+ individuals were asked to report their levels of agreement with
+ privacy related items . However, the items are phrased from
+ different perspectives, not only across different instruments,
+ but also within the same instrument. For example, in 's  instrument, the items measuring the collection
+ dimension reflect perception of one's concern for others'
+ behavior , while the items measuring the remaining dimensions reflect one's expectation of others' behavior. These
+ measurement differences may impact the consolidation of
+ findings from prior studies. As this impact has not been
+ examined previously, it will be useful to determine if there is
+ a need to adopt a more consistent wording or perspective in
+ measuring the dimensions of IPC.
+ Given the different conceptualizations and measurements of
+ IPC, it is critical to resolve the inconsistency in the prior
+ literature and consolidate understanding of IPC so as to provide a foundation for future development of this dynamic and
+ complex construct. This paper has two research objectives:
+  to develop an integrated conceptualization of IPC, and
+
+ 
+ /Internet Privacy Concerns
+  to validate the integrated conceptualization of IPC. We
+ will use the multidimensional developmental theory  to identify alternative theoretical conceptualizations of IPC. We will review the prior literature to
+ identify the key lower-order dimensions, determine the
+ potential factor structures of the integrated conceptualization
+ of IPC, and develop a consistent wording of items across
+ dimensions. The validity of the integrated conceptualization
+ of IPC will be examined through four large-scale empirical
+ studies. The main contributions of this research are twopronged. First, we will contribute toward clarifying the
+ conceptualization of IPC in terms of its factor structure, its
+ underlying dimensions, and its operationalization. Second,
+ we will provide empirical evidence for our proposed integrated conceptualization of IPC. In summary, this research
+ will contribute to a better understanding of the conceptualization of IPC, and provide a reliable and valid instrument for
+ research into IPC.
+ Theoretical Background
+ Multidimensional Developmental Theory
+ The multidimensional developmental theory  is a
+ framework to understand individuals' perceptions of privacy
+ and privacy invasion . MDT argues
+ that privacy concern is a multidimensional concept that can be
+ described as a result of self-development, environmental
+ impact, and, most importantly, interpersonal interaction. Selfdevelopment and environmental impact describe how individuals develop privacy concern over time, both as a result of
+ a self-development process that focuses on autonomy and as
+ a result of the impacts of cultural, social, and physical
+ settings. According to Laufer and Wolfe , the
+ interpersonal interaction aspect constitutes the core of privacy
+ perception, as it assumes the existence of others and focuses
+ on the relationship between an individual and others. This
+ aspect of MDT is consistent with the dyadic relationship
+ assumed in our definition of IPC, and therefore is most relevant to our research on IPC. In the context of IPC, interpersonal interaction can be viewed as an inter- web-personal
+ interaction which is a dyadic relationship between an
+ individual and an online entity, such as a website.
+ In addition, MDT proposes that the interpersonal interaction
+ aspect of privacy has two main components: interaction
+ management and information management. The interaction
+ management component describes how an individual manages
+ his or her interaction with others, while the information
+ management component describes how an individual manages
+ his or her personal information. These two components of
+ interpersonal interaction are central to IPC as defined in our
+ paper, because they put privacy concern into a context and are
+ congruent with individuals' privacy concern as experienced
+ in online activities.
+ In applying MDT to the study of IPC, we made a few
+ observations. First, IPC focuses on an individual's privacy
+ concern as a result of interaction with websites, and such
+ interaction typically involves the collection and usage of his
+ or her personal information. Hence, we define the interaction
+ management component of IPC more specifically as the
+ ability of an individual to manage the collection and subsequent use of his or her personal information by websites.
+ Second, as early as in the 1970s, researchers began to
+ recognize the potential threat to the privacy of personal data
+ by computer technologies . In MDT, specifically noted that the presence of computerized
+ personal data and how such data is managed is an important
+ aspect of the information management component. Research
+ has shown that online consumers are very concerned about
+ the efforts of companies in protecting their personal data after
+ it has been collected , and it is critical that
+ companies take steps and formulate policies to protect the
+ integrity and well-being of the data . Hence, when we examine the information management component of IPC, it is important to incorporate the
+ individual's perception of how personal data is managed by
+ websites.
+ Third, MDT is ambiguous about the role of control and choice
+ in understanding privacy concerns. On one hand, MDT
+ argues that control and choice are two distinct elements
+ related to privacy concerns, in addition to the self-development, environmental impact, and interpersonal aspects.
+ Laufer and Wolfe  refer to them as the ability to perceive options  and to exercise choice among
+ options  when it comes to the management of
+ personal information. This view of awareness and control is
+ shared by other researchers. For example, social contract
+ theory , which has often been
+ used to study privacy concerns, suggests that the fairness of
+ collection of personal information on a website can only be
+ justified if an online consumer is granted control and
+ informed of the intended use of the information. Similarly, argue that consumers are
+ vulnerable in their dealings with businesses due to a lack of
+ information about and an inability to control the subsequent
+ use of their personal information. Some researchers even
+ define the conditions of privacy violation based on whether
+ individuals are informed of or have control over how their
+ personal information will be used . The Fair Information Practices act also
+ identified the provision of sufficient notice and choice as two
+ key aspects of privacy protection .
+ On the other hand, MDT also relates control closely with the
+ interpersonal interaction component of privacy, and describes
+ it as an individual's loss of control over interactional boundaries  and loss of control
+ over personal information. This conceptualization assumes
+ that control is a part of interpersonal management. There is
+ empirical support in prior research for such a conceptualization. For example, Sheehan and Hoy  found that
+ "control over collection and usage of information" emerges as
+ the strongest factor in explaining the variance of IPC.
+ Similarly,  measured privacy
+ concerns as the degree of control required by consumers over
+ personal information acquisition and use. 
+ argued that privacy can be viewed as control of information
+ about the self, and such control requires that an individual
+ manages the outflow of information as well as the subsequent
+ disclosure of that information to third parties. Hence, an
+ alternative view is that control is a natural part of interpersonal management efforts by the individual.
+ Based on the above discussion, we propose four alternative
+ theoretical frameworks for the IPC construct .
+ In accordance with MDT, IPC is conceptualized as a multidimensional construct in all of the frameworks. Specifically,
+ theoretical framework la recognizes the unique roles of
+ control and awareness in addition to other aspects of privacy
+ concerns, and proposes three main dimensions of IPC,
+ including inter-web-personal dimension, control dimension,
+ and awareness dimension. Theoretical framework lb reflects
+ the alternative conceptualization of control, where it is considered to be part of the inter-web-personal dimension, and
+ thus not included as a main dimension of IPC. In theoretical
+ frameworks 2a and 2b, we decompose the inter- web- personal
+ dimension into interaction management and information
+ management, while preserving the other dimensions proposed
+ in theoretical frameworks la and lb. Next, we proceed with
+ a literature review to see how these main dimensions are
+ captured and reflected in prior research.
+ Literature Review
+ We reviewed the prior literature from various disciplines to
+ determine  the key dimensions of IPC identified in prior
+ research and how they fit into the theoretical frameworks we
+ proposed earlier;  the existing factor structures of IPC in
+ prior research; and  how IPC is measured in the various
+ instruments. Our goal is to consolidate findings from existing
+ research into the theoretical frameworks based on MDT, and
+ develop an integrated conceptualization of IPC. We included
+ both studies on information privacy concerns and studies on
+ IPC in particular, as information privacy concerns research
+ conducted before the Internet age can also inform privacy
+ research in the online environment. Table  summarizes the
+ research from various disciplines.
+ Key Dimensions of IPC
+ We first identify the key dimensions of IPC in the extant
+ literature and relate them to the theoretical frameworks developed earlier based on MDT. However, not all studies provide
+ clear definitions of their dimensions, and in some studies, the
+ items tap different dimensions . Even when clear descriptions of the dimensions are provided, the definitions and the
+ nature of these dimensions often vary across studies . Hence, it was necessary to also examine the instruments to confirm the dimensions. We identified the key dimensions of IPC and related
+ them to the proposed theoretical frameworks in two stages.
+ In the first stage, four academics independently identified
+ relevant dimensions and reviewed the instruments to confirm
+ which dimensions they represent. After independent reviews,
+ a group discussion was held to resolve any differences. Our
+ investigation identified six key dimensions that are most
+ commonly utilized in prior conceptualizations of IPC. They
+ are collection, secondary usage, errors, improper access,
+ control, and awareness. We adapted the definitions of these
+ dimensions to the current research context. Specifically,
+ collection is the degree to which a person is concerned about
+ the amount of individual-specific data possessed by websites
+ . Secondary usage is the degree to
+ which a person is concerned that personal information is
+ collected by websites for one purpose but is used for another,
+ secondary purpose without authorization from the individual
+ . Errors is the degree to which a person is
+ concerned that protections against deliberate and accidental
+ errors in personal data collected by websites are inadequate
+ . Improper access is the degree to which
+ a person is concerned that personal information held by websites is readily available to people not properly authorized to
+ view or work with the data . Control is the
+ degree to which a person is concerned that he/she does not
+ have adequate control over his/her personal information held
+ by websites . Finally, awareness is the
+ 2We included the original papers that proposed and used unique measurement
+ of information privacy concerns or IPC. Papers that applied previously
+ developed instruments  were excluded.
+    
+
+ In addition to the six key dimensions, there are other aspects
+ of IPC proposed in several studies. One concern is the fear
+ that one's browsing or clicking behavior is being monitored
+ or tracked . As monitoring represents a form of data collection from Internet users,
+ it can be captured by the collection dimension. It can also
+ belong to the awareness dimension depending on whether
+ users are informed of the practice or not. Other concerns
+ include identity issues , which are not directly related to
+ concerns about the privacy of one's own personal information; legal issues , which do not necessarily provide an indication of how one's personal information is actually handled by
+ websites; application issues , which are
+ services enabled by personal information collected; security
+ issues, which are distinct from privacy issues ; and issues that may affect IPC but are not part of it
+ . As these concerns are not
+ directly related to IPC, we do not incorporate them into our
+ conceptualization of IPC.
+ In the second stage, the same four academics independently
+ relate the six key dimensions to the theoretical frameworks
+ proposed by MDT. A group discussion was held to resolve
+ any differences. As Table  shows, the collection and secondary usage dimensions are core components of privacy
+ concerns that are most commonly identified in prior research.
+ In addition, they both reflect the interaction management
+ dimension of IPC as they describe how an individual manages
+ the collection and subsequent use of his/her personal information by websites. Further, an individual's concerns over the
+ integrity and well-being of his/her personal information are
+ reflected in the errors and improper access dimensions of IPC.
+ Both of these dimensions describe common threats to
+ personal information after it is collected by websites, if not
+ managed properly. Next, control is a complex factor that is
+ considered by some researchers as a distinct dimension of IPC
+ , while other
+ researchers considered it to be part of the interaction management dimension . Two interesting observations can be made here.
+ First, the ambiguity with the control dimension coincides with
+ the alternative conceptualizations of control in the theoretical
+ frameworks based on MDT. Both conceptualizations of control have received some support from the literature. Thus, it
+ is critical to examine both conceptualizations in our study of
+ IPC. Second, virtually no prior study has considered control
+ as part of the information management dimension, probably
+ because our definition of the information management
+ dimension focuses more on websites, and individuals may not
+ perceive themselves as having control over how websites
+ manage their data. Awareness is often identified as a unique
+ factor of IPC, probably because regardless of the interaction
+
+ information privacy concerns .
+ There are many benefits to higher-order constructs. They can
+ provide a higher level of abstraction than their underlying
+ dimensions, making it easier to examine the relationship
+ between the construct and its related antecedent and dependent constructs in a nomological network . Higher-order constructs are also more parsimonious
+ due to the gain in the degrees of freedom . In addition, a higher-order construct allows an examination of the relative strengths of the
+ lower-order constructs. Factor loadings can represent how
+ reliably each of the lower-order constructs reflects the higherorder construct and how important each of them is . Finally, a higher-order factor structure provides the
+ flexibility to encompass additional factors at lower levels
+ when needed .
+ On examining the main components of IPC identified through
+ MDT and the key lower-order dimensions of IPC identified in
+ the literature, IPC may even be a third-order construct. The
+ reason IPC has been identified as a second-order factor in the
+ prior literature may be because the lower-order dimensions
+ included in prior studies belong to only one main component
+ of IPC. For example, 's  instrument has
+ four dimensions, which all fall into the inter-web-personal
+ component. Similarly, 's  instrument has
+ three dimensions, which all belong to the interaction management dimension.
+ Our review of studies on higher-order factors, most of which
+ are in the psychology and management literature , found that the identification of higher-order factors should be driven by a
+ theoretical definition of the construct followed by a review of
+ prior empirical and theoretical research to identify a plausible
+ set of lower-order dimensions. A third-order factor structure
+ may be necessary when more than one of the lower-order
+ dimensions loads on a single facet of the theoretically defined
+ construct. The presence of multiple dimensions of IPC and
+ the assortment of second-order factor structures for IPC
+ suggest the possibility of a higher-order construct. In the next
+ section, we examine alternative models of IPC to see if a
+ third-order factor structure is desirable.
+ Alternative Models of IPC
+ Based on the theoretical frameworks identified through MDT
+ and our uncovering of the key dimensions in the existing
+ privacy literature, we propose a number of alternative models
+ of IPC . As a baseline, we will examine how
+ well an integrated conceptualization of IPC encompassing the
+ six key dimensions compares to two popular conceptualizations in the prior literature. Model  represents Stewart and
+ Segars' s  second-order factor model with 's
+  four first-order factors. Model  represents ' s  second-order factor model with three first-order
+ factors. Model  hypothesizes a model with six correlated
+ first-order factors . Such a model is typically included as a baseline
+ model when testing for higher-order models . Finally, Model  imposes a second-order factor of IPC
+ on the six first-order factors.
+ Next, we propose eight alternative higher-order models based
+ on the theoretical frameworks identified by MDT. Specifically, we propose a pair of models for each theoretical framework, with one model incorporating a third-order general
+ factor of IPC and the other model being its lower-order alternative. A third-order factor imposes a structure on the pattern
+ of correlations among its lower-order factors . In confirmatory factor analysis , when a
+ higher-order factor is not included, the lower-order factors are
+ typically allowed to freely correlate with each other. There
+ 3For example, the "meaning and satisfaction in life" construct has three
+ theoretical components, including relationship satisfaction, purposeful living,
+ and work and health satisfaction . In turn, each
+ component has multiple lower-order factors. For example, the relationship
+ satisfaction component has three subdimensions: peer relationships, intimate
+ relationships, and family relationships.
+ 
+ /Internet Privacy Concerns
+ are a few criteria to help determine whether a higher-order
+ factor is needed for a complex construct. First, a higher-order
+ factor is more likely to exist if the correlations among the
+ lower-order factors are relatively high . Second, a comparison of the goodness of fit statistics
+ between the higher-order model and the lower-order alternative model will inform us whether the specification of the
+ third-order general factor is reasonable . Third, in a nomological network, using lower-order
+ factors , instead of using their higher-order general factor, as
+ direct determinants of the dependent variable can result in
+ high error variance and inaccurate path coefficient estimates
+ of the structural model, due to multicollinearity among firstorder factors . Based on the
+ above criteria, we can compare the validity of the proposed
+ models.
+ Models  and  are instantiations of theoretical framework la.
+ Model  includes a second-order factor of inter-web-personal
+ dimension, and two first-order factors of control and awareness. This model theorizes that there are unique roles for
+ control and awareness in addition to the inter-web-personal
+ dimension. Model  imposes a third-order general factor of
+ IPC on Model  and theorizes that the lower-order dimensions
+ are best represented by a general factor.
+ Models  and  are instantiations of theoretical framework lb.
+ Model  includes one second-order factor of inter-webpersonal dimension, and one first-order factor of awareness.
+ It represents the alternative view of control as being part of
+ the inter- web-personal dimension. Model  imposes a thirdorder general factor of IPC on Model  to reflect that the
+ lower-order dimensions are best represented by a general
+ factor.
+ Models  and  are instantiations of theoretical framework
+. This model
+ differentiates between the interaction management and information management components of the inter-web-personal
+ dimension, and recognizes the unique roles of control and
+ awareness. Model  imposes a third-order general factor of
+ IPC on Model  and theorizes that the lower-order dimensions
+ are best represented by a general factor.
+ Models   and  are instantiated from theoretical framework
+ 2b. Model   consists of the two second-order factors of
+ interaction management and information management, and
+ one first-order factor of awareness. This model differentiates
+ between the interaction management and information management components of the inter-web-personal dimension,
+ and represents the alternative view that control is a part of the
+ inter web-personal dimension. Model  imposes a thirdorder general factor of IPC on Model   to reflect that the
+ lower order dimensions are best represented by a general
+ factor. Wording of Items: Perception Versus Expectation
+ As part of our literature review, we also examined the
+ wording of items in all of the instruments that were used to
+ measure information privacy concerns and IPC. Some
+ researchers have emphasized the importance of consistent
+ wording in measuring multifaceted constructs . A close scrutiny of the items measuring information privacy concerns and IPC reveals that there is
+ inconsistency in wording both across instruments and sometimes within the same instruments. The majority of items can
+ be categorized as either perception or expectation measures.
+ Further, perception measures can be classified into two
+ perspectives, the perception of one's concern for others'
+ behavior and the perception of others ' behavior , while the
+ expectation measures typically describe one's expectation of
+ others ' behavior. In the extant privacy literature, "others"
+ refers to companies or websites that collect personal information. Items measuring the perception of one 's concern for
+ others ' behavior typically start with "I am concerned. . .," "I
+ mind. The fact that a website explains how
+ it will use personal information can provide more assurance
+ to one person than another. Also, a particular individual may
+ or may not agree with the disclosed information handling
+ 4We also tested two alternative models in which control is modeled as a
+ subdimension of information management, with and without the third-order
+ general factor of IPC. The fit indices for these models are lower than Models
+   and , supporting the view of control as a subdimension of interaction
+ management rather than of information management.
+    
+
+ /Internet Privacy Concerns
+ practices adopted by a website. Hence, this type of items may
+ be more appropriate for the research context where the main
+ purpose is to understand the status of existing information
+ handling practices of companies or websites.
+ Finally, items measuring expectation of others' behavior
+ typically start with "Companies should...," "Companies
+ should not...," "I want a website to...," etc. These items
+ reflect the expectations that individuals hold toward
+ companies or websites in terms of the practices that should be
+ adopted to handle their personal information. A problem with
+ this type of measures is that they may provide misleading
+ responses, as it costs individuals virtually nothing to expect
+ and demand greater protection of their privacy . For example, while most people will
+ respond positively to a statement such as "Websites should
+ protect personal information they collect from unauthorized
+ secondary usage," it does not necessarily imply that they are
+ concerned that websites are not doing the right things to
+ protect them, nor does it necessarily inhibit them from
+ providing their personal information online. This may explain
+ why online consumers do not always act in line with their
+ stated privacy p . Hence, phrasing items in terms of expectation may
+ result in the measurement of a completely different construct
+ from IPC.
+ The differences in wording of items can have an impact on
+ empirical validations of information privacy concerns and
+ IPC. For instance, in 's  instrument, the
+ items measuring the collection dimension are phrased as
+ perception of one 's concern for others ' behavior , while items
+ measuring the errors, secondary usage, and improper access
+ dimensions are phrased as expectation of others ' behavior .
+ Tables  and  report the means of the four dimensions and
+ their intercorrelations respectively in published empirical
+ studies . As
+ Table  shows, the collection dimension has a lower mean
+ than the other three dimensions in  out of the   pairs of
+ possible comparisons . This is surprising as collection
+ is a necessary antecedent to the other three dimensions, and
+ has been recognized as one of the most important dimensions
+ of information privacy .
+ Table  also shows that the collection dimension has a lower
+ average correlation than the other three dimensions  in prior studies that used Smith et
+ al. ' s  instrument. In view of the differences in wording
+ of the items and the pattern of empirical data in past studies,
+ there is a possibility that the existing items measuring the
+ collection dimension may be tapping into a different construct
+ from the items measuring the other three dimensions. Recent
+ studies using the instrument either showed that the collection
+ dimension does not converge well with the other three
+ dimensions of IPC , or have
+ omitted the collection dimension in their measurement of IPC
+ . In summary, the
+ inconsistency in wording of items may affect the measurement of IPC.
+ Methodology
+ We conducted a series of studies to validate the alternative
+ models of IPC that are derived from the various theoretical
+ frameworks based on MDT. Figure  presents a roadmap of
+ the four studies. Study  collected data on individuals' IPC
+ with commercial websites using items from existing instruments for the purpose of comparing the integrated conceptualization of IPC, which included six key dimensions, against
+ two popular existing conceptualizations of IPC in prior
+ research. Study  cross-validated the findings of study  on
+ a new sample of individuals' IPC with government websites,
+ and examined the impact of inconsistent wording of items in
+ the original instruments. Study  collected additional data on
+ individuals' IPC with commercial websites using revised
+ wording of the items and reevaluated the factor structure of
+ the integrated conceptualization of IPC through a number of
+ higher-order models. Finally, study  cross-validated the
+ findings of study  on a new sample of individuals' IPC with
+ government websites and assessed the nomological validity of
+ the integrated conceptualization of IPC.
+ Study 
+ The objectives of study  are to allow comparison with prior
+ research using items from existing instruments, and to
+ compare the integrated conceptualization of IPC  against two
+ popular existing conceptualizations of IPC. An online survey
+ was conducted over a period of four weeks. We posted a
+ banner advertisement of the survey on the homepage of a
+ Hong Kong website. Incentives in the form of lucky draw
+ prizes were offered to participants in the online survey. A
+ total of  participants provided complete data for analysis.
+ Table  presents the demographics for the sample.
+ We used items from established instruments to measure the
+ six key lower-order dimensions of IPC. Items for collection,
+ errors, secondary usage, and improper access were taken from
+   
+ /Internet Privacy Concerns
+ Study  Study  Study  Study 
+  . Compare the baseline  • Examine impact of  . Resolve inconsistent  . Cross-validate the
+ integrated concep- inconsistent wording wording of items and findings of study 
+ tualization of IPC of items in original adopt a common using a new sample,
+ against two popular instruments. perspective in . Assess the nomoconceptualizations in . Cross-validate the Hv measuring IPC. Ply logical
+ the literature. findings of study  . Evaluate the alter- the best fitting theo-
+ . Replicate prior studies using a new sample. native integrated retical model of IPC
+ using items from conceptualizations of identified in study .
+ existing instruments IPC with a new
+ Study  Study  Study  Study 
+ Sample Size    
+ "Mean Age . . . .
+ Gender  %/% %/%
+ , and items for cont
+ taken from . T
+ were selected as they have undergone
+ testing. To reduce the length of the que
+ the three items with the highest load
+ . The items were ad
+ context by replacing "companies" wit
+ sites." Seven-point Likert scales with 
+ "strongly disagree" to "strongly agre
+ items. The questionnaire was pilot tes
+ 5We selected instruments that are most commonly
+ their construct validity has been established th
+ analysis. Both 's and Malhotra et 
+ criteria. 's instrument is probably the
+ of privacy concern that has been used widely a
+ various disciplines. Using existing instruments also 
+ findings with those of prior research, and see 
+ can affect the factor structure of even well-established instruments. This
+ effort is imperative in terms of facilitating knowledge accumulation and
+ knowledge development.
+ public university and was found to be reliable and valid .
+ Table  presents the descriptive statistics of the six key firstorder factors. The mean of the collection dimension was
+ significantly lower than those of the other five dimensions,
+ possibly due to the different wording/perspective adopted by
+ the original items. We then examined four models of IPC.
+ Model  was Stewart and Segars's  second-order factor
+ model with 's four first-order factors. Model 
+ was 's second-order factor model with three
+ first-order factors. Model  hypothesized a model with six
+ correlated first-order factors . Finally, Model 
+ imposed a second-order factor on the six first-order factors.
+ We used LISREL to conduct confirmatory factor analysis
+ . Models  and  showed good fit with the data . All fit indices were within the recommended ranges
+ . As the two models were not nested within
+ each other, we examined the AIC and CAIC fit indices.
+ Model  had smaller AIC and CAIC, indicating a better fit.
+ This is consistent with , but should be interpreted with care as AIC and CAIC favor simpler models by
+ taking parsimony  into
+ account as well as fit . Thus,
+ 
+ /Internet Privacy Concerns
+The factor loadings of two dimensions  on the second-order factor were also
+ lower than in Model . Hence, Model 
+ did not provide satisfactory performance over Model .
+ This result suggests that IPC may be a higher-order construct,
+ as a single second-order factor cannot sufficiently explain the
+ relationships among the first-order factors. There are two
+ possible explanations:  the inconsistency in the wording of
+ existing instruments may have affected the empirical
+ validation of the factor structure of IPC, and  the six firstorder factors belong to more than one higher-order factor,
+ consistent with the predictions of the various theoretical
+ frameworks based on MDT, and thus do not converge into a
+ single second-order factor. We examined these possibilities
+ in studies  and .
+ Study 
+ The objective of study  is to cross- validate the findings of
+ study  with a new sample and examine the impact of inconsistent wording of items. We used the same items, except for
+ replacing "commercial websites" with "government websites." The rationale is that if items measuring secondary
+ usage, errors, and improper access in 's instrument
+ are indeed measuring expectations, then individuals' expectations of government websites should be somewhat similar
+ to their expectations of commercial websites , given that it costs individuals virtually nothing to
+ expect more privacy protection. On the other hand, if items
+ measuring the collection dimension are indeed reflecting
+ individuals' perceptions of their privacy concerns, and given
+ that a recent study shows that Hong Kong residents hold
+ greater privacy concerns for data collected by the commercial
+ sector than by government agencies , we
+ should find lower concerns for personal information collection by government websites than by commercial websites.
+ Using a similar method as study  , we collected data from  
+ new respondents. The demographics of the respondents in
+ study  were similar to study  .
+ Similar to the results for commercial websites, the means of
+ the "expectation" dimensions are consistently higher than the
+ mean of the collection dimension, with the differences
+ ranging from . to . . Comparing the
+ means of the dimensions in study  and study , we found a
+ much larger difference in the collection dimension  than in the other five dimensions . The data supports our argument that
+ while individuals' perceptions of concerns for information
+ collection are significantly lower for government websites
+ than for commercial websites, they have similar expectations
+ for both types of websites in protecting their privacy.
+ The CFA results for the four models were similar to study .
+ While the fit indices were all acceptable, Model  again failed
+ to provide sufficient performance improvement against Model
+ , with a target coefficient  of only .. Also, the factor
+ loading of the collection dimension on the second-order factor
+ was lower than the recommended value. Hence, study  helps
+ us to verify the first possible explanation at the end of study
+  that inconsistency in the wording of existing instruments
+ can affect the empirical validation of the factor structure of
+ IPC. We resolved the wording inconsistency and reexamined
+ the factor structure of IPC in study .
+ Study 
+ The objectives of study  are to resolve inconsistency in the
+ wording of the original items, and to reevaluate the factor
+ structure of the integrated conceptualization of IPC against
+ alternative higher-order models developed from the various
+ theoretical frameworks using MDT. In order to focus on individuals' perceptions of their concerns for website behavior
+ rather than their expectations of website behavior , we
+ rephrased the items to start with either "I am concerned that
+ websites ..." or "It usually bothers me when websites ..." . Similar types of phrasing had been used in
+ more recent privacy instruments . Using a similar
+ method as study , we collected data from  new
+ respondents about their IPC with commercial websites using
+ the rephrased instrument.
+ Compared to the earlier studies, the means of the six dimensions were now in a closer range, with the differences
+ between the mean of the collection dimension and the other
+ five dimensions ranging between -. and . .
+ The changes to the wording of the items appeared to have
+ resolved the inconsistency issue. We then proceeded with
+ CFA to examine the factor structures of the alternative
+ conceptualizations of IPC.
+ We first examined Model  
+ with the new data . Model  continued to show
+ good fit with all fit indices falling into recommended ranges.
+ Present tests of reliability, convergent validity,
+ and discriminant validity of the six first-order factors. Cron  
+. Hence, Model  demonstrates good reliability. The
+ reliability, convergent validity, and discrimin
+ While Model  also showed good model fit with
+ falling into recommended ranges, the T coeffici
+ ., implying that a single second-order facto
+ adequately account for the correlations among th
+ factors. However, the moderately high correla
+ the first-order factors  provided e
+ port for the presence of higher-order factor m
+. We proceeded to examine the alternative higher
+ Model  as the baseline model and compared it t
+ higher-order factor models in subsequent analy
+ Table  presents the goodness-of-fit indices fo
+ alternative models  develope
+ various theoretical frameworks identified by M
+ these models were nested within Model . As nested models
+ could never have better fit than their baseline model, we
+ looked for a nested model that was more parsimonious and
+ with the closest fit indices to those of Model . The results
+ showed that models that hypothesized a third-order factor
+  consistently performed better than
+ their corresponding lower-order factor models . This supports our conceptualization of IPC as a
+ higher-order construct with a general factor of IPC encompassing the lower-order factors. Further, Model  had
+ significantly better fit than the alternative models, and its fit
+ indices were the closest to those of the baseline Model . The
+ T coefficient was ., indicating reasonable performance of
+ Model  over Model . Model  also showed much better
+ fit than Model , indicating a third-order factor explained the
+ data much better than a single second-order factor. In
+ addition, factor loadings from lower-order indicators to
+ higher-order factors were all larger than .. Given the
+ parsimony of Model , its reasonable performance over the
+ baseline model, and the high factor loadings, we concluded
+ that Model  best represents the factor structure of IPC.
+ The empirical results provide support for the interaction
+ management and information management dimensions of IPC.
+ These two dimensions represent two main areas from which
+ online consumers' privacy concerns may arise. On one hand,
+ consumers are concerned about losing control of their
+ personal information when interacting with websites, in terms
+ of how their personal information is collected and used by
+ websites. For example, many websites, such as Travelocity,
+ use business intelligence software to track consumers' search
+ behavior and use the data to predict consumers' needs and
+ make personalized recommendations. While such a personalized service may provide convenience to consumers, it also
+ raises their privacy concerns about the websites using their
+ personal data without their approval. Online consumers are
+ also concerned whether websites are doing their best to
+ protect the confidentiality of their personal information. For
+ example, there have been high profile incidents of credit card
+ information leaks that could potentially affect millions of
+ consumers .
+ The results also help to clarify the role of control in IPC.
+ Based on MDT, we have conceptualized two different roles
+ of control. In accordance with theoretical framework 2a, the
+ control dimension was hypothesized to be an independent
+ dimension that is correlated with the interaction management
+ dimension in Model , while in Model  the control dimension is hypothesized to be a subdimension of interaction
+ management following theoretical framework 2b. As Model
+  has better fit indices than Model , our results provide
+ support for the conceptualization of control as a part of the
+    
+ /Internet Privacy Concerns
+ interaction management dimension. In other words, individuals may not perceive that they have control over the
+ information management practices adopted by websites.
+ Finally, our results provide support for the conceptualization
+ of awareness as a unique passive dimension of privacy concerns . Awareness is somewhat independent of the other dimensions,
+ because no matter what interaction management or information management practices are adopted by a website, it can
+ choose to let individuals be aware of it or not. For example,
+ a website may or may not inform individuals when their
+ personal information is collected, what type of information is
+ collected, or whether their personal information will be used
+ for a different purpose. Similarly, a website may or may not
+ let individuals know when their personal information is
+ jeopardized by unauthorized access to its database. The
+ Federal Trade Commission surveyed , websites and
+ found that out of the  percent that collected data about
+ visitors, only  percent revealed how that data was used
+ . Hence, individuals' information privacy
+ could be infringed without their awareness of the interaction
+ management and information management practices of the
+ websites. Awareness constitutes a unique dimension in addition to the interaction management and information
+ management dimensions.
+ A limitation of the data analysis is with regard to the identification issue in LISREL. A latent variable needs at least
+ three indicators to be identified, meaning the number of
+ correlations among the indicators is exactly equal to the
+ number of parameters needed to define the third-order factor
+ . The third-order factor in Model  was just
+ identified, which made it indistinguishable from its corresponding lower-order model  from a statistical
+ sense. To test such models, additional constraints need to be
+ imposed . Following ,
+ we fixed the error terms of the two second-order factors in
+ Model  to be equal in order to address the identification
+ issue. The fit indices of the revised model were very similar
+ to those of the original model, providing evidence that Model
+  was statistically better than Model . From another
+ perspective, Model  had four indicators for its third-order
+ factor, which made it over-identified. As Model  provided
+ better fit with the data than its corresponding lower-order
+ model , it was added assurance of the existence of
+ the third-order factor. Similar practices can be found in the
+ psychology literature when treating complex higher-order
+ factors with identification issues .
+ Finally, the influence of common method variance 
+ can be an important issue for this research, as the observed
+ superiority of the third-order factor models over alternative
+ models may be attributed to the cross-sectional data collection. We conducted the marker variable test, which is
+ recognized as an effective tool for accounting for CMV
+ . A marker variable is believed to be
+ theoretically unrelated to at least one substantive variable, but
+ susceptible to the same causes of CMV. We selected knowledge of the Internet as a marker variable. Following Lindell
+ and Whitney , we used the second lowest positive
+ correlation between the marker variable and the six first-order
+ factors as a conservative estimate of shared correlation
+ resulting from CMV. We found that the second lowest positive correlation was ., which was low and nonsignificant.
+ Based on this estimate, we calculated CMV-adjusted correlations using the equation developed by Lindell and
+ Whitney to partial out method variance. The results showed
+ that the differences between the original and the CMVadjusted correlations were very small ,
+ suggesting that CMV did not present a major threat to our
+ analysis.
+ Study 
+ The objectives of study  are to cross-validate the findings of
+ study  using a new sample, and to assess the nomological
+ validity of the integrated conceptualization of IPC. From
+ study , our data analysis has identified Model  as having
+ the best fit with the data. Using a similar method as study ,
+ we collected data from another  respondents. This time,
+ we used the rephrased items from study  and changed
+ "commercial websites" to "government websites." The demographics of the respondents in study  were similar to study
+  .
+ In congruence with study , the means of the six dimensions
+ were in a closer range with each other, ranging from -. to
+ . . The CFA results were also similar to
+ study , with Model  having the best fit with the data. Its
+ T coefficient was ., and its fit indices were the closest to
+ the baseline Model . Factor loadings were above . for all
+ first-order factors and all higher-order factors, confirming the
+ third-order factor structure. Hence, the cross-validation confirmed the findings of study .
+ Nomological validity is the degree to which predictions from
+ a formal theoretical network containing the concept under
+ scrutiny are confirmed . A critical step
+ in assessing the efficacy of a higher-order factor is to study its
+ relationship with theoretically related constructs within a
+ nomological network . Following , we examined the relationship between IPC and two
+    
+  . Many researchers believe that privacy concern is likely to be a construct that evolves as computer-based
+ information technologies become more pervasive . In response to this, researchers advocate taking theory-driven approaches to investigate this dynamic construct, such that the scale would not be
+ specific to any particular privacy-threatening technologies,
+ which are continuously evolving .
+ Following the above evocation, we have adopted a theorydriven approach to identify the dimensionality of IPC
+ , which helps
+ to increase our faith in the stability of its factor structure. The
+ key lower-order dimensions were identified through an extensive literature review, which reflects the contemporary
+ perceptions of scholars and consumers toward information
+ privacy and online information privacy in particular. Nevertheless, future research needs to ensure these key lower-order
+ dimensions of IPC will still be relevant with new developments in technologies. For example, if advances in technology successfully eliminate the possibility of gaining
+ improper access to databases that hold personal information,
+ then improper access will cease to be a significant privacy
+ concern of Internet users. Take another example: Although
+ the information obtained through unauthorized monitoring
+ and analysis can be used to provide better services to Internet
+ users , such practices are often
+ conducted without their awareness, and the information may
+ be used for a secondary purpose. While these practices are
+ related to the key dimensions of IPC, they may have their own
+ unique characteristics. Hence, future research can reevaluate
+ the lower-order dimensions of IPC on a periodic basis,
+ especially after significant social and technological changes
+ which may impact Internet users' privacy perceptions.
+ Second, researchers have noted the importance of context in
+ studying information privacy . As our studies were conducted in an Asian country,
+ future research can test our conceptualization of IPC in other
+ countries. Third, it will be useful to perform factorial
+ invariance tests on the integrated instrument of IPC across
+ different demographics  to further validate our conceptualization of IPC
+ Finally, the integrated conceptualization of IPC can be used
+ in a nomological network to investigate the antecedents and
+ consequences of IPC in a particular research context. For
+ example, it would be interesting to examine the impact of IPC
+ on consumers' online behavior through longitudinal studies.
+ Conclusions
+ Based on MDT and an extensive literature review, we have
+ identified various conceptualizations of IPC. We then consolidate the existing knowledge about information privacy b
+ developing an integrated conceptualization of IPC whic
+ consists of a third-order general factor, two second-orde
+ factors of interaction management and information manage
+ ment, and six first-order factors . Th
+ reliability and validity of this integrated conceptualization o
+ IPC were validated through a series of four studies involvin
+ large-scale online surveys. As a result, this research h
+ contributed to building a better understanding of th
+ conceptualization of IPC and provided a modified instrumen
+ for future research into IPC.
+

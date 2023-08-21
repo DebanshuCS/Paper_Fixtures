@@ -1,0 +1,1205 @@
+Privacy in the Digital Age: A Review of Information Privacy Research in Information
+Systems
+
+ Information privacy refers to the desire of individuals to control or have some influence over data about
+ themselves. Advances in information technology have raised concerns about information privacy and its
+ impacts, and have motivated Information Systems researchers to explore information privacy issues, includin
+ technical solutions to address these concerns. In this paper, we inform researchers about the current state 
+ information privacy research in IS through a critical analysis of the IS literature that considers informatio
+ privacy as a key construct. The review of the literature reveals that information privacy is a multilevel concept,
+ but rarely studied as such. We also find that information privacy research has been heavily reliant on studen
+ based and USA-centric samples, which results in findings of limited generalizability. Information privacy
+ research focuses on explaining and predicting theoretical contributions, with few studies in journal articles
+ focusing on design and action contributions. We recommend that future research should consider different
+ levels of analysis as well as multilevel effects of information privacy. We illustrate this with a multileve
+ framework for information privacy concerns. We call for research on information privacy to use a broader
+ diversity of sampling populations, and for more design and action information privacy research to be published
+ in journal articles that can result in IT artifacts for protection or control of information privacy.
+ Keywords: Information privacy, privacy, level of analysis, information privacy framework, information
+ privacy concerns
+ Introduction
+ The concept of information privacy existed long before information and communication technologies changed its occurrences, impacts, and management. In the mid-1980s, Mason
+ 1M. Lynne Markus was the accepting senior editor for this paper. Paul
+ Pavlou served as the associate editor.
+ The appendices for this paper are located in the "Online Supplements"
+ section of the MIS Quarterly's website .
+  suggested that the advent of the increased use of information technologies, or the Information Age, would lead to
+ four major concerns about the use of information: privacy,
+ accuracy, property, and accessibility . This prediction
+ proved to be accurate for each area, and particularly for
+ privacy, which has been the subject of increasing concern
+ over the years. A Pew Internet Project survey found that 85
+ percent of adults believed it was "very important" to control
+ access to their personal information .
+ Information privacy is also an important concern for corporations. In a survey, 85 percent of responding companies
+ 
+
+All use subject to 
+ /Privacy in the Digital Age
+ experienced some sort of repor privacy breach during the
+ previous year; 63 percent reported multiple breaches. The
+ majority of the reporting companies stated that they spent
+ their time reacting to privacy breaches as opposed to being
+ proactive in their attempts to prevent them .
+ Information privacy can be defined in many ways. While
+ Clarke  states "privacy is often thought of as a moral
+ right or a legal right" , many researchers have suggested that privacy is one's ability to control information
+ about oneself . No
+ matter how privacy is defined, it is clear that the issues surrounding privacy are myriad and of a varied nature. As such,
+ information privacy has been studied not only by IS
+ researchers, but also by researchers in marketing, law, management, psychology, and many other fields. In this paper,
+ we explore the construct of information privacy within the
+ information systems domain. This paper aims to inform
+ researchers about the current state of information privacy
+ research in IS through a critical analysis of the literature. The
+ paper also aims to inform practitioners with a global view of
+ the current state of IS academic knowledge on information
+ privacy.
+ This review provides several findings and contributions for
+ the literature. First, we identify a wide variety of topics
+ relevant to the information privacy construct and show that
+ information privacy can be studied at multiple levels of
+ analysis, although rarely considered as a multilevel concept.
+ We recommend that future research should consider different
+ levels of analysis as well as multilevel effects of information
+ privacy, and illustrate this with a multilevel framework for
+ information privacy concerns. We also find that information
+ privacy research has been heavily reliant on student-based and
+ USA-centric samples, which results in findings of limited
+ generalizability. We provide suggested directions and
+ research questions that can be studied with a broader diversity
+ of sampling populations. Finally, we find that information
+ privacy research focuses largely on explaining and predicting
+ theoretical contributions, with few studies in journal articles
+ focusing on design and action contributions. We call for
+ more design and action information privacy research to be
+ published in journal articles as opposed to mainly being
+ available through conference proceedings. However, we
+ recognize that publishing such design and action research in
+ journals would likely require more interdisciplinary research.
+ Literature Review
+ Information privacy is a subset of the overall concept of
+ privacy, which has been explored and discussed for centuries.
+ suggest that most interpretations of the
+ concept of privacy refer to a human right, but within different
+ contexts. Those contexts led Clarke  to identify four
+ dimensions of privacy: privacy of a person, personal behavior
+ privacy, personal communication privacy, and personal data
+ privacy. Today, as most communications are digitized and
+ stored as information, personal communication privacy and
+ data privacy can be merged into the construct of information
+ privacy. This review focuses on information privacy because
+ most privacy-related IS research has focused on this construct. This singular focus is not surprising since technology
+ is driving many concerns  related to
+ information privacy. Specifically, with the advent of
+ advanced information and communication technologies, data
+ can be collected, aggregated, and analyzed at a faster pace
+ and in larger volume than ever .
+ Further, data can be collected without individuals' awareness
+ .
+ There are many definitions for information privacy, but there
+ is little variance in the elements of the definitions, which
+ typically include some form of control over the potential
+ secondary uses of one's personal information . Secondary use refers to the practice of using data for
+ purposes other than those for which they were originally
+ collected. identify four dimensions of
+ information privacy: collection, unauthorized secondary use,
+ improper access, and errors. Another taxonomy includes
+ information collection, information processing, information
+ dissemination, and invasion . propose a taxonomy of information privacy in collaborative environments focused on time, matter, and space
+ dimensions; the space dimension reflects the structural view
+ of information privacy, which includes individual, group, and
+ organizational privacy. Clarke defined information privacy
+ specifically as "the interest an individual has in controlling, or
+ at least significantly influencing, the handling of data about
+ themselves." For the purpose of our study, we rely on this
+ definition of information privacy.
+ In order to explore the information privacy construct in IS
+ research, we conducted an in-depth review of the literature in
+ several stages. To be included in our review, each journal
+ article had to include information privacy as a key construct.
+ We use several frameworks concurrently to perform an
+ analysis of the literature. First, we use Gregor' s 
+ framework of theory classifications to evaluate the theoretical
+ contributions made by the information privacy literature. As
+ suggested by Gregor, researchers can gain significant insights
+ into a research domain by identifying the types of theories
+ used within the domain. Second, we use the structural view
+ of information privacy proposed by to classify 
+
+
+ /Privacy in the Digital Age
+ the literature based on the levels of analysis. In addition to
+ the individual, group, and organizational levels that propose, we also include a societal level to capture
+ information privacy that is studied within or across national
+ or cultural regions, as proposed by .
+ The first stage in our search for the literature involved
+ identifying papers on information privacy in the AB I/Informs
+ database. Using those keywords, 340 articles were listed as
+ relating to information privacy. We then proceeded to extract
+ from this list research related to information systems and
+ information privacy. In the preliminary screening, we
+ removed articles that were either anonymous short stories,
+ s of contents, interviews with experts, opinion pieces,
+ papers listed more than once, or articles focused on security
+ but appearing in journals with information privacy in the
+ journal title. We also removed articles presenting legal
+ reviews and commentaries since our focus was on information
+ privacy research in IS, and on papers that we could code for
+ theoretical foundations, sample characteristics, and level of
+ analysis. Most legal articles provide legal discussions and
+ commentaries on laws related to information privacy.
+ Readers interested in legal aspects of information privacy can
+ refer to Appendix A for a substantial list of papers discussing
+ this aspect of information privacy. In total, we removed 2 1 8
+ articles. Appendix A explains this detailed screening and
+ provides the list of removed articles. We then examined the
+ remaining 122 articles for in-depth coding.
+ The papers were jointly coded for topic area, key constructs,
+ theoretical contributions, and methodology. Details of this
+ coding are presented in Appendices В and C. As a result of
+ our coding efforts, an additional 52 papers were removed
+ from the list of journal articles. These included editorial
+ prefaces, security focused articles, commentaries, opinions
+ pieces that were missed in our initial screening, book reviews,
+ "how to" articles , conference panel session
+ summaries, papers listed twice under different naming or that
+ were identical but in different journals, and papers that were
+ not focused on information privacy research, such as papers
+ on studies of supply chains with side mention of information
+ privacy, studies of general healthcare privacy, and studies or
+ discussions of chief privacy officers.
+ For the second stage of literature review, we identified over
+ 100 additional papers through further investigation of references from the papers identified in the first stage. Our initial
+ screening  resulted in 72 additional
+ papers being coded. The first 20 papers were coded independently by both authors, who achieved a Cohen's kappa of
+ 75 percent. Given that Cohen kappas above 0.60 are considered to show substantial agreement , one of the authors coded the remaining articles,
+ requesting feedback on difficult to classify articles. Coding
+ details are provided in Appendix B. The resulting sample of
+ 142 coded journal articles papers is included in Appendices
+ С and D.
+ The final stage of the literature review involved searching
+ conference proceedings databases to identify papers discussing information privacy to  verify if trends identified
+ in the coding of the journal articles were also found in
+ conference proceedings, and  identify any topic areas or
+ trends emerging from conference papers that were not
+ identified in the coding of journal articles. We investigated
+ 284 articles . Details of the procedures,
+ articles, and coding are provided in Appendix E.
+ Findings
+ In total, we reviewed over 500 articles, and coded 142 journal
+ articles and 102 conference proceedings papers. The review
+ revealed several important insights about information privacy
+ research in Information Systems. First, there is a wide variety
+ of topics relevant to the information privacy concept of
+ interest to IS researchers. Second, information privacy
+ research focuses largely on explaining and predicting theoretical contributions, with few studies in journal articles
+ focusing on design and action contributions. Third, information privacy research in IS has been heavily reliant on
+ student-based and USA-centric samples. Finally, information
+ privacy can be studied at multiple levels of analysis, although
+ it is rarely considered as a multilevel concept by IS
+ researchers. We explore each of these issues as related to the
+ existing research more in-depth in the following sections, and
+ discuss the implications of these findings.
+ Topics in IS Information Privacy Research
+ IS researchers have studied information privacy through a
+ number of lenses, discussing a wide variety of topics. As can
+ be seen in Appendix D, some topics appear more often in
+ journal articles than others, in particular research related to
+ information privacy concerns, e-business impacts of information privacy, and information privacy attitudes and practices. We briefly discuss important findings from these major
+ . 35 No.  1019
+
+All use subject to 
+ /Privacy in the Digital Age
+ streams of research. Articles in information privacy topic
+ areas less frequently researched can be identified in
+ Appendices A, B, D, and E. These include papers on trust,
+ culture, security, economics of information privacy, surveillance, personalization, risk, marketing, and control, among
+ others. An additional topic area that needs to be briefly discussed is the tools and technologies for information privacy.
+ There are two reasons to highlight this topic even if it does
+ not appear regularly in journal articles. First, from a design
+ science perspective, tools and technologies represent the main
+ contributions expected from design and action theories, as
+ discussed in our analysis of theoretical contributions. Second,
+ our review of the literature in conference proceedings reveals
+ that a large number of tools are published in conference
+ proceedings rather than in traditional journal outlets.
+ Information Privacy Concerns
+ Research on information privacy concerns is clearly of
+ importance to IS researchers, and typically seeks to explain
+ differences in levels of privacy concern or to explore the
+ effects of privacy concerns on various dependent variables,
+ such as the willingness to provide personal information or the
+ willingness to transact online. Internet privacy concerns
+ represent individuals' perceptions of what happens with the
+ information they provide via the Internet . More specifically, many researchers have adopted the
+ definition of privacy concerns as focusing on the concerns
+ individuals have with the information privacy practices of
+ organizations . Others have defined privacy concerns more broadly as the "individual's subjective
+ views of fairness within the context of information privacy"
+ . Findings suggest that information privacy concerns influence individuals' attitudes, such
+ as their p for regulatory environments and willingness to be profiled . They also influence individuals' acceptance of technology, such as their intentions to purchase online .
+ Most studies use one of two instruments: concern for information privacy  or Internet user's information privacy
+ concerns . CFIP was the first of these to be developed and tested. CFIP has four dimensions including collection of data, unauthorized secondary use of data, improper
+ access to data, and errors in data . The
+ CFIP scale is composed of 15 items. A later study of the
+ CFIP scale showed that each of its dimensions serves as a
+ second order factor that make up the concern for information
+ privacy construct . A few years
+ later, the IUIPC construct was developed and included three
+ dimensions: control, awareness, and collection . The resulting scale is composed of 10 items. When
+ developing the IUIPC scale, show that
+ IUIPC explains more of the variance in a person's willingness
+ to transact than CFIP. There are many
+ recent papers that continue to use CFIP instead of IUIPC
+ . A number of studies also included the
+ influence CFIP has on behavioral intentions  or
+ privacy actions .
+ Recent research in conference proceedings indicates that the
+ trend continues with CFIP more widely used than IUIPC,
+ although some studies do use IUIPC . Of
+ note, when using secondary data, researchers have sometimes
+ controlled for privacy concerns instead of measuring them
+ with one of the two instruments described above . Given the availability of welltested instruments and the impacts information privacy concerns have on attitudes and behaviors, future studies should
+ definitely measure concerns. Future research in this domain
+ could use meta analyses to compare the two instruments
+  beyond the comparisons provided by the
+ developers of IUIPC. In addition, studies should explore the
+ differences in antecedents and consequences of both constructs. If findings suggest that both CFIP and IUIPC are
+ equally important and valid, then explanations of why each
+ instrument is selected need to be clearly provided by
+ researchers. Or, as one study recently did, use both constructs
+ if appropriate .
+ Information Privacy and E-Business Impacts
+ This area of research typically studies how individuals' views
+ of privacy affect their intention to participate in e-commerce
+ or e-government interactions, or their willingness to share
+ information with e-commerce merchants or e-government
+ agencies. Several studies also compare individual differences
+ across national borders. Results show that concerns related to
+ information privacy, along with other factors, affect individuals' intentions to use online services , with greater concerns
+ leading to lower intentions. Concerns also lead to individuals
+ being less willing to share personal information with websites
+ . There are, however, some contradictory findings, with
+ some researchers finding that unauthorized use of secondary
+ data - a dimension of privacy ,
+ privacy concerns , or information privacy protection perceptions  - has little
+ impact on online purchasing behavior. A potential explanation for these findings is the role of trust. When trust is considered as a factor together with information privacy, trust is
+ more important than privacy when determining Internet
+ purchasing intentions .
+ However, it is difficult to say whether the role of trust
+ explains different findings, or if it is that studies with contradictory results  all used student samples. In a study that
+ utilized a nonstudent sample of Internet users, trust  was found to mediate the relationship
+ between privacy concerns and willingness to transact online
+ . Unfortunately, there are few studies
+ exploring these potential mediating effects. The only other
+ study that explores mediation finds that Internet literacy -
+ "ability to use an Internet-connected computer and Internet
+ applications to accomplish practical tasks"  - affects the relationship between privacy and ebusiness, which reduces an individual's level of Internet
+ privacy concerns and increases a person's intention to transact
+ online. Therefore, future research might explore the possible
+ mediating or dominating role of trust when considered
+ together with information privacy, as alluded to by some
+ researchers .
+ Potential mediating variables other than Internet literacy,
+ trust, and risk perceptions should be explored, including the
+ possibility that the willingness to share information online is
+ related to individuals' willingness to transact. One potential
+ way to gain this understanding is to utilize a grounded theory
+ approach  to develop a theoretical framework for why people have the intentions to perform certain
+ privacy practices, similar to recent work on factors influencing parents' intentions to protect their children's privacy
+ online .
+ In this research, the outcome variable overwhelmingly used
+ is intentions to use an electronic service. Research suggests
+ there is a privacy paradox, in which a person's intentions to
+ disclose their information does not match up to their behavior
+ in actually sharing that information . A
+ respondent's concerns might lead him or her to state they
+ would not use an online service, but when faced with the
+ possibility of convenience, their actual behavior might be
+ different . Even if other streams of IS
+ research suggest that intentions lead to behaviors, the privacy
+ paradox should be explored further to provide an understanding as to why such is not the case with information
+ privacy. Furthermore, researchers should not assume de facto
+ that intentions lead to behaviors when information privacy
+ research is conducted.
+ Information Privacy Attitudes
+ Research on information privacy attitudes often explores
+ perceptions of and reactions to information privacy policies,
+ practices, and tools. Examples of attitudes include sensitivity
+ to sharing or loss of information, or willingness to share
+ personal information , and
+ reactions to privacy invasive technologies such as instant
+ messaging  and RFID  . One issue with research on information privacy
+ attitudes is that each study conceptualizes attitudes differently, with some studies focusing on attitudes toward
+ privacy in general , as perceptions of
+ privacy practices , as
+ attitudes toward others' privacy , or as
+ attitudes toward data access . While
+ all of these are interesting aspects of privacy attitudes to
+ explore, there is little commonality to build future research
+ upon. Some studies use attitudes as the dependent variable
+ , while the majority
+ of studies look at privacy attitudes as an independent variable
+ that influences behaviors such as creative performance, use
+ and acceptance of invasive technologies, and online information disclosure . The most
+ intriguing finding in information privacy attitudes research is
+ that, in the presence of privacy attitudes, greater concern for
+ information privacy no longer influences willingness to
+ disclose personal information. For example, as people's
+ attitudes change based on being told that fair information
+ practices are used to manage their information, their concern
+ for information privacy is mitigated enough that they will
+ provide personal information online  or will not take actions to protect their privacy . A number of conferences papers  confirm
+ these findings. Future studies are needed to understand why
+ privacy attitudes impact decisions people make regarding the
+ disclosure of information and their willingness to interact with
+ invasive technologies.
+    Information Privacy Practices
+
+ 
+ /Privacy in the Digital Age
+ As the review reveals, the majority of research in this area
+ focuses intensively on what leads to a person's reactions to
+ information privacy attitudes. What is missing in the literature, however, is why individuals react in a certain way. For
+ example, monetary incentives  and less sensitivity about the secondary use of data  positively affect students' willingness to disclose information.
+ Some studies are starting to explore why individuals act in
+ certain ways in the context of electronic surveillance . When employees
+ understand why they are being watched they have a better
+ attitude toward this invasive practice .
+ Another area that needs further exploration for privacy
+ attitudes is RFID .
+ Information Privacy Practices
+ Research on privacy practices often explores individual and
+ organizational actions regarding privacy protection or
+ infringement, and various factors that affect these practices.
+ Individual information privacy practices include using caution
+ when divulging information, using privacy protection
+ software , falsifying personal information,
+ employing passive restraints such as filtering or deleting
+ unwanted e-mail, and utilizing identity modification  .
+ Factors affecting privacy practices include the types of websites visited and country of origin . Some research
+ suggests that individuals are not always aware of the proper
+ practices they should employ . Research
+ on organizational practices is abundant, and mostly focused
+ on analyses of privacy policies of websites and frameworks
+ for organizational practices. Researchers typically discuss the
+ fair information practices  compliance in privacy policies
+ or provide assessments or metrics to investigate the policies.
+ Findings suggest companies still do not provide appropriate
+ privacy protection for consumers because many do not have
+ privacy policies, and when they do, they often do not comply
+ with the FIP standards , or they are long and complex
+ . One consistent finding is that U.S.
+ companies are most likely to have a privacy policy . What is missing from research on
+ privacy policies is why companies do not comply with FIP, or
+ whether FIP standards are relevant for consumers.
+ Information Privacy Tools and Technologies
+ Research on information privacy tools and technologies
+ typically presents and/or evaluates artifacts or technological
+ solutions for dealing with information privacy protection.
+ The research often starts with an examination of privacy
+ threats and then presents solutions, either technical or conceptual, for addressing those threats. The tools and technologies discussed include both privacy invasive technologies
+  and privacy enhancing technologies . This is
+ clearly an area with both research and practical implications.
+ While there has been a call for more of this type of research
+ , the results of this review suggest that this call
+ has been mostly answered by computer scientists as opposed
+ to IS researchers, and that it has been addressed mostly at the
+ conceptual  level as opposed to actual
+ implemen and available tools. This only suggests that
+ there are many opportunities for IS researchers to be more
+ involved in research on information privacy tools and
+ technologies.
+ One of the most surprising findings from this review is that
+ most, if not all, of the research on information privacy tools
+ and technologies is conducted in isolation from actual future
+ users of the tools. None of the research presented included
+ both design of an information privacy tool and subsequent
+ evaluation of the tool by its expected users. We believe that
+ this is a fruitful area for future research. Such research can be
+ conducted using a multidisciplinary team where a tool
+ designed by computer scientists or design science researchers
+ is informed by IS researchers' understanding of factors that
+ influence individuals' use of technology and reactions to
+ information privacy. This designed and implemented tool can
+ then be evaluated by collecting data from potential users
+ through standard research approaches used by IS researchers.
+ Clearly, there are many behavioral questions to be explored
+ with respect to not only use of potential privacy protection
+ tools but also effectiveness and consequences of use.
+ Designers often forget to consider how they would measure
+ the effectiveness of privacy protection tools, and that is something IS researchers should seek to answer. Similarly, IS
+ researchers need to identify the features of privacy protection
+ tools that are the most important for consumers. Finally, one
+ area of future research that seems likely to gain importance is
+ the balancing of information privacy concerns with the
+ advantages of location-based services , as hinted at in
+ some conference papers , since vendors increasingly explore ways to use
+ LBS for marketing purposes.
+
+
+All use subject to 
+ /Privacy in the Digital Age
+ Theory Type Definition
+ Analyzing Describe the state of information privacy or the need for information privacy research.
+ Explaining Explain what is occurring but do not provide tes predictions.
+ Predicting Provide tes predictions without well-developed causal relationships
+ Explaining and Predicting Explain what is occurring and provide tes predictions with causal explanations.
+ Design and Action Specifically design a tool for providing information privacy or a framework to evaluate such
+ tools.
+ Theoretical Contributions of Information
+ Privacy Research
+ We analyzed the theoretical contributions of the information
+ privacy articles using an adaptation of Gregor' s 
+ proposed framework for classifying theories, which suggests
+ that there are five different theory types: analyzing,
+ explaining, predicting, explaining and predicting, and design
+ and action. The definitions of these categories, as adapted to
+ our research domain, are presented in  1.
+ Each article in our review was coded for theoretical contributions as presented in Figure 1 and  2, which present a
+ summary of online Appendix C. The theoretical classification
+ reveals some interesting trends. First, it is clear that the
+ majority of information privacy research has focused on
+ explaining and predicting theoretical contributions, with
+ analytical theoretical contributions as a second major category. A further finding is that very few articles provide
+ design and action contributions.
+ As can be seen in  2, the majority of research in information privacy concerns, e-business impacts, and information
+ privacy attitudes has been devoted to explaining and
+ predicting theories. For information privacy concerns, this
+ work includes a substantial focus on the development and
+ testing of instruments, as previously discussed . This
+ approach is consistent with Gregor' s framework, which suggests that theory development starts with analysis of a domain
+ followed by explaining and predicting theories. As such,
+ other research domains would benefit from this approach, in
+ particular privacy attitudes research, which does not have a
+ standardized definition for measurement of privacy attitudes.
+ Developing a common way of conceptualizing and measuring
+ privacy attitudes, using a similar approach to the development
+ of the CFIP construct , would be beneficial
+ to information privacy research by allowing the work of
+ different researchers to build upon one another to provide for
+ a more thorough understanding of privacy attitudes.
+
+
+
+ /Privacy in the Digital Age
+ information sharing by children , human-computer interaction concepts
+ to handle privacy concerns , usability studies
+ for privacy protection systems , new encryption schemes , various frameworks for exploring better ways to protect individuals' privacy in ebusiness , a P3Pbased privacy preference generator ,
+ a website data tracking tool to study usage of privacy tools
+ , a tool called iWatch to protect individual
+ privacy , a plug-in tag-based
+ tool to control privacy in Web 2.0 applications such as
+ blogging , a prototype to protect information
+ shared on facebook.com , and a tool
+ to create and analyze privacy policies .
+ Most proposed and/or designed tools are not publicly available, with very few exceptions. The one tool we could find
+ that users can use is Privacy Bird ™, which is offered as a
+ free download from AT&T. Others, like the privacy preference generator, provide a link to the tool for download.
+ Unfortunately, the link does not work at the writing of this
+ review. The plug-in for control of privacy for Web 2.0
+ application, to our knowledge, has not been made publicly
+ available. We believe it would be useful for more tools to be
+ downloadable or available for future research to verify prior
+ findings, test the tools in different contexts, and allow
+ subsequent research to build on existing tools. This would
+ also be useful for conceptual tools or proofs of concepts,
+ which could be turned into products. Converting conceptual
+ frameworks to actual tools is a desired research endeavor
+ since frameworks may have fewer practical implications than
+ tools. Of course, there are issues of intellectual property to
+ tackle, but somehow researchers need tools to be available for
+ progress to be made instead of constantly reinventing the
+ wheel. Maybe the solution is to develop a centralized
+ repository of frameworks and tools that researchers can share
+ with each other. Another way to make progress to increase
+ the availability of information privacy protection tools would
+ be to clearly identify and test a set of common guidelines or
+ criteria that design scientists should use for the development
+ of privacy protection tools for consumers and for organizations. Finally, it could be that information privacy research
+ should be conducted in an open source environment, which
+ would enable the code that one group designed to be
+ expanded on by another group. This would allow research to
+ build incrementally on prior work.
+ Researchers should also investigate ways to protect consumers and citizens beyond simple assurances through the
+ development of design and action theories that operationalize
+ their understanding of information privacy and its impacts.
+ For example, they could design tools that reduce the risk of
+ online transactions and increase the trust consumers have with
+ websites, or tools that would allow people to indicate how
+ their privacy attitude changes 
+ while they interact with a website. A related search tool that
+ would provide results based on factors that may be affecting
+ the user's attitude could then utilize this information. Feedback could also be provided to websites about when people's
+ attitudes change during their experience visiting the website.
+ Companies could modify how they interact with users on their
+ website based on this information. Without academic
+ researchers involved in the process of making the transition
+ from explaining and predicting theories to design and action
+ theories, knowledge about information privacy may be lost.
+ Sample Characteristics in IS Information
+ Privacy Research
+    The review of the literature reveals that information privacy
+ Respondent Type
+ IS researchers often use student samples to explore various
+ phenomena, and information privacy research does not escape
+ this fact. However, it varies greatly by topic area. For information privacy concerns and privacy attitudes, a significant
+ portion of the studies are done using consumers and professionals as opposed to student samples. This suggests that the
+ research provides good insights into the privacy concerns and
+ attitudes of everyday consumers and that the findings are
+ likely to generalize over different populations. 
+
+All use subject to 
+ /Privacy in the Digital Age
+ when they utilized student samples , as explained
+ earlier in the paper. There is less of an issue of respondent
+ type in information privacy practices research, where the vast
+ majority of studies are conducted at the organizational level,
+ focusing on information privacy policies on websites. The
+ few individual level studies in this area often use nonstudent
+ samples like consumers , managers , and Internet users .
+ IS researchers often discuss how the use of nonstudent
+ samples improves generalizability. We argue that student
+ studies should not be dismissed, as they provide valuable
+ testing and, in reality, students can have privacy concerns and
+ attitudes, and are consumers as well. However, students
+ might have different concerns than professionals or consumers in general, and may have different buying behaviors.
+ In a recent conference paper, Hart  argues that, in the
+ context of information privacy, making generalizations based
+ solely on student samples may be misleading. Therefore,
+ when a large number of studies use student data in a research
+ domain , it is important for researchers to compare results
+ of student and nonstudent-based studies using meta-analyses
+ to identify general differences and similarities in findings.
+ Future research also needs to test their proposed relationships
+ with nonstudent samples to ensure that findings reflect the
+ underlying relationship and not the nature of the subjects
+ studied. For example, studies can explore whether students
+ exhibit a weaker relationship between privacy and e-business
+ use intentions even though they are consumers like everybody
+ else .
+ They can compare differences in information privacy attitudes
+ and information privacy concerns in student and nonstudent
+ samples, including people from a wide range of ages,
+ incomes, and ethnicities. Results may suggest that further
+ research is needed to explore differences across samples in
+ antecedents and consequences of information privacy concerns. For example, anecdotal evidence shows that students
+ tend to be more willing to give information  than professionals. How do such differences affect
+ overall findings regarding information privacy concerns?
+ Respondent Origin
+ A large number of information privacy research studies have
+ been U.S. -centric, with few samples drawn from other countries. In particular, research on e-business impacts, information privacy attitudes, and even privacy practices provides
+ few insights on differences between countries. What is surprising is that information privacy and e-business research, for
+ example, should be even more present in other countries since
+ many countries are more e-business ready than the United
+ States , and have shown substantial growth in
+ Internet use in recent years .
+ Of note, some recent research using non-U. S . samples do
+ appear in conference proceedings, with countries such as
+ Dubai, France, New Zealand, South Africa, and Germany
+ represented .
+ Individuals from different countries can be expected to have
+ different cultures, values, and laws, which may result in
+ differences in their perceptions of information privacy and its
+ impacts. The findings of studies that take a multi-country
+ perspective support this expectation. For example, Italians
+ showed lower privacy concerns but higher government
+ intrusion concerns than Americans ,
+ exhibited a weaker relationship between privacy concerns and
+ e-commerce use, but a stronger relationship between perceived risk and privacy concerns . This
+ highlights the need for researchers to consider whether their
+ findings are generalizable to other countries. They often may
+ not be, as is the case of e-business research conducted in
+ countries other than the United States. In two studies of
+ Australian students, one found similar findings as those in the
+ United States, but the other found an inverse relationship
+ between information privacy  and online purchase behavior . Another Australian study found that privacyactive behaviors, such as reading privacy policies or seeking
+ actions related to privacy, are not related to purchasing
+ intentions , something contrary to many
+ findings of prior research.
+ One research area that has benefitted from inputs from countries other than the United States, and as such provides a more
+ global view of the concepts, is that of information privacy
+ concern, where approximately half of the coded studies used
+ a U.S. -based sample, while the others used samples from
+ other countries such as Australia, China, New-Zealand, and
+ Taiwan. Recent research in conference proceedings pursues
+ this trend with studies in South Africa , Japan and New Zealand ,
+ India , and Asian countries , to name a few.
+ Even research on information practices that focused on
+ privacy policies in websites seem to rely heavily on websites
+ based in the United States, even though worldwide access is
+ available for most companies' policies. Only one study investigated websites for companies specifically based outside the
+
+
+All use subject to 
+ /Privacy in the Digital Age
+ United States, which was Taiwan .
+ Some studies do look at companies from various countries in
+ addition to the United States, but they rarely make any
+ inferences about international comparisons . This is especially troubling considering that websites for companies based outside the United
+ States are much less likely to have a privacy policy , and that the types of websites visited and the
+ country of origin of respondents affect privacy practices . What is interesting is that most of the research on
+ information privacy in general does not take into account the
+ nationality of the respondent, assuming that the findings are
+ somewhat generalizable. This study suggests otherwise, at
+ least with respect to privacy practices. While it is possible
+ that citizens of countries where governments have long promoted and enforced legal protection for information privacy
+  may be less sensitive to information privacy issues, and
+ therefore organizations in these countries are less likely to
+ view the need for information privacy policies as crucial, this
+ needs to be investigated.
+ Studies are needed to provide IS researchers with a deeper
+ understanding of information privacy by conducting more
+ research in multiple countries. Researchers need to better
+ conceptualize their expectations about privacy antecedents
+ and consequences in various cultural environments. Studies
+ that would help us differentiate privacy attitudes and concerns
+ based on cultural or government influences would be of
+ interest. Researchers could also compare U.S. privacy practices to those of companies in other countries. Such approaches would provide insights into how companies from
+ different countries behave when it comes to protection of their
+ customers' privacy. For example, when Google refuses to
+ provide the government with the personal information of its
+ users  but Yahoo gives up the identity of
+ bloggers to another government , one has to
+ ask why two companies in the same industry make different
+ decisions about protecting their customers' privacy in the
+ midst of legal and cultural challenges. Such situations are
+ ripe for research where one could explore the conflicting roles
+ in which gatekeepers of personal information find themselves.
+ Finally, analyses of information privacy from a national and
+ cultural perspective, as was done for Japan in ajournai article
+  and other Asian countries in conference
+ proceedings , could enhance
+ information privacy research with a more holistic perspective
+ for each country or culture. Such in-depth discussions should
+ be provided for other cultures, including African cultures,
+ Latin American cultures, or northern European cultures.
+ Non-Sampled Studies
+ Discussing findings on information privacy tools and technologies research takes on a different meaning since most of
+ these studies do not test any construct by requesting information from study participants. Tools are proposed, designed
+ and/or evaluated independently of actual or potential users.
+ One exception is a tool designed with a particular market in
+ mind, the Personal Intrusion Detection, proposed and
+ developed by IBM Japan and discussed in that context .
+ Summary
+ As this discussion highlights, IS research seems to have relied
+ heavily on student samples and to have taken a very U.S.-
+ centric view of information privacy attitudes, practices, and
+ consequences since most of this empirical research is
+ conducted with U.S. citizens. While it is possible that these
+ findings are a reflection of the journal sample, which included
+ English language journals only, it does indicate a trend to
+ further investigate. Due to the conflicting findings identified
+ in this review and the need for a broader understanding of
+ information privacy, a topic of great interest to IS researchers,
+ we believe there is a clear need to expand future research on
+ information privacy from a sample perspective.
+ Structural View of Information Privacy
+ A final classification of the literature was based on the structural view  for information privacy, as presented in Appendices D and E, and summarized in for
+ journal articles. While identified three
+ levels of information privacy - individual, group, and organization - the article by in this issue of MIS Quarterly uses four levels to classify information privacy research:
+ individual, group, organizational, and societal. These levels
+ were determined after the authors followed a rigorous classification schema as conducted in previous research . These levels of
+ analysis serve as a starting point from which to explore the
+ construct of information privacy as conceptualized in the IS
+ literature. Clearly, even if information privacy is most often
+ defined at the individual level , it has implications at other levels, for
+ example, when organizations and industries decide to selfregulate or fail to enforce privacy policies .
+
+ the studies are conducted at the individual level. It is not surprising that most research is conducted at this level because
+ there are validated instruments that can be used for this
+ research, and it is easier to collect and analyze data from a
+ large number of individuals using surveys or interviews.
+ Finally, many information privacy concepts are conceptualized and understood to be individual-level constructs. For
+ example, when most people think of attitudes, it is at the
+ individual level. We are not suggesting individual level
+ research should not be done. Clearly, there are many avenues
+ for future research. For example, research should be conducted on how to improve the privacy practices of
+ individuals. In addition, given the high volume of research on
+ information privacy concerns at the individual level, we
+ would expect more efforts in developing tools for individuals
+ to protect their information privacy. There is also a need for
+ metrics to evaluate privacy policies from the individual's
+ point of view. Such a metric may then be utilized as a
+ mediating factor in empirically testing how privacy practices
+ differ between individuals. However, given the large number
+ of studies at the individual level for most topics, we focus our
+ remaining discussion on how information privacy can be
+ studied at other levels of analysis.
+  The
+ larger number of studies on privacy policies may be the result
+ of the easier access to the data 
+ and the existence of tools such as P3P, which can be used for
+ automatic screening of privacy policies or the development of
+ privacy policy generators. While not appearing in journal
+
+All use subject to 
+ /Privacy in the Digital Age
+ articles, many tools targeting online privacy policies are
+ published in conference proceedings . One possible avenue to
+ extend this research would be to look at other types of organizations beyond commercial websites, for example, studying
+ privacy policies for government agencies.
+ Other research typically provides or discusses tools organizations can use to either protect  and/or infringe 
+ on consumer information privacy. For example, there are
+ discussions of privacy invasive technologies  companies use such as adware and Spyware to infringe on consumers' information privacy , and trust
+ seals organizations can use as a means to protect information
+ privacy of consumers . What is
+ interesting is that very few researchers study information privacy concerns of organizations even though some researchers
+ do seem to believe concerns exist since they design and/or
+ evaluate tools for companies to use. There seems to be a
+ paradox where organizations are concerned with information
+ privacy but researchers rarely consider this level of analysis
+ in their studies .
+ It is surprising that the other topic areas in information
+ privacy research do not exhibit a larger number of studies at
+ the organizational level. For example, in the context of ebusiness or even e-government, organizations should be
+ interested in understanding privacy impacts since privacy
+ concerns can affect the ultimate success of the e-commerce or
+ e-government initiative . Researchers should explore whether organizations
+ have different stakes in information privacy than the consumers they serve. Companies might have their own set of
+ privacy concerns for the organization  and related consequences. How do these information privacy concerns
+ influence the collaboration and ultimate success of interorganizational systems? Organizations may also have their
+ own unique attitudes about privacy. For example, Microsoft
+ provides very little privacy protection for its users , while companies like Eli Lilly and Company provide significant amounts of privacy protection .
+ These differences could be the result of the sensitivity of the
+ information the companies possess, with more sensitive
+ information resulting in greater concern. Future studies
+ should explore what causes different privacy attitudes and
+ concerns within companies and between companies. They
+ could also explore how differences in the business model
+ companies employ or products they offer influence their
+ attitudes about privacy. Action research , case studies , or ethnography
+  may be good approaches to gain enough information inside of a company to report on the company's
+ perceptions related to information privacy.
+ One possible explanation for the lack of organizational
+ research is that while organizations are interested in understanding information privacy impacts, researchers have yet to
+ tackle these issues. However, gathering information from
+ citizens or consumers in general is easier than getting organizations to participate in such research. As proof, even recent
+ conference papers  offer only prescriptions for companies regarding information privacy and e-business; there is no data collection.
+ Another example is a study that inappropriately claims to
+ discuss benefits from the organizational perspective, but
+ actually derives a list of benefits from surveys and interviews
+ of students . Future research should avoid
+ such organizational prescriptions unless they are based on
+ relevant samples .
+ An area for future research at the organizational level is the
+ role of organizational culture on information privacy. Organizational behavior researchers have a long-established tradition
+ of studying cultures in organizations. IS researchers should
+ build on that research to explore how it affects privacy
+ concerns, attitudes, and practices of individuals, their groups,
+ and management of the organization. Research shows that
+ U.S. corporations have different concerns for information
+ privacy than Canadian firms . Since organizational cultures impact how individuals perform tasks and
+ live their day-to-day work lives , future research needs to explore the impacts of these
+ differences. It is possible also that there is an inverse
+ relationship between culture and information privacy in
+ organizations. Could different information privacy requirements between organizations create differences in their
+ organizational culture?
+ At the societal level of analysis, there are typically two main
+ approaches to conduct studies related to information privacy.
+ First, there are comparisons of information privacy constructs
+ between individuals or organizations in two different countries , with many studies
+ investigating compliance with FIP standards . These studies tend to be mostly descriptive
+ of the differences in standards use. Empirical studies, on the
+ other hand, typically involve data collection at the individual
+ level but aggregated for comparisons across nations or cultures. Another approach, which provides a more in-depth
+ understanding of the privacy constructs, uses differences in culture and cultural values of individuals from different countries, along with other variables, to show their effect on
+ privacy constructs . This is
+ more challenging from a data collection standpoint since
+ researchers need a large enough nonstudent sample from
+ several different countries to make valid comparisons.
+ We believe that more studies of information privacy should be
+ conducted at the societal level of analysis. In doing such
+ studies, one should not forget that the societal level of analysis can be broad, including individuals, groups, and organizations embedded into societal phenomena. As corporations,
+ social networks, and even governments appeal increasingly to
+ a global audience, it is important to understand citizen,
+ employee, and consumer information privacy better. For
+ example, it is unclear which dimensions of culture  have a greater impact and/or explain differences in information privacy attitudes, concerns, and
+ impacts. As a result, studies are needed to help uncover the
+ attitudinal differences that affect the behaviors of individuals
+ in different countries. Of great interest would also be studies
+ of information privacy tools and technologies at the societal
+ level, specifically focusing on potential national bias in
+ design. Is the design of information privacy tools and technologies focused on the American understanding of information privacy, and is that understanding applicable to the rest
+ of the world? In a discussion of enterprise resource planning
+ , demonstrate how the ERP system
+ implementation in non- Western countries can fail because
+ local practices are different. Future research on information
+ privacy tools and techniques should likewise be more
+ contextually sensitive.
+ One of the most interesting findings from the review is that no
+ studies exist that focus on the group level of analysis in the IS
+ information privacy literature. We argue that group information privacy is a valid category, as also proposed and
+ discussed by Skinner et al  and . As
+ individuals interact in groups, information privacy can
+ become a relevant constraint or enabler . In the
+ next section, we specifically discuss the construct of group
+ information privacy concerns. We identified another very
+ interesting group level construct in information privacy from
+ recent conference proceedings: group culture . In these papers,
+ researchers discuss how users share information differently in
+ various groups and communities that have different cultures
+ and characteristics. More studies of the effects of group culture and organizational culture on information privacy practices are needed. Most likely, this will require in-depth qualitative analyses .
+ Information Privacy Research as a
+ Multilevel Concept
+
+ In many respects, privacy is often an area of conflicting
+ desires between organizations and individuals. For example,
+ in e-business, consumers desire that their information be used
+ only for what is necessary to complete the transaction, while
+ companies often desire to make additional money from the
+ consumer information they receive. These conflicting desires
+ lead to a fine balance in how companies approach their privacy practices. If they push the envelope too far in their
+ desire to make a profit, they risk alienating their customer
+ base. However, if they do not use the information they have
+ to make additional profit, they leave themselves vulnerable to
+ other companies filling that niche and providing extra competition for them. Therefore, understanding the desires and
+ interactions of both of these groups provides practical insight
+ that can be used to further enhance the online experience for
+ both companies and the consumer.
+
+
+ While many studies focus on online privacy policies of
+ organizations, few examine the individual' s perceptions about
+ these policies. The few studies that attempt to address this
+ concern from a multilevel perspective focus on how well FIP
+ standards are meeting the needs of consumers. In the context
+ of healthcare websites, it was found that privacy policies were
+ being developed to satisfy the company's objectives but not
+ the consumers' . It is interesting, then, that
+ individuals are more likely to provide information to websites
+ as the level of privacy guaranteed by the website increases
+ . These results may be explained by the
+ fact that only half of the population ever read privacy policies
+ , or the fact that they do not understand them . If privacy policies are not being read, then
+ they may serve more as a means of protection for companies
+ than as a means of communicating information to consumers.
+ FIP standards were designed to provide a balance between the
+ desire of consumers for privacy protection and the desire of
+ businesses to derive value from customer information. However, the above findings suggest that perhaps the FIP standards need to be reevaluated to determine whether they truly
+ are providing that balance.
+ Future research could expand the understanding of privacy
+ policies by conducting multilevel research to determine the
+ equilibrium point where consumers feel their privacy is adequately protected so they would provide personal information
+ and where companies consider they have the freedom they
+ need to conduct profi business. The results of this multilevel research could include reevaluating FIP standards,
+ resulting in potentially better compliance and consumers
+ believing their privacy needs were being met, as suggested in
+ a recent conference paper. Given the impacts of
+ information privacy on e-business success, researchers could
+ also explore how e-businesses could use consumer information privacy p to gain a competitive advantage.
+ Businesses and groups within organizations possess vast
+ amounts of information they do not want others such as
+ competitors, and even business partners, to know about. The
+ level of concern for privacy that organizations face may be
+ related to the culture of the company and how transparent
+ they try to present themselves, or may be industry related.
+ Future research could provide a way to measure the privacy
+ concerns of businesses and groups, and then try to differentiate the factors that explain these concerns and the related
+ consequences in an industry or a society.
+ The other combination of levels most studied is the individual
+ and societal levels. As explained in the prior discussion of
+ societal studies, data is often collected from individuals and
+ then aggregated. When properly done, this can provide
+ insights at multiple levels of analysis, for example, exploring
+ differences in privacy concerns between two nationalities and
+ the effects of these differences on intentions to continue as
+ previously to transact online . It is
+ surprising that there are not more studies published on
+ international comparisons on information privacy constructs.
+ Future research could use a multilevel framework to gain a
+ better perspective of the role information privacy at the group,
+ organizational, and societal levels. We further explore the
+ multilevel nature of information privacy next.
+ A Multilevel Model of Information
+ Privacy Concerns
+ The results of our analyses reveal that there is much to be
+ studied in the realm of information privacy research. The
+ results also demonstrate the usefulness of various perspectives
+  for analyzing an IS research domain. In this section,
+ we combine the results of our prior analyses to further explore
+ one particularly popular topic in information privacy, that of
+ information privacy concerns. This in-depth analysis starts
+ with the premise that information privacy concern is a multilevel concept. Figure 2 serves as an illustration of the
+ expected interrelationships between the levels of analysis.
+ We discuss the model in detail in the subsequent paragraphs.
+ The thematic analysis clearly highlights the fact that information privacy concern is one of the two most studied topics in
+ the information privacy literature, particularly at the individual level of analysis. As previously discussed, this may be
+ the result of several attempts at providing an instrument to
+ measure individual concerns. Consistent with the focus on
+ individuals, we start our discussion of the information privacy
+ concern multilevel framework at the individual level. The
+ model suggests that individuals' information privacy concerns
+ are influenced by external factors, such as individual differences. Several individual differences have been studied in
+ prior research, such as gender, age, and education. Other
+ individual differences could be studied, such as the effects of
+ self-efficacy or personality traits like amicability on information privacy concerns. There is also the need to study the
+ moderating effects these individual differences could have on
+ the linkages between information privacy concerns and
+ dependent variables like e-business adoption. Since much has
+
+
+All use subject to 
+ /Privacy in the Digital Age
+ already been said about the individual concern for information
+ privacy, we focus the rest of our discussion on the other levels
+ and, more importantly, on the relationships across levels as
+ they relate to concern for information privacy.
+ As with all of the topics identified in the thematic analysis,
+ information privacy concern has not been studied at the group
+ level, with the exception of the framework and definitions
+ provided by . This is surprising since
+ groups are one of the predominant structures for work in
+ organizations today; individuals often belong to multiple
+ teams concurrently .
+ We believe group concern for information privacy is a potentially very interesting and fruitful area for future research.
+ We define group information privacy concern as the collective concern that group members have regarding the privacy
+ of the information the group possesses and has access to.
+ In organizational theorists' multilevel research, groups are
+ often defined as collectives. A collective is "any interdependent and goal-directed combination of individuals, groups,
+ departments, organizations, or institutions" . More importantly, a collective has
+ its own constructs, which have their own "structural properties that can exert influence that is independent of the
+ interaction that initially cause the construct to emerge" . For example, one well-recognized construct at the
+ group level is team cohesion. Others have identified how
+ different groups develop their own norms for communication
+ and use of technologies . Given that groups have their own identity, structures,
+ and constructs, and that they are often in competition with one
+ another , it is likely
+ that groups have different privacy concerns. This is consistent with findings from prior research on knowledge sharing
+ that suggests teams fear loss of autonomy if they grant access
+ to their data, which would hinder their ability to accomplish
+ their tasks . These group information privacy
+ concerns can differ somewhat from those of the individuals
+ who are members of the group. A group concern for information privacy may rise to the level of the highest member, be a
+ function of the group leader's privacy concerns, or be some
+ sort of function of all the group members' privacy concerns
+ combined. Research in psychology shows that group attitudes
+ can be highly influenced by an assertive member ,
+ by the majority in the group , or even
+ by the minority in the group .
+ The development of this group privacy concern may also
+ differ based on the sensitivity of the work that is done within
+ the group. For example, while an individual may not worry
+ about providing some information online personally, the
+ group may have developed a norm that no information related
+ to the group is to be made available online. Interestingly, it
+ is also possible that individuals' privacy concerns depend on
+ what group they are part of. 
+
+All use subject to 
+ /Privacy in the Digital Age
+ everyone else in the group is concerned about privacy, an
+ individual may feel likewise. The same individual may feel
+ less concerned about privacy in another group that is more
+ open about sharing information. As a result, we show the
+ relationship as a double arrow, indicating possible causal
+ relationships in both directions.
+ The framework proposes that group information privacy
+ concerns are influenced by external factors in addition to
+ individual members' concerns for information privacy. One
+ example of external factors is group dynamics, which can
+ represent a number of variables such as group cohesion, group
+ centrality ,
+ group distribution , or
+ group characteristics such as group size or length of group
+ existence. While there is no research at this level, many
+ questions could be explored such as
+  What tools and procedures could be developed to provide
+ groups such as buyer communities with privacy
+ protections?
+  What are the impacts of group information privacy
+ concerns on group communication, performance, and
+ interactions?
+  How does the group concern for information privacy
+ influence communication of the group with other groups?
+ How do organizational units  differ in
+ their information privacy concerns?
+ How should privacy protection tools be designed for
+ groups where members use highly collaborative communication tools for their work?
+ The framework also suggests an important relationship
+ between the individual and group information privacy
+ concerns. As previously stated, it is important to realize that
+ the group's concerns for information privacy do not represent
+ an average of the individual members' concerns. Rather,
+ group information privacy concern is the group members'
+ normalized view of information privacy concerns, which can
+ be higher or lower than the individual members' concerns
+ taken as a whole. Since none of the proposed relationships in
+ the framework have been studied, many research questions
+ can be identified for the relationship between group and
+ individual information privacy concerns, such as
+  What factors influence the relationship between the
+ concern for information privacy for a group and that of
+ the individuals within the group?
+ Will the group concern for privacy converge towards the
+ highest levels of concerns within the group?
+ How do individual information privacy concerns influence the use of communication media for group communication?
+ How do team structures  affect the privacy concerns of their members?
+ Organizational information privacy concerns reflect the overall concern that organizational leaders have regarding the
+ privacy of the information the organization possesses and has
+ access to. Such concerns typically arise from management
+ practices and policies. In past research, concern for information privacy at the organizational level has focused mostly
+ on publicly available privacy policies. One would hope that
+ organizational privacy policies should reflect the concern for
+ information privacy of individuals, but limited research has
+ actually explored this potential linkage. One study shows that
+ there is no link between individual concerns for information
+ privacy and privacy policies set forth by organizations . Rather, organizations use privacy policies for
+ their own purposes, which is disconcerting. For future
+ research, it may be important to consider the types of organizational privacy concerns: concern for privacy of the organization's information , and concerns for privacy of the organizations' customers. Organizations may have varying incentives to protect both types of
+ information. Studies should be conducted comparing individual to organizational information privacy concerns. For
+ example,
+ How can organizations leverage their understanding of
+ their customers' information privacy concerns in
+ designing their online offerings?
+  Why do organizations not take into consideration consumers' concerns for information privacy in the development of their online offerings?
+ As with individuals and groups, an organization's information
+ privacy concerns are expected to be affected by external
+ factors such as type of industry, the competitive position of its
+ product or service, or the regulations it must follow. For
+ example, banks have to be more concerned about the privacy
+ of their customers' information due to legal mandates in most
+ countries. Similarly, large organizations with highly recognizable brand names may be more sensitive to privacy of their
+ customers' information as negative reactions to poor handling
+ of customer private information can spread rapidly through
+
+
+All use subject to 
+ /Privacy in the Digital Age
+ word of mouth . As a result, the
+ model shows a relationship between individual and organization privacy concerns. That said, it is surprising that so few
+ studies consider the organizational environment when discussing privacy in general, let alone information privacy
+ concerns. Some questions that may start researchers in that
+ direction include: What is the link between organizational
+ characteristics such as size, industry, or governance structure,
+ and organizational information privacy concerns?
+ Societal information privacy concern refers to the overall
+ concerns citizens in societies taken as a whole have for the
+ privacy of the information about them. While the overall
+ privacy concerns of a nation should reflect the concerns of its
+ citizens and organizations, it is clear that government interventions such as laws, regulations, controls, and even
+ publicity can substantially affect the relationships between the
+ various constituents' concerns and the overall national concerns. Studies of information privacy concerns at the national
+ level, as previously mentioned, tend to aggregate concerns of
+ groups of citizens. However, focusing solely on the aggregation of individual perceptions may be misleading as to how
+ much these represent the decisions made at the national level
+ concerning information privacy. For example, organizations'
+ information privacy concerns, while not typically measured,
+ most probably find their way into national laws and
+ regulations regarding privacy through effective and intensive
+ lobbying. One just has to recall that seals of approvals arose
+ out of the desire of organizations to self-regulate instead of
+ facing government regulations regarding the privacy of
+ individuals . Therefore, many
+ questions arise that are in need of investigation, such as
+  How are organizational information privacy concerns
+ reflected in the privacy concerns of a society?
+ What mediating and moderating effects exist between
+ concerns for information privacy of individuals, groups,
+ and organizations, and those of the society?
+ Comparisons could also occur at specific levels or for specific
+ cross-level relationships between nations. As discussed previously, prior literature has only compared information privacy concerns between individuals of different countries. It
+ would be very interesting to perform similar comparisons for
+ organizations. This could be explored with questions such as
+  What are the influences of nationality for information
+ privacy concerns of organizations?
+  What is the relationship between individual and organizational concerns for information privacy in different
+ countries?
+ The framework offers a wide variety of potential avenues for
+ research; we only briefly discussed various levels of analysis
+ and their relationships in the multilevel information privacy
+ concern framework. Clearly, a simplified multilevel model
+ cannot completely do justice to the complex interrelationships
+ between the different levels of privacy we discussed in the
+ paper. As a result, the questions presented in this section and
+ the previous one only represent a few ideas that could be
+ explored by IS researchers with respect to information
+ privacy.
+ Implications and Recommendations 
+ We believe that all of the topics identified in the review could
+ be further explored by mapping them into a multilevel
+ framework as was done for information privacy concerns in
+ the previous section. The one conclusion that can be clearly
+ reached about information privacy research is that much
+ remains to be explored and explained. Yet, we need to
+ acknowledge some limitations to our review. First, we did
+ exclude some areas of research such as the legal aspects of
+ information privacy and the marketing literature on information privacy. While these topics are very important, we
+ believe that focusing on topic areas closer to the interests of
+ most IS researchers allowed us to present a more systematic
+ view of the literature and provide more directed ideas for
+ future research. Second, we did not include all of the
+ conference proceedings papers on information privacy.
+ Nevertheless, by using a sample of the most relevant papers,
+ we are able to verify if the trends identified in the journal
+ literature are consistent with what is presented at conferences.
+ In general, this is the case. However, when the literature is
+ not consistent we discussed the differences and consequences
+ in the critical analysis of the literature.
+ We made a number of recommendations throughout our paper
+ about future information privacy research, and even information systems research in general. We have attempted to summarize the most significant recommendations in  4 by
+ organizing them into five broad categories. We hope that
+ these recommendations and examples will help future
+ researcher build on the current work in information privacy.
+ Conclusion
+ Information privacy is a construct of great interest to IS
+ researchers. The continued growth of the digitization of all
+ types of information indicates that this concept is likely to
+  
+
+All use subject to 
+ /P rivacy in the Digital Age
+ Recommendation Examples
+ 1 . Researchers should move beyond  Consider multiple levels of analysis
+ the individual and explore other  Study information privacy concerns, impacts, and culture at the
+ levels of analysis organizational level, utilizing action research, case studies, and
+ ethnography
+ Conduct studies that focus on the group level of information privacy
+ 2. Researchers should utilize a broader  Utilize nonstudent populations
+ diversity of sample populations  Utilize non-U. S. centric populations
+ Consider comparisons between contextual parts of studies such as U.S.
+ versus non-U. S. and student versus nonstudent
+ 3. Researchers should conduct more  Utilize explaining and predicting research to inform design and action
+ design and action research research
+ Conduct more interdisciplinary research, capitalizing on different 
+ fields' strengths
+ Conduct design and action research with an eye towards actual
+ implementation
+ Make existing design research available to other researchers so r
+ can build upon one another
+ 4. Researchers should conduct more  Utilize the analyzing theories in areas such as privacy 
+ studies investigating the why related policies, and privacy practices to inform and drive more
+ to privacy as opposed to the how explain and predict
+ Investigate why people indicate they won't perform a given behavior, but
+ when given the opportunity act contrary to their stated intention
+ Investigate the moderating  effect of individual
+ characteristics such as self-efficacy on the relationship between CFIP and
+ e-business adoption
+ 5. Researchers should justify their use  Create and utilize more validated instruments so that future privacy
+ of existing construct measurements research can more readily build upon one another as has been demonand develop more common strated with the CFIP instrument, in particular focus on a measure for
+ measurements to be used across privacy attitudes
+ studies  When studying concern for information privacy, provide justification for why
+ CFIP or IUIPC was chosen as a measure as opposed to just picking one or
+ the other
+ gain even more importance in the coming years. When
+ looking at the theoretical contributions made in information
+ privacy literature, most of the studies that provide explanatory
+ and predictive theoretical contributions are found in three
+ categories: information privacy concern, e-business impacts,
+ and privacy attitudes. Clearly, the fact that instruments have
+ been developed for measuring concerns for privacy  has led to more research in this domain, just like the
+ largely developed area of technology adoption  impacted research on the relationship between
+ information privacy and intentions to use e-business. This
+ only reinforces the fact that instruments and theories are
+ needed in order for IS researchers to accumulate knowledge
+ regarding information privacy . Another major
+ finding with respect to theoretical contributions is that few
+ papers present design and action research on information
+ privacy. As design science becomes an increasingly important area of research, IS researchers should consider the
+ development of more  privacy protection
+ tools for individuals, groups, organizations, and society. In
+ conclusion, information privacy is a very current and exciting
+ research domain that will continue to evolve as new technologies and new initiatives such as social networking or
+ virtual worlds further push the limit of access to information.
+ 

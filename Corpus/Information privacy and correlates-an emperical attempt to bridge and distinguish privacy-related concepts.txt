@@ -1,0 +1,1557 @@
+
+Information privacy and correlates: an
+empirical attempt to bridge and distinguish
+privacy-related concepts
+
+
+Privacy is one of the few concepts that has been studied across many
+disciplines, but is still difficult to grasp. The current understanding of privacy is
+largely fragmented and discipline-dependent. This study develops and tests a
+framework of information privacy and its correlates, the latter often being
+confused with or built into definitions of information privacy.
+ Information Systems.
+
+Keywords: privacy; anonymity; secrecy; confidentiality; control; risk
+
+Privacy has been studied for more than  years in almost all spheres of
+social science, most notably law, economics, psychology, management,
+marketing, and management information systems. Amazingly, however,
+it is also a concept that ‘is in disarray obody can articulate what
+it means’ .     noted the variety of
+conceptualizations of privacy and the disagreement among scholars on
+what privacy is. The lack of a clear, concrete, measurable, and empirically
+testable conceptualization of privacy affects many aspects of the society –
+the vagueness of the concept fails to guide adjudication and lawmaking
+, as well as formation of government and
+organizational management policies and practices regarding the privacy
+and security of employees, consumers and clients, and citizens.
+Numerous attempts have been made by scholars to define and develop a
+coherent understanding of privacy and to integrate the different perspectives
+ Information Systems  ,
+
+from different fields. The picture of privacy that emerges
+is fragmented and usually discipline-specific. The concepts, definitions, and relationships are inconsistent and
+neither fully developed nor empirically validated. In Law,
+many scholars defined privacy as a ‘right’ or ‘entitlement’
+; others from other
+disciplines, including philosophy and psychology, define
+it as a ‘state of limited access or isolation’ ; and yet another group of scholars, particularly
+from the social sciences and information systems used
+‘control’ as a definition of privacy . Privacy ‘has been described as multidimensional,
+elastic, depending upon context, and dynamic in the
+sense that it varies with life experience’ . And yet, ‘much of the work y has come from
+groups with a single point of view  and/or a mission that is
+associated with a point of view ’
+. Many overlapping concepts,
+such as intrusion, deception, secrecy, anonymity, have
+been built into the definition of privacy and have added
+to the confusion . Moreover, very few
+have been empirically measured or tested. As Solove
+ notes, ‘privacy seems to be about everything, and therefore it appears to be about nothing’. In its
+report on the status of privacy research, the Committee of
+Privacy in the Information Age notes that it
+was ‘struck by the extraordinary complexity associated
+with the subject of privacy’, and that ‘the notion of
+privacy is fraught with multiple meanings, interpretations, and value judgments’ .
+Solove  also notes that many discussions about
+privacy are targeted toward people’s fears and anxiety to
+the extent that the expression ‘this violates my privacy’
+or ‘my privacy should be protected’ has become more a
+product of instinctive recoil void of meaning rather than
+a well-articulated statement carrying reason and a specific
+relevance. The difficulty in articulating what constitutes
+privacy, and thus what constitutes harm to privacy,
+translates into policymaker’s and the courts’ difficulty
+in defending privacy interests. This further leads to
+dismissing cases and disregarding organizational and
+government problems .
+Given these challenges and murky conceptual waters,
+our study attempts to build a more rigorous, empirically
+testable framework of privacy and its correlates, which
+have often been confused with or built into the definitions of privacy per se. The specific research goals of our
+study are to  identify the appropriate conceptualization of privacy and the correlates that previously have
+been closely associated or confused with privacy; and
+ develop empirical measures and test a nomological
+model of these correlates to examine their relationship to
+privacy and their distinctness from it.
+We believe that our study is timely and needed. The
+dynamic globalization of the economy and information
+technology , and the ubiquitous distributed storage
+and sharing of data puts the issue of information privacy
+at the forefront of society policies and practices. This
+development contributes to the urgency and need for
+finding a better and common framework for privacy, and
+information privacy in particular, that can be used across
+multiple areas that affect social life.
+The focus of our paper is information privacy, although
+we found that in public and political discourse, as well as
+in various research streams, a clear distinction between
+physical and information privacy is not made. For
+example, polls and surveys ask about ‘privacy’ rather
+than ‘information privacy’. In many disciplines, including law, marketing, management information systems
+and economics, physical privacy concepts and definitions
+are directly applied to information privacy, providing
+continuity in the nomological models associated with
+information privacy . Analogously, we
+will use earlier, general privacy concepts to derive and
+analyze information privacy-specific concepts. In an
+attempt to be as clear as possible in our framework,
+throughout the remainder of this paper we will use the
+term ‘privacy’ to refer to ‘information privacy’. We will
+refer to ‘general privacy’ when we use previous studies
+and theories that are relevant to information privacy, but
+did not specify whether the term ‘privacy’ concerns
+physical or information privacy.
+The overarching models guiding this process are the
+general privacy theories of    ,   
+, and     and the general privacy taxonomy developed by Solove . Each of these identifies a set of
+privacy dimensions but to the best of our knowledge have
+not been empirically validated. In addition, we employ
+the ’s  conceptualization of
+identity management that will help us rigorously define
+and operationalize the tactics of information control we
+will identify in the study. We conducted a survey study to
+test the research model.
+In what follows, we first describe the literature review
+for our research, presenting the overarching theories and
+privacy definitions that guide the development of the
+research model. Then we develop the logic underlying
+the research model that presents the process through
+which individuals form privacy perceptions. This is
+followed by a description of the research methodology,
+choice of context to empirically test our model, and our
+findings. The paper concludes with a discussion of the
+results and implications of the findings.
+The theory – how information control and risk
+affect privacy
+The concept of privacy – literature review
+Scholars in different fields have examined the concept of
+general privacy including psychology , human resources , sociology ,
+law , political science ,
+Information privacy and correlates  
+
+ Information Systems
+
+,
+and
+management
+information systems . Such rich theoretical ground
+has led to the observation that there is a lack of consensus
+on what general privacy means: ‘theorists do not agree y
+on what privacy is or on whether privacy is a behavior,
+attitude, process, goal, phenomenal state, or what’
+. Indeed, there is a stream of
+research for each of these perspectives. Perhaps, the most
+famous and the oldest is the general ‘privacy as a right’
+concept, first defined by Warren & Brandeis  as the
+‘the right to be left alone’. This definition has been
+central to legal interpretations and court decisions, as
+well in the political discourse, where the term ‘privacy’
+has been used to refer to ‘physical privacy in the home or
+office, the ability to make personal reproductive decisions
+without interference from the government, freedom from
+surveillance, or the ability to keep electronic communications and personal information confidential’ . Congressional law committees have
+taken the defeatist approach to legally defining general
+privacy  and concluded that the concept of
+general privacy cannot be satisfactorily defined. The need
+was felt, however, to elaborate on the ‘right to 
+privacy’ concept introduced
+. Thus, in subsequent treatments, general privacy
+was regarded as a ‘right’ but has been expanded to
+include a number of so-called  ‘privacy interests’
+. These privacy interests
+include control, confidentiality, solitude, anonymity, and
+secrecy and in an empirical sense, can be considered
+dimensions or antecedents of privacy. However, as we
+will point out later, in many studies any of these
+dimensions have been equated with privacy, from which
+the main current confusion arises.
+Psychologist’s view of general privacy is that of a
+feeling, an emotion  rather than ‘right’.
+They argue that often there appears to be no logical
+reason why a person should feel that his or her general
+privacy has been violated and yet that is his or her
+perception. Thus, psychologists conclude that ‘privacy
+and gregariousness are both human instincts and relate
+to all the higher forms of animal behavior’ .
+Economists, by contrast, have defined privacy as a
+value, in economic terms, ‘both in its role in the
+information needed for efficient markets and as a piece
+of property’ . Sociology researchers approach privacy from the perspective of the collection and use of personal information in the context of
+‘power and influence between individuals, groups, and
+institutions within society’ . Thus,
+the sociology produced the control-centered definitions
+of general privacy . From this perspective, general privacy is a struggle
+for control between the individual and society . Philosophers interpreted general privacy as a
+‘state’  .
+Each of these definitions carries a set of dimensions
+that point to the multidimensional nature of general
+privacy.
+    sees general privacy as ‘the voluntary
+and temporary withdrawal of a person from the general
+society through physical or psychological means, either
+in a state of solitude or small group intimacy or, when
+among larger groups, in a condition of anonymity and
+reserve’. There are four ‘states’ of general privacy posited
+in   ’s theory: solitude, intimacy, anonymity, and
+reserve . Several researchers developed measurements
+and empirically
+examined
+  ’s
+states of
+general privacy , whereas
+others developed more specialized general privacy scales.
+Some of these scales measure the above mentioned states
+of general privacy and through their values attempt to
+assess general privacy itself. Difficulties, however, arise
+because of a lack of a clear concept about what general
+privacy is in the first place. For example, Pedersen 
+developed measures for Solitude, Isolation, Anonymity,
+Reserve, Intimacy with Friends,
+and Intimacy with Family. The researcher then introduced these constructs
+as ‘types of privacy’  interchangeably equating
+them with ‘types of privacy behaviors’ and ‘psychological
+functions of privacy’.
+The problem is not merely confusion in terminology
+but reflects the scholars’ struggle to fundamentally
+understand what exactly general privacy is – behavior,
+state, function, or feeling – and evidently these cannot be
+confused or interchanged. Several other difficulties arose
+with the above measures when other scholars argued that
+these states are actually distinct factors that are more
+antecedents than direct measures of general privacy.
+Underlining the normative element of general privacy
+that distinguishes it from these states, they argue that
+general privacy is not synonymous with solitude, secrecy,
+and autonomy . More factors were added to
+describing the states of general privacy, such as secrecy
+and anonymity . The
+transparency , and confidentiality .
+  ’s  theory of general privacy
+revolves around the concept of control; general privacy
+is defined as ‘the selective control of access to the self’.
+   also distinguishes between actual and desired
+general privacy. The first indication of general privacy
+perception in a given situation depends on the individual’s desires . He thus introduces levels of
+general
+privacy:
+optimal
+
+crowding
+ and isolation  .
+Each discipline has argued its angle on the concept
+of general privacy, but most developed verbose descriptions without quantitative measurement. Management
+Information privacy and correlates  
+
+ Information Systems
+information systems research undertook the task of
+developing privacy construct measurements that can be
+used in quantitative models to test relationships . Following    , many
+management
+and
+management
+information
+systems
+studies equated privacy with control. However, recent
+empirical evidence has shown that while control is a
+major factor in forming individual’s privacy concerns, it
+is not identical to privacy .     and Laufer & Wolfe  also
+described
+a
+number
+of
+counterexamples
+that
+pose
+difficulties in equating privacy with control.
+Due to the inconsistencies in conceptualizing and
+measuring privacy per se, much behavioral research on
+privacy uses privacy concerns as a proxy for privacy. An
+extensive body of literature examines privacy concerns
+ because these are also the proxy used to
+measure privacy attitudes in opinion polls and by
+consumer research firms and provide a good connection
+with
+individuals’
+feelings
+about
+privacy.
+Important
+studies that have contributed to our understanding of
+privacy concerns and their implications for individual’s
+behavior include those of Culnan , Smith 
+, Culnan & Armstrong , Milberg  ,
+Malhotra  ,  & Hart  and many
+others. Smith   developed an instrument,
+Concerns For Information Privacy, to measure individuals’ concerns toward organizational privacy practices,
+including four dimensions: collection, errors, secondary
+use, and unauthorized access to information.
+The two main characteristics that distinguish MIS
+research are the conceptualization of privacy concerns
+rather than privacy, and the quantitative approach to
+measuring and modeling privacy concerns . These include the organizational information
+practice aspect of privacy concerns  and
+the individual privacy concerns .
+In this study, however, we will consciously stay away
+from privacy concerns as the commonly adopted proxy
+to privacy. Instead, we will attempt to seek a rigorous
+definition of and antecedents to privacy. We do this for
+three reasons: first, while a good proxy for privacy, we
+believe that privacy concerns are not identical to privacy –
+indeed, one may have high concerns about his or her
+privacy and yet it may be that his or her privacy may have
+not been violated, and vice versa. Although we do not
+yet have a rigorous definition of privacy, it is clear that it
+is distinct from privacy concerns. The second reason to
+avoid privacy concerns as a construct in our study is that
+we did not find it in the aforementioned privacy theories
+, nor did
+we find concerns as a possible dimension of privacy per se.
+The lack of connection of the ‘privacy concerns’ –
+focused MIS privacy research with leading theories from
+other disciplines contributes to the problem of the
+fragmentary understanding of privacy. Finally, we share
+Young’s  observation that privacy concerns carry
+a negative connotation of the concept of information
+and general privacy, and thus may be inadequate if
+general privacy should be regarded as potentially valuable
+to any human being and society as a whole.
+Theoretical model of privacy and its correlates –
+integrative approach
+Perceived privacy as a dependent variable. As shown in
+Figure , the dependent variable  of our research
+model is perceived privacy. First, we note that in most of
+the aforementioned theories, the most common theme
+that emerges is that privacy is a state in which an
+individual is found in a given situation at a given
+moment of time. This consensus emerges regardless of
+how the authors begin their conceptualization of privacy
+or
+whether basic assumptions
+varied. For example,
+    refers to ‘states of privacy’ and both
+    and     discuss ‘state of
+control’ and ‘state of limited access’ .
+Also, Warren and Brandeis’s  definition of general
+privacy as a ‘right to be left alone’ implicitly refers to a
+state – of being left alone. Similarly, MIS researchers have
+referred to privacy as a state. For example,    &
+    defined Internet privacy as ‘the
+seclusion and freedom from unauthorized intrusion’, and defined privacy as ‘the
+freedom of not having someone or something to interfere
+in our life without our permission’. At some point, it
+seems, and sometimes unintentionally, most researchers
+reach the need to use the word ‘state’ to describe privacy.
+This latter observation aligns well with the dictionary
+definition of ‘state’, namely ‘the condition of a person or
+
+Three Tactics of       
+Information Control 
+Perceived 
+Information 
+Control 
+ 
+Perceived  
+Risk 
+Perceived 
+Privacy  
+ 
+Information Sensitivity  
+ 
+Importance of 
+Information 
+Transparency 
+
+ 
+ 
+Regulatory Expectations
+ 
+ 
+Perceived Benefits of 
+Info. Disclosure              
+ 
+ 
+Confidentiality  
+ 
+Secrecy 
+Anonymity  
+Figure 
+Research model.
+Information privacy and correlates  
+
+ Information Systems
+thing, as with respect to circumstances or attributes’,
+‘particular condition of mind or feeling’.
+Since, per definition, perception is the process of
+attaining awareness or understanding of mental and
+sensory information, an individual’s evaluation of his or
+her own mental and or/physical state of being is carried
+through his or her perceptions . Thus, if
+we assume that, in most general terms, privacy can be
+considered as a state, the empirically testable definition of
+privacy will be the ‘perceived  privacy’. We thus
+adapt the   ’s  conceptual definition of
+privacy in general to information privacy: perceived
+privacy is an individual’s self-assessed state in which
+external agents have limited access to information about
+him or her.
+Research Model. While each of the prior theories reviewed
+above focuses on different theoretical aspects of the same
+underlying phenomenon, in our attempt to clarify the
+intertwining concepts of privacy and its related factors, we
+see
+opportunities
+for
+consolidation
+and
+integration.
+Evaluating evidence from the perspective of a single
+theory may lead to falsification of that theory and creates
+a major scientific challenge . The goal of
+theory integration is to identify the commonalities in
+multiple theories about the focal phenomenon and produce a synthesis that is superior to any of the component
+theories . However, exactly how the theories
+should be integrated seamlessly into a better theory is far
+from clear and we do not claim to have found the
+exclusive, unique solution. Rather, we rely on the research
+advances and further scholarly contributions for our
+model to be further developed, clarified, and enhanced.
+The literature review of MIS and other disciplines leads
+us to propose a research model that integrates three
+conceptual frameworks. At its core lies the calculus
+framework of privacy
+incorporating the risk-control
+interplay . The calculus perspective of privacy has been
+described as ‘the most useful framework for analyzing
+contemporary consumer privacy concerns’ . The implicit understanding is that
+privacy is not absolute , but
+based on a cost-benefit analysis, that is, a ‘calculus of
+behavior’ . We integrate this
+core with recently advanced control and risk theories that
+aim to explain how perceptions of risk and control are
+formed in individuals regarding their personal information. For the control aspect, we build on    &
+  ’s  conceptualization of identity management and identify three different tactics that consumers
+apply to control the flow of their personal information:
+anonymity, secrecy, and confidentiality. For the risk
+aspect . All of these studies address the individual’s sense of risk when considering the consequences of information disclosure; each
+of them develops a set of risk factors although none offers
+an integrated, comprehensive treatment of risk. We have
+integrated the most salient risk factors shown to affect
+perception of risk and propose that an individual’s
+perceived risk is a function of the expected outcomes
+of information disclosure, together with considerations
+for context , organizational
+, and legal
+ influences. Figure  presents the research model.
+Information control and risk – the backbone of privacy
+The
+level of privacy concerns an individual develops has been
+shown to lead to decision making whether to disclose
+personal information . In
+comparing the work of    and    and those
+whose research is based on their theories from a range
+of disciplines,     identified common core elements:  ‘rivacy involves control
+over transactions  that
+regulate access to self and that, as a consequence, reduce
+vulnerability and increase decisional and behavioral
+options’. This definition reflects the view of privacy as a
+complex construct, that is, the dichotomy between the
+individual and others  and captures the two
+most important factors of privacy:  control over disclosure of personal information, and  the notion of
+privacy risk. Furthermore, the calculus framework of
+general privacy  also
+underscores the risk-control interplay. Both risk and control have been shown to operate as privacy-borne beliefs
+related to the potential consequences of information
+disclosure. Thus, based on the literature, we identify the
+two major factors that directly account for the perceived
+privacy: perceived information control and perceived
+risk. Below, we present the theoretical foundation for the
+control and risk constructs, and their relationship with
+perceived privacy, and the corresponding hypotheses.
+Perceived information control
+As discussed above, the
+element of control has been identified as an important
+factor of privacy. Laufer & Wolfe  made one
+of the strongest arguments for separating control from
+the concept of privacy: ‘the dimensions of the privacy
+phenomenon are conceptually distinct from control/
+choice, which is a mediating variable’. Therefore, control
+should be a related but separate construct from privacy,
+and control and privacy should be positively related
+.
+In this research, we conceptualize information control
+as a perception and define it as an individual’s beliefs in
+one’s ability to determine to what extent information
+about the self will be released onto the Web .-related
+Information privacy and correlates  
+
+ Information Systems
+sites. Prior literature differentiates between two types of
+control important for the privacy context: control over
+information disclosure and control over information use
+once the information has been obtained . Mostly, Web .
+operators address the first dimension by offering granular
+privacy settings , which allow
+limiting accessibility of one’s personal information with
+regard to other members and third parties. For example,
+Facebook users can specify their privacy p on
+who can see their profiles and personal information, who
+can search for them, how they can be contacted, what
+stories about them get published to their profiles and so
+on. It has been suggested that individuals tend to have
+a lower level of privacy concerns when they have a sense
+of information control .
+Several privacy studies suggest that the loss of information control is central to the perception of privacy
+invasion . Accordingly, we hypothesize that perceived
+information control is strongly related to perceived
+privacy.
+H1:
+Perceived information control positively affects perceived
+privacy.
+Tactics of information control
+ 
+propose a theoretical framework on identity management, wherein digital representation of an individual is
+determined by the amount and accuracy of the personal
+information collected. They further argue that attempts
+to regain control over one’s identity require tactics that
+limit accessibility to one’s personal information with
+regard to other members and third parties. That is, ‘as the
+law of the place becomes dominated by companies’ data
+collection strategies, consumers try to devise tactics that
+allow them to control either the amount or the accuracy
+ of personal information that ends up in
+electronic databases’ .
+
+
+conceptual
+framework
+identifies three different tactics that consumers apply to
+manage the externalization of their personal information: anonymity, secrecy, and confidentiality .
+On the basis of the proposed definitions and the direct
+relationship between perceived information control and
+perceived privacy, we posit that these tactics of information control are actually mechanisms for maintaining the
+desired state of privacy which is achieved through control
+over the information exchange between the individual
+and the world outside his or her information boundaries
+. Thus, we propose that these tactics of
+information control  will positively influence control perceptions
+in our model.
+Anonymity. Using the framework in Table , anonymity of
+ is the tactic to conceal a person’s identity  and it exists when an individual
+is acting in a way that limits the availability of identifiers
+to others. In the IT context, anonymity is often shaped by
+the features and affordances of the privacy enhancing
+technologies . Technical anonymization mechanisms offer different degrees of anonymity
+ with the options for individuals
+to be totally anonymous, pseudonymous, or identifiable
+. Users’ ability to
+stay anonymous can be expected to lead to more extensive
+and frank interaction, hence to more and better data
+disclosure about themselves, and thus to better personalization and aggregate data collection since they feel more
+information control. Anonymity, therefore, is defined in
+our study as the ability to carry out an externalization
+tactic that can conceal an individual’s real identity .
+In Web . and social networks such as Facebook or
+Linkedin, users are participating to connect with colleagues, friends, classmates or fans, and thus, they reveal
+their true identities. However, users on these sites are
+more often performing than revealing their genuine
+thoughts and feelings . To participate
+fully and contribute genuine thoughts and ideas in the
+social reality of Web . communications , they would
+need to stay anonymous. Anonymity will often be
+regarded as necessary if the real identity is to be protected
+Table 
+Tactics of information control
+Accuracy of personal information
+Low
+High
+Amount of personal information externalized
+Low
+SECRECY
+
+Sharing of little and potentially inaccurate information
+Avoid digital representations of the real self
+CONFIDENTIALITY
+
+Externalization of restricted but highly accurate information
+High
+ANONYMITY
+
+Sharing of personal information with concealing a consumer’s
+real identity
+NO CONTROL
+
+Disclose large amount of personal information
+Reveal an accurate representation of the self
+Source:    and    .
+Information privacy and correlates  
+
+ Information Systems
+from unwarranted and biased profiling . In other words, the individual
+creates ‘a multiplication of consumer identities as a form
+of camouflage against the strategy of surveillance of
+the proprietary powers’ .
+Therefore, when consumers are provided with the means
+to conceal their identities in various Web . communications, their perceptions of information control are
+likely to increase. Hence,
+Anonymity
+positively
+affects
+perceived
+information
+control.
+Secrecy. Cell  is secrecy, which has been defined as
+intentional concealment of information . Secrecy usually expresses the intention
+‘toward the sharing of little and potentially inaccurate
+information’ . Secretive
+withholding of personal information is then ‘regarded as
+an attempt to block any digital representation from
+emerging in the network’ .
+Secretive
+consumers
+do
+not
+actively
+share
+information and ‘seek to avoid digital representations of
+the real self, accurate or not’ . People keep some information secret because the
+information may have the potential to result in a high
+level of risk if known by others. Consequently, people are
+likely to desire the means to conceal the secret information. As Bok  states:
+To keep a secret from someone y is to block information
+about it or evidence of it from reaching that person, and
+to do so intentionally; to prevent him  from learning it, and thus, from processing it, making use of it or
+revealing it. 
+We thus define secrecy as the ability to carry out an
+externalization
+tactic
+that
+involves
+concealment
+of
+information, which enables individuals to manipulate
+and control environments by denying outsiders vital
+information about themselves . When consumers do not allow much accessibility to certain personal
+information, they maintain high levels of control over
+this information. Thus, secrecy is directly related to
+control.
+H3:
+Secrecy positively affects perceived information control.
+Confidentiality.
+Cell
+
+is
+confidentiality
+and
+mainly
+concerns ‘the externalization of restricted but highly
+accurate information to a specific company’ . It connects to the security aspect
+of private information that is stored in databases , which ‘restricts the information flow in terms of
+what is externalized and who gets to see it’ . Concerns for confidentiality
+usually occur at the stage in which private data has been
+disclosed and stored in database. Research has shown that
+threats to data confidentiality include:  accidental
+disclosures,  insider curiosity,  insider subordination, and  unauthorized access . Therefore, by necessity, confidentiality involves the recipient of the private information,
+as well as third parties to a greater extent than anonymity
+and secrecy do. That is, the individual has to rely on these
+other parties to keep personal information confidential
+more so than in the case of anonymity and secrecy
+tactics. Camp  has noted that confidentiality
+implies that the data and the information they represent
+must be protected and their use confined to authorized
+purposes by authorized people. We thus define confidentiality as the perceived ability to carry out an externalization tactic that restricts the information flow in terms
+of what is disclosed and who gets to see it . When confidentiality is assured by
+preventing unauthorized access, consumers may perceive
+higher levels of control over their personal information.
+Thus, we hypothesize that confidentiality is positively
+related to perceived information control.
+H4:
+Confidentiality positively affects perceived information
+control.
+Perceived risk
+enters a decision-making process when
+situations of that process create a sense of uncertainty,
+discomfort, and/or anxiety ,
+such as when psychological discomfort triggers feelings
+of uncertainty , anxiety causes pain
+, or when there is cognitive dissonance
+. The notion of risk is related to privacy
+and shares some of the latter’s complexity. Introduced
+separately from privacy, risk has been described as the
+perceived
+potential
+risk
+that
+occurs
+when
+personal
+information is revealed . However, it has also been described as a possible
+consequence of concealing information, when disclosure
+would be important
+for attaining a
+positive
+outcome . Fusilier & Hoyer 
+and Petronio  have argued that the perceived
+state of privacy is determined by an individual’s sense
+of
+risk,
+and
+recently
+Krasnova
+et
+al
+
+have
+identified perceived privacy risk as a main factor
+predicting personal information disclosure in online
+social networks. Applying their findings to the context
+of this research, we define the perception of risk as the
+user’s perceived expectation of suffering a negative
+outcome as a consequence of online disclosure of personal
+information.
+Users may perceive two kinds of risks if their personal
+information is not used fairly or responsibly . First, a user may
+perceive that her privacy is invaded if unauthorized
+access is made to her personal information in the absence
+of appropriate controls. Second, as computerized information may be easily distributed and reused, a user
+may perceive a relatively high risk that the information
+she has provided is being put into secondary use for
+Information privacy and correlates  
+
+ Information Systems
+unrelated purposes without her knowledge or consent
+. In the context of Web .,
+improper information practices would result in the
+mining and mapping of personal data to make an
+individual’s behavior more visible. Furthermore, users
+who often reveal their true identities on some Web .
+sites  expose their personal
+information to potential misuse .
+Therefore, when individuals perceive that there will be
+uncertainty or negative consequences of their information disclosure, they will be feeling that they have less
+privacy overall. Hence, we hypothesize:
+H5:
+Perceived risk negatively affects perceived privacy.
+Predictors of perceived risk
+The literature is abundant
+with studies of factors that affect perceived risk . For
+example, in a recent study about the effect of interactivity of an e-service on perceived risk, Featherman
+  suggest that richer media with instant
+feedback and multiple cues better convey performance
+efficacy
+and promised benefits
+helping consumers
+improve their understanding of an online service
+through an interactive preview. Thus, the perceived
+risk of utilizing the e-service should be lessened. In
+another study, Luo   used Featherman ’s
+ multifaceted risk model and found that perceived risk predictors include trust, self-efficacy, and
+structural assurances. Each of the studies explores a set
+of risk factors, but none offers an integrated, comprehensive treatment of risk. On the basis of our literature
+review, we have identified the most salient risk factors
+to affect perceptions of risk. We integrate these factors
+in our model and propose that an individual’s perceived risk is a function of perceived benefits of
+information disclosure, information sensitivity, importance of information transparency, and regulatory
+expectations.
+Perceived Benefits of Information Disclosure. The notion of
+privacy calculus assumes that there is a consequential
+tradeoff of costs and benefits salient in an individual’s
+privacy decision making. Overall, the calculus perspective of privacy suggests that when asked to provide
+personal information to service providers or companies,
+consumers perform a cost-benefit analysis  and they ‘are assumed to behave in ways that
+they believe will result in the most favorable net level of
+outcomes’ . Consequently,
+we argue that consumers are more likely to accept the
+potential risks that accompany the disclosure of personal
+information as long as they perceive that they can
+achieve a positive net outcome  . Hence, when
+a positive outcome of information disclosure is anticipated, risk beliefs are hypothesized to decrease:
+H6:
+Perceived benefits of information disclosure negatively
+affect perceived risk.
+It is important to note that privacy decisions involve
+more than a cost-benefit analysis as discussed above.
+Information disclosure entails considerable uncertainties,
+which are also subject to the opportunistic behaviors of
+online companies or Web sites. In this research, we
+further propose that the perception of risk is also a function of the level of information sensitivity, importance of
+information transparency, and regulatory expectations.
+Information Sensitivity. Support for individuals having
+different information-related beliefs as a consequence
+of different information experiences or interacting with
+the external environment is suggested by prior general
+and information privacy literature . It
+has been shown that the levels of privacy needs and
+concerns are dependent on the type of information
+collected and used by an organization . Malhotra   refer to this information attribute as ‘information sensitivity’ . For example, it was reported that consumers
+found
+information
+such
+as
+medical
+data,
+financial
+information, and personal identifiers  to be much more sensitive than demographic
+information, lifestyle habits, and purchase behavior
+. On the
+basis of Malhotra  , we define information
+sensitivity
+as
+a
+personal
+information
+attribute
+that
+informs the level of discomfort an individual perceives
+when
+disclosing
+specific
+personal
+information
+to
+a
+specific external agent . We
+believe this definition is in accordance with the dictionary connotation of ‘sensitive’: when pertaining to an
+object, it means requiring tact or caution; delicate;
+touchy, like in ‘sensitive topic’, that is, having potential
+to invoke a certain level of discomfort in people.
+Since certain domains of life are considered more
+private than others , all things being
+equal, individuals will perceive a higher level of risk for
+their disclosure of more sensitive information than they
+do for their disclosure of less sensitive information
+. Malhotra   found that more
+sensitive information has a more negative effect on
+consumer’s attitudes and intentions toward revealing
+personal information. In particular, they found that it
+will increase the consumer’s risk beliefs. In the context of
+Web ., it has been shown that the majority of users are
+selective in terms of the type of personal information
+they
+disclose
+online
+.
+For
+example, for the online social networks, most would
+publish their sexual orientation, political views, and
+Information privacy and correlates  
+
+ Information Systems
+birthday but conceal address, phone numbers, and class
+schedules . Thus, when the
+information requested is perceived as sensitive, risk
+perceptions are hypothesized to increase:
+H7:
+Information sensitivity positively affects perceived risk.
+Importance of Information Transparency. More and more
+users demand to know what type and how much
+information is collected about them, how is it stored,
+and to whom it is distributed or sold. Company’s
+transparency about the usage, storage, and sharing of
+the personal data inform an individual’s ‘reasonable
+expectation of privacy’  . On the basis of the Utility
+Maximization Theory, Awad & Krishnan  showed
+the importance of a company’s information transparency. The results of their study indicated that customers
+who desire greater transparency for information handling are less willing to be identified. In this research, the
+importance of information transparency is defined as the
+consumer-rated importance of notifying the consumers
+what types of information a firm has collected about
+them, and how that information is going to be used
+.
+The
+hypothesized relationship between the importance of
+information transparency and perceived risk is supported
+by Awad & Krishnan , who found that privacy
+beliefs were significantly related with individuals’ expectations of the organization’s information-handling
+practices. Customers who desire greater information
+handling transparency perceive greater risk, and thus
+are less willing to be profiled .
+That is to say, users who rate information transparency as
+important are more aware of risk in disclosing personal
+information:
+H8
+Importance of information transparency positively affects
+perceived risk.
+Regulatory Expectations. As Smith  
+pointed
+out,
+‘skepticism
+about
+the
+effectiveness
+of
+industry self-regulation in protecting consumer privacy
+has resulted in privacy advocates and consumers clamoring for strong and effective legislation to curtail rampant
+abuses of information by firms’. In the context of privacy,
+the regulatory approaches can decree the type of personal
+information merchants are allowed to collect from
+individuals, sometimes with their consent, as well as
+the ways with which stored personal information should
+be protected against misuse . Through
+enforcement agencies, the government can catch offenders and determine penalties for merchants when violations occur. Such punishments can also deter attempts to
+misuse stored personal information . It follows that users who expect
+more restrictive privacy regulations are likely to be more
+concerned about the risk of information disclosure. Thus,
+we hypothesize that user expectations of privacy laws will
+be positively associated with perceptions of risk.
+H9:
+Regulatory expectations positively affect perceived risk.
+Control variables
+Prior research on privacy suggests that a number of
+additional factors should be included as control variables
+because of their potential influence on our research
+model. Because our primary theoretical focus is not on
+them or there is no sufficient theoretical argument we
+can make to include them in our model as actionable
+variables, we include them as control variables, to
+eliminate the variance explained by them. They are
+gender, age, and weekly Web usage.
+Research method
+All social research involves creating a theory, which we
+did in the previous section and then designing a method
+to test the hypotheses involving actual collection of
+data. The methods can be observations or controlled
+experiment. The observation method can be interpretive
+in nature  or
+positivist involving quantitative approaches of statistical
+testing . The former is an appropriate
+method when processes and policies are described. The
+latter is the best approach when behavior and attitudes
+are explored from large general populations. It also
+involves operationalization 
+and statistical validation of the relationships. Since our
+study is about behaviors and attitudes, we adopted the
+survey approach.
+Choosing a context for testing the theoretical model
+In contrast to most privacy research which was conducted in the conventional Web context , we empirically test the research model
+in an understudied Web . context. Prominent Web .
+features that support the creation and consumption of
+user-generated contents, such as blogging ,
+tagging , user-driven ratings
+, and social networking  have a number of characteristics that make
+them particularly suitable for examining the research
+model. First, Web . represents a shift from a World
+Wide Web that is ‘read only’ to a Web that has been
+described as the ‘Read Write Web’ .
+Consequently, Web . provides user-centered platforms
+for information sharing, information publishing, collective editing and collaboration, is becoming a prevalent
+phenomenon globally . The explosion
+of Web . technologies creates the opportunity for a
+plethora of niche markets within the media landscape
+that were expected to generate US$. billion by ,
+more
+than
+four
+times
+what
+Web
+.-related
+sites
+Information privacy and correlates  
+
+ Information Systems
+generated in  with more than  million users
+. Second, despite the presence of some
+privacy
+norms
+and
+regulations,
+there
+are
+relatively
+few well-established institutional rules and contracts
+governing Web . technologies, and this give rise to
+opportunism.
+Third,
+in
+a
+context
+characterized
+by
+active
+user
+participation and user generated content, privacy concerns are particularly salient because a larger volume of
+user digital footprints could be potentially accessible to
+the public. As one recent PEW survey pointed out, the
+vast array of data that makes up ‘personal information’ in
+the age of Web . are nearly impossible to quantify or
+neatly define . Users of Web .
+applications often act in a way that the application can
+observe and record, the potential knowledge in that
+action can be released onto the Web, and made available
+to everyone. Web . brought the voluntary disclosure of
+personal
+information
+to
+the
+mainstream,
+and
+thus
+increases privacy risks . Therefore, understanding the underlying antecedents to privacy has become much more important in the Web .
+age.
+Scale development
+To test research hypotheses, data were collected through
+a survey that included scales for the constructs specified
+in the research model. Scale development was based on
+an extensive survey of the privacy literature. All construct
+measures were reflective measures, where a change in the
+construct affects the underlying measures . Perceived privacy was measured by three questions
+adapted from Chellappa  . Drawing on
+Featherman & Pavlou  and  & Hart ,
+we measured perceived privacy risk using four items to
+reflect the potential losses associated with the information disclosure. Our items, while more tailored for Web
+sites, are also well aligned with two of the three items of
+the instrument for privacy risk developed and validated
+by Featherman & Pavlou, . Items measuring perceived
+information
+control
+were
+measured
+by
+four
+questions that were directly taken from    .
+Anonymity was measured by three items developed from
+Teich   and secrecy was measured by three
+items adapted  . Information sensitivity was measured by three items based on
+prior literature , perceived benefits of information
+disclosure was measured by three items adapted from
+Stone  , and importance of information
+transparency was measured by three items taken from
+Awad & Krishnan . Confidentiality was measured
+by three items based on Camp , and    &
+   . Measures for regulatory expectations
+were developed based on prior privacy studies.
+Survey administration
+The initial questionnaire was reviewed by external researchers and a pilot study was conducted involving  undergraduate students. The respondents’ opinions on the clarity
+of the survey instructions and questions were also gathered.
+Following their feedback and analysis of measurement
+model, some changes were made to the instrument,
+including dropping certain items, wording of items, and
+editing the instructions. 
+t-test
+comparisons
+between
+the means of the two groups showed insignificant
+differences.
+The use of student subjects has been questioned before
+on grounds of external validity and generalizability.
+However, multiple reasons suggest that, in this case, the
+use of student subjects does not present a significant
+threat in our study. First, study participants were online
+customers and Internet users and students are among the
+most active users. On the basis of the latest survey
+conducted by the Pew Internet & American Life Project
+, the sample chosen is highly representative of
+active Internet users , making the sample highly relevant for this
+context. Second, we investigated correlations between
+age and individual construct’s sub-scales, and all of them
+are relatively small and insignificant. We also ran age as
+a control variable in our structural model and there was
+no significant effect. Third, prior empirical research in
+MIS and marketing suggests that where online behavior is
+concerned, a random sample of the general population of
+online consumers may not always be better than a
+student sample. For all the reasons above, many MIS
+studies related to internet use and online behavior have
+used students as subjects 
+Information privacy and correlates  
+
+ Information Systems
+Data analysis and results
+A second-generation causal modeling statistical technique, partial least squares , was used for data analysis
+in this research. For a detailed rationale about using PLS
+as one of the best methods for empirical testing of
+structural models, see     . To analyze the
+measurement quality and the path model for hypothesis
+testing, we used SmartPLS  as the
+primary statistical tool. Following the literature tradition
+of structural equation modeling, we first assessed the
+quality of the measurement model to ensure the validity
+of constructs and reliability of the measurements. This
+was followed by structural modeling, to test the research
+hypothesis and the overall quality of the proposed
+model.
+Measurement model
+The quality of the measurement model is usually assessed
+in terms of its content validity, construct validity, and
+reliability . Content validity is defined
+as the degree to which the items represent the construct
+being measured. Content validity is usually assessed by
+the domain experts and literature review . In this case, the content validity is primarily
+assured by adopting the previously published measurement items for the construct and an item-by-item review
+by the research team before and after the pilot study.
+Construct validity can be assessed using convergent
+validity and discriminant validity. Convergent validity is
+defined as the degree to which the measurement items
+are
+related
+to
+the
+construct
+they
+are
+theoretically
+predicted to be related . Statistical
+evidence of convergent validity was confirmed by the
+high factor loadings and their statistical significance, as
+shown by their corresponding t-values . As seen from Table , no items exhibit either low
+factor loadings  or high cross-loadings indicating
+good convergent validity.
+Discriminant validity is the degree to which measures
+of different constructs are distinct . Following the procedure to perform CFA suggested
+by and applied in Agarwal & Karahanna
+, we applied two tests to assess discriminant
+validity. First, per Table , the confirmatory factor
+analysis showed low cross loadings ensuring that the
+items of each construct loaded more highly on their
+intended construct than other constructs. Second, each
+item should correlate more highly with other items
+measuring the same construct than with items measuring
+other constructs. This was determined by checking
+whether the square root of the average variance extracted
+ shared between a construct and its items were
+greater than the correlations between the construct and
+any other items in the model. Table  shows the
+correlations and each construct’s AVE. The diagonal
+values are the square roots of the AVEs and are all higher
+than the correlations. Thus, all items in our study
+fulfilled the requirement of discriminant validity.
+The reliability of the measurement addresses the
+concern of how well the items for one construct correlate
+or move together . Reliability is usually
+assessed by two indicators – Cronbach’s a and composite
+reliability. 
+
+Information privacy and correlates  
+
+ Information Systems
+common method bias and provides a clear definition: It is
+the ‘difference between the measured score of a trait and
+the trait score that stems from the rater, instrument, and/
+or procedure used to obtain the score.’ . He proposed two fundamental sources of
+method bias: knowledge bias and rating bias. An example
+of a knowledge bias would be a bias due to a rater’s lack of
+knowledge of the trait score that would cause self-rating
+vs observers’ rating of the trait. An example of a rating
+bias would be the bias from the rater’s unwillingness to
+provide a best estimate of the trait score, or a bias from
+the instrument or procedure influencing the rater to give
+a different score. Both result in providing an inaccurate
+response because it is socially desirable or because the
+rater has privacy concerns.
+We thoroughly examined our survey instrument and
+its administration against the criteria listed by BurtonJones  and we concluded that neither suffered
+knowledge or rater bias. By ensuring anonymity to
+the respondents, assuring them that there were no right
+or wrong answers, requesting that each question be
+answered as honestly as possible, and providing no
+incentive for participating in the study, we reduced the
+likelihood
+of
+bias
+caused
+by
+social
+desirability
+or
+respondent acquiescence . Also,
+we conducted the Harman single-factor test by loading all
+items to one factor . No general
+factor was apparent in the unrotated factor structure,
+with one factor accounting for % of the variance,
+indicating that common method variance is unlikely to
+be a serious problem in the data. Further, we ran Lindell
+and Whitney’s  test that uses a theoretically
+unrelated construct , which
+was used to adjust the correlations among the principal
+constructs . Following Malhotra 
+, the correlation between the marker variable and
+our research constructs was assessed and were assumed to
+have no relationships. The results indicated that the
+average correlation coefficient was close to  . Thus, we argue that this research is relatively robust
+against common method biases.
+Structural model
+After establishing the validity of the measures, we tested
+the structural paths in the research model using PLS by
+examining the sign and significance of the path coefficients. Predictive validity is assessed with PLS primarily
+through an examination of the explanatory power and
+significance of the hypothesized paths. The explanatory
+power of the structural model is assessed based on the
+amount of variance explained in the endogenous construct . We conducted
+the statistical tests at a % level of significance. Control
+variables were included in the model. None of them had a
+statistically significant effect on the DV. Figure  presents
+the structural models.
+The structural models explain .% of the variance in
+perceived privacy. As hypothesized, perceived control
+and perceived risk strongly influence perception of
+privacy. Anonymity, secrecy,
+and confidentiality are found to be the significant
+mechanisms to information control,
+and H4. Perceived benefits of information disclosure,
+information sensitivity, importance of information transparency, and regulatory expectations all have significant
+impacts on perceived risk
+
+We want to begin this section by emphasizing that this
+study is far from conclusive and should be treated as
+merely an attempt to empirically address the confusion in
+the literature among privacy and its other conceptually
+close correlates such as anonymity, secrecy, confidentiality and so on. We believe that more than one study is
+needed in order to resolve the present ambiguity, lack of
+rigorous definitions, and consistent empirical treatment
+of these correlates. Thus more research ideas should
+spring out in the near future. The dynamics of the
+research dialogue and the evolution of the theoretical
+and conceptual thinking include subsequent clarifications, finding of weaknesses, deficiencies, corrections to
+definitions, and relationships that are present in our
+study. So, our study should be treated as laying the
+groundwork for a further stream of conceptualizations
+and models that will contribute to clarification of what
+privacy and its correlates actually mean, and more
+importantly, does their meaning change with evolution
+of technology and enrichment of contexts.
+This study developed and empirically tested a research
+model to investigate privacy perceptions in Web .-
+related sites.
+Perceived 
+Information Control 
+
+Perceived Privacy
+
+Perceived 
+Risk
+
+Confidentiality
+
+Secrecy
+
+Anonymity 
+
+Perceived benefits 
+of Info. Disclosure
+
+
+
+Transparency 
+Information 
+Sensitivity 
+Regulatory 
+Expectations 
+The structural model.
+Information privacy and correlates  
+
+ Information Systems
+account of the variance in perceived privacy,
+and thus possesses adequate explanatory power to make
+the interpretation of path coefficients meaningful. The
+evidence from this study provided empirical support that
+a cognitive process of assessing perceived information
+control and perceived risk is shown to be important in
+shaping an individual’s privacy perception. We confirm
+that privacy risk attitudes are grounded in an individual’s
+values in terms of information sensitivity, assessment of
+perceived benefits of information disclosure, importance
+of information transparency, and regulatory expectations
+that enable a person to assess the risks of information
+disclosure. Anonymity, secrecy, and confidentiality were
+shown to be the important tactics of information control.
+We also conducted extensive mediation tests with
+various methodologies. The tests validated our theoretical model
+and showed that the relationships on our structural
+model are the most significant.
+Limitations and future research
+Although the data generally supported the proposed
+model, we note several limitations to our work. First, and
+by design, our work is limited to the examination of how
+individuals form privacy perceptions. In this study, we
+have not extended the nomological network to consider
+how
+those
+perceptions
+are
+translated
+into
+outcome
+variables such as information disclosure behaviors. In
+our view, the boundary we have embraced in this study is
+an appropriate one, as it would be quite unwieldy to
+derive and test an exhaustive model that also included
+relationships between perceived privacy and outcome
+variables.
+Future
+research
+could
+move
+beyond
+the
+examination of the formation of privacy perceptions to
+the examination of such as trust and information
+disclosure behaviors .
+Second, while our model explains a substantial percent
+of variance in the perceived privacy, there are several
+factors investigated in prior research and missing in our
+model, namely the context, culture, personality characteristics,
+and
+possibly
+personal
+and
+institutional
+trust-related factors. All of these missing from our model
+factors may additionally strengthen the privacy model
+and provide additional explained variance. Due to the
+contextual nature of privacy , the current research framework would need
+to
+be
+expanded
+in
+the
+future.
+While
+information
+sensitivity partially captures the nature of context , a much richer context can be
+explored in future studies . The dynamics of the ITs and the new opportunities
+of communication such as social networking and Web
+., introduce new and more complex factors that have
+to be included in future models. For example, the fact
+that
+online
+participants
+in
+social
+networking
+sites
+voluntarily disclose their personal information should
+be taken into account and possibly a new context-specific
+construct such as Voluntariness should be included in
+the nomological interplay of control, privacy, and risk. If
+we explore other Web sites, where users do not voluntarily submit their personal information, we may find a
+different picture. Clearly, there is opportunity for future
+research and establishing the generalizability of our
+current model.
+In addition, there is substantial evidence that personality factors are also playing role in formation of privacy
+perceptions. Personality differences such as introversion
+vs extroversion , independent-self vs
+interdependent-self , and ‘Big-Five’ personality
+traits  have been found to affect
+individual privacy concerns. None of these are present in
+our model and definitely warrant future research.
+There
+is
+urgent
+need
+of
+a
+separate
+research
+to
+rigorously and systematically argue about the extent to
+which physical and information privacy can be directly
+used interchangeably and under one umbrella. As we
+mentioned in the beginning of our study, the information privacy research has adopted earlier concepts that
+pertained to physical privacy directly and seamlessly to
+the information privacy. No questions were asked at that
+stage about the applicability of this direct borrowing of
+theories and concepts. As the importance of information
+privacy and the ubiquity of electronic data grow, the
+need of this clarification becomes more and more
+pressing.
+Finally, our study suffers the inherent disadvantages
+and flaws of every positivist, survey-based empirical
+study – the precision, control, and thoroughness that is
+
+
+Perceived information control -Perceived privacy
+
+
+Anonymity perceived -Information control
+
+
+Secrecy perceived -Information control
+
+
+Confidentiality -Perceived information control
+
+
+Perceived risk -Perceived privacy
+
+
+Perceived benefits of information disclosure -Perceived risk
+
+
+Information sensitivity -Perceived risk
+
+
+Importance of information transparency -Perceived risk
+
+
+Regulatory expectations -Perceived risk
+
+
+Information privacy and correlates  
+
+ Information Systems
+lost when we focus only on realism . The more intricate nuances of
+the constructs are lost when we try to frame them into
+measurable items, and with this suffer the richness of the
+context as well as the cultural and period specifics.
+Theoretical and practical implications
+This research presents a model linking privacy and its
+various correlates together, which shows that privacy
+constructs relate to each other in organized, meaningful
+ways. This is important because definitions of privacy
+and relationships among privacy-related constructs have
+been inconsistent and not fully developed in the extant
+literature. Our model has drawn upon and brought
+together multitude of concepts, definitions, and visions
+about privacy that have been discussed throughout the
+decades of privacy research in such a diverse manner that
+prompted Solove  to declare that general
+privacy is ‘a concept is in disarray’. We believe our study
+brings researchers closer to the so much needed conceptual and operational clarity of privacy.
+This research has also shown that the conventional
+understanding of privacy from a calculus perspective
+can be extended: on one hand, consumers may assess
+the outcomes of information disclosure; on the other
+hand, they may also attend to evaluate the sensitivity of
+requested
+information,
+organization’s
+informationhandling practices, and the regulatory environment
+that enable them to assess the risks of information
+disclosure.
+Further,
+the
+work
+theoretically
+differentiates
+three
+tactics of information control and empirically tests their
+effects on influencing privacy perceptions. On the basis
+of the ’s  conceptualization of
+identity management, we identify three different tactics
+consumers apply to manage the externalization of their
+personal information: anonymity, secrecy, and confidentiality. In the past, these were argued to be privacy ‘interests’
+or ‘dimensions’, while, through a consistently built and
+empirically validated integrated model, we showed that
+they have to be viewed as control tactics that influence
+privacy perceptions through the control construct.
+Similarly to the works of Chellappa , the
+study above examines perceptions of privacy as a state
+rather than privacy as a concern as most of MIS studies
+have done. By centering our privacy model around
+perceptions of privacy, we eliminated the need to rely
+on the privacy concerns as a proxy that may bring a
+negative connotation to the notion of privacy, if the
+latter is to be regarded as a human and societal wellcherished value.
+From a practical perspective, this study shows that risk
+beliefs
+and
+perceived
+information
+control
+are
+the
+important factors in users’ privacy perceptions with
+Web .-related sites. In this respect, this study provides
+some insights into the approaches that could be used by a
+Web . site operator to address privacy issues by
+reducing risk beliefs and enhancing control perceptions.
+To the extent that perceived information control is an
+important factor influencing privacy perception, it is
+important for Web . site operators to develop privacy
+control features with user-friendly interfaces for ensuring
+individual’s
+capability
+to
+maintain
+the
+anonymity,
+secrecy, and confidentiality of their personal information. From a privacy risk reduction perspective, Web .
+site operators should be aware that perceived risk does
+decrease user privacy perception.
+This
+study
+shows
+that
+the
+user’s
+assessment
+of
+perceived benefits of information disclosure significantly
+decreases
+perceived
+risk,
+while
+information
+sensitivity increases perceived risk. It follows that
+additional incentives  and limited collection of sensitive
+information need to be considered to mitigate the
+user’s perceived risk of information disclosure. Our
+study shows that importance of information transparency can help decrease user risk beliefs. This, in turn,
+suggests that Web . site operators should not keep
+privacy practice in the backroom of their Web sites.
+Instead, details on how and what information is
+collected and stored should be integrated into customer relationship management campaigns, and information on the regulations to which Web . site
+operators comply should be communicated to users.
+Beyond the Web . context, the main practical
+implication is in creating public and organizational
+policies and rules that are better aligned with the more
+intricate
+understanding
+of
+what
+drives
+individuals’
+perception of less or more privacy. Our results show that
+citizens expect more regulations from their government or
+from the private sector regarding gathering of personal
+information, and that has an effect on their perceived
+risk. The regulations can cover both the amount and the
+type of information, with respect to how sensitive the
+information is, which can be gathered, and the extent of
+the user’s control on the collection and distribution of
+the personal information. Many goals can be achieved
+with smarter, better regulation. Both increased user
+control and decreased perceived risk can be managed by
+policies
+and
+regulations,
+and
+they
+both
+affect
+the
+perceived privacy.
+In this study, we developed a framework that includes
+privacy and constructs, such as anonymity, secrecy, and
+confidentiality that have often been regarded as dimensions of privacy and sometimes even equated with
+privacy. We showed that these three constructs are
+actually tactics of information control and affect the
+users’ perceived information control, which, along with
+perceived risk, directly affect the perceived privacy. We
+also showed that perceived risk can be decreased by
+perceived benefits from information disclosure, and
+substantially increased by the sensitivity of the disclosed
+information, the regulatory expectations the users have,
+and the importance of information transparency. Users’
+information control and risk perceptions could play
+primary roles in addressing privacy issues pertaining to
+Information privacy and correlates  
+
+ Information Systems
+Web
+.-related
+sites,
+especially
+in
+the
+absence
+of
+well-established legal resources. This study provides a
+preliminary understanding of the privacy issues in Web
+.related sites by integrating privacy and its correlates
+into a theoretical framework. Using the groundwork laid
+down in this study, further work could contribute to
+extending our theoretical understanding and practical
+ability to foster the diffusion of Web features.
+

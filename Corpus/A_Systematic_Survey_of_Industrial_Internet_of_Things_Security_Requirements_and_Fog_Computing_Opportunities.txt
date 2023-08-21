@@ -1,0 +1,2307 @@
+
+A key application of the Internet of Things (IoT)
+paradigm lies within industrial contexts. Indeed, the emerg
+ing Industrial Internet of Things (IIoT), commonly referred
+to as Industry 4.0, promises to revolutionize production and
+manufacturing through the use of large numbers of networked
+embedded sensing devices, and the combination of emerging
+computing technologies, such as Fog/Cloud Computing and
+Artiﬁcial Intelligence. The IIoT is characterized by an increased
+degree of interconnectivity, which not only creates opportuni
+ties for the industries that adopt it, but also for cybercriminals.
+Indeed, IoT security currently represents one of the major obsta
+cles that prevent the widespread adoption of IIoT technology.
+Unsurprisingly, such concerns led to an exponential growth of
+published research over the last few years. To get an overview
+of the ﬁeld, we deem it important to systematically survey the
+academic literature so far, and distill from it various security
+requirements as well as their popularity. This paper consists
+of two contributions: our primary contribution is a systematic review of the literature over the period 20112019 on IIoT
+Security, focusing in particular on the security requirements of
+the IIoT. Our secondary contribution is a reﬂection on how the
+relatively new paradigm of Fog computing can be leveraged to
+address these requirements, and thus improve the security of the
+IIoT. We conclude the paper by discussing open challenges and
+Index Terms—Industrial Internet of Things, cybersecurity,
+security requirements, fog computing.
+
+The 3rd Generation Partnership Project
+
+Fifth generation cellular network technology
+
+Attribute Based Signatures
+
+Access Control
+
+Access Control List
+
+Bring Your Own Key
+
+Conﬁdentiality, Integrity, Availability
+
+Critical Infrastructure
+
+Distributed Denial of Service
+
+Distributed Hash Table
+
+Decentralized Identiﬁer
+
+Denial of Service
+
+Datagram Transport Layer Security
+
+Industrial Internet Consortium
+
+Intrusion Detection System
+
+MachinetoMachine
+
+Message Queue Telemetry Transport
+
+Narrow Band IoT
+
+Near Field Communication
+
+Network Function Virtualization
+
+The OPC Uniﬁed Architecture
+
+Operational Technology
+
+Open Web Application Security Project
+
+Public Key Infrastructure
+
+Programmable Logic Controller
+
+Physically Uncloneable Function
+
+Supervisory Control And Data Acquisition
+
+Software Deﬁned Networking
+
+Self Sovereign Identity
+Trusted Execution Environment
+
+Transport Layer Security
+
+Trusted Platform Module
+
+Time Sensitive Networking
+
+Wireless Personal Area Network
+Wireless Sensor Networks
+
+Zero Trust Networking.
+I. INTRODUCTION
+I
+NDUSTRY 4.0, also referred to as 4th industrial revolu
+tion, represents a new industrial era, whereby due to the
+increasing availability, affordability, and capability of sensors,
+processors, and communication technologies, the number of
+embedded devices used in industrial applications is rapidly
+increasing. This leads to a growth in the interest for the
+IIoT: a large network of devices, systems, and applications
+communicating and sharing intelligence with each other, the
+external environment, and with humans . According to
+Accenture , the IIoT could be worth 7.1 trillion U.S. dollars
+to the United States and more than 1.2 trillion to Europe by
+2030.
+In this wave of excitement, IoT security represents one of
+the biggest weak points holding back the adoption of the IIoT.
+As a matter of fact, IoT devices are often poorly secured 
+and thus easy targets for malware taking advantage of them
+to run devastating cyberattacks, such as Distributed Denial of
+Service (DDoS)  (e.g., Mirai  affected consumer IoT)
+or sabotage attacks. Threats are not limited to the consumer
+IoT. In fact, traditional industrial environments have been sub
+ject to attacks in the past, sometimes with devastating results
+. It is thus
+apparent that without security, IIoT will never be able to
+deliver its full potential. As a result, recent years have seen
+an unprecedented growth of research in IIoT security.
+In this landscape, a relatively new computing paradigm has
+attracted attention: Fog computing . Fog computing is a
+systemlevel architecture born from the necessity of bridging
+the gap between IoT and Cloud computing, by distributing
+resources and services along the continuum from Cloud to
+IoT . Among others, one of the promises of Fog computing
+is to present a possible solution to the (I)IoT security problem.
+A. Contribution
+In this article, we present a systematic survey on the security
+requirements of the IIoT. As we quantitatively demonstrate in
+Section VI, the ﬁeld of IIoT security has grown rapidly over
+the last few years, and this momentum motivates this article
+and the need for an uptodate systematic survey.
+In particular, as our primary contribution, we survey the
+literature on IIoT security over the period 20112019, which
+corresponds to more than 200 papers. In turn, we identify,
+categorize, and discuss the IIoT security requirements that
+have been identiﬁed by the research community, highlight
+ing the research interest attracted by each of them over the
+target period. In addition, we provide statistics with regard to
+the geographical distribution and the publication venue of the
+surveyed papers.
+As a secondary contribution, in the ﬁnal part of the article,
+we discuss how the Fog computing paradigm can be used to
+address these requirements. Our reﬂection identiﬁes numerous
+research opportunities at the intersection of Fog computing and
+IIoT security, along with open challenges and limitations still
+(partially) unsolved.
+B. Outline
+The paper is organized as follows. We ﬁrst establish com
+mon ground by discussing the difference between IoT and
+IIoT, and providing a glimpse into recent IoT security sur
+veys. Section III brieﬂy mentions related work and moti
+vates the need for a systematic literature review. Section IV
+describes the research method used in the review and formal
+izes the research questions. Section V surveys the security
+requirements resulting from the systematic review. Section VI
+presents a quantitative analysis of the results obtained dur
+ing the research phase. Section VII discusses the role that
+Fog computing might play in meeting the IIoT security
+requirements. Finally, Section VIII concludes the paper.
+II. IOT AND IIOT
+Before we discuss the results of our systematic survey in
+depth, it is helpful to establish a common understanding of
+how IoT and IIoT differ. In this section, we ﬁrst explore this
+difference, then, we provide an overview of recent IoT security
+surveys.
+We ﬁnd Table I, taken from the ENISA “Good practices
+for Security of Internet of Things in the context of Smart
+Manufacturing”  report, to be helpful in outlining the dif
+ferences between IoT and IIoT, and use this as a guideline
+throughout our work. That said, the difference is not a precise,
+clearcut one, and we sometimes do deviate from these guide
+lines, when it is abundantly clear that a scenario concerns the
+IIoT without meeting relevant criteria from that table.
+In general, it is accepted that IIoT is a subset of IoT:
+IoT typically covers consumer devices in retail and lifestyle,
+IIoT focuses mainly on Operational Technology (OT), the
+smart manufacturing process, smart logistics, and smart
+cities.
+It should not be surprising that the safety and security
+requirements in IIoT are generally stricter than those found
+in a typical IoT scenario. Even so, we ﬁnd signiﬁcant overlap
+in used terminology in the literature, and IIoT having stricter
+requirements does not necessarily mean that any proposed
+security solution for the IoT is not applicable to the IIoT.
+This is echoed by Yu and Guo , who, in a short survey on
+the differences between IIoT and IoT security, ﬁnd that for the
+most part, the challenges overlap. At the same time, as will
+become evident throughout this study, the ﬁeld is broad, and
+scenarios covered in the literature differ wildly. Often, one can
+imagine a more general IoT cousin to a speciﬁc IIoT scenario
+quite easily. The security requirements distilled from said IIoT
+scenario would thus often also apply to its IoT cousin. Vice
+versa, it is likely that works are covering the IoT scenario,
+these would identify requirements that have not been covered
+in the available literature for the IIoT. This is especially true
+for requirements derived out of common challenges such as
+resource constraints and key distribution. Therefore, we rec
+ommend readers with an interest in any given IIoT scenario
+to also search the available literature for the more general IoT
+case, and consider if the requirements found in those works
+uncover security liabilities that have not been addressed in
+existing IIoT work.
+A. IoT Security Surveys
+There exist ample surveys investigating the state of IoT
+security, and we will brieﬂy look at several relatively recent
+surveys, discussing how their identiﬁed security requirements
+might relate to the IIoT.
+In , the authors survey the literature for real IoT
+attacks and present a taxonomy. They also identify integrity,
+anonymity, conﬁdentiality, privacy, access control and autho
+rization, authentication, resilience, and selforganization as
+security requirements for IoT systems in general. These are
+all represented in the requirements collected in this work as
+well, and reiterate that generic IoT solutions can work for IIoT
+systems, if they do not violate scenariospeciﬁc constraints.
+Nes provide a much more thorough study of
+IoT vulnerabilities and attacks, but do not relate these to secu
+rity requirements. Nevertheless, we can see that the familiar
+topics of authentication and access control, assurance, and con
+ﬁdentiality return implicitly throughout the text. The threats
+described by the authors include problems such as false data
+injection, improper patch management, and improper encryp
+tion. Many of these can be directly connected to the security
+requirements listed in this work.
+In , the authors provide a topdown survey of IoT secu
+rity. They discuss security requirements for healthcare, smart
+grids, manufacturing, smart homes, transport, and smart cities.
+Some of these are also considered to be in the IIoT domain ,
+and indeed the security requirements identiﬁed in these sec
+tions overlap with the ones collected in this survey, albeit on a
+higher level of abstraction. In each investigated domain, they
+list a subset of these as requirements. For smart grids, they
+identify availability, conﬁdentiality, integrity, nonrepudiation,
+and privacy, and additionally list challenges we also identify in
+our work: heterogeneity, scalability, privacy, and so on. What
+is apparent through their work, is that the main way in which
+the requirements for the various domains differ is in their pri
+ority, for instance, privacy and conﬁdentiality weigh higher
+in healthcare than in transport. Further, the authors make the
+insightful observation that one speciﬁc challenge for the IIoT
+that is not as apparent in general IoT networks, is that its cru
+cial safety requirements often compete with security in terms
+of resources. It is perhaps the balance that must be found
+between these two aspects that sets the IIoT apart from normal
+IoT systems. Indeed, whenever resource constraints are not an
+issue, or when safety constraints are less strict, standard IoT
+solutions often sufﬁce.
+III. RELATED WORK
+To the best of our knowledge, the most recent works focused
+on reviewing IIoT security are  and . The former
+focuses primarily on threats characterization by looking at
+existing attacks, while the latter mainly reviews the differences
+between information technology and operational technology in
+an Industry 4.0 setting, and discusses the challenges. However,
+neither of these works explicitly discuss security requirements,
+opting to leave them as implied by the described threats and
+challenges. Another recent study  focuses on Industry 4.0
+system architecture as a whole and observes that there is an
+increase in securityfocused architectural proposals, but does
+not discuss security in depth. Some older surveys dated back to
+2015 and 2016 mention IIoT security requirements , ,
+but they also refrain from an indepth discussion.
+Recently, H published a study identifying
+and mapping security requirements to an OPC UA model,
+allowing easier machinebased veriﬁcation. While they pro
+vide many security requirements, they are based on a limited
+set of use cases, and no thorough explanation for their deriva
+tion is given. Moreover, they are of a less abstract level than
+the ones we attempt to derive in this work.
+As a result, we deem it necessary to provide an uptodate,
+systematic survey that speciﬁcally addresses IIoT security
+requirements.
+IV. RESEARCH METHOD
+In this section, we present the research method that is used
+in this systematic literature review on security requirements
+for the IIoT.
+We
+adopt
+the
+research
+method
+detailed
+by
+ and utilize the suggested template
+for describing our approach. In the next subsections, we elab
+orate on research questions, search strategy, study selection,
+and validity concerns.
+A. Research Questions
+The main aim of this work is to identify security require
+ments for the IIoT. This can then guide us in identifying which
+of these show potential to be solved by Fog computing. In
+addition, we want to provide an overview of the research activ
+ity in the ﬁeld: how research activity has developed throughout
+the years, how this research was published, and what its
+geographical distribution is.
+Thus, our research questions can be formulated as follows:
+ : what are the security requirements of the IIoT?
+ : how are publications related to IIoT security spread
+throughout the yea
+
+QUERIES USED FOR OUR SEARCH, EXPRESSED IN PSEUDOCODE
+
+NUMBER OF PAPERS OBTAINED
+ : how is IIoT security research activity geographi
+cally distributed?
+ : what are the most popular publication venues for
+IIoT security research?
+Answering these questions will aid in getting a better under
+standing of the current security landscape for the IIoT, while
+at the same time identifying various concrete research oppor
+tunities related to Fog computing. Each of these can then be
+traced back to concrete security requirements relevant to the
+Industry 4.0 paradigm.
+B. Search Strategy
+We utilize the adjusted PICOC criteria for software engi
+neering  in order to identify relevant keywords. In
+particular:
+ Population: we consider the IIoT as the application area
+in which our research is conducted. However, this is a
+very broad population, therefore, we take into account
+only studies addressing IIoT security.
+ Intervention: this criterion does not apply to our research
+questions, as we are interested in any work in the IIoT
+domain that describes security requirements.
+ Comparison: we compare the security requirements
+identiﬁed by different studies by taking into account
+such factors as the number of studies that mention them,
+related threats, and proposed solutions.
+ Outcomes: we present the identiﬁed security require
+ments as well as the properties of their mitigation,
+allowing us to discuss which requirements call for further
+research.
+ Context: as we do not empirically compare the available
+works, this criterion does not apply to our study.
+With these criteria in mind, we have formulated the follow
+ing keywords: IIoT, Industrial Internet of Things, Industry 4.0,
+and Security.
+. In this
+domain, we believe that the combination of these three sources
+provides an accurate representation of the research that has
+been conducted globally.
+We divided the search into two stages. First, we queried the
+databases for articles related to Industry 4.0 in general,
+based on their titles. This provided an overview of the amount
+of research conducted in this ﬁeld. After that, we narrowed
+down our search to only include works related to security, by
+excluding articles not containing the word “security” in their
+abstract. The queries are summarized in Table II. The search
+results for both queries are listed in Table III. The queries have
+been executed in March 2020.
+C. Study Selection
+Starting from 356 papers resulting from our queries, we
+further ﬁltered the studies with multiple phases.
+Firstly, the JabRef1 reference management software was
+used to identify and delete duplicates. Five duplicates were
+found, leaving the number of considered papers for the
+subsequent phases at 351.
+Subsequently, we independently reviewed the titles and
+abstracts of each article in order to reduce selection bias. Each
+article was marked as being relevant, not relevant, or of doubt
+ful relevance. Articles were voted for inclusion when the work
+covered cybersecurity challenges and/or solutions for Industry
+4.0, and it was published before 2020, since that is the year in
+which this study is conducted. We do not believe that ﬁltering
+on a minimum publication date is necessary at this time, due
+to the relatively young age of this ﬁeld. Articles were voted
+for exclusion when the work was not related to Industry 4.0
+security, contained duplicate content, or was not presented in
+legible English.
+
+A schematic representation of the entire study selection process.
+After the individual title and abstract reviews, 68 articles
+were excluded and 69 were marked as doubtful entries requir
+ing a joint review. These were then jointly reviewed, leading
+to an additional 35 exclusions. The remaining 248 papers were
+considered for fulltext reading, overall reducing the number
+of papers to analyse by 92% compared to results of Q1 and
+30% compared to Q2.
+In the fullreading phase, we extracted information rele
+vant to the stated research questions, as well as identifying
+the challenges discussed in the papers. We then used this
+data to provide a comprehensive picture of the security chal
+lenges and corresponding requirements for the IIoT. In this
+phase, it became clear that a number of papers were not
+relevant to our work, resulting in the discarding of other
+43 papers. Additionally, we identiﬁed 13 papers of interest
+through reverse snowball sampling and added these to the
+selection. 
+
+D. Validity Evaluation
+Every study that is subject to manual selection is vulner
+able to researcher bias in the ﬁltering process. In order to
+reduce this issue, we performed the ﬁltering process twice:
+two authors of this paper selected studies independently, and
+the results of the ﬁltering process were based on a system
+atic approach combining the selections of both authors, and in
+some cases a joint review.
+Also, to mitigate possible selection bias, we have performed
+reverse snowball sampling, allowing for the introduction of
+papers originally not considered due to not being captured by
+our search queries.
+Furthermore, we have described our research process in
+detail, and have taken care to list the criteria by which we
+ﬁltered studies. This is done to increase the repeatability of
+this work.
+Finally, it is worth mentioning that our approach does not
+suffer from the Matthew’s effect, as opposed to querying
+databases that rank papers based on citation count .
+V. IIOT SECURITY REQUIREMENTS (1)
+In this section, we present the security requirements that
+we found to have been discussed in the selected literature.
+We describe why these requirements are deemed relevant and
+summarize some of the proposed solutions. We also discuss
+why these requirements are difﬁcult to satisfy for Industry
+4.0 applications, which gives the insight needed to see why
+the discussed security requirements are hard to meet with
+conventional solutions. Furthermore, they provide a set of
+motivational factors for why the research discussed in this
+section is necessary.
+We observed that the focus of the investigated literature is
+mainly on Industry 4.0, even if in this ﬁeld highly varying
+scenarios are considered. For example, some articles discuss
+petrochemical plant management , while others focus on
+drones and so on. Each of these scenarios
+has its own threat model and will thus also differ in terms
+of security requirements from the others, to a certain degree.
+However, we note that the majority of them show considerable
+overlap, and that even the ones that are unique to one particular
+scenario, might still translate into a research opportunity, or
+might be possibly addressed with Fog computing. Therefore,
+we have attempted to include all such requirements in this
+section, and mention their relevance to particular scenarios, to
+provide context.
+In order to provide a clear overview of the security require
+one or more of its subsubsections (e.g., Wireless), then pref
+erence is given to the latter, and the reference is removed
+from the subsection itself. This does not eliminate redun
+dancy between nodes of the same level (e.g., a reference
+can still be included for both Key Distribution and Mutual
+Authentication), but it does allow for a representative overview
+of works relevant to any topic.
+Finally, in Section VJ, we close this section with a summary
+and an analysis of the obtained results.
+Except for Section VA and Section VJ, every section contains a table relating the most important security requirements
+of that category to a collection of works that we deemed the
+most relevant to these topics. Additionally, every table shows
+the research interest (low, medium, high, very high) of the
+scientiﬁc community for each security requirement in that category. This interest is inferred from the percentage of works
+identifying or addressing the speciﬁc security requirement
+compared to all the (unique) papers related to that category.
+The number of papers addressing a speciﬁc category is taken
+from Figure 2 as the number of papers appearing in the
+corresponding level 1 (i.e., subsection) and all level 2 (i.e., sub
+subsections) nodes, but removing duplicates. For instance, the
+total number of papers discussing Network Security is given
+by the count of the  appearing in Figure 2 for the
+nodes Network Security, Latency and timeliness, Availability,
+and Wireless, without duplicates. It is important to note that
+a number of works identify multiple security requirements,
+thus, appear in multiple subsections; as such, the calculated
+percentages do not represent disjoint partitions of the set of
+investigated works, thus their sum will not result in 100%.
+
+The CIA triad, with some examples for each property.
+percentages assigned to security requirements across all cate
+gories. As an example of the interest level, consider a category
+AB discussed by 50 papers, and a security requirement AB01
+identiﬁed by 5 of these 50 papers, the research interest for the
+requirement AB01 will be medium, with a percentage of 10%.
+The aim of these tables is to give the interested reader a
+stepping stone to more indepth works for each requirement,
+but also the topics itself.
+A. The CIA Triad
+The Conﬁdentiality, Integrity, Availability (CIA) triad is a
+wellknown information security model, and can be considered
+as a set of extremely abstract security goals or requirements.
+ We brieﬂy describe the three properties as they are
+described by  below:
+ Conﬁdentiality pertains to protecting information in all
+its forms. This includes data encryption, access control,
+network isolation, but also privacy aspects.
+ Integrity concerns consistency, accuracy, authenticity,
+and more generally the overall trustworthiness of entities.
+ Availability concerns operational guarantees of the
+system. This covers topics such as redundancy
+and
+decentralization, but also guarantees that tasks will be
+performed within hard deadlines.
+Typically, the CIA triad is used in information security,
+meaning that the three properties relate to information only.
+However, it is equally applicable in other domains, such as
+cyberphysical systems . Indeed, many of the works
+we investigated explicitly mention the triad (e.g., , ,
+, ). Traditionally the focus in industrial environments
+has been ﬁrst on availability, second on integrity, and last
+on conﬁdentiality. However, with Internetconnected systems,
+this requires reconsideration, and all three aspects should be
+brought up to an acceptable level. Thus, with the development
+of new IIoT and Industry 4.0 solutions, conﬁdentiality and
+integrity should be weighed equally to availability.
+While these three aspects are a very good starting point and
+are certainly important to keep in mind when specifying the
+security goals for any system, it is not always useful to reduce
+concrete requirements back to elements of the CIA triad, if
+one already has more (e.g., contextual) information that might
+help with deriving an unambiguous security goal. For example,
+it is easy to state that data at rest should be kept conﬁden
+tial, but such a requirement does not convey the conditions
+that a conﬁdentiality mechanism should satisfy. Moreover, it
+leaves a lot of room for interpretation (e.g.,, conﬁdential to
+which parties?). On the other end of the spectrum, very ﬁne
+grained requirements are only possible if one is developing
+for a speciﬁc scenario.
+In the next subsections, we strive to ﬁnd a middle ground
+where we describe security requirements at a high enough
+level to see where the challenges in achieving them lie, but
+at the same time refrain from going too deep into any sce
+nario, although we might refer to them as anecdotal evidence
+supporting the legitimacy of a requirement.
+B. Authentication
+Authentication
+of
+remote
+entities
+(both
+humans
+and
+machines, or even applications) is a key concern for many
+forms of IoT communication . Within the context pro
+vided by IoT and IIoT applications, this brings some extra
+challenges , , . There is a need for extremely
+lightweight authentication schemes, with little overhead in
+terms of computation time and transfer size, among other
+things.
+A second but very important concern is verifying the
+integrity and authenticity of data, e.g., to ensure that a conﬁgu
+ration ﬁle was created by an authorized party, and not modiﬁed
+since. Also here, the IIoT domain has special requirements
+that prevent the adoption of commonly used authentication
+mechanisms. Many topics in this section therefore also concern
+integrity, albeit not explicitly mentioned in every instance.
+Wang and Wang  name some other typical challenges
+(mainly aimed at wireless industrial communication) that need
+to be taken into account when investigating authentication and
+integrity methods. They consider extreme resource constraints,
+the open broadcast nature of wireless communications (i.e.,
+anyone can read and send messages on certain frequencies),
+extremely large network sizes, and lack of infrastructure
+support.
+As an example of authentication challenges in existing
+systems, we consider the Message Queue Telemetry Transport
+(MQTT) protocol. This is a widely deployed protocol for data
+
+exchange in the industrial domain, and features some very
+basic and insecure authentication methods . According
+to Kats, the protocol allows authentica
+tion through a simple username and password combination,
+which are communicated in plaintext. A second authentication
+method sometimes used is through a unique client identi
+ﬁer, which is easily spoofable. While it is possible to secure
+these methods by complementing MQTT with Transport Layer
+Security (TLS) or IPSec, those two protocols are too resource
+intensive for many IIoT applications, and lighter alternatives
+are necessary, such as TinyTLS  or DTLS . Now that
+industrial networks are becoming increasingly connected to
+the Internet, this becomes more and more important.
+The importance of sufﬁciently secure authentication mecha
+nisms is reﬂected by the fact that positions 2 and 3 in the Open
+Web Application Security Project (OWASP) IoT Top 10 
+on IoT vulnerabilities concern attack vectors where (a lack of)
+authentication is an important aspect. Its importance is also
+underlined by the popularity of this topic with recent research
+efforts, with many papers addressing or identifying the above
+issues (see Table V). These works identify several authenticity
+properties that can be considered requirements in various use
+cases in the IIoT domain. We describe these in more detail in
+the following subsections.
+For a comprehensive survey on IoT authentication algo
+rithms, we refer the interested reader to F.
+The authors cover many authentication algorithms and com
+pare them based on computational efﬁciency, threat protection,
+and more. provide another survey covering
+multiple industrial protocols aimed speciﬁcally at Low Power
+Wide Area Network (LPWAN) technologies.
+Next, we discuss a number of authenticationrelated topics
+in the following subsections. First, we look at key distribution,
+after which we discuss mutual authentication and multifactor
+authentication. Then, we address nonrepudiation as a require
+ment, followed by anonymous authentication and privacy
+preservation in authentication algorithms. As a ﬁnal topic, we
+discuss attestation techniques through trusted hardware.
+1) Key Distribution:
+Key distribution is a challenging
+requirement for many applications in the IoT , and nat
+urally extends to the IIoT. With devices being set up and
+used in hostile environments, possibly being very mobile,
+dynamically joining and leaving networks, and possibly being
+very constrained in resources, there is a pressing need for
+efﬁcient, ﬂexible, and dynamic key management mechanisms.
+Aire argue that traditional Public Key
+Infrastructure (PKI) is outdated, stating that “it was at no time
+designed to handle the complications of managing industrial
+scale networks of 50 billion devices that IoT promises to usher
+in.”. This raises the question of whether all IoT devices should
+exist in the same authentication domain, and if centralized
+authentication authorities such as PKIs are even a sensible
+choice for that many devices. We will not attempt to answer
+these questions here.
+In order to deal with dynamic environments, some natu
+rally implied requirements for key management solutions are
+that they can handle node addition, revocation, as well as
+rekeying . Resourceconstrained devices will have issues
+with key generation, computationally intensive algorithms,
+and transmission of large/many messages. Moreover, in an
+industrial setting, device owners might not trust the manufacturer to generate keys for them, and will want to do
+this themselves . Availability can be an issue as well.
+In Critical Infrastructure (CI) environments, an authentication
+authority has to be reachable at all times. Because of this,
+Blanch state that it is not sufﬁcient to rely
+on one central authority for authentication. Additionally, they
+also identify transitive authentication
+In , the authors propose a key management solution that
+aims for little transmission overhead by requiring only one
+transmitted message for onewayauthentication. While this
+makes for an energyefﬁcient protocol, it appears to not be very
+scalable or dynamic, since all nodes need to be known before
+hand, and addition, revocation and rekeying are not thoroughly
+discussed.
+ propose a Bring Your Own Key (BYOK)
+approach, to address the trust issue between device owners and
+manufacturers. However, it does require devices to have Near
+Field Communication (NFC) capabilities, and key distribution
+requires a human to physically move between a central server
+and the device.
+Another approach is suggested by , where there is no
+centralized authority, but a Distributed Hash Table (DHT) that
+takes care of identity propagation and lookups. Their solution
+is a distributed one, and also provides transitive authentication.
+It is scalable and dynamic, but the protocol is not designed
+with energyefﬁciency in mind, and can require a considerable
+number of messages at times.
+While the abovementioned sources address the identiﬁed
+requirements to some extent, none of them addresses multiple
+at once. Clearly, there is still plenty of opportunity for novel
+research in this area. One potential solution to several key
+distribution challenges that might become viable in the future,
+is quantum key distribution , . In such a system, it
+is impossible to eavesdrop on a transmission without altering
+its payload, meaning that any eavesdropping attempt can be
+detected.
+Blockchain technologies are another promising candi
+date, showing potential to overcome several key challenges.
+Barto discuss Self Sovereign Identity (SSI)
+techniques for IIoT, which build on top of blockchains to pro
+vide Decentralized Identiﬁers (DIDs). These systems have as
+a property that all entities carry their own identiﬁcation data,
+eliminating the need for a centralized root of trust. They dis
+cuss the challenges faced by several frameworks capable of
+providing DIDs, some of the most prevalent being the need
+for a common data model for interaction between parties, and
+a lack of research in their application to MachinetoMachine
+(M2M) authentication. A different approach is taken in ,
+where the blockchainbased BCTrust protocol is extended with
+key management functionality. One challenge with blockchain
+is that due to the immutability of blockchains, revocation or
+alteration of data is impossible. The standard solution is to
+add append modiﬁcations at the end of the chain, but there
+exist some early results showing that small scale changes are
+possible using Chameleon hashing schemes. This comes at the
+cost of some security , but further research is needed.
+2) Mutual Authentication: In , mutual authentication is
+identiﬁed as one of the requirements for any practical authen
+tication scheme, and Ko state that mutual
+authentication between any two IoT devices is necessary, as
+many of them are exposed to external environments. Moreover,
+because of this manytomany requirement, a user/password
+system is neither userfriendly nor ﬂexible enough. It is also
+difﬁcult to handle in dynamic environments. They thus iden
+tify the need for authentication mechanisms that can be used
+between any pair of devices, with minimal user interaction.
+Auten even state that fully automated mutual
+authentication is a requirement. Some recent work that aims to
+facilitate this is done in , and uses trusted components such
+as Physically Uncloneable Functions (PUFs). PUFs are func
+tions implemented in hardware in a way that aims to make
+them very hard to copy, thus being able to act as a device
+“ﬁngerprint”. Another way to facilitate M2M authentication
+in settings where the participating devices are geographically
+nearby, is by using physical context such as luminosity or
+temperature.  survey the available literature
+on this socalled contextaware authentication. If the transmis
+sions are wireless, devices can also be identiﬁed through their
+radio frequency ﬁngerprint .
+One way of minimizing interaction is by relying on bio
+metrics for identiﬁcation and authentication (although one
+should be careful to not use biometrics for authorization).
+One property of biometricbased authentication schemes is
+that they cannot be used for M2M authentication, as biomet
+rics are always derived from living beings. Therefore, these
+types of protocols might not be feasible in every industrial
+context, although they adapt well to some (e.g., smart health
+care ). In , a twofactor mutual authentication method
+is proposed, combining smart cards and biometrics, although
+recent work shows that their protocol is not secure against
+various attacks,  use a combination of
+user/password and biometrics instead as a twofactor approach,
+while D combine smart cards, passwords, and
+biometrics. The proposed methods claim to be very lightweight
+ but reliance on biometrics by itself requires specialized
+hardware (or some nontrivial computational capacity to pro
+cess, e.g., audio or video signals), which might not always
+be an option. Further, it typically requires physical proxim
+ity, although recent work  shows that remote biometric
+authentication is a possibility.
+Another way to minimize user interaction is by deriv
+ing identities through analysis of behavioral patterns. This
+shares the property that it cannot be used for M2M authen
+tication with biometricbased methods. The Fifth generation
+cellular network technology (5G) authentication scheme for
+smart devices proposed in  uses Cloudbased learning to
+dynamically identify and authenticate users based on behav
+ioral patterns, showing another approach for minimizing user
+interaction. This concept has also been used in the ﬁeld of
+intelligent vehicles whereby drivers are identiﬁed by their
+driving behavior .
+3) NonRepudation: Nonrepudation is a message property,
+ensuring that the author of a message is not able to later
+repudiate (i.e., deny) their authorship of that message. Non
+repudiation can also extend to concepts other than messages
+(e.g., an entity cannot repudiate their accountability for an
+action that was started/requested by them).
+F provide some concrete examples showing
+why nonrepudiation can be considered a security require
+ment. Firstly, users might perform illegal actions, and the
+system needs a way to track these actions. If these actions
+are reputable, the system becomes susceptible to log injec
+tion attacks, an observation echoed by A.
+Another example mentioned is the situation where a manufac
+turer ﬁnds out that their conﬁguration ﬁles on some hardware
+have been deleted, after the hardware vendor has performed
+updates to this system. Without a nonrepudiation mechanism
+in place, the deletion of these conﬁguration ﬁles cannot be
+unambiguously traced back to the software update. Another
+example can be found in , where the challenges in apply
+ing the Assurance Case methodology for the IIoT are laid out.
+Assurance Cases are structured arguments, for use during, e.g.,
+software development, that show that certain properties of a
+system hold. The authors of this work identify nonrepudation
+as a requirement for the assurance of security properties of a
+system. The blockchainbased authentication and access con
+trol scheme described in  also states that nonrepudiation
+is an essential property.
+ a certiﬁcateless authentication scheme
+for Wireless Sensor Networks (WSN) environments. The
+advantage of their approach is that, because some of the
+heavier computations can be moved to third parties (e.g., a
+gateway), the computational requirements on sensor nodes
+
+themselves can remain low. Their protocol achieves non
+repudiation by ensuring that messages are publicly veriﬁable.
+Certiﬁcateless schemes are a fairly popular topic in this
+domain. More recent examples of work on similar schemes
+for IIoT are , ,  (broken in ), and .
+4) Anonymity and Privacy: Anonymous authentication is
+verifying the authenticity of an entity without disclosing that
+entity’s identity. This is necessary in situations where one
+wants to protect the privacy of users identify the
+need to protect users from being identiﬁable when an adver
+sary has access to the authentication service
+also mention privacypreserving access control. One exam
+ple of a threat due to lack of anonymous authentication is
+provided by : an adversary could conduct trafﬁc analysis
+to create proﬁles on sensitive assets in an industrial environ
+ment, and possibly derive sensitive data from those proﬁles.
+Paliwal  proposes a hashbased privacy preserving authen
+tication scheme specialized for WSNs scenarios. In this work,
+a variety of requirements are identiﬁed for schemes for WSNs,
+although these mostly relate to lowlevel properties that gen
+eralize to any secure authentication scheme, such as resistance
+against replay attacks. Because of this, we consider these to
+be too lowlevel to be included in our analysis as is, but rather
+as implied by other requirements.
+In , a public blockchainbacked authentication mecha
+nism is proposed, thereby turning user anonymity into a hard
+requirement. The work in  does not rely on a blockchain,
+but relies on a server to provide computational aid (in a
+secure manner). While both proposed schemes use Attribute
+Based Signatures (ABS) as cryptographic constructs, the two
+approaches cater to different goals: blockchains are widely
+considered to be resilient and highly available systems, which
+can be useful in scenarios that require these aspects, while
+serveraided encryption schemes target lowpower devices
+with very limited computational ability or battery life.
+5) Attestation: Attestation is a method for detection of
+unintended and malicious changes to software . Doing this
+remotely can provide guarantees on the integrity and authentic
+ity of a piece of software that is being run on a remote system,
+and therefore allows one to place more trust in a remote system
+than is possible in a scenario without remote attestation.
+Because attestation aims to enable these higher levels of
+trust, it poses very strong security requirements on hard
+ware. At the same time, remote attestation methods imple
+mented purely in software typically have to rely on very
+strong assumptions that are hard to achieve in practice .
+Attestation can be done in a practical setting through the use
+of Trusted Execution Environment (TEE)s provided by trusted
+hardware, such as ARM TrustZone , Intel SGX , or
+implementations of the Trusted Platform Module (TPM) stan
+dards . Not all of these might run on lowend hardware,
+but some recent embedded controllers contain trusted hard
+ware components  that also enable attestation to some
+extent.
+ , , and  all identify the need for
+remote attestation, in order to increase the system’s resilience
+against intruders. Especially in contexts where parts of an over
+all system are deployed in hostile environments, where it is
+important that the correct functioning of the software is con
+tinuously veriﬁed. Additionally,  also identify
+the possibility for hardware attestation to protect the digital
+twin representation of proprietary hardware setups.
+As mentioned in , there has not been a lot of activity
+on trusted hardware in this domain as of yet, with most of
+the available attestation protocols proposed so far aiming for a
+more generalpurpose scenario, not taking into account aspects
+that make integrity and authentication protocols for the IIoT
+a challenging domain.
+C. Access Control
+Access Control (AC) is necessary in a wide variety of
+situations; already when a device allows for two modes of
+interaction, one for normal user behavior and one for system
+administrators to deploy updates, a rudimentary form of access
+control is needed. Furthermore, a lack of adequate privilege
+separation has been identiﬁed as one of the most severe short
+comings in existing systems, such as the Supervisory Control
+And Data Acquisition (SCADA) protocol .
+AC invariably relies on authentication methods, as one
+needs to authenticate users in order to enforce access policies.
+It is therefore not surprising that AC mechanisms inherit many
+of the authentication requirements described in Section VB.
+The challenges in access control relate to resource consump
+tion, but also availability. In highly distributed scenarios, it
+should not happen that AC policies are unavailable due to a
+connection failure.
+Aiming to minimize energy consumption for lightweight
+device propose a certiﬁcateless signature
+scheme as well as an AC framework for WSNs. This is made
+possible by relying on a (collection of) trusted systems in
+the network that are powerful enough to perform a part of
+needed cryptographic operations. The lightweight devices then
+cooperate with the trusted systems to create cryptographic sig
+natures. Some natural security requirements are mentioned,
+such as the CIA triad and nonrepudiation. Be
+also target lowpower devices, but they explore a setting
+in which these resourceconstrained systems interact with
+Cloud services. In this scenario, they identify the need for
+identiﬁcation, authentication, authorization, and accounting
+mechanisms. Furthermore, they state that depending on the
+particular application, ﬁnegrained authorization control might
+be needed, or the ability to handle dynamically changing privi
+leges. In some other situations, they state it is useful to manage
+access policies centrally. However, in order to be compati
+ble with many systems from different developers, some form
+of federation is needed too. In order to address these issues,
+they propose a tokenbased federated authentication scheme
+that makes use of PUFs to meet the energy constraints of
+lowpower devices. The resulting authentication scheme is
+ﬂexible enough to act as a building block for many types of
+authorization mechanisms.
+The blockchainbased authentication protocol proposed
+in  also contains an AC framework, and tackles the avail
+ability and single point of failure challenges through use of
+a blockchain, and a DHT containing AC policies. An addi
+tional feature of this work is that it respects the privacy of
+ ring signatures
+are used to construct a distributed lightweight AC frame
+work. This framework speciﬁcally targets WSNs and achieves
+user anonymity by grouping users with similar rights, ensur
+ing that AC authorities cannot differentiate between signatures
+from users in the same group. L also pro
+pose a blockchain system, identifying the need for dynamic
+access control and distributed governance. They utilize smart
+contracts and leverage the nonrepudiation and integrity inher
+ent to blockchain systems to propose a resource management
+framework, with ﬁnegrained AC built in
+share the sentiment that distributed AC is needed, but propose
+a Fog solution based on attribute credentials consider a scenario where nodes in
+multihop Lowpower Lossy network (LLN)s want to com
+municate with each other. They also identify the need for
+federation, but from a reliability perspective. In order to guar
+antee the availability of a system, it cannot rely on a single
+point of failure for access control enforcement. At the same
+time, they identify the need for a transparent scheme, that is
+also scalable. Decentralized protocols such as the one proposed
+in their work, can increase scalability, as changes are propa
+gated much more organically through the network, than with
+a centralized structure, avoiding congestion issues.
+In the work presented by Chen and Ng , AC and autho
+rization are also identiﬁed as one of the major challenges for
+the IIoT. They propose an access control framework for a
+scenario where the owner of an IIoT device has the right to
+control the AC policies of their device, and wants to set up
+ﬁnegrained policies. At the same time, a large number of IIoT
+devices are shared by multiple entities that can interact with
+them based on these policies.
+Preuve argue that identity management is
+crucial for AC purposes, and propose a framework handling
+identities, authentication, and authorization in a networked
+production scenario. They also raise the point of compatibil
+ity with legacy devices, which is worth considering in any IoT
+environment.
+Van make the observation that due to the
+increase in frequency and sophistication of security attacks in
+recent years, there is a need to include risk assessment in the
+process of specifying AC policies, and that as a result of these
+trends there is a growing interest in Zero Trust Networking
+(ZTN) protocols as opposed to perimeterbased security. The
+principle behind ZTN is to treat the intranet with the same
+level of trust as the Internet. Their proposed policy enforce
+ment framework is built upon this principle, and is able to
+provision ﬁrewalls across different segments of a network.
+D. Maintainability
+Maintainability concerns the ability to conﬁgure, reconﬁg
+ure, and update (parts of) a system. In Industry 4.0, these
+concepts become crucial as the software and conﬁguration of
+IIoT systems must have the ability to be changed, in order
+to provide protection against previously unknown security
+threats . Updateability can be considered a countermea
+sure against security attacks, since it allows for continuous
+changes to ﬁrewall conﬁgurations as threats are identiﬁed, as
+well as software patches for newly discovered software vulner
+abilities. As we will see in this section, the challenges relating
+to maintenance are again related to resource constraints and
+the dynamism of IIoT environments, making traditional main
+tenance solutions insufﬁcient to adequately address the needs
+in this domain.
+In , George and Thampi state that the availability
+of security updates is a critical concern for IIoT devices,
+but that due to some IIoT systems being so lightweight and
+the infrastructure not being ﬁxed, it is extremely difﬁcult to
+always patch all devices in a network. To mitigate this, they
+describe an approach that ensures update deployment on high
+risk vulnerabilities, to reduce the risk of serious attacks on the
+infrastructure. For this, they propose a number of risk miti
+gation strategies that can be used to help identify the devices
+most in need of updates.Some also identify
+the timely application of patches to all vulnerable systems in
+a network as a problem, and propose a patch prioritization
+method to mitigate this.
+In addition, some IIoT systems require the ability to be
+updated without any disturbance to the service they provide.
+Mu propose a secure updating mechanism
+for mixedcriticality systems. However, their approach requires
+the ability to run and monitor updated binaries in a sandboxed
+mode. Not every device has the resources for this. They fol
+low up on this research with an application of their system
+to a smart city scenario . The proposed update process
+is in accordance with several safety standards, a requirement
+identiﬁed in Section VE.
+According to , updating IIoT systems is
+often complex and cumbersome, and requires an expert tech
+nician to perform the update, which can be a lengthy process.
+This does not scale with the increase in connected devices,
+ the update process must be streamlined and
+simpliﬁed, with minimal possibilities for errors due to human
+behavior. Their suggestion is a marketplace, not unlike those
+seen on smartphones. In addition to usability, they state that
+update management of devices should be possible both onsite
+and remotely, and updates and installations must be logged
+so that they are traceable, for transparency and in case of
+problems. While their proposed solution appears as a global
+and decentralized marketplace, this might not be a good ﬁt
+for every type of device, especially when the functionality of
+such a device is secret. Moreover, it raises questions about
+how much power can be given to app developers and where
+the trust in a system should lie, which are topics that can be
+highly dependant on a speciﬁc scenario, and are worthy of
+further investigation on their own.
+Another problem is mentioned bin , wherein
+they state that cryptographic keys also require the possibility to
+be updated securely. This can be interpreted as a requirement
+relating to the maintainability of a system’s conﬁguration, and
+is an argument against the deployment of hardcoded keys at
+manufacturing time, which sometimes happens in production
+environments. In a later work, they take this notion further, and
+propose a hardware device, that can be temporarily attached to
+a system to allow for secure updating and reconﬁguration .
+The updates are veriﬁed and installed in an isolated environ
+ment provided by the special hardware, for increased security
+and traceability, but still allows for remote queuing and deploy
+ment of updates, to some extent. However, this approach might
+not be practical in environments where it is hard to physically
+reach all deployed systems.
+1) Smart Maintenance: Industry 4.0 enables smart main
+tenance, which is essentially predictive maintenance of (parts
+of) devices based on remote data collection about their usage.
+This allows for a more streamlined production line where
+system downtime and maintenance costs are reduced to a
+minimum. Its relevancy is underlined by the inclusion of con
+tinuous maintenance and maintenance frequency being used
+as measurable safety indicators in a metamodel proposal
+for automated security dependability detection within IIoT
+systems . Pr provide a case study on
+this subject detailing a number of smart maintenance security
+requirements, notably the ability to update as well as secure
+communication channels themselves.
+reason that smart maintenance requires
+secure communication channels, as status information of
+machines is sensitive data. Moreover, the maintainer needs the
+ability to verify the validity of this data. They argue that there
+are systems for which it is essential that they are exposed to
+the Internet as little as possible, and propose solutions using
+NFC to permit secure transmission of data to the maintainer,
+as well as identity provisioning over NFC . The speciﬁc
+requirements identiﬁed in this work are the need to support
+legacy devices, prevent data leakage, protect against Internet
+access, protect the validity of the maintenance data (towards
+the maintainer), and protect transparency of the communicated
+data (towards the customer). In a later study, L
+propose an MQTTbased approach where they add a further
+requirement that data transmission must not cause safety
+critical interference, so that operational functionality remains
+unaffected.
+
+The Industrial Internet Consortium (ICS) has published an
+IIoT security framework  in which they deﬁne resilience
+as “the emergent property of a system that behaves in a manner
+to avoid, absorb and manage dynamic adversarial conditions
+while completing the assigned missions, and reconstitute the
+operational capabilities after causalities”. This deﬁnition over
+laps with several aspects of system trustworthiness such as
+safety and reliability, but also security. Indeed,  and 
+identify resilience as an important security challenge for the
+IIoT. The implication that resilience requirements bring to the
+security domain are that security technologies should provide
+the capability to continue normal system operations if parts of
+the system are considered compromised. This could for exam
+ple be done by rerouting tasks to other capable components, or
+through other means, often belonging to one of three canoni
+cal approaches identiﬁed by L: redundancy,
+diversity, and hardening.
+The manner in which this requirement should be satis
+ﬁed, depends heavily on the scenario. In a WSN, it might
+be acceptable to simply deploy enough sensors to guarantee
+some redundancy, meaning that a small number of compro
+mised sensors can be kept contained and their output discarded
+until the issue has been addressed. In a power plant however,
+it might be catastrophic to disable one generator entirely if one
+of its components has been compromised. Instead, it might be
+possible to provide the compromised components’ function
+ality in some other way, or temporarily reroute energy from
+other generators to guarantee some level of operations.
+
+discuss device driver security in a connected
+virtualized factory environment . They identify multiple
+resiliencerelated issues, one being that intermittent connec
+tivity might cause loss of history if status information should
+be continuously sent to a centralized database or the Cloud.
+Their proposed solution is to keep local databases that keep a
+shortterm history that can be synchronized with a backend
+once connectivity is restored. Another identiﬁed issue is to
+avoid system failure, in case of a compromised device driver.
+The authors propose redundancy and smart fallback mecha
+nisms to adapt to possible threats. The difﬁculty in a fallback
+mechanism is that it requires the exact same conﬁguration and
+as much as possible of the current system state of the normal
+system, in order to allow for rapid recovery. This is not only
+difﬁcult because state replication can introduce considerable
+overhead, but it also means that the fallback system is vul
+nerable to the same threats as the normal system. To mitigate
+this issue, the authors propose introducing some diversity in
+the fallback system. The proposed solutions in this work are
+all rather speciﬁc to the considered scenario and architecture,
+but use elements that are common in resiliency mechanisms
+in general.
+When looking at lowenergy devices, WSN have been
+identiﬁed as a way to increase the robustness of SCADA
+systems against network failures, due to their distributed
+and selforganizing nature . However, major concerns
+exist regarding their ability to communicate securely, and
+the ability to interface with some proprietary SCADA pro
+tocols. The authors also identify a number of challenges
+relating to the security of WSNs and propose a decen
+tralized multiagent architecture to remedy a number of
+these.
+In  and , a number of measurable indicator points
+are identiﬁed, among which those relating to resiliency. In
+the latter, they then use these indicator points to propose
+a method for automated standard compliance testing in the
+Industry 4.0 domain. Standard compliance is a powerful aid
+in verifying the resilience, reliability, and safety of a system,
+and can be applied to a wide spectrum of devices. Related to
+standards compliance,  investigate European
+Union Agency for Network and Information Security (ENISA)
+guidelines on secure Cloud services, and extract a number
+of measurable security metrics that relate service level agree
+ment objectives between Cloud providers and their (industrial)
+customers to concrete responsibilities. These metrics could
+also be used in compliance testing. In this work, reliability
+and redundancy are also identiﬁed as measurable indicators.
+Similarly, Le investigate the applicability
+of the IEC 62443 cybersecurity standards  in Industry
+4.0 applications. For a short survey on the security standards
+relevant to Industry 4.0, we refer to .
+F. Data Security and Data Sharing
+In today’s world, data security is critical in nearly any dig
+ital environment, and the IIoT is no different. Many of the
+works investigated in this survey identify conﬁdentiality of
+data as a security requirement in some form (e.g., , ,
+, , , ). Traditionally however, availability
+and integrity are considered more favorable than conﬁdential
+ity for industrial environments , , as they have a
+measurable economic impact. This is not a sustainable view
+point in an era of connected devices, and is changing fast now
+that companies seek to connect their systems to the Internet.
+In a survey among companies, found
+that they too consider data security to be one of the critical factors for migration to Industry 4.0, a ﬁnding conﬁrmed
+by another study conducted by . In this
+work, the authors additionally state that companies are hes
+itant to adopt datasharing based technologies (Cloud, smart
+maintenance, fault detection and prevention, etc.) as there is
+no evidence of these technologies being safe or secure when it
+comes to protecting intellectual property, as a result of which
+they identify the need for a standardized way to achieve intellectual property protection in the presence of data sharing
+mechanisms. The sentiment that companies are reluctant to
+rely on Cloud providers for data storage and sharing is shared
+by Esp. However, they also note that most
+data breaches come from within companies, and not Cloud
+providers. They propose a cloud storage solution that aims to
+minimize the attack surface both in the Cloud and within the
+company. They identify data loss mitigation as another require
+ment, identifying four key elements for an effective solution:
+prevention, identiﬁcation, notiﬁcation, documentation.
+The challenges in this domain relate to three colliding fac
+tors: Firstly, due to the heterogeneity of devices, data security
+mechanisms need to be able to operate with extremely few
+resources. Secondly, due to the criticality of some IIoT appli
+cations, the data security requirements are very high. Thirdly,
+many smart capabilities are enabled by the sharing of data, but
+in industrial contexts, data is often sensitive and conﬁdentiality
+is of utmost concern, which poses a dilemma.
+Data security covers a wider area than just encryption tech
+niques. One of the vital aspects of the Industry 4.0 paradigm
+is making smart use of available data. This inevitably involves
+sharing data with other entities, that can be anywhere from a
+part of the system to being outside the organization bound
+aries. As an example, consider the discussion on the sharing
+of device usage metrics in Section VD1. Even if no other data
+
+is shared, usage metrics will have to be sent to the device manufacturer to enable smart maintenance, but might also be used
+to deduce sensitive information such as production volume. A
+similar example would be data analysis for anomaly detection
+(Section VG). While encryption techniques do offer ways to
+aid with partial sharing of data, we will also discuss other
+ways of keeping data conﬁdential.
+1) Data Transport: The MQTT protocol is widely used for
+data sharing between industrial systems, but by itself only sup
+ports user/password authentication, and provides no security
+measures on the network or application layer. This becomes
+problematic especially in the context of the IIoT. In order
+to remedy this, L propose using TLS as a
+secure layer upon which MQTT can function. While this pro
+vides all the security beneﬁts of TLS, it does add considerable
+overhead to the edge devices that will now have to manage TLS contexts. In their work, the authors propose using
+a trusted hardware extension at the edge devices that can
+store keys and also manage the TLS context. While modern
+devices might have access to cheap trusted hardware, this is
+not always possible with legacy devices, therefore, other solu
+tions will need to be investigated. Kats also
+observe that TLS can be used to secure MQTT communica
+tion, but note that this will not work well in WSNs due to
+severe resource constraints. Therefore, they try to minimize
+the overhead by encrypting messages at the link layer. In a
+later work, L observe that an oftenneeded
+requirement is communication with other stakeholders, e.g.,
+equipment manufacturers (for smart maintenance) or nearby
+links in a supplychain. To enable authenticated, secure data
+communication between these, the authors propose a hybrid
+multistakeholder protocol on top of MQTT that allows end
+toend encryption of payloads that need to be transmitted to
+external parties.
+Alternatively, more modern protocols such as The OPC
+Uniﬁed Architecture (OPC UA)  have authentication and
+encryption support , , and hardware acceleration for
+the cryptographic primitives used in these is starting to appear
+in lightweight products . Adoption of the OPC UA could
+thus help in meeting some of these constraints. One recent
+experimental deployment combines this with trusted hardware
+to facilitate secure connections , but acknowledges that
+further research is needed. Finally, it is worth noting that
+regardless of the security protocol used, from an energy and
+efﬁciency standpoint, there is a case to be made for selectively
+encrypting only those messages that might harm the system
+if tampered with. In , the authors propose a symbolic
+analysis model that can identify such messages.
+2) External Parties: Data conﬁdentiality when at rest or
+in transit, is often realized through cryptographic means. The
+challenges in ﬁnding suitable ciphers for the very diverse IIoT
+environment are described byin . Again, the
+main challenges appear to concern energy and other resource
+constraints. Irrespective of the cipher used, the authors also
+identify the key distribution and management problem, as
+previously discussed in Section VB1. More generic challenges
+are described . They argue that Reliable
+storage, convenient usage, efﬁcient search, and trustworthy
+data deletion are some of the major issues for Cloud and Fog
+scenarios.
+As the Cloud promises a large amount of storage and
+computational resources, Cloud connectivity is often neces
+sary for Industry 4.0 applications. With a suitable encryption
+scheme, data might be stored securely in the Cloud ,
+but even then it is not possible to interact with it in any
+way other than retrieving it for decryption. Seeking to rem
+edy this, there has been a recent increase in research efforts
+in modern cryptographic techniques such as homomorphic
+encryption, allowing for computation on encrypted data (,
+), and searchable encryption, enabling search operations
+on encrypted data (, ). Speciﬁc to the IIoT data
+sharing scenario, Deng  proposes an anonymous aggre
+gate encryption system that allows IIoT devices to encrypt data
+into one ciphertext that can be decrypted by multiple recipi
+ents with their individual keys, while retaining their relative
+anonymit propose one way of ensuring conﬁdentiality
+in the Cloud, while maintaining the ability to search through
+data sets, through a privacypreserving encryption scheme.
+Deployed IIoT devices transmit their data to special (onsite)
+servers which aggregate the data, remove redundant entries and
+prepare it for storage in a Cloudbacked database by index
+ing and encrypting it. Users can then search this database
+through trapdoor queries, meaning that the search process can
+be performed on the encrypted data. In order to obtain the
+searched data, users can download the encrypted results, and
+use their private keys to decrypt them. As a result, the Cloud
+environment will never have any access to the unencrypted
+ propose a similar solution, also rely
+ing on trapdoors to perform search queries on encrypted data
+sets in the Cloud. The difference is that in this solution, the
+used encryption techniques aim to be lightweight enough to
+allow for decryption by the IIoT devices (speciﬁcally sensor
+nodes) themselves, without requiring an intermediate server.
+This approach only targets data storage, search, and retrieval.
+Other use cases for Cloud environments, such as big data anal
+ysis in the Cloud itself, cannot be solved using this method. also propose a Cloudassisted method in the
+context of an ehealth scenario, while attempting to minimize
+intensive tasks such as decryption and decryption at the Edge
+side, to computation requirements and power consumption
+With the advent of blockchain technology, there has been
+an increase in interest in data sharing solutions based on
+decentralized ledgers. propose a privacy
+preserving blockchain using mutually authenticated encryption
+for conﬁdential data exchange, while others propose things
+such as energy trading  and big data markets .
+ list three main challenges in blockchain
+technology: the tradeoff between efﬁciency and security,
+coexistence of transparency and privacy, and conﬂicts between
+concurrency and throughput. These concerns are shared by
+, who discuss throughput, latency, and
+resource requirements more indepth. Further, they identify
+four models of operation for lightweight devices to partici
+pate in blockchains. Another proposed solution is to integrate
+devices with multiple ledgers, although the authors state that
+this is an active ﬁeld of research. The aforementioned concerns
+are also identiﬁed in , where the authors further state that
+while blockchain promises enhanced data security and avail
+ability, for the IIoT domain there remain challenges regarding
+data privacy, integrity, and identify certiﬁcation. They also
+list interoperability, standardization, and regulatory aspects as
+more general blockchain challenges. Other blockchainbased
+proposals in this domain are  and . For a more
+thorough discussion on security requirements and challenges
+for blockchain in the IIoT, we refer the interested reader
+to , and for a discussion on risky characteristics common
+to blockchain technologies we point to .
+3) Data FlowControl: Through data ﬂow control, data
+access policies can be enforced on a higherlevel than encryp
+tion techniques, which provides a way to address security and
+privacy requirements relating to the processing of data as it
+moves in a system.
+ describe a realworld use case for data
+ﬂow monitoring, where certain data on machine error rates
+is shared within the company itself, and across organization
+boundaries based on a set of privacy policies. Some of these
+policies cannot be statically enforced because they depend
+on dynamically changing processes or coordinated interaction
+between different entities. They conclude that the ability to
+capture dynamic situations is a challenge that has yet to be
+overcome.
+Identifying
+data
+security
+as
+a
+design
+requirement,
+investigated inputoutput patterns in exist
+ing IIoT applications in order to gain a better understanding
+of ways to secure information related to IIoT operations.
+Based on their observations, they propose some design pat
+terns that can help protect data ﬂow already in the design
+stage. Schütte and Brost  state that data ﬂow enforcement
+is a requirement in certain contexts, and propose a policy
+controlled data ﬂow control framework capable of monitoring
+messages between entities both statically and at runtime. This
+allows users to not just specify access policies, but also to state
+how data elements are allowed to be processed by the system.
+Whether dynamic monitoring with this solution is possible in
+timecritical systems, is still a subject for further study.
+4) Data Privacy: Data privacy and ownership is an impor
+tant topic for many companies and governments, and with
+the recent popularity of Cloud storage services, these issues
+require careful consideration . With the amount of data that
+is generated by modern devices, it becomes possible to create
+detailed proﬁles of users, putting their privacy at risk .
+In an attempt to mitigate this, an anonymous data collection
+framework is proposed in .
+With
+recent
+legislation
+in
+the
+European
+Union
+(the
+General Data Protection Regulation (GDPR) ) effec
+tively requiring privacybydesign for all products, data pri
+vacy should be taken seriously by manufacturers as well.
+Preuve discuss the implications of the GDPR
+in Industry 4.0 and smart factory environments. For exam
+ple, some requirements derived from this legislation are that
+(in general) customers of a service have the right to retrieve
+their personal information, the right to be forgotten, and the
+right to erasure of their personal information. This should be
+taken into account when designing systems that interact with
+humans and might collect such information. Acknowledging
+this need for integration, C describe a model
+based framework for IoT, the security and privacy principles
+of which are derived from the GDPR.
+Privacy does not only concern data collection and Cloud
+storage, but also requires the obfuscation or omission of meta
+data and other properties that can be leveraged by adversaries.
+For example, in WSN networks, sensor nodes are often spread
+over a geographically wide area, and an adversary might
+attempt to locate the source node of speciﬁc trafﬁc based on
+message ﬂow. To remedy this, source location privacy schemes
+should be deployed such as the one proposed in .
+G. Security Monitoring
+Dynamic monitoring of behavior in a system is an effec
+tive way to detect and respond to malicious activity, and
+systems that provide these capabilities are commonly known
+as Intrusion Detection Systems (IDSs). In the IIoT domain,
+two commonly identiﬁed security requirements are the ability
+to monitor infrastructure, and respond to known and unknown
+threats when necessary , , , . The reason
+these are deemed particularly important for the IIoT comes
+from the fact that older, less secure devices are likely to be
+connected to the network as well . These devices cannot
+always be patched to protect against known vulnerabilities, and
+therefore require continuous monitoring. An example of this
+is the IDS proposed by Kim and Kang , which specif
+ically targets the Modbus protocol, a widely used industrial
+
+control protocol, and a good example of an existing protocol severely lacking in security mechanisms. Similarly, the
+MQTT protocol has been covered like this . A second
+reason can be found in providing protection against Denial of
+Service (DoS) attacks  and improving congestion control
+in general .
+Hasan and Mouftah  state that latency is one of the
+major challenges for security monitoring systems, due to the
+geographical distance between devices in certain Industry 4.0
+networks, network latency can become too high for accept
+able response times to intrusions, especially when using Cloud
+security services.
+Another identiﬁed challenge for security monitoring in
+the IIoT is the imbalance of data sets. Due to the sheer
+amount of data generated by IIoT devices and the low attack
+frequency, obtained data sets that can be used for machine
+learning approaches to intrusion detection tend to be very
+imbalanced .
+Many proposed IDS solutions exist that are designed to
+work in the general IT domain. However, it becomes harder to
+monitor threats when taking into account the extreme environ
+ments in which some IIoT appliances are deployed, resource
+constraints, and data privacy requirements. On the other hand,
+as IIoT system activity is largely the result of automated
+processes, the trafﬁc patterns tend to be fairly static and
+periodic, making it easier to perform accurate anomaly detection . Additionally, this predictability introduces
+the possibility for utilizing these patterns against the system
+through stealthy injection attacks , or to establish covert
+communication channels, as demonstrated in , and should
+be monitored against. In , Bershow that this
+predictability can be used against attackers by developing a
+honeypot for a water distribution system. It simulates physical
+processes, and is able to detect attacks that aim to modify the
+system’s behavior. A machine learning based IDS capable of
+detecting these types of attacks proposed in . However,
+ note that when monitoring the output of
+physical processes, care has to be taken to take the gradual
+decay of processes (e.g., the wear on equipment) into account.
+They show that this can be done through statistical analysis.
+As the authors observed, there is very little work done in this
+area, and more research is needed to develop sophisticated
+measures that incorporate for process aging.
+Set propose a selfadapting IDS that
+detects anomalies in the range of certain control values. Their
+solution requires the continuous collection of logs of all
+connected devices to a central control system, which is accept
+able in environments with reasonably powerful machines, but
+not in WSNs or other sparse environments with lightweight
+nodes. The anomaly detection algorithm for physical quantities
+proposed  similarly looks at observed
+quantities. However, in this work, no attention is given to the
+resource overhead of this approach, nor where it should be
+deployed in an IIoT system.
+Very recently, there has been a surge in interest in machine
+learning techniques for anomaly detection in IIoT. For exam
+ple,  and  provide a performance comparison of
+various machine learning algorithms for detecting anomalies
+in IIoT, in , AlHawpropose a deep neural
+network approach for use in brownﬁeld installations, in 
+the authors propose a similar system for ransomware detection,
+and in , the authors employ machine learning to detect
+time synchronization attacks. In ,acknowl
+edge the power of machine learning, but warn against high
+potentially falsepositive rates. To mitigate this, they propose
+a hybrid system, that derives a semantic model from the ISA95
+standard. Then, using a neural network for anomaly detection,
+they can ﬁlter out false positives and categorize anomalies
+based as being malicious or just dysfunction. Deep learning
+IDSs do not come without risk. In , the authors show that
+one can reliably create adversarial samples that defeat deep
+learning based systems. The ﬁndings in  agree with this,
+as also there the authors manage to bypass machine learning
+systems. Additionally, they show two methods of increas
+ing resilience through retraining of the networks. Robustness
+against adversarial samples is something that needs to be taken
+into account when using machine learning for security mon
+itoring. For a more thorough overview of the state machine
+learning for industrial IDSs, we refer the interested reader
+to .
+identify the requirement for IIoT
+monitoring services to handle a large amount of heteroge
+neous data sources. Their proposed solution uses Markov
+models and a central processing system (with parts running
+both in the Cloud and Fog). The data collection itself hap
+pens through middleware, thereby minimizing the overhead
+on resourceconstrained devices.
+Threat response is a requirement identiﬁed by many works
+in this area. While this is usually in the
+form of notifying security personnel and mitigating the threat
+by stopping the service, Babiceanu and Seker  use the
+ﬂexibility provided by Software Deﬁned Networkings (SDNs)
+to let the network operate in multiple modes, increasingly
+trading quality of service for security.
+Whereas some approaches focus on intrusion detection in
+one layer in the EdgeCloud spectrum pro
+pose a monitoring framework that contains systems operating
+in the Edge, Fog, and Cloud layers. This way, resource over
+head for extremely lightweight Edge devices is kept to a
+minimum, while at the same time allowing localized man
+agement and response through the Fog layer. The Cloud layer
+uses data analysis approaches to intelligently detect attacks.
+This is similar to the DDoS mitigation approach proposed by, where local virtual network functions, Fog,
+and Cloud work together to respond to DDoS attacks.
+Another aspect of security monitoring concerns the continuous monitoring of network trafﬁc ensuring that network
+security policies are not violated. This type of monitoring
+is to help maintain the integrity required of Industry 4.0
+network infrastructure, and as such does not target devices
+themselves, but rather SDN controllers and routing devices.
+ propose a live monitoring solution of ﬂow
+permission controls, as well as a proactive formal veriﬁcation
+mechanism of the security policies in SDN systems.
+That security monitoring can also be proactive, can be seen
+by looking at the fuzzing frameworks proposed
+. The authors of
+the latter propose a fuzzing framework, that continuously tries
+to “attack” networked services with randomized data streams.
+It is lightweight, and is able to identify vulnerabilities due to
+common software bugs such as buffer overﬂows. However,
+with an approach such as this, care has to be taken that
+system performance is not affected, and that critical services
+remain available. As such, fuzzers might mainly be a tool
+for security researchers, and developers aiming to create a
+highly secure product. But when deployed carefully, produc
+tion systems can also utilize them to detect conﬁguration errors
+and vulnerabilities.
+That IIoT environments can beneﬁt from specialized monitoring approaches can also be seen when looking at drone
+scenarios. In their behavior and vulnerability assessment,
+ identify a number of security requirements that are speciﬁc to this scenario, as well as several
+requirements that are more generally applicable. Speciﬁcally,
+they identify the need for: identiﬁcation mechanisms; contin
+uous monitoring; predictive and highly accurate vulnerability
+assessments; and the ability for anomalous drones to be
+marked by the monitoring service, so that this information
+can be shared with all drones in a swarm. Their solution uti
+lizes Petri Nets to monitor behavior. Some other proposed
+monitoring solutions aimed at drone scenarios are based on
+behavior rule speciﬁcations  and recursive parameter
+estimation . Another example of specialized security
+monitoring is provided by Desh propose a
+heartbeat protocol catering speciﬁcally to WSNs, ensuring that
+overhead on the sensor level is minimal.
+H. Network Security
+Achieving adequate network security consists of many
+things, including authentication, secure transport, reliable and
+secure routing, and more. In previous sections we already
+discussed some of these, and will therefore focus on network
+infrastructure security.
+With industrial networks becoming increasingly complex
+due to a large number of connected devices, we are faced
+with problems similar to those that occurred during the rapid
+expansion of the World Wide Web . Because of this,
+many performance and scalability issues need to be addressed,
+such as bandwidth and latency contention. According to ,
+many conﬁguration, trafﬁc control, and security systems rely
+on proprietary software which make integration in generic
+management frameworks impossible. At the same time, they
+state that network infrastructure is required to be ﬂexible,
+to handle dynamic environments. To solve this challenge,
+two paradigms aimed at separating conﬁguration and control from data transfer itself have been gaining traction: SDN
+and Network Function Virtualization (NFV). SDN concerns
+conﬁguration and management, while NFV concerns virtual
+environments to run network and security functions on a layer
+that is abstracted the devices on which it runs. The authors
+propose an architecture using these paradigms to enforce security policies on switches with SDN and NFV capabilities, and
+move away from, e.g., ﬁrewalls. They essentially attempt to
+address four security requirements through this approach: the
+ability to specify and enforce network security policies, to min
+imize management and conﬁguration overhead, to allow for
+dynamic reconﬁguration of the network and its security poli
+cies, and to minimize the overhead caused by enforcement
+of security policies. Other points where SDNs can improve
+system security are discussed in .
+1) Latency and Timeliness: Marc state that
+additionally connectivity and isolation between endpoints are
+network security requirements, although these can possibly be
+interpreted as security policies by themselves. While they iden
+tify these security requirements, their work addresses a slightly
+different matter: the Virtual Network Embedding problem,
+which concerns the placement of virtual network functions
+so that they are optimized and can be veriﬁed to correctly
+enforce the desired security policies. This can potentially be
+utilized by other works to keep overhead to a minimum and
+minimize network latency. Hu  also identiﬁes latency as
+a challenge and states that the controllability and conﬁgurabil
+ity of network architectures and applications are key elements
+in reducing latency. The implied requirement is thus that IIoT
+environments must be controllable and conﬁgurable at every
+level. This network latency issue is also relevant to security
+monitoring (previously discussed in Section VG), as keeping
+latency to a minimum is a large issue in network monitor
+ing services, and possible solutions include alteration of the
+network architecture .
+For timecritical applications, there exist specialized stan
+dards such as the Time Sensitive Networking (TSN) stan
+dards to provide deterministic and timely networking capa
+bilities between systems. These applications often require
+remote access to sensors, actuators, and Programmable Logic
+Controller (PLC)s driving industrial devices. These connec
+tions must fulﬁll the same requirements as when those devices
+would be directly connected on the machine level . For
+
+this, safety and security measures must be present in the
+network architecture to correctly prioritize such trafﬁc.
+With a gradual movement towards an IIoT enabled industrial
+process, it is expected that many legacy devices will remain
+operational for some time in parallel with new technologies,
+in a sunset phase. These legacy devices must thus be isolated
+from the Internet, but care must be taken in the isolation tech
+nologies, as to not provide too much overhead in timecritical
+processes. To that end, Lackorz compare
+multiple readily available VPN solutions on metrics important
+to industrial appliances.
+2) Availability: Latency is not the only issue. From a
+dependability perspective, single points of failure should
+be eliminated. However, with modern Cloud infrastructures,
+often the network virtualization solutions proposed by Cloud
+providers constrain customers to that one Cloud service
+provider . To allow critical applications to utilize the
+Cloud for enhanced functionality, without sacriﬁcing avail
+ability, the authors propose a platform to allow virtualized
+networks spanning multiple Cloud providers as well as private
+networks, while also solving the Virtual Network Embedding
+problem. This way, they are able to explore the ﬂexibility of
+combining onpremises systems with Cloud systems, and sat
+isfy privacy requirements by creating security policies limiting
+the mapping of sensitive NFV applications to speciﬁc classes
+of networks.
+3) Wireless: Many smart devices make use of wireless
+technologies for data transmission. These wireless communi
+cation standards work on a lower level than the data transport
+technologies discussed in Section VF1. However, the secu
+rity requirements for wireless transmission that we found in
+the investigated literature largely overlap with those of data
+transport security. A common type of wireless communica
+tion technologies aimed at longrange lowpower IoT devices
+are LPWAN technologies . list a number of security requirements in a
+review of the Narrow Band IoT (NBIoT) standard. This stan
+dard was developed by the The 3rd Generation Partnership
+Project (3GPP)  and focuses on extremely lowpower
+devices and indoor connections. The authors identify DoS as
+a much more apparent threat than in traditional networks, as
+lowpower mobile devices will be easily drained from bat
+tery power. Another requirement is to prevent eavesdropping
+of transmissions, as information leakage can lead to devastat
+ing results. The authors also identify the need for devices to
+sign and encrypt their transmissions, in order to mitigate the
+potential impact of a compromised base station (they identify
+this as more likely than with traditional wireless technologies).
+Mutual authentication between devices and the base station is
+also mentioned, in order to prevent spooﬁng attacks. Recently,
+an exploratory investigation has shown that properties derived
+from the relative distance and direction between transmitters
+can help in identifying these types of attacks . As the
+NBIoT standard supports a large number of devices (100,000)
+being connected to one terminal, it is challenging to create
+sufﬁciently lightweight and efﬁcient authentication and access
+control mechanisms for these. compare the security properties of several
+LPWAN technologies in the unlicensed bands. This compari
+son is done through the inspection of a number of capabilities
+that are to be expected of a secure standard, and there
+fore we consider them as sensible security requirements for
+wireless technologies: authentication, message integrity, conﬁ
+dentiality, OvertheAir ﬁrmware upgrade capabilities, reliable
+communication, and key exchange capabilities. Note that these
+requirements are also already covered in other sections, so we
+do not list them in Table XI. Additionally, they identify the
+need for protection against common attacks against wireless
+technologies, such as wideband jamming, selective jamming,
+eavesdropping, trafﬁc analysis, replay attacks, and wormhole
+attacks. Their conclusion is that further research on security
+and privacyrelated features for lowpower wireless commu
+nication standards is needed. argue that
+in order to satisfy the conﬁdentiality requirement, encryption
+techniques are not sufﬁcient, and propose a friendly jamming
+scheme, making it harder for eavesdroppers to distinguish
+communication from noise.
+6TiSCH  is a standardization effort by the Internet
+Engineering Task Force (IETF), aimed at lowpower determin
+istic IPv6 communication for WSN technologies and industrial
+IIoT networks, by building on the IEEE 802.15.4 standard
+for lowrate Wireless Personal Area Network (WPAN)s, thus
+supporting a different category of devices than LPWAN tech
+nologies. Although timeliness is one of the major goals of
+6TiSCH, it also aims to incorporate a variety of security prop
+erties. For example, the authors state that support for Datagram
+Transport Layer Security (DTLS) and TLS is taken into con
+sideration. A further discussion of 6TiSCH security is given
+in . Related to WPAN technology pro
+pose a secure communication framework utilizing NFC, aimed
+at providing a reliable solution for mobile robots that need to
+communicate with machines. Due to the shortrange nature,
+this naturally helps remedy eavesdropping and interference
+issues
+The 5G standard also addresses IoT scenarios, and pro
+vides support for virtualization of network resources. This
+enables the creation of isolated network partitions with dif
+ferent demand proﬁles. Two key scenarios that 5G targets are
+massively deployed lowbandwidth IoT devices, and critical
+latencysensitive applications. Both of these map very well to
+common IIoT and Industry 4.0 scenarios. 
+elaborate on network slicing, and how it can be realized
+through use of SDN and NFV technologies. The security
+requirements identiﬁed in their work concern strict isolation of
+network trafﬁc, and the ability to provide hard service guaran
+tees, such as on latency, data rate, and reliability. Additionally,
+they mention the need for manageability in this environment,
+as misconﬁguration of systems can have a negative impact on
+the capabilities of the overall network. Their results show that
+5G technologies can be used for realtime, critical applications.
+I. Models and Methodologies
+In this subsection, we discuss proposed security models and
+methodologies in the investigated literature. As the security
+issues that these address are relatively highlevel, the security
+requirements are relatively abstract and encompass multiple
+aspects of IIoT systems. Therefore, the security requirements
+listed in  are to be interpreted as recommenda
+tions and tools to improve the degree to which other security
+requirements can be satisﬁed, as well as easing the process of
+doing so.
+ states that software and hard
+ware should be designed carefully, with security in mind, in
+order to reduce the attack surface as much as possible during
+design time. Among some lesssecurity related requirements,
+they argue that specialized functions should be standardized
+for reuse as much as possible (across manufacturers as well),
+that all components should be uniquely identiﬁable and that
+this identiﬁer should be used in communication with other
+components, and that security guarantees should be given on
+every hierarchical level. To aid in addressing these needs, the
+authors propose a securitybydesign approach encompassing
+both hardware and software. It is thus clear that security should
+be considered at every step of the development lifecycle of a
+system, and in , Ecpropose 14 security activi
+ties spread across multiple phases in the development process
+that have shown to be effective for cyberphysical systems.
+Ma take a more ﬂexible stance than Shaabany,
+observing that security and business process performance will
+always come at the cost of each other. They state that one
+possible solution is to create a selfadapting system that can
+ﬂexibly provide endtoend security. To this end, they pro
+pose the investigation of selfadapting models and describe a
+relevant metamodel. As an example, they suggest that TLS
+sessions can be reused for intermittent communication in sit
+uations where the threat is deemed to be low, but the rate
+at which they should be renewed can be dynamically scaled
+up and down to accommodate for differences in threat levels.
+Another securitybydesign approach recommends the usage
+of security control assignment matrices to determine the types
+of security controls that should be present in various parts of
+a system .
+It is often easier and more effective to create more spe
+ciﬁc architectural frameworks rather than generic ones, and the
+investigated literature contains specialized models and meth
+ods for various scenarios. The securitybydesign approach
+in  specializes in actuating and sensing scenarios, while
+in , the authors introduce an integrated model aimed
+speciﬁcally at mobile ehealth applications. Their approach
+also considers security issues at design time and can be inte
+grated into more generic architectures. C
+target research scenarios, and describe a reference architecture
+for research testbeds, making the accurate observation that real
+IIoT scenarios are likely to have a mixture of legacy and new
+technologies and that security solutions should account for
+this. In , a method for arriving at a security capability
+model for IIoT supplychains is described, as the authors
+identiﬁed that businesses generally lack insight in their own
+supply chains, which is a security liability. In a comprehensive
+work, McGinthy and Michaels  describe secure archi
+tectural frameworks for IIoT and WSN sensor nodes, with
+security features grouped by energy class. They address many
+security requirements that should be satisﬁed for these classes,
+including data conﬁdentiality, attestable boot procedures, and
+key management.  state that it is necessary to
+improve the prevention, detection, investigation, and response
+to adversarial machine learning attempts on AIpowered mod
+ules. At the same time, humans and machines should aid in the
+surveillance of each other; if a human behaves anomalously,
+machines should be able to detect and report this, and vice
+versa. They propose using a “cyberrange” approach where
+digital twins of physical devices are modeled by a team of
+engineers using feedback from the operators, as well as com
+mon design techniques such as risk assessments. These digital
+twins are then used to simulate more optimized usage scenar
+ios, and red/blue teams perform attack and response scenarios,
+that help the digital twin learn about how to protect and
+respond to attacks by itself. Once a digital twin is deemed
+sufﬁciently secure it can be used in production settings. This
+approach requires decisions that steer towards such a model
+early on in the architectural design process. This is also nec
+essary for the model described by Condry and Nielson .
+In this model, the authors leverage capabilities of gateways
+between control systems and the Internet to allow for direct
+communication between control systems and client devices.
+Ko observe that the ﬁelds of safety and
+security engineering are closely related but have their own
+techniques and methods. They consider that safety and security
+requirements should not clash with each other and that these
+should be integrated more tightly. To this end, they introduce
+a method to generate attack trees from fault tree analysis.
+Risk assessment for the IIoT is another ﬁeld that has seen
+activity in recent years. In  and  two risk assess
+ment models for the IIoT are presented. The ﬁrst is mainly
+focused on water sewage systems, but has aspects that can
+be generalized, while the second aims to be general, and uti
+lizes use cases as its input. The authors of  state that it
+
+
+MODELS AND METHODOLOGIES SECURITY REQUIREMENTS, SOURCES THAT IDENTIFY THESE, AND THEIR INTEREST LEVEL RELATIVE TO THE
+CATEGORY. THE RELATIVE INTEREST LEVEL IS BASED ON THE PERCENTAGE OF WORKS ADDRESSING THE SPECIFIC SECURITY REQUIREMENT
+COMPARED TO THE TOTAL NUMBER OF PAPERS FOR THAT CATEGORY
+is not possible to protect against threats without a proper risk
+assessment. The reason that traditional risk assessment meth
+ods are not adequate due to the complexity of integrating all
+the aspects of an IIoT system, and due to the increased impact
+factor in IoT environments because of the increased amount
+of physical assets and ways it can affect human lives. To
+this end, they propose a 10phase comprehensive risk assess
+ment method, that is able to capture many relevant aspects.
+Mouratidis and Diamantopoulu  take things even further
+by proposing a more formal security analysis method for
+the IIoT. In their method they build on the Secure Tropos
+language to allow for precise modeling of industrial environ
+ments, their security constraints, and relevant threats. They
+then use graph analysis to trace possible attack paths and
+identify which devices should satisfy certain security require
+ments. A more manual approach is taken by .
+They propose a multidimensional categorization framework,
+that can help with a better analysis of threats, aside from
+being useful as a more general categorization framework. They
+envision that a proper categorization of devices will help with
+identifying similar threats across different aspects of the IIoT
+domain.
+As resource constraints are often a bottleneck for IIoT
+systems, it is perhaps surprising that there has not been a lot
+of work on modeling the overhead these bring. The only such
+work that was found in the literature is by ,
+and describes an onion layer model that enables one to sum
+all overhead introduced by security functions.
+J. Summary and Discussion
+In our survey of the literature on security in the IIoT domain,
+we have extracted 49 security requirements covered by the
+investigated works, spread across 8 categories: Authentication,
+Access Control, Maintainability, Resilience, Data security and
+data sharing, Security Monitoring, Network Security, and
+Models and Methodologies. Additionally, we have made an
+effort to summarize the literature in our discussion.
+In this subsection, we summarize the ﬁndings discussed
+in this section in two ways. Firstly, in , we lay
+out the number of works per category, providing a mea
+sure of the distribution of the papers across categories. As
+detailed in Section V, the number of papers addressing each
+category is taken from Figure 2 as the number of papers
+appearing in the corresponding level 1 (i.e., subsection) and all
+level 2 (i.e., subsubsections) nodes, but removing duplicates.
+Secondly, we summarize all the identiﬁed research require
+ments in Table XIV, listed in reverse order by their popularity
+
+DISTRIBUTION OF THE INVESTIGATED PAPERS ACROSS THE CATEGORIES
+DISCUSSED IN THIS WORK
+based on the total number of investigated works. Note that the
+overall interest for this table is computed based on the total
+number of works covered in this survey, and is thus different from earlier tables in this section where it was computed
+based on the numbers within each category. Table XV lists
+these new thresholds.
+A few observations can be made when looking at the
+popularity of the categories, which are laid out in .
+Firstly, research interest in Authentication, together with
+Data Security and Data Sharing appears signiﬁcantly higher
+than the other categories. This is interesting because these
+intuitively also have the most in common with standard IoT
+scenarios. At the same time, the very IIoTcentered categories
+of Maintainability and Resilience are some of the least active.
+We believe that this exposes a promising area for new research.
+Access Control has seemingly been of the least interest,
+perhaps because many of its security requirements and works
+are already implicitly treated in the Authentication section, and
+various works present frameworks that provide both, but are
+discussed in the Authentication category.
+Security Monitoring is also fairly popular, with 41 works
+discussing it in various ways. What stands out about this cate
+gory is that considering its popularity, there are relatively few
+ different requirements covered in the literature. This stands
+out even more when looking at Table XIV, where requirement
+SM01 is the most popular of all. Further, both SM01 and
+DSS05 have seen signiﬁcantly more interest than any other
+requirement. This is perhaps because these requirements are
+the most openended out of all identiﬁed requirements, thereby
+collecting a large variety of works that discuss them.
+Finally, the observant eye might notice that in Table XIV the
+percentages sum up to 92.6%. This is because, throughout the
+study, roughly 7.4% of the investigated works identify some
+categories as requirements, meaning they have been included
+in this work, but do not identify any of the speciﬁc security requirements. Therefore, they are included in the category
+count, but not in the requirement count.
+
+ 4.
+Number of publications per year.
+VI. QUANTITATIVE RESULTS
+In this section, we provide a quantitative analysis of the set
+of studies resulting from the presented research.
+In particular, we address research questions 
+by analyzing the number of publications related to IIoT
+security over the years, the geographical distribution of these
+studies, and the favorite publication venues.
+A. Spread of Publications Throughout the Years (2)
+Figure 4 shows the number of publications between 2011
+and 2019. Security research for the IIoT starts ﬁrst appear
+ing around 2011, being initially dormant but slowly growing
+from 2013 onward. In 2017, a drastic increase in activ
+ity can be seen. While it is tempting to attribute this
+growth to the fact that 2016 saw several serious IoT and
+
+ 5.
+Demographic: geographical distribution of research activity based on ﬁrst author’s country of afﬁliation.
+industry related security incidents (such as Mirai  and
+Crashoverride/Industroyer ), which served to illustrate the
+importance of security on these devices, it should be noted that
+this is in line with the overall growth of IoT as a research area.
+In 2018 and 2019, the growth in activity continued, showing
+that the research community deems IIoT security to be of high
+importance.
+
+Popularity of different venue types.
+C. Venue Types for Publication (4)
+We have grouped the studies based on the venue type of
+their publication, which is shown in Figure 6. As can be seen,
+conference proceedings are the most popular dissemination
+method, followed by journals. The ‘others’ category consists of
+venue types in which 4 or fewer publications were published:
+congresses, summits, and forums.
+Looking at the speciﬁc venues of publication (Figure 7),
+it can be seen that the IEEE Transactions on Industrial
+Informatics journal is by far the most popular venue, with
+25 publications. One noteworthy observation here is that, out
+of all considered studies, only 16 were published in venues
+focused on security. The vast majority of IIoT securityrelated
+works appears to be published in venues targeting industrial
+systems or IoT instead.
+VII. OPPORTUNITIES ENABLED BY FOG COMPUTING
+In Section V, we have extracted security requirements for
+the IIoT from the investigated literature and discussed a num
+ber of challenges that stand in the way of the adoption of
+conventional solutions to address these requirements. In this
+section, we reﬂect on the challenges and discuss how Fog
+computing shows promise as a remedy to a number of those.
+It is important to note that Fog computing is a relatively new
+paradigm the exact deﬁnition of which is still being debated
+
+ Popularity of speciﬁc venues for publications.
+in the scientiﬁc community and often intersects with similar
+paradigms, such as Edge computing, Mobile Edge comput
+ing, and Mobile Cloud computing. To maintain consistency
+with earlier work, we use the deﬁnition of Fog computing
+as used in ; a paradigm that extends the Cloud and
+integrates Edge and IoT, while providing a new, horizontally
+scalable highly virtualized layer that distributes computing,
+storage, control, and networking capabilities across the Cloud
+ToThings spectrum . For a more detailed treatise on the
+differences between Fog, Edge, and other paradigms we refer
+the interested reader to .
+Also, we are aware that a comprehensive and thorough dis
+cussion on how Fog computing could tackle the IIoT security
+requirements would require a dedicated treatment that would
+result in an entire paper itself, which is out of the scope
+of this work (for instance, in  we focus on how Cloud
+requirements can impact IoT). Thus, the aim of this section
+is to provide food for thought on the topic and a source
+of inspiration for future research, rather than an exhaustive
+analysis.
+In detail, we ﬁrst give the deﬁnition of Fog computing
+assumed in this work. Then, we revisit the majority of topics
+covered in Section V and depicted in Figure 8: authentication,
+access control, maintainability, resilience, data security and
+data sharing, security monitoring, and network security. For
+each of these, we discuss how we envision what Fogenabled
+solutions might look like and suggest potential research oppor
+tunities, but we leave conﬁrmation of the validity of these
+ideas as a topic for further research. We close the section
+with a discussion on limitations and open challenges for Fog
+computing.
+A. Fog Computing
+Fog computing is a relatively recent computing paradigm
+born from the necessity to provide the missing link in the
+CloudtoThing continuum .
+According to the IEEE standard 19342018 , Fog
+computing is “a horizontal, systemlevel architecture that dis
+tributes computing, storage, control, and networking functions
+closer to the users along a cloudtothing continuum”. Thus,
+Fog computing can be considered as an extension of Cloud
+computing that distributes the beneﬁts of the Cloud closer to
+the IIoT and across multiple layers of the network topology.
+
+Fog computing opportunities for IIoT security.
+Any system that wants to be compliant with the afore
+mentioned deﬁnition of Fog computing needs to present
+the following attributes, also referred to as pillars: security,
+scalability, openness, autonomy, reliability, availability, ser
+viceability, agility, hierarchy, and programmability. A thorough
+discussion of these pillars can be found in , .
+In this setting, the fog node is “the physical and logical
+network element that implements fog computing services” .
+Since Fog nodes can be placed onpremises, they can be
+accessed by devices even when the connection to the out
+side world is failing. This helps us in identifying research
+opportunities for issues arising from intermittent connectivity.
+Note that this can be generalized: if there is a connection fail
+ure anywhere on the route from the (local) Fog node to the
+(remote) Cloud, then all Fog nodes that are positioned before
+the unreachable hop are still reachable and thus able to provide
+the local system with their services.
+B. FogEnabled Authentication
+When looking at the authentication challenges discussed in
+Section VB, it can be observed that there are a number of
+points where a Fog node can be helpful in addressing them.
+A ﬁrst intuitive way of applying Fog computing to these
+challenges can be found by considering existing authentica
+tion solutions that require thirdparty servers in their setup or
+execution, such as , , . A Fog node ﬁts the require
+ments for these servers perfectly, as it is not severely restrained
+by computational or energy resources, is onpremises, and has
+very low response times. If Fog computing nodes are con
+sidered as part of the infrastructure, many of the issues with
+relying on a thirdparty server are thus addressed “for free”.
+Secondly, Fog nodes can serve to enhance traditional PKI
+infrastructures, where Fog nodes can act as “certiﬁcate author
+ities” for local devices or help establish a federated and robust
+
+key infrastructure through, e.g., peertopeer networking capa
+bilities with other Fog nodes. To our knowledge, no work
+investigating this currently exists.
+In dynamic environments, Fog nodes can potentially help
+alleviate issues relating to node addition, removal, and rekey
+ing as well. For example, it could serve as a trusted “gateway”
+to which Edge devices are paired, preventing them from com
+municating directly with any other system. This is not unlike
+how Bluetooth devices can be paired with smartphones and
+other devices. Node addition, removal, and rekeying can then
+be handled from the Fog node.
+As we have seen in Section VB2, some proposed solutions
+require biometric features (, ), smart cards () or
+NFC tags (, , , ), in the authentication pro
+cess. Also here there is potential for Fog nodes: not every
+lightweight system might be equipped with the necessary sen
+sors for this. However, it might be possible to equip Fog nodes
+with sensors and use them as proxies for sensor readings. This
+would increase scalability, as a Fog node can be positioned so
+that it is more easily accessible than the Edge devices con
+nected to it. Thus, if maintenance engineers would want to,
+e.g., authenticate updates for the devices by using NFC keys
+or biometrics, they will only need to seek out the Fog node
+and present the relevant keys to it, as opposed to seeking out
+every relevant device separately.
+Fog nodes might also enable the possibility of bringing
+TPM and/or TEE capabilities to Edge devices that do not
+contain these modules themselves. For that to be possible,
+the Edge devices need to set up a trusted channel between
+the Fog node’s TPM/TEE module, which could be possible
+through some form of a key setup protocol that involves a one
+time pairing step. Fog nodes could be equipped with multiple
+TPM or TEE modules to serve more than one Edge device (or
+itself) at the same time, such as the recently introduced Intel
+SGX cards . Trusted hardware capabilities in Fog nodes
+can also be used for attestation purposes in various settings
+(against remote Fog nodes, against Edge devices, and so on).
+We expect that there are a lot of fruitful research directions
+for the combination of Fog nodes and trusted hardware.
+C. FogEnabled Access Control
+As with authentication, Fog nodes have the potential for
+enhancing AC challenges in industrial scenarios.
+Firstly, some AC policies could be outsourced from
+extremely resourceconstrained devices to a Fog node (e.g.,
+accessing sensitive ﬁles from a central repository), or if the
+scenario is suited for it, AC can be managed completely by a
+Fog node. Another identiﬁed challenge for AC frameworks is
+that while managing policies centrally gives more ﬂexibility,
+it introduces new risks due to the central server now being
+a single point of failure. Fog nodes could provide a “hybrid”
+middle ground where AC is federated between various Fog
+nodes onpremises, and that Edge devices can then query these
+Fog nodes, thus increasing the overall reliability and scalabil
+ity. To the best of our knowledge, this is still an open research
+area.
+As mentioned in Section VC, compatibility with legacy
+devices is another issue in the IIoT. Fog nodes could act as
+a bridge between newer devices and legacy devices with poor
+security, keeping them sufﬁciently isolated from the wider
+network and providing security measures where necessary in
+exposed interfaces, possibly through a ZTN approach.
+D. FogEnabled Maintainability
+Fog computing can bring large beneﬁts to the maintainabil
+ity of industrial systems.
+By their very nature, industrial systems are connected to
+the Internet, and thus enable the possibility of managing soft
+ware and conﬁguration updates for attached Edge devices.
+Fog nodes are perfectly situated to verify the validity of such
+updates and perform indepth tests such as performing the
+updates in a sandboxed environment and then observing for
+anomalies before deploying them on real devices, while at
+the same time allowing for the application of updates with
+minimal disturbance to the services themselves. In practice,
+this would turn the solution proposed by  into a Fog
+application.
+Fog nodes also provide an ideal target platform for an
+“industrial app marketplace” such as proposed in . It is
+not difﬁcult to envision a system where a Fog node would
+allow users to view software packages together with their ver
+sion number and update information for all connected devices,
+in an ordered and userfriendly way. Moreover, Fog nodes
+could go further and allow for management of conﬁguration
+ﬁles for connected Edge devices as well. For example, one
+could think of an application where conﬁguration ﬁles are
+retrieved from a Cloud service, veriﬁed by the Fog node and
+subsequently delivered to speciﬁed Edge devices, ﬁlling in sen
+sitive information ﬁelds as necessary so as to prevent the Cloud
+from requiring access to this information.
+As Fog nodes could provide an easily accessible location
+for the reading of NFC tags or other hardware authentication
+modules, one could easily extend maintenance processes with
+those extra authentication factors without requiring engineers
+to physically attend to each affected device individually.
+The ideas described here are merely speculative, and there
+is plenty of room for research in any of these areas. We
+expect a variety of maintainabilityenhancing applications of
+Fog computing will be identiﬁed and researched in the future.
+E. FogEnabled Resilience
+Fog nodes could act as reactive security agents, isolating or
+disabling connected devices when they appear compromised.
+This allows security personnel to then further investigate the
+issue, while the system itself can continue operations. This is
+also discussed in , where a number of Fog usecases and
+research challenges are listed. The authors state that automatic
+fault detection and reconﬁguration is essential, and identify the
+potential for Fog nodes to do this autonomously, but state that
+this is a challenging topic that requires addressing. However,
+a solution to this challenge would enable resiliency as it is
+deﬁned by the ICS.
+A second challenge that can be overcome through Fog com
+puting, is maintaining normal operation through intermittent
+Internet connectivity. To an extent, a Fog node can take over
+processes normally executed in the Cloud. Thus, when the con
+nection to the Cloud fails, the operational capability of Edge
+devices is not affected. Related to this, some devices continu
+ously or periodically need to transmit data to the cloud, where
+it can then be processed. If this were done directly, data loss
+is a risk in case of intermittent connectivity. As an alterna
+tive to introducing some data storage capabilities on the Edge
+devices themselves, a Fog node could collect data from the
+devices, and forward it to the Cloud. Then, when there is no
+connection to the Internet, the Fog node can act as a buffer
+and send the buffered information upwards to the Cloud once
+the connection is restored. This way, Edge devices do not need
+to worry about failing Internet connectivity at all.
+Finally, Fog nodes and their applicationindependent soft
+ware can be developed to satisfy resiliencyrelated indicator
+points, which in turn can aid in providing contractual ser
+vice guarantees as is currently often seen in Cloud service
+agreements.
+F. FogEnabled Data Security and Data Sharing
+Whenever it is necessary for a device to access sensitive
+data that should be stored securely, this requires the device
+to ﬁrstly have the storage capacity, and secondly the means
+to secure this data at rest. For lightweight systems that do
+not have the capacity to store and secure data securely, Fog
+nodes can provide a solution; they are not tied to severe
+resource constraints and can be equipped with ample storage
+and computational capacity for common encryption methods.
+Additionally, Fog nodes can be deployed on the local network,
+meaning data will never have to leave the premises. Even for
+extremely large amounts of data, Fog nodes could act as mid
+dleware between external Cloud storage, and encrypt/decrypt
+data stored in the Cloud transparently, e.g., using the tech
+niques described in , . To the Edge devices, it can
+be presented as originating from the Fog node, and they do
+not need to be aware of the underlying storage and security
+mechanisms.
+As Fog nodes can be positioned between Edge devices and
+external parties as gateways, this also unlocks the opportu
+nity to secure and control data ﬂow to these external parties.
+A Fog node can set up and maintain highly secure, authen
+ticated channels with remote parties, potentially alleviating
+some of the challenges involved in designing lightweight Edge
+devices that need to interact with these parties, as they only
+need to concern themselves with secure communication with
+the Fog node. If the Fog node additionally has the ability to
+access the message content of trafﬁc passing through it, it can
+enforce data ﬂow policies, e.g., as described in , allow
+ing ﬁnegrained data security mechanisms on top of encryption
+techniques.
+In Section VF4 we stated that the protection of sensitive
+data is in many cases now a legal requirement in the European
+Union. Fog nodes present a very natural way of meeting these
+requirements, as they can store data locally, while at the same
+time allowing for ﬁnegrained data sharing with third parties,
+should a user allow this. Moreover, it can become easier to
+manage user rights such as the right to be forgotten.
+FogEnabled Security Monitoring
+Because Fog nodes can take on central positions in
+Industrial networks, they provide a great platform for security
+monitoring solutions.
+For example, a Fog node could run IDS software to detect
+anomalies or attack signatures. This also provides an oppor
+tunity for the Fog and Cloud to augment each other. Intrusion
+detection models could be trained in a Cloud environment,
+while executed on a Fog node, thereby addressing the latency
+issues normally apparent in Cloud solutions. Examples of this
+can be found in , . Because Fog nodes stand in direct
+connection to sensor devices, they can also perform simple
+anomaly detection techniques such as ensuring that sensor val
+ues are within a certain value range, without adding overhead
+to the sensors themselves.
+Another use of Fog nodes as a security monitoring tool
+could be the deployment of an antimalware for IoT devices
+that is supported by the Fog infrastructure . Indeed,
+ an antimalware software
+for IoT and they discuss how the use of Fog computing helps
+to solve some of the challenges intrinsic in the deployment.
+Fog nodes can also potentially take action based on incom
+ing trafﬁc patterns, enabling the mitigation of DoS attacks
+aimed at very speciﬁc devices, even when those devices are
+not able to protect themselves against those attacks. This also
+presents the opportunity for dynamic trafﬁc shaping, and other
+techniques that might help reduce battery consumption on
+lightweight IoT devices connected to the Fog node.
+H. FogEnabled Network Security
+Also in network infrastructure, Fog computing can poten
+tially help in overcoming current challenges.
+With the rise of SDN and NFV technologies, Fog nodes can
+possibly play a role as a platform for some of these. For exam
+ple, they can create isolated network environments between
+themselves and each connected device.
+Fog nodes could also be equipped to handle TSN standards
+when there is a need for deterministic and timely delivery of
+network trafﬁc between two connected devices. By moving the
+management of these interfaces to a Fog node, opportunities
+are created for easier (remote) management and reconﬁgura
+tion of timecritical systems, even going so far as to move
+entire control applications to Fog nodes. As an extreme man
+ifestation of this vision, one could imagine “plugandplay”
+industrial hardware that can be connected to a Fog node which
+will then autonomously conﬁgure and use it.
+We also see opportunities for Fog nodes to improve the
+availability of critical services, in two ways. Firstly, Fog nodes
+could run critical applications in a federated fashion, allow
+ing migration or load balancing of tasks between them. This
+way, the application only becomes unavailable when all par
+ticipating Fog nodes fail. Secondly, a Fog node can act as
+a middleware for a critical service running in the Cloud.
+By deploying this service on multiple Cloud providers, Edge
+applications relying on it will not be affected by the outage of
+any one cloud provider; the Fog node can automatically route
+requests to the remaining available providers.
+
+Finally, Fog nodes could potentially aid in securing wire
+less infrastructure, by incorporating wireless technologies in
+security monitoring solutions. This way, jamming attacks or
+other anomalies in the wireless spectrum can be detected.
+I. Challenges and Limitations
+Fog computing is not a panacea capable of ﬁlling any
+CloudIIoT gap without much issue. The paradigm is very
+much in its early stages, and deployment so far has been
+extremely limited. Open challenges include practical feder
+ation frameworks, resource ofﬂoading, and resilience .
+While we believe that solutions to these challenges are capable
+of satisfying the security requirements collected in this work,
+we acknowledge that every solution comes with its own trade
+offs, and a thorough analysis of the beneﬁts and drawbacks
+of Fog computing can only be done once enough Fogbased
+systems exist to investigate. Nevertheless, one can attempt to
+make an analysis based on the current stateoftheart. Thus,
+in this section, we brieﬂy discuss what we consider some of
+the biggest potential drawbacks.
+Firstly, Fog systems add extra workload to maintenance per
+sonnel, and will likely require special training, making it more
+costly than the Cloud. Whereas Cloud infrastructure is main
+tained by a specialized team on the Cloud service provider’s
+end, the Fog paradigm shifts this responsibility to users of the
+system. The spread of functionality across the CloudtoThings
+continuum potentially complicates this even more. If a secu
+rity issue is found in a wellknown piece of Fog infrastructural
+software, it is the responsibility of maintainers at every point
+in the continuum to update their software, as opposed to hav
+ing to update just the Cloud infrastructure, which is managed
+by one entity. If one maintainer of a Fog node fails to do this
+within an appropriate timewindow, this can put all entities
+making use of that node at risk.
+Secondly, incident response might be hampered by the dis
+tributed nature of Fog systems. We believe this might manifest
+itself in multiple ways: necessary security expertise might not
+be available onsite, and specialized incident response teams
+will have to be called in from external parties. Further, com
+plex incidents might require cooperation between multiple
+entities along the continuum for forensic analysis, which might
+not always be possible or add a lot of overhead.
+Finally, compatibility between Fog nodes can potentially be
+a huge issue. If standards are not welldeﬁned or not followed
+rigorously, it will be very hard to meet the harsh require
+ments set by industrial environments with nodes from different
+providers that cannot interoperate efﬁciently and accurately.
+This, in turn, can negatively impact the ability to federate and
+ofﬂoad tasks to other nodes in the local network, as well as
+potentially violate security policies if some nodes in the system
+are unable to uphold the necessary requirements.
+VIII. CONCLUSION
+In this work, we have performed a systematic literature
+review about security for the IIoT.
+As in any mapping study, it is challenging to take all stud
+ies of the ﬁeld into account, but it is more important to have
+a good representation of studies rather than a high number
+of studies . To achieve a good representation, we have
+methodologically constructed the search queries and queried
+multiple literature repositories. After that, we utilized reverse
+snowball sampling to further increase the quality, and to mit
+igate any possible selection bias. Our initial search queries
+resulted in 356 possibly relevant papers, which we brought
+down to a selection of 218 papers through the use of a sys
+tematic approach comprised of several phases. These papers
+were fully read and analyzed for the purposes of this study.
+At glance, the work has elaborated around four main
+research questions: (1) what security requirements exist
+for the IIoT, (2) how scientiﬁc publications about IIoT
+security are spread during the years, (3) how IIoT secu
+rity research activity is geographically distributed, and (4)
+what publication venues are the most popular for IIoT security.
+First, we have answered question 1 by extracting secu
+rity requirements for the IIoT from the investigated works
+and exploring them, along with the related challenges that
+make these requirements hard to meet with existing solutions
+and a measure of their interest in the research community.
+Then, we have addressed questions (2)(4) by provid
+ing a quantitative analysis of the investigated IIoT security
+research. Finally, we provided a discussion on how Fog com
+puting can play a role in meeting the requirements posed
+by industrial environments, by taking a Fog computing per
+spective and revisiting the requirements that were extracted
+during our investigation, as well as pointing out what limita
+tion and challenges still need to be faced to achieve massive
+Fog computing deployment.
+This work identiﬁes an abundance of research opportunities
+in the IIoT security area and shows that Fog computing, as
+a rising computing paradigm, can become a powerful tool in
+securing a variety of connected industrial environments, once
+its limitations and challenges are overcome.
+
